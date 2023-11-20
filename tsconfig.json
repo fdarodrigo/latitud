@@ -22,8 +22,14 @@
     "lib": [
       "ES2022",
       "dom"
-    ]
+    ],
   },
+
+  "include": [
+    "src/**/*.ts",
+    "/home/rodrigo/Documents/projetos/latitud/node_modules/@deck.gl/core/typed/lib/deck.d.ts"
+  ],
+
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
