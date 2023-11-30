@@ -5,6 +5,12 @@
 
 <div id="map"></div>
 
+<div *ngIf="isLoading">
+  <loadinglayer></loadinglayer>
+</div>
+
+<div *ngIf="!isLoading">
+
 <div id="sidebar" class="navbar">
   <div class="sidebar-section">
     <h2>Visualização:</h2>
@@ -14,7 +20,6 @@
         name="view-option"
         value="all"
         (change)="visualizarTodas()"
-        checked
       />
       Visualizar todas
     </label>
@@ -34,40 +39,16 @@
     <div class="info-row">
       <div>
         <b>Número de casas <i class="fas fa-home"></i></b>
-        <span>30</span>
+        <span>{{ total_houses }}</span>
       </div>
     </div>
     <div class="info-row">
       <div>
         <b>Média de preços <i class="fas fa-dollar-sign"></i></b>
-        <span>R$7.853,52</span>
+        <span>R$ {{ average }}</span>
       </div>
     </div>
   </div>
-
-  <!-- <div class="icon-container">
-    <h2>Lugares Próximos</h2>
-    <div class="icon-wrapper big-icons" (click)="toggleLocations('gym')">
-      <i class="fas fa-dumbbell icon fa-2x"></i>
-      <span class="icon-description big-description">Academia</span>
-    </div>
-    <div class="icon-wrapper big-icons" (click)="toggleLocations('restaurant')">
-      <i class="fas fa-utensils icon fa-2x"></i>
-      <span class="icon-description big-description">Restaurante</span>
-    </div>
-    <div class="icon-wrapper big-icons" (click)="toggleLocations('school')">
-      <i class="fas fa-graduation-cap icon fa-2x"></i>
-      <span class="icon-description big-description">Escola</span>
-    </div>
-    <div class="icon-wrapper big-icons" (click)="toggleLocations('university')">
-      <i class="fas fa-university icon fa-2x"></i>
-      <span class="icon-description big-description">Universidade</span>
-    </div>
-    <div class="icon-wrapper big-icons" (click)="toggleLocations('hospital')">
-      <i class="fas fa-hospital icon fa-2x"></i>
-      <span class="icon-description big-description">Hospital</span>
-    </div>
-  </div> -->
 
   <h2>Lugares Próximos</h2>
 
@@ -104,3 +85,6 @@
     Buscar Imóveis
   </button>
 </div>
+</div>
+
+

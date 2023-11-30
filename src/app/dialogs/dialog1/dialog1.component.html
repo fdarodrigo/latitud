@@ -4,7 +4,7 @@
   <figure>
     <div class="img-overlay hot-home">
       <img
-        src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-560w,f_auto,q_auto:best/newscms/2018_30/1355945/home-exterior-today-180726-tease.jpg"
+        [src]="data.url_imagem"
         alt="Trulli" />
 
       <div class="overlay"><a href="#">Visualizar imóvel</a></div>
@@ -15,11 +15,11 @@
         </div>
       </div>
     </div>
-    <figcaption>Avenida Deputado Federal nº 100</figcaption>
+    <figcaption>{{ data.endereco }}</figcaption>
   </figure>
   <div class="card-content">
     <p>
-      Elegante casa com 3 quartos sendo 2 suítes. Próximo a praças, academias e com ótima localização
+      {{ data.descricao }}
     </p>
 
     <div class="icons-home">
@@ -27,31 +27,27 @@
         <span>Quartos</span>
         <div class="icon">
           <i class="fas fa-bed"></i>
-          <span>3</span>
+          <span>{{ data.quartos }}</span>
         </div>
       </div>
       <div class="name-icon">
         <span>Banheiros</span>
         <div class="icon">
           <i class="fas fa-sink"></i>
-          <span>3</span>
+          <span>{{ data.banheiros }}</span>
         </div>
       </div>
       <div class="name-icon">
         <span>Área total</span>
         <div class="icon">
           <i class="fas fa-vector-square"></i>
-          <span>120 m²</span>
+          <span>{{ data.area }} m²</span>
         </div>
       </div>
     </div>
     <div class="price">
-      <span>Venda</span>
-      <span class="price-value">R$540.000,00</span>
-    </div>
-    <div class="price">
       <span>Aluguel</span>
-      <span class="price-value">R$1400,00</span>
+      <span class="price-value">R${{ data.valor_aluguel }}</span>
     </div>
   </div>
 </div>

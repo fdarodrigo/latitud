@@ -1,13 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { Dialog1Component } from '../dialogs/dialog1/dialog1.component';
 import { MatDialog } from '@angular/material/dialog';
+import { LocationsService } from '../services/locations.service';
 
 @Component({
   selector: 'app-map1',
   templateUrl: './map1.component.html',
   styleUrls: ['./map1.component.scss'],
 })
-export class Map1Component implements OnInit {
+export class Map1Component implements OnInit, AfterViewInit {
+  isLoading: boolean = true;
+
   map!: google.maps.Map;
   polygonOptions: google.maps.PolygonOptions = {
     strokeColor: '#FF0000',
@@ -19,7 +22,7 @@ export class Map1Component implements OnInit {
     draggable: true
   };
   marker: any;
-  houseLocations: google.maps.LatLngLiteral[] = [
+  /* houseLocations: google.maps.LatLngLiteral[] = [
     { lat: -3.7319, lng: -38.5291 },
     { lat: -3.7223, lng: -38.5137 },
     { lat: -3.7577, lng: -38.5568 },
@@ -51,7 +54,9 @@ export class Map1Component implements OnInit {
     { lat: -3.7232, lng: -38.5223 },
     { lat: -3.7421, lng: -38.5237 },
     { lat: -3.7253, lng: -38.5107 },
-  ];
+  ]; */
+
+  houseLocations: any[] = []
 
   selectedIcon: string | null = null;
 
@@ -79,39 +84,74 @@ export class Map1Component implements OnInit {
     ["Tilt Up", "tilt", -20, google.maps.ControlPosition.BOTTOM_CENTER],
   ];
 
+  average: any;
+  total_houses: any;
+
   trafficLayer = new google.maps.TrafficLayer()
   transitLayer = new google.maps.TransitLayer()
   bicyclingLayer = new google.maps.BicyclingLayer()
 
-  constructor(public dialog: MatDialog) {
+  constructor(public dialog: MatDialog, private locations: LocationsService) {
   }
 
   ngOnInit(): void {
     this.mapOptions = {
       center: { lat: -3.7318621211337466, lng: -38.50404330691704 },
       zoom: 13,
-     /*  heading: 320,
-      tilt: 47.5, */
+      /*  heading: 320,
+         tilt: 47.5, */
+      tilt: 57.5,
+      heading: 320,
       mapId: "90f87356969d889c",
     };
 
+    this.isLoading = true;
+    this.locations.getDados().subscribe(res => {
+      this.houseLocations = res['data'];
 
-    this.map = new google.maps.Map(document.getElementById("map")!, this.mapOptions);
+      if (this.houseLocations.length > 0) {
+        this.isLoading = false;
 
-    this.buttons.forEach(([text, mode, amount, position]) => {
-      const controlDiv = document.createElement("div");
-      const controlUI = document.createElement("button");
+        // Initialize Google Maps instance inside the `else` block
+        this.map = new google.maps.Map(document.getElementById("map")!, this.mapOptions);
 
-      controlUI.classList.add("ui-button");
-      controlUI.innerText = `${text}`;
-      controlUI.addEventListener("click", () => {
-        this.adjustMap(mode, amount);
-      });
-      controlDiv.appendChild(controlUI);
-      this.map.controls[position].push(controlDiv);
+        this.buttons.forEach(([text, mode, amount, position]) => {
+          const controlDiv = document.createElement("div");
+          const controlUI = document.createElement("button");
+
+          controlUI.classList.add("ui-button");
+          controlUI.innerText = `${text}`;
+          controlUI.addEventListener("click", () => {
+            this.adjustMap(mode, amount);
+          });
+          controlDiv.appendChild(controlUI);
+          this.map.controls[position].push(controlDiv);
+        });
+      } else {
+        this.isLoading = true;
+      }
+
     });
+  }
 
-    this.visualizarTodas()
+  ngAfterViewInit() {
+    /* if (!this.isLoading && this.houseLocations.length > 0) {
+      this.map = new google.maps.Map(document.getElementById("map")!, this.mapOptions);
+
+
+      this.buttons.forEach(([text, mode, amount, position]) => {
+        const controlDiv = document.createElement("div");
+        const controlUI = document.createElement("button");
+
+        controlUI.classList.add("ui-button");
+        controlUI.innerText = `${text}`;
+        controlUI.addEventListener("click", () => {
+          this.adjustMap(mode, amount);
+        });
+        controlDiv.appendChild(controlUI);
+        this.map.controls[position].push(controlDiv);
+      });
+    } */
   }
 
   adjustMap(mode: string, amount: number) {
@@ -129,9 +169,12 @@ export class Map1Component implements OnInit {
 
   visualizarTodas(): void {
 
+    this.average = this.avaragePrices(this.houseLocations)
+    this.total_houses = this.houseLocations.length
+
     this.houseLocations.forEach((location, index) => {
       const marker = new google.maps.Marker({
-        position: new google.maps.LatLng(location.lat, location.lng),
+        position: new google.maps.LatLng(location.coords.lat, location.coords.lng),
         map: this.map,
         icon: {
           url: 'assets/img/icons/home.png',
@@ -141,7 +184,7 @@ export class Map1Component implements OnInit {
 
       // Evento de clique para mostrar a Dialog
       marker.addListener('click', () => {
-        this.openDialog('1000ms', '500ms')
+        this.openDialog('1000ms', '500ms', location)
       });
     });
   }
@@ -170,20 +213,54 @@ export class Map1Component implements OnInit {
 
   }
 
+  avaragePrices(imoveis: any[]): number {
+    let somaValoresAluguel = 0;
+    let count = 0;
+
+    for (const imovel of imoveis) {
+      // Verificando se valor_aluguel é null ou vazio
+      if (imovel.valor_aluguel && imovel.valor_aluguel.trim() !== '') {
+        // Convertendo o valor_aluguel para número
+        const valorAluguelNumerico = parseFloat(imovel.valor_aluguel.replace(',', '')) * 1000;
+
+        // Verificando se o valor é um número válido
+        if (!isNaN(valorAluguelNumerico)) {
+          somaValoresAluguel += valorAluguelNumerico;
+          count++;
+        }
+      }
+    }
+
+    if (count === 0) {
+      console.warn('Nenhum valor de aluguel válido encontrado.');
+      return 0; // Ou qualquer valor padrão desejado
+    }
+
+    // Calculando a média
+    const mediaAluguel = somaValoresAluguel / count;
+
+    const mediaFormatada = parseFloat(mediaAluguel.toFixed(2)); // Limita para 2 casas decimais
+
+    return mediaFormatada;
+  }
+
   buscarCasasNoPoligono(): void {
     if (this.clickedCoordinates.length >= 3) {
       const poly = new google.maps.Polygon({ paths: this.clickedCoordinates });
 
       const casasNoPoligono = this.houseLocations.filter((casa) => {
         return google.maps.geometry.poly.containsLocation(
-          new google.maps.LatLng(casa.lat, casa.lng),
+          new google.maps.LatLng(casa.coords.lat, casa.coords.lng),
           poly
         );
       });
 
+      this.average = this.avaragePrices(casasNoPoligono)
+      this.total_houses = casasNoPoligono.length
+
       casasNoPoligono.forEach(casa => {
         const marker = new google.maps.Marker({
-          position: new google.maps.LatLng(casa.lat, casa.lng),
+          position: new google.maps.LatLng(casa.coords.lat, casa.coords.lng),
           map: this.map,
           icon: {
             url: 'assets/img/icons/home.png',
@@ -192,7 +269,7 @@ export class Map1Component implements OnInit {
         });
 
         marker.addListener('click', () => {
-          this.openDialog('400ms', '1000ms')
+          this.openDialog('400ms', '1000ms', casa)
         });
       });
     } else {
@@ -200,12 +277,12 @@ export class Map1Component implements OnInit {
     }
   }
 
-  openDialog(enterAnimationDuration: string, exitAnimationDuration: string): void {
+  openDialog(enterAnimationDuration: string, exitAnimationDuration: string, house: any): void {
     this.dialog.open(Dialog1Component, {
       width: '500px',
       enterAnimationDuration,
       exitAnimationDuration,
-      //position: {top: '15%', left: '40%'}
+      data: house
     });
   }
 
@@ -227,7 +304,7 @@ export class Map1Component implements OnInit {
     // Converter as coordenadas do polígono para o formato adequado
     const polygonBounds = new google.maps.LatLngBounds();
     this.clickedCoordinates.forEach((coord: any) => {
-      const {lng, lat} = coord;
+      const { lng, lat } = coord;
       polygonBounds.extend(new google.maps.LatLng(lat, lng));
     });
 
@@ -317,22 +394,22 @@ export class Map1Component implements OnInit {
     return marker;
   }
 
-  traffLayer(){
+  traffLayer() {
     this.trafficLayer.setMap(this.map)
     this.transitLayer.setMap(null)
     this.bicyclingLayer.setMap(null)
   }
-  transLayer(){
+  transLayer() {
     this.trafficLayer.setMap(null)
     this.transitLayer.setMap(this.map)
     this.bicyclingLayer.setMap(null)
   }
-  bikeLayer(){
+  bikeLayer() {
     this.trafficLayer.setMap(null)
     this.transitLayer.setMap(null)
     this.bicyclingLayer.setMap(this.map)
   }
 
-  
+
 }
 
