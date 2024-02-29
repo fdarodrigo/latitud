@@ -1,14 +1,14 @@
-import { AfterViewInit, Component, OnInit } from '@angular/core';
-import { Dialog1Component } from '../dialogs/dialog1/dialog1.component';
-import { MatDialog } from '@angular/material/dialog';
+import { Component, OnInit } from '@angular/core';
 import { LocationsService } from '../services/locations.service';
+import { LayersService } from '../services/layers.service';
+import { HelpersService } from '../services/helpers.service';
 
 @Component({
   selector: 'app-map1',
   templateUrl: './map1.component.html',
   styleUrls: ['./map1.component.scss'],
 })
-export class Map1Component implements OnInit, AfterViewInit {
+export class Map1Component implements OnInit {
   isLoading: boolean = true;
 
   map!: google.maps.Map;
@@ -21,44 +21,8 @@ export class Map1Component implements OnInit, AfterViewInit {
     editable: true,
     draggable: true
   };
-  marker: any;
-  /* houseLocations: google.maps.LatLngLiteral[] = [
-    { lat: -3.7319, lng: -38.5291 },
-    { lat: -3.7223, lng: -38.5137 },
-    { lat: -3.7577, lng: -38.5568 },
-    { lat: -3.7310, lng: -38.5264 },
-    { lat: -3.7641, lng: -38.4955 },
-    { lat: -3.7204, lng: -38.5066 },
-    { lat: -3.7215, lng: -38.4958 },
-    { lat: -3.7202, lng: -38.5200 },
-    { lat: -3.7404, lng: -38.5285 },
-    { lat: -3.7201, lng: -38.5092 },
-    { lat: -3.7307, lng: -38.5329 },
-    { lat: -3.7402, lng: -38.5167 },
-    { lat: -3.7504, lng: -38.5409 },
-    { lat: -3.7302, lng: -38.5347 },
-    { lat: -3.7588, lng: -38.4875 },
-    { lat: -3.7331, lng: -38.5208 },
-    { lat: -3.7541, lng: -38.5276 },
-    { lat: -3.7608, lng: -38.5280 },
-    { lat: -3.7606, lng: -38.5193 },
-    { lat: -3.7687, lng: -38.5227 },
-    { lat: -3.7308, lng: -38.5107 },
-    { lat: -3.7434, lng: -38.5160 },
-    { lat: -3.7412, lng: -38.5174 },
-    { lat: -3.7548, lng: -38.4936 },
-    { lat: -3.7461, lng: -38.5202 },
-    { lat: -3.7345, lng: -38.5273 },
-    { lat: -3.7349, lng: -38.5190 },
-    { lat: -3.7614, lng: -38.5002 },
-    { lat: -3.7232, lng: -38.5223 },
-    { lat: -3.7421, lng: -38.5237 },
-    { lat: -3.7253, lng: -38.5107 },
-  ]; */
 
   houseLocations: any[] = []
-
-  selectedIcon: string | null = null;
 
   icons = [
     { value: 'gym', class: 'fas fa-dumbbell', description: 'Academia' },
@@ -77,6 +41,15 @@ export class Map1Component implements OnInit, AfterViewInit {
   mapOptions: any;
   placesService!: google.maps.places.PlacesService;
 
+   intersectionObserver = new IntersectionObserver((entries) => {
+    for (const entry of entries) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("drop");
+        this.intersectionObserver.unobserve(entry.target);
+      }
+    }
+  });
+
   buttons: [string, string, number, google.maps.ControlPosition][] = [
     ["Rotate Left", "rotate", 20, google.maps.ControlPosition.LEFT_CENTER],
     ["Rotate Right", "rotate", -20, google.maps.ControlPosition.RIGHT_CENTER],
@@ -86,35 +59,44 @@ export class Map1Component implements OnInit, AfterViewInit {
 
   average: any;
   total_houses: any;
+  polygon!: google.maps.Polygon;
 
-  trafficLayer = new google.maps.TrafficLayer()
-  transitLayer = new google.maps.TransitLayer()
-  bicyclingLayer = new google.maps.BicyclingLayer()
-
-  constructor(public dialog: MatDialog, private locations: LocationsService) {
+  constructor(
+    private locations: LocationsService,
+    private layer: LayersService,
+    private helper: HelpersService) {
   }
 
-  ngOnInit(): void {
+  ngOnInit() {
+
     this.mapOptions = {
       center: { lat: -3.7318621211337466, lng: -38.50404330691704 },
       zoom: 13,
-      /*  heading: 320,
-         tilt: 47.5, */
       tilt: 57.5,
       heading: 320,
       mapId: "90f87356969d889c",
     };
 
+    this.map = new google.maps.Map(document.getElementById("map")!, this.mapOptions);
+
+    this.polygon = new google.maps.Polygon(this.polygonOptions);
+    this.polygon.setMap(this.map);
+
+    google.maps.event.addListener(this.map, 'click', (event: google.maps.KmlMouseEvent) => {
+      const path = this.polygon.getPath();
+      path.push(event.latLng!);
+
+      this.clickedCoordinates.push(event.latLng!.toJSON());
+    });
+
     this.isLoading = true;
-    this.locations.getDados().subscribe(res => {
+    this.locations.getDadosMock().subscribe(res => {
       this.houseLocations = res['data'];
+
+      //console.log(this.houseLocations)
 
       if (this.houseLocations.length > 0) {
         this.isLoading = false;
-
-        // Initialize Google Maps instance inside the `else` block
-        this.map = new google.maps.Map(document.getElementById("map")!, this.mapOptions);
-
         this.buttons.forEach(([text, mode, amount, position]) => {
           const controlDiv = document.createElement("div");
           const controlUI = document.createElement("button");
@@ -122,7 +104,7 @@ export class Map1Component implements OnInit, AfterViewInit {
           controlUI.classList.add("ui-button");
           controlUI.innerText = `${text}`;
           controlUI.addEventListener("click", () => {
-            this.adjustMap(mode, amount);
+            this.helper.adjustMap(mode, amount,this.map);
           });
           controlDiv.appendChild(controlUI);
           this.map.controls[position].push(controlDiv);
@@ -134,45 +116,12 @@ export class Map1Component implements OnInit, AfterViewInit {
     });
   }
 
-  ngAfterViewInit() {
-    /* if (!this.isLoading && this.houseLocations.length > 0) {
-      this.map = new google.maps.Map(document.getElementById("map")!, this.mapOptions);
-
-
-      this.buttons.forEach(([text, mode, amount, position]) => {
-        const controlDiv = document.createElement("div");
-        const controlUI = document.createElement("button");
-
-        controlUI.classList.add("ui-button");
-        controlUI.innerText = `${text}`;
-        controlUI.addEventListener("click", () => {
-          this.adjustMap(mode, amount);
-        });
-        controlDiv.appendChild(controlUI);
-        this.map.controls[position].push(controlDiv);
-      });
-    } */
-  }
-
-  adjustMap(mode: string, amount: number) {
-    switch (mode) {
-      case "tilt":
-        this.map.setTilt(this.map.getTilt()! + amount);
-        break;
-      case "rotate":
-        this.map.setHeading(this.map.getHeading()! + amount);
-        break;
-      default:
-        break;
-    }
-  };
-
-  visualizarTodas(): void {
+  /* visualizarTodas(): void {
 
     this.average = this.avaragePrices(this.houseLocations)
     this.total_houses = this.houseLocations.length
 
-    this.houseLocations.forEach((location, index) => {
+    this.houseLocations.forEach((location) => {
       const marker = new google.maps.Marker({
         position: new google.maps.LatLng(location.coords.lat, location.coords.lng),
         map: this.map,
@@ -182,67 +131,11 @@ export class Map1Component implements OnInit, AfterViewInit {
         },
       });
 
-      // Evento de clique para mostrar a Dialog
       marker.addListener('click', () => {
         this.openDialog('1000ms', '500ms', location)
       });
     });
-  }
-
-  delimitarRegiao(): void {
-
-
-    this.mapOptions = {
-      center: { lat: -3.7318621211337466, lng: -38.50404330691704 },
-      zoom: 13
-    };
-
-    this.map = new google.maps.Map(document.getElementById("map")!, this.mapOptions);
-
-    const polygon = new google.maps.Polygon(this.polygonOptions);
-    polygon.setMap(this.map);
-
-    // Adicionar evento de desenho do polígono
-    google.maps.event.addListener(this.map, 'click', (event: google.maps.KmlMouseEvent) => {
-      const path = polygon.getPath();
-      path.push(event.latLng!);
-
-      this.clickedCoordinates.push(event.latLng!.toJSON());
-    });
-
-
-  }
-
-  avaragePrices(imoveis: any[]): number {
-    let somaValoresAluguel = 0;
-    let count = 0;
-
-    for (const imovel of imoveis) {
-      // Verificando se valor_aluguel é null ou vazio
-      if (imovel.valor_aluguel && imovel.valor_aluguel.trim() !== '') {
-        // Convertendo o valor_aluguel para número
-        const valorAluguelNumerico = parseFloat(imovel.valor_aluguel.replace(',', '')) * 1000;
-
-        // Verificando se o valor é um número válido
-        if (!isNaN(valorAluguelNumerico)) {
-          somaValoresAluguel += valorAluguelNumerico;
-          count++;
-        }
-      }
-    }
-
-    if (count === 0) {
-      console.warn('Nenhum valor de aluguel válido encontrado.');
-      return 0; // Ou qualquer valor padrão desejado
-    }
-
-    // Calculando a média
-    const mediaAluguel = somaValoresAluguel / count;
-
-    const mediaFormatada = parseFloat(mediaAluguel.toFixed(2)); // Limita para 2 casas decimais
-
-    return mediaFormatada;
-  }
+  } */
 
   buscarCasasNoPoligono(): void {
     if (this.clickedCoordinates.length >= 3) {
@@ -255,7 +148,7 @@ export class Map1Component implements OnInit, AfterViewInit {
         );
       });
 
-      this.average = this.avaragePrices(casasNoPoligono)
+      this.average = this.helper.avaragePrices(casasNoPoligono)
       this.total_houses = casasNoPoligono.length
 
       casasNoPoligono.forEach(casa => {
@@ -269,7 +162,7 @@ export class Map1Component implements OnInit, AfterViewInit {
         });
 
         marker.addListener('click', () => {
-          this.openDialog('400ms', '1000ms', casa)
+          this.helper.openDialog('400ms', '1000ms', casa)
         });
       });
     } else {
@@ -277,27 +170,15 @@ export class Map1Component implements OnInit, AfterViewInit {
     }
   }
 
-  openDialog(enterAnimationDuration: string, exitAnimationDuration: string, house: any): void {
-    this.dialog.open(Dialog1Component, {
-      width: '500px',
-      enterAnimationDuration,
-      exitAnimationDuration,
-      data: house
-    });
-  }
-
   showLocations(type: string) {
 
-    console.log(this.clickedCoordinates)
     if (this.selectedType === type) {
       this.selectedType = null;
     } else {
       this.selectedType = type;
     }
 
-    // Verificar o estado atual de exibição dos ícones
     if (this.isLocationsVisible) {
-      // Remover os marcadores existentes
       this.removeMarkers();
     }
 
@@ -325,7 +206,7 @@ export class Map1Component implements OnInit, AfterViewInit {
           if (result.business_status === 'CLOSED_TEMPORARILY') {
             return;
           }
-          const marker = this.createMarker(result);
+          const marker = this.helper.createMarkerPlaces(result, this.map);
           this.markersLoc.push(marker);
         });
         // Atualizar o estado de exibição dos ícones
@@ -343,7 +224,6 @@ export class Map1Component implements OnInit, AfterViewInit {
 
   handleIconSelect(event: any) {
     const selectedValue = event.value;
-    // Faça algo com o valor selecionado, por exemplo, chamar uma função
     this.toggleLocations(selectedValue);
   }
 
@@ -357,59 +237,15 @@ export class Map1Component implements OnInit, AfterViewInit {
     }
   }
 
-  createMarker(place: any) {
-    let iconUrl: string;
-
-    switch (place.types[0]) {
-      case 'gym':
-        iconUrl = '../assets/img/icons/workout.gif';
-        break;
-      case 'school':
-        iconUrl = '../assets/img/icons/school.gif';
-        break;
-      case 'university':
-        iconUrl = '../assets/img/icons/university.gif';
-        break;
-      case 'restaurant':
-        iconUrl = '../assets/img/icons/restaurant.gif';
-        break;
-      case 'hospital':
-        iconUrl = '../assets/img/icons/medical-symbol.gif';
-        break;
-      default:
-        iconUrl = '';
-        break;
-    }
-
-    const marker = new google.maps.Marker({
-      position: place.geometry.location,
-      map: this.map,
-      title: place.name,
-      icon: {
-        url: iconUrl,
-        scaledSize: new google.maps.Size(40, 40), // Tamanho personalizado do ícone
-      },
-    });
-
-    return marker;
-  }
-
   traffLayer() {
-    this.trafficLayer.setMap(this.map)
-    this.transitLayer.setMap(null)
-    this.bicyclingLayer.setMap(null)
+    this.layer.traffLayer(this.map)
   }
   transLayer() {
-    this.trafficLayer.setMap(null)
-    this.transitLayer.setMap(this.map)
-    this.bicyclingLayer.setMap(null)
+    this.layer.transLayer(this.map)
   }
   bikeLayer() {
-    this.trafficLayer.setMap(null)
-    this.transitLayer.setMap(null)
-    this.bicyclingLayer.setMap(this.map)
+    this.layer.bikeLayer(this.map)
   }
-
 
 }
 

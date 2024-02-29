@@ -13,8 +13,6 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { MatCardModule } from '@angular/material/card';
 import { MatSelectModule } from '@angular/material/select';
 
-
-import { Map2Component } from './map2/map2.component';
 import { Dialog2Component } from './dialogs/dialog2/dialog2.component';
 import { LoadinglayerComponent } from './pages/loadinglayer/loadinglayer.component';
 
@@ -24,7 +22,6 @@ import { LoadinglayerComponent } from './pages/loadinglayer/loadinglayer.compone
   declarations: [
     AppComponent,
     Map1Component,
-    Map2Component,
     LoadinglayerComponent,
     //Dialog2Component,
     //Dialog1Component

@@ -2,7 +2,7 @@
 
 <div class="card">
   <figure>
-    <div class="img-overlay hot-home">
+    <div class="img-overlay">
       <img
         [src]="data.url_imagem"
         alt="Trulli" />
@@ -22,7 +22,9 @@
       {{ data.descricao }}
     </p>
 
+    <h2>Informações:</h2>
     <div class="icons-home">
+
       <div class="name-icon">
         <span>Quartos</span>
         <div class="icon">
@@ -45,6 +47,24 @@
         </div>
       </div>
     </div>
+
+    <h2>O imóvel possui:</h2>
+    <!-- Adicione a classe "amenidades" à div que envolve o loop ngFor -->
+    <!-- Adicione a classe "amenidades" à div que envolve o loop ngFor -->
+    <div class="amenidades">
+      <div *ngFor="let amenidade of data.amenidades" class="amenidade">
+        <div class="name-icon">
+          <span>{{ amenidade }}</span>
+          <div class="icon">
+            <i [class]="getIconClass(amenidade)"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
     <div class="price">
       <span>Aluguel</span>
       <span class="price-value">R${{ data.valor_aluguel }}</span>

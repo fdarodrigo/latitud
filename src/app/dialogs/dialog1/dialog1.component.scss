@@ -28,6 +28,10 @@ a:hover {
   color: white;
 }
 
+h2 {
+  margin: 0
+}
+
 .card {
   grid-column-end: span 4;
   display: flex;
@@ -158,7 +162,7 @@ figcaption {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 250px;
+  height: 100%;
   font-size: 14px;
 }
 
@@ -171,6 +175,7 @@ figcaption {
 .icons-home {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .name-icon {
@@ -259,3 +264,40 @@ figcaption {
   }
   /* card-content style */
 }
+
+/* Amenidades */
+.card-content .amenidades {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Estilize cada item de amenidade */
+.card-content .amenidade {
+  flex-basis: calc(33.33% - 10px); /* 33.33% com uma margem entre os itens */
+  margin: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.card-content .amenidade i {
+  color: #808080;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.card-content .amenidade span {
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #1a1a1a;
+  display: inline-block; /* Garante que o texto seja exibido corretamente */
+}
+
+/* Media query para telas menores, ajuste conforme necessário */
+@media screen and (max-width: 700px) {
+  .card-content .amenidade {
+    flex-basis: calc(50% - 10px); /* 50% com uma margem entre os itens */
+  }
+}
+
+
+
