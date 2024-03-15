@@ -22,19 +22,17 @@ export class LocationsService {
         {
           "endereco": "Rua 3 - Parque Iracema, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 3,
+          "banheiros": 2,
           "vagas": 2,
           "area": 106,
-          "valor_aluguel": "1.800",
-          "url_imagem": null,
-          "url_detalhes": "/imovel/apartamento-3-quartos-parque-iracema-bairros-fortaleza-com-garagem-106m2-venda-RS485000-id-2684789898/",
+          "valor_aluguel": 1100,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Elevador",
             "Varanda",
             "Academia",
             "Playground",
-            "Varanda gourmet",
-            "..."
+            "Varanda gourmet"
           ],
           "descricao": "Apartamento com 3 Quartos para venda ou aluguel, 106m² em Parque Iracema, Fortaleza",
           "coords": {
@@ -45,14 +43,13 @@ export class LocationsService {
         {
           "endereco": "Rua Dom Quintino, 1328 - Pirambú, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 70,
-          "valor_aluguel": "1.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/699f12803d5eeffc00c462dca9f6e9db/foto-1-de-apartamento-com-2-quartos-para-alugar,-70-em-pirambú,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-pirambu-bairros-fortaleza-70m2-aluguel-RS1200-id-2684877609/",
+          "valor_aluguel": 4200,
+          "url_imagem": "../assets/img/properties/apartament5.jpg",
           "amenidades": [
-            "Quintal"
+
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 70m² em Pirambú, Fortaleza",
           "coords": {
@@ -63,19 +60,16 @@ export class LocationsService {
         {
           "endereco": "Rua Murará, 101 - Paupina, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 57,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/bb872f33e96b7f777453e37ec6c881d4/foto-1-de-apartamento-com-2-quartos-para-alugar,-57-em-paupina,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-paupina-bairros-fortaleza-57m2-aluguel-RS750-id-2684877608/",
+          "valor_aluguel": 800,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
-            "Aceita animais",
             "Playground",
-            "Salão de festas",
-            "..."
+            "Salão de festas"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 57m² em Paupina, Fortaleza",
           "coords": {
@@ -87,14 +81,11 @@ export class LocationsService {
           "endereco": "Rua Eduardo Garcia - Aldeota, Fortaleza - CE",
           "quartos": 2,
           "banheiros": 2,
-          "vagas": 1,
+          "vagas": 2,
           "area": 65,
-          "valor_aluguel": "1.750",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/a6ce400b1df749981552f60880764bd4/foto-1-de-apartamento-com-2-quartos-para-alugar,-65-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-aldeota-bairros-fortaleza-com-garagem-65m2-aluguel-RS1750-id-2684826596/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1050,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
+          "amenidades": [],
           "descricao": "Apartamento com 2 Quartos para alugar, 65m² em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7397941,
@@ -104,15 +95,12 @@ export class LocationsService {
         {
           "endereco": "Rua Evaristo da Veiga, 140 - Parque Iracema, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 4,
+          "banheiros": 3,
           "vagas": 2,
           "area": 116,
-          "valor_aluguel": "3.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/ce45e0b0b7061ae53120e26a9bcb8851/foto-1-de-apartamento-com-3-quartos-para-alugar,-116-em-parque-iracema,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-parque-iracema-bairros-fortaleza-com-garagem-116m2-aluguel-RS3000-id-2684896809/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1300,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
+          "amenidades": [],
           "descricao": "Apartamento com 3 Quartos para alugar, 116m² em Parque Iracema, Fortaleza",
           "coords": {
             "lat": -3.807807899999999,
@@ -125,9 +113,8 @@ export class LocationsService {
           "banheiros": 2,
           "vagas": 2,
           "area": 66,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/c432114f4ce8f4c4ca2753bf36173040/foto-1-de-apartamento-com-3-quartos-para-alugar,-66-em-sapiranga-/-coité,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-sapiranga-coite-bairros-fortaleza-com-garagem-66m2-aluguel-RS800-id-2684738508/",
+          "valor_aluguel": 1550,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Varanda",
             "Piscina",
@@ -142,16 +129,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Professor Otávio Lobo, 681 - Cocó, Fortaleza - CE",
-          "quartos": 2,
-          "banheiros": 3,
-          "vagas": 1,
-          "area": 65,
-          "valor_aluguel": "1.400",
-          "url_imagem": null,
-          "url_detalhes": "/imovel/apartamento-2-quartos-coco-bairros-fortaleza-com-garagem-65m2-aluguel-RS1400-id-2684760696/",
-          "amenidades": [
-
-          ],
+          "banheiros": 2,
+          "vagas": 2,
+          "area": 105,
+          "valor_aluguel": 3000,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
+          "amenidades": [],
           "descricao": null,
           "coords": {
             "lat": -3.7455114,
@@ -161,19 +144,16 @@ export class LocationsService {
         {
           "endereco": "Rua A do Loteamento Residencial Célio Gurgel, 227 - Barroso, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": 1,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 42,
-          "valor_aluguel": "1.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/ee246288a281e58d1d4bb676b71a0964/foto-1-de-apartamento-com-2-quartos-para-alugar,-42-em-barroso,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-barroso-bairros-fortaleza-com-garagem-42m2-aluguel-RS1000-id-2684405238/",
+          "valor_aluguel": 1100,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
-            "Aceita animais",
-            "Garagem",
-            "..."
+            "Garagem"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 42m² em Barroso, Fortaleza",
           "coords": {
@@ -185,11 +165,10 @@ export class LocationsService {
           "endereco": "Rua Barão de Aracati, 160 - Meireles, Fortaleza - CE",
           "quartos": 2,
           "banheiros": 2,
-          "vagas": 1,
+          "vagas": 2,
           "area": 71,
-          "valor_aluguel": "3.600",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/80e672686ced9461a8908956664e7f81/foto-1-de-apartamento-com-2-quartos-para-venda-ou-aluguel,-71-em-meireles,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-meireles-bairros-fortaleza-com-garagem-71m2-venda-RS720000-id-2684749094/",
+          "valor_aluguel": 1750,
+          "url_imagem": "../assets/img/properties/apartament5.jpg",
           "amenidades": [
             "Elevador",
             "Interfone",
@@ -206,18 +185,15 @@ export class LocationsService {
           "endereco": "Rua Melo César, 358 - Cidade dos Funcionários, Fortaleza - CE",
           "quartos": 2,
           "banheiros": 2,
-          "vagas": 3,
+          "vagas": 2,
           "area": 180,
-          "valor_aluguel": "1.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/f4b19e8de6a8978a4b89339d8835f5d5/foto-1-de-casa-com-2-quartos-para-alugar,-180-em-cidade-dos-funcionários,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-2-quartos-cidade-dos-funcionarios-bairros-fortaleza-com-garagem-180m2-aluguel-RS1000-id-2684738697/",
+          "valor_aluguel": 2250,
+          "url_imagem": "../assets/img/properties/house3.jpg",
           "amenidades": [
             "Varanda",
-            "Quintal",
-            "Aceita animais",
+            ,
             "Garagem",
-            "Área de serviço",
-            "..."
+            "Área de serviço"
           ],
           "descricao": "Casa com 2 Quartos para alugar, 180m² em Cidade dos Funcionários, Fortaleza",
           "coords": {
@@ -228,19 +204,16 @@ export class LocationsService {
         {
           "endereco": "Rua Crisanto Arruda - Passaré, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": 1,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 47,
-          "valor_aluguel": "1.250",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/3171ec6fd4ef48b224e7d8bfd1fd13d9/foto-1-de-apartamento-com-2-quartos-para-alugar,-47-em-passaré,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-passare-bairros-fortaleza-com-garagem-47m2-aluguel-RS1250-id-2684818898/",
+          "valor_aluguel": 4350,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
-            "Condomínio fechado",
-            "Aceita animais",
-            "..."
+            "Condomínio fechado"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 47m² em Passaré, Fortaleza",
           "coords": {
@@ -252,17 +225,16 @@ export class LocationsService {
           "endereco": "Rua Antônio Candeia, 30 - Guajiru, Fortaleza - CE",
           "quartos": 2,
           "banheiros": 2,
-          "vagas": 1,
+          "vagas": 2,
           "area": 50,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/261e80c2e19d8427f680c8c07503d31a/foto-1-de-apartamento-com-2-quartos-para-alugar,-50-em-guajiru,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-guajiru-bairros-fortaleza-com-garagem-50m2-aluguel-RS800-id-2684738799/",
+          "valor_aluguel": 2050,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Varanda",
             "Garagem",
             "Cozinha",
             "Jardim",
-            "Aceita animais"
+
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 50m² em Guajiru, Fortaleza",
           "coords": {
@@ -272,16 +244,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Desembargador Moreira, 2120 - Aldeota, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 49,
-          "valor_aluguel": "1.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/18ecfec3f304ac9e33ea6fd153041c41/foto-1-de-imóvel-comercial-para-alugar,-49-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/imovel-comercial-aldeota-bairros-fortaleza-49m2-aluguel-RS1200-id-2684760796/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1200,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Imóvel Comercial para alugar, 49m² em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.743545,
@@ -291,19 +259,16 @@ export class LocationsService {
         {
           "endereco": "Rua Coronel Chico Alves, 21 - Passaré, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": 1,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 45,
-          "valor_aluguel": "1.400",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/a3fa723b375d21aa80299059a5a5b4f0/foto-1-de-apartamento-com-2-quartos-para-alugar,-45-em-passaré,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-passare-bairros-fortaleza-com-garagem-45m2-aluguel-RS1400-id-2684735736/",
+          "valor_aluguel": 3250,
+          "url_imagem": "../assets/img/properties/apartament5.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
-            "Aceita animais",
-            "Garagem",
-            "..."
+            "Garagem"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 45m² em Passaré, Fortaleza",
           "coords": {
@@ -315,18 +280,16 @@ export class LocationsService {
           "endereco": "Rua Afonso Celso, 423 - Aldeota, Fortaleza - CE",
           "quartos": 2,
           "banheiros": 2,
-          "vagas": 2,
+          "vagas": 1,
           "area": 75,
-          "valor_aluguel": "3.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/b175570e9f4d3d7a55feb15f11f51b46/foto-1-de-apartamento-com-2-quartos-para-venda-ou-aluguel,-75-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-aldeota-bairros-fortaleza-com-garagem-75m2-venda-RS850000-id-2684723293/",
+          "valor_aluguel": 2200,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Piscina",
             "Mobiliado",
             "Churrasqueira",
             "Elevador",
-            "Condomínio fechado",
-            "..."
+            "Condomínio fechado"
           ],
           "descricao": "Apartamento com 2 Quartos para venda ou aluguel, 75m² em Aldeota, Fortaleza",
           "coords": {
@@ -340,16 +303,13 @@ export class LocationsService {
           "banheiros": 2,
           "vagas": 1,
           "area": 53,
-          "valor_aluguel": "2.600",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/2fe371feb237046eb01920f6c779ed43/foto-1-de-apartamento-com-2-quartos-para-alugar,-53-em-parque-iracema,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-parque-iracema-bairros-fortaleza-com-garagem-53m2-aluguel-RS2600-id-2684665368/",
+          "valor_aluguel": 1850,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
-            "Aceita animais",
             "Área de serviço",
-            "Varanda gourmet",
-            "..."
+            "Varanda gourmet"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 53m² em Parque Iracema, Fortaleza",
           "coords": {
@@ -360,19 +320,16 @@ export class LocationsService {
         {
           "endereco": "Rua Amâncio Valente, 1555 - Cambeba, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 2,
+          "banheiros": 3,
           "vagas": 1,
           "area": 63,
-          "valor_aluguel": "1.800",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/a00210accb890747d034da006db0b379/foto-1-de-apartamento-com-3-quartos-para-alugar,-63-em-cambeba,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-cambeba-bairros-fortaleza-com-garagem-63m2-aluguel-RS1800-id-2684738694/",
+          "valor_aluguel": 4950,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
-            "Varanda",
-            "Aceita animais",
-            "..."
+            "Varanda"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 63m² em Cambeba, Fortaleza",
           "coords": {
@@ -382,16 +339,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Joaquim Torres, 654 - Joaquim Tavora, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 4,
-          "vagas": 11,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 302,
-          "valor_aluguel": "7.999",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/38a3b992d62a57837a7edb7e360e5a2d/foto-1-de-sala-comercial-para-alugar,-302-em-joaquim-tavora,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-joaquim-tavora-bairros-fortaleza-com-garagem-302m2-aluguel-RS7999-id-2684779500/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4350,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 302m² em Joaquim Tavora, Fortaleza",
           "coords": {
             "lat": -3.7420371,
@@ -401,19 +354,16 @@ export class LocationsService {
         {
           "endereco": "Rua Padre Constantino, 19 - Jacarecanga, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": 1,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 48,
-          "valor_aluguel": "1.400",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/7892dbf9b910471510bf123259574b99/foto-1-de-apartamento-com-2-quartos-para-alugar,-48-em-jacarecanga,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-jacarecanga-bairros-fortaleza-com-garagem-48m2-aluguel-RS1400-id-2684405433/",
+          "valor_aluguel": 4850,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
           "amenidades": [
             "Piscina",
             "Varanda",
             "Academia",
-            "Aceita animais",
-            "Garagem",
-            "..."
+            "Garagem"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 48m² em Jacarecanga, Fortaleza",
           "coords": {
@@ -424,12 +374,11 @@ export class LocationsService {
         {
           "endereco": "Rua Tenente Roma, 5405 - Montese, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 3,
+          "banheiros": 2,
           "vagas": 1,
           "area": 88,
-          "valor_aluguel": "1.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/3628a87cb1b4d1fc19678c294aa8054e/foto-1-de-apartamento-com-3-quartos-para-alugar,-88-em-montese,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-montese-bairros-fortaleza-com-garagem-88m2-aluguel-RS1500-id-2684735456/",
+          "valor_aluguel": 1500,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Playground",
             "Quadra poliesportiva",
@@ -444,19 +393,16 @@ export class LocationsService {
         {
           "endereco": "Rua Doutor Rodrigo Codes Sandoval, 250 - Mondubim, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 1,
+          "banheiros": 3,
           "vagas": 1,
           "area": 89,
-          "valor_aluguel": "1.809",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/21ab2a2c0577ca2ea9bf79c8517ca992/foto-1-de-apartamento-com-3-quartos-para-alugar,-89-em-mondubim,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-mondubim-bairros-fortaleza-com-garagem-89m2-aluguel-RS1809-id-2684878448/",
+          "valor_aluguel": 3500,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
-            "Condomínio fechado",
-            "Aceita animais",
-            "..."
+            "Condomínio fechado"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 89m² em Mondubim, Fortaleza",
           "coords": {
@@ -468,11 +414,10 @@ export class LocationsService {
           "endereco": "Rua André Dall'Olio, 530 - Papicu, Fortaleza - CE",
           "quartos": 3,
           "banheiros": 2,
-          "vagas": 1,
+          "vagas": 2,
           "area": 63,
-          "valor_aluguel": "1.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/2bc5a20705fcf736a7583892a08c9ff3/foto-1-de-apartamento-com-3-quartos-para-alugar,-63-em-papicu,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-papicu-bairros-fortaleza-com-garagem-63m2-aluguel-RS1200-id-2684633507/",
+          "valor_aluguel": 2000,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
           "amenidades": [
             "Condomínio fechado",
             "Elevador",
@@ -488,19 +433,17 @@ export class LocationsService {
         {
           "endereco": "Avenida da Abolição, 4792 - Mucuripe, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 1,
           "area": 63,
-          "valor_aluguel": "3.600",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/70574cd321e23eec44b1f528d33644ad/foto-1-de-apartamento-com-2-quartos-para-alugar,-63-em-mucuripe,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-mucuripe-bairros-fortaleza-com-garagem-63m2-aluguel-RS3600-id-2684680322/",
+          "valor_aluguel": 2200,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
           "amenidades": [
             "Mobiliado",
             "Elevador",
             "Condomínio fechado",
             "Varanda",
-            "Academia",
-            "..."
+            "Academia"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 63m² em Mucuripe, Fortaleza",
           "coords": {
@@ -512,14 +455,11 @@ export class LocationsService {
           "endereco": "Rua Solon Pinheiro, 683 - José Bonifácio, Fortaleza - CE",
           "quartos": 3,
           "banheiros": 2,
-          "vagas": null,
+          "vagas": 2,
           "area": 11111,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/3d01ea442d433e82a42041a1eb29404c/foto-1-de-casa-com-3-quartos-para-alugar,-11111-em-josé-bonifácio,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-3-quartos-jose-bonifacio-bairros-fortaleza-11111m2-aluguel-RS800-id-2684240346/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3350,
+          "url_imagem": "../assets/img/properties/house2.jpg",
+          "amenidades": [],
           "descricao": "Casa com 3 Quartos para alugar, 11111m² em José Bonifácio, Fortaleza",
           "coords": {
             "lat": -3.7363739,
@@ -529,19 +469,17 @@ export class LocationsService {
         {
           "endereco": "Sapiranga, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 1,
+          "banheiros": 3,
           "vagas": 2,
           "area": 160,
-          "valor_aluguel": "2.700",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/326ce42fd7a54cbefbf1d6c2d14fe60e/foto-1-de-casa-de-condomínio-com-3-quartos-para-alugar,-160-em-sapiranga,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-de-condominio-3-quartos-sapiranga-bairros-fortaleza-com-garagem-160m2-aluguel-RS2700-id-2684811596/",
+          "valor_aluguel": 4000,
+          "url_imagem": "../assets/img/properties/house5.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Condomínio fechado",
             "Área de serviço",
-            "Cozinha",
-            "..."
+            "Cozinha"
           ],
           "descricao": "Casa de Condomínio com 3 Quartos para alugar, 160m² em Sapiranga, Fortaleza",
           "coords": {
@@ -552,15 +490,12 @@ export class LocationsService {
         {
           "endereco": "Rua Henriqueta Galeno, 1040 - Cocó, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 2,
           "area": 98,
-          "valor_aluguel": "2.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/202747481c88a1897a4daca07b71486e/foto-1-de-apartamento-com-3-quartos-para-alugar,-98-em-cocó,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-coco-bairros-fortaleza-com-garagem-98m2-aluguel-RS2000-id-2684653231/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2800,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
+          "amenidades": [],
           "descricao": "Apartamento com 3 Quartos para alugar, 98m² em Cocó, Fortaleza",
           "coords": {
             "lat": -3.748269799999999,
@@ -570,19 +505,17 @@ export class LocationsService {
         {
           "endereco": "Rua José Mário Mamede, 159 - Edson Queiroz, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 3,
-          "vagas": 2,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 68,
-          "valor_aluguel": "2.300",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/2bcfc77411a87c7d5f2f75eecb2f353a/foto-1-de-apartamento-com-2-quartos-para-alugar,-68-em-edson-queiroz,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-edson-queiroz-bairros-fortaleza-com-garagem-68m2-aluguel-RS2300-id-2684551997/",
+          "valor_aluguel": 3050,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
             "Condomínio fechado",
-            "Academia",
-            "..."
+            "Academia"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 68m² em Edson Queiroz, Fortaleza",
           "coords": {
@@ -592,16 +525,10 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Paulo Firmeza, 1608 - Tauape, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
           "area": 407,
-          "valor_aluguel": "1.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/8d392ce61d8b2e9dbf0f9300c3ee7967/foto-1-de-lote/terreno-para-alugar,-407-em-tauape,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-tauape-bairros-fortaleza-407m2-aluguel-RS1000-id-2682677721/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2450,
+          "url_imagem": "../assets/img/properties/ground3.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar, 407m² em Tauape, Fortaleza",
           "coords": {
             "lat": -3.7565734,
@@ -610,13 +537,11 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Desembargador Moreira, 2800 - Aldeota, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 30,
-          "valor_aluguel": "1.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/5bc10a3522e0ee6e33bd4f6ac454993a/foto-1-de-sala-comercial-para-alugar,-30-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-aldeota-bairros-fortaleza-30m2-aluguel-RS1000-id-2684518740/",
+          "valor_aluguel": 2900,
+          "url_imagem": "../assets/img/properties/office2.jpg",
           "amenidades": [
             "Varanda gourmet"
           ],
@@ -628,16 +553,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Mister Hull, 4148 - Padre Andrade, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 35,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/a5ebc70e18474cd8c47d8ad80986c5ba/foto-1-de-ponto-comercial-para-alugar,-35-em-padre-andrade,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-padre-andrade-bairros-fortaleza-35m2-aluguel-RS900-id-2684397933/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1850,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 35m² em Padre Andrade, Fortaleza",
           "coords": {
             "lat": -3.7377538,
@@ -647,12 +568,11 @@ export class LocationsService {
         {
           "endereco": "Rua Eduardo Novaes, 250 - Sapiranga, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 4,
-          "vagas": 3,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 125,
-          "valor_aluguel": "3.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/de4716e57a8c7e913a67c4e9ea222e9b/foto-1-de-casa-de-condomínio-com-3-quartos-para-alugar,-125-em-sapiranga,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-de-condominio-3-quartos-sapiranga-bairros-fortaleza-com-garagem-125m2-aluguel-RS3500-id-2684631217/",
+          "valor_aluguel": 950,
+          "url_imagem": "../assets/img/properties/house5.jpg",
           "amenidades": [
             "Churrasqueira",
             "Condomínio fechado",
@@ -668,16 +588,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Vicente Linhares, 521 - Aldeota, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 34,
-          "valor_aluguel": "1.700",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/92e2361c06c910927aa80482a29bd7d1/foto-1-de-sala-comercial-para-alugar,-34-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-aldeota-bairros-fortaleza-34m2-aluguel-RS1700-id-2684626708/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2650,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 34m² em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7420164,
@@ -687,19 +603,16 @@ export class LocationsService {
         {
           "endereco": "Vila Três Américas, 1064 - Itaperi, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 2,
-          "vagas": 1,
+          "banheiros": 3,
+          "vagas": 2,
           "area": 95,
-          "valor_aluguel": "1.800",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/bea33017cf712e2dbbdbf52db00349b1/foto-1-de-casa-com-3-quartos-para-alugar,-95-em-itaperi,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-3-quartos-itaperi-bairros-fortaleza-com-garagem-95m2-aluguel-RS1800-id-2684053721/",
+          "valor_aluguel": 4400,
+          "url_imagem": "../assets/img/properties/house5.jpg",
           "amenidades": [
-            "Quintal",
-            "Aceita animais",
+            ,
             "Área de serviço",
             "Armário embutido",
-            "Interfone",
-            "..."
+            "Interfone"
           ],
           "descricao": "Casa com 3 Quartos para alugar, 95m² em Itaperi, Fortaleza",
           "coords": {
@@ -711,16 +624,15 @@ export class LocationsService {
           "endereco": "Vila Três Américas, 114 - Maraponga, Fortaleza - CE",
           "quartos": 3,
           "banheiros": 3,
-          "vagas": 1,
+          "vagas": 2,
           "area": 200,
-          "valor_aluguel": "1.700",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/4a0a9c849e2cece71419e8c3c1db1f24/foto-1-de-casa-com-3-quartos-para-venda-ou-aluguel,-200-em-maraponga,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-3-quartos-maraponga-bairros-fortaleza-com-garagem-200m2-venda-RS390000-id-2684618204/",
+          "valor_aluguel": 1450,
+          "url_imagem": "../assets/img/properties/house1.jpg",
           "amenidades": [
             "Cozinha",
             "Área de serviço",
-            "Quintal",
-            "Aceita animais"
+            ,
+
           ],
           "descricao": "Casa com 3 Quartos para venda ou aluguel, 200m² em Maraponga, Fortaleza",
           "coords": {
@@ -730,13 +642,11 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Rui Barbosa, 595 - Meireles, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 5,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 372,
-          "valor_aluguel": "17.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/5f17dfdf46d72d7755a1399263931085/foto-1-de-ponto-comercial-para-alugar,-372-em-meireles,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-meireles-bairros-fortaleza-372m2-aluguel-RS17000-id-2666411879/",
+          "valor_aluguel": 2150,
+          "url_imagem": "../assets/img/properties/office2.jpg",
           "amenidades": [
             "Copa",
             "Área de serviço"
@@ -750,15 +660,12 @@ export class LocationsService {
         {
           "endereco": "Rua Coronel Honório Vieira, 735 - Parque Manibura, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 3,
+          "banheiros": 2,
           "vagas": 2,
           "area": 67,
-          "valor_aluguel": "1.800",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/6feb05ccf7faa7ce423fd2c296640731/foto-1-de-apartamento-com-2-quartos-para-alugar,-67-em-parque-manibura,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-parque-manibura-bairros-fortaleza-com-garagem-67m2-aluguel-RS1800-id-2684761393/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2350,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
+          "amenidades": [],
           "descricao": "Apartamento com 2 Quartos para alugar, 67m² em Parque Manibura, Fortaleza",
           "coords": {
             "lat": -3.7901543,
@@ -767,16 +674,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Vicente Linhares, 521 - Aldeota, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 33,
-          "valor_aluguel": "1.700",
-          "url_imagem": null,
-          "url_detalhes": "/imovel/sala-comercial-aldeota-bairros-fortaleza-33m2-aluguel-RS1700-id-2684628607/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2350,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 33m² em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7420164,
@@ -787,11 +690,10 @@ export class LocationsService {
           "endereco": "Rua Antonina do Norte, 194 - Sao Gerardo, Fortaleza - CE",
           "quartos": 3,
           "banheiros": 2,
-          "vagas": null,
+          "vagas": 1,
           "area": 80,
-          "valor_aluguel": "1.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/8ca5f22febf216571bbd2fafcd0b9945/foto-1-de-apartamento-com-3-quartos-para-alugar,-80-em-sao-gerardo,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-sao-gerardo-bairros-fortaleza-80m2-aluguel-RS1200-id-2684522601/",
+          "valor_aluguel": 800,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Conexão à internet"
           ],
@@ -803,16 +705,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Viena Weyne, 510 - Cambeba, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": 6,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 216,
-          "valor_aluguel": "12.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/e2d2e49bfae9029976777c34cfb0b1ee/foto-1-de-imóvel-comercial-para-alugar,-216-em-cambeba,-fortaleza.jpg",
-          "url_detalhes": "/imovel/imovel-comercial-cambeba-bairros-fortaleza-com-garagem-216m2-aluguel-RS12000-id-2684628100/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3400,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Imóvel Comercial para alugar, 216m² em Cambeba, Fortaleza",
           "coords": {
             "lat": -3.801849,
@@ -825,16 +723,14 @@ export class LocationsService {
           "banheiros": 3,
           "vagas": 1,
           "area": 70,
-          "valor_aluguel": "2.800",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/236cce3ec2fd70eb7466a73c27723def/foto-1-de-apartamento-com-3-quartos-para-alugar,-70-em-papicu,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-papicu-bairros-fortaleza-com-garagem-70m2-aluguel-RS2800-id-2682070037/",
+          "valor_aluguel": 1650,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
             "Condomínio fechado",
-            "Academia",
-            "..."
+            "Academia"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 70m² em Papicu, Fortaleza",
           "coords": {
@@ -845,12 +741,11 @@ export class LocationsService {
         {
           "endereco": "Rua Júlio Alcides, 320 - Maraponga, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 1,
           "area": 43,
-          "valor_aluguel": "1.100",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/9af354ff01dbd217a76dd1b01b58edef/foto-1-de-apartamento-com-2-quartos-para-alugar,-43-em-maraponga,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-maraponga-bairros-fortaleza-com-garagem-43m2-aluguel-RS1100-id-2684517110/",
+          "valor_aluguel": 1000,
+          "url_imagem": "../assets/img/properties/apartament5.jpg",
           "amenidades": [
             "Playground",
             "Área de serviço",
@@ -870,16 +765,13 @@ export class LocationsService {
           "banheiros": 2,
           "vagas": 1,
           "area": 60,
-          "valor_aluguel": "2.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/18642000420fdf08bd6ed8070a29a0bd/foto-1-de-apartamento-com-2-quartos-para-alugar,-60-em-parangaba,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-parangaba-bairros-fortaleza-com-garagem-60m2-aluguel-RS2000-id-2684013617/",
+          "valor_aluguel": 1450,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
-            "Condomínio fechado",
-            "Aceita animais",
-            "..."
+            "Condomínio fechado"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 60m² em Parangaba, Fortaleza",
           "coords": {
@@ -890,15 +782,14 @@ export class LocationsService {
         {
           "endereco": "Rua Desembargador Lauro Nogueira, 1267 - Papicu, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 3,
-          "vagas": 5,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 157,
-          "valor_aluguel": "3.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/cf99db211e33343025ebc17143ea7a80/foto-1-de-casa-com-3-quartos-para-alugar,-157-em-papicu,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-3-quartos-papicu-bairros-fortaleza-com-garagem-157m2-aluguel-RS3000-id-2684628140/",
+          "valor_aluguel": 3050,
+          "url_imagem": "../assets/img/properties/house4.jpg",
           "amenidades": [
             "Cozinha",
-            "Quintal"
+
           ],
           "descricao": "Casa com 3 Quartos para alugar, 157m² em Papicu, Fortaleza",
           "coords": {
@@ -909,19 +800,16 @@ export class LocationsService {
         {
           "endereco": "Rua das Laranjeiras, 455 - Lagoa Redonda, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 2,
+          "banheiros": 3,
           "vagas": 2,
           "area": 83,
-          "valor_aluguel": "1.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/2f889a3e53572a6aa491e0f25ead575c/foto-1-de-casa-de-condomínio-com-3-quartos-para-alugar,-83-em-lagoa-redonda,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-de-condominio-3-quartos-lagoa-redonda-bairros-fortaleza-com-garagem-83m2-aluguel-RS1200-id-2684700396/",
+          "valor_aluguel": 750,
+          "url_imagem": "../assets/img/properties/house1.jpg",
           "amenidades": [
             "Churrasqueira",
             "Condomínio fechado",
-            "Quintal",
-            "Aceita animais",
-            "Ar-condicionado",
-            "..."
+            ,
+            "Ar-condicionado"
           ],
           "descricao": "Casa de Condomínio com 3 Quartos para alugar, 83m² em Lagoa Redonda, Fortaleza",
           "coords": {
@@ -933,18 +821,16 @@ export class LocationsService {
           "endereco": "Rua José Cavalcante Sobrinho, 120 - Messejana, Fortaleza - CE",
           "quartos": 3,
           "banheiros": 2,
-          "vagas": 1,
+          "vagas": 2,
           "area": 63,
-          "valor_aluguel": "1.300",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/7e7463d1efef0c26a8e3db267d5636cc/foto-1-de-apartamento-com-3-quartos-para-alugar,-63-em-messejana,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-messejana-bairros-fortaleza-com-garagem-63m2-aluguel-RS1300-id-2684519105/",
+          "valor_aluguel": 3900,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Área de serviço",
             "Playground",
-            "Quadra poliesportiva",
-            "..."
+            "Quadra poliesportiva"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 63m² em Messejana, Fortaleza",
           "coords": {
@@ -955,15 +841,12 @@ export class LocationsService {
         {
           "endereco": "Rua A Lot Messejana, 25 - Paupina, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 1,
           "area": 46,
-          "valor_aluguel": "1.300",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/d252de296f8ad856aeaf5a138b76d73c/foto-1-de-apartamento-com-2-quartos-para-alugar,-46-em-paupina,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-paupina-bairros-fortaleza-com-garagem-46m2-aluguel-RS1300-id-2684866832/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1200,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
+          "amenidades": [],
           "descricao": "Apartamento com 2 Quartos para alugar, 46m² em Paupina, Fortaleza",
           "coords": {
             "lat": -3.8445236,
@@ -976,16 +859,13 @@ export class LocationsService {
           "banheiros": 2,
           "vagas": 2,
           "area": 83,
-          "valor_aluguel": "1.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/2f889a3e53572a6aa491e0f25ead575c/foto-1-de-casa-de-condomínio-com-3-quartos-para-alugar,-83-em-lagoa-redonda,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-de-condominio-3-quartos-lagoa-redonda-bairros-fortaleza-com-garagem-83m2-aluguel-RS1200-id-2684817807/",
+          "valor_aluguel": 2350,
+          "url_imagem": "../assets/img/properties/house4.jpg",
           "amenidades": [
             "Churrasqueira",
             "Condomínio fechado",
-            "Quintal",
-            "Aceita animais",
-            "Ar-condicionado",
-            "..."
+            ,
+            "Ar-condicionado"
           ],
           "descricao": "Casa de Condomínio com 3 Quartos para alugar, 83m² em Lagoa Redonda, Fortaleza",
           "coords": {
@@ -996,19 +876,16 @@ export class LocationsService {
         {
           "endereco": "Maraponga, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 1,
           "area": 45,
-          "valor_aluguel": "1.250",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/339cf6197b99829a1a44e96889847cc7/foto-1-de-apartamento-com-2-quartos-para-alugar,-45-em-maraponga,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-maraponga-bairros-fortaleza-com-garagem-45m2-aluguel-RS1250-id-2684665367/",
+          "valor_aluguel": 2750,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
-            "Aceita animais",
-            "Área de serviço",
-            "..."
+            "Área de serviço"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 45m² em Maraponga, Fortaleza",
           "coords": {
@@ -1022,16 +899,14 @@ export class LocationsService {
           "banheiros": 2,
           "vagas": 1,
           "area": 55,
-          "valor_aluguel": "1.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/e4b9e24442565a54a3f4ccdc1ed9d9ae/foto-1-de-apartamento-com-2-quartos-para-alugar,-55-em-messejana,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-messejana-bairros-fortaleza-com-garagem-55m2-aluguel-RS1000-id-2684628816/",
+          "valor_aluguel": 4850,
+          "url_imagem": "../assets/img/properties/apartament5.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Academia",
             "Playground",
-            "Salão de festas",
-            "..."
+            "Salão de festas"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 55m² em Messejana, Fortaleza",
           "coords": {
@@ -1042,12 +917,11 @@ export class LocationsService {
         {
           "endereco": "Rua Estrela do Norte, 208 - Álvaro Weyne, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 100,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/b1a3155682f110dc15814611f5fc4554/foto-1-de-casa-com-2-quartos-para-alugar,-100-em-álvaro-weyne,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-2-quartos-alvaro-weyne-bairros-fortaleza-100m2-aluguel-RS639-id-2684474193/",
+          "valor_aluguel": 2350,
+          "url_imagem": "../assets/img/properties/house3.jpg",
           "amenidades": [
             "Cozinha",
             "Área de serviço"
@@ -1060,16 +934,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Guilherme Rocha, 381 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 38,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/3eb707fdfeb2dac4c7f79ec59998a5aa/foto-1-de-sala-comercial-para-alugar,-38-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-38m2-aluguel-RS250-id-2683883513/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4700,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 38m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7265229,
@@ -1079,19 +949,16 @@ export class LocationsService {
         {
           "endereco": "Rua Farias Lemos, 800 - Parque Iracema, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 1,
           "area": 47,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/6dbcdd6cbce3f9a29e0d910e868b6245/foto-1-de-apartamento-com-2-quartos-para-alugar,-47-em-parque-iracema,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-parque-iracema-bairros-fortaleza-com-garagem-47m2-aluguel-RS900-id-2684632023/",
+          "valor_aluguel": 750,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Churrasqueira",
-            "Aceita animais",
             "Área de serviço",
             "Playground",
-            "Cozinha",
-            "..."
+            "Cozinha"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 47m² em Parque Iracema, Fortaleza",
           "coords": {
@@ -1101,16 +968,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Senador Pompeu, 649 - Centro, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 2296,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/77fc0b2396fa346ee5476d4cf76f6639/foto-1-de-imóvel-comercial-para-alugar,-2296-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/imovel-comercial-centro-bairros-fortaleza-2296m2-aluguel-RS500-id-2682680987/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 650,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Imóvel Comercial para alugar, 2296m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.724452299999999,
@@ -1120,16 +983,15 @@ export class LocationsService {
         {
           "endereco": "Rua Raul Uchôa, 608 - Bom Futuro, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 156,
-          "valor_aluguel": "1.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/dca094ac75b2c0015adfff4e3d55fffe/foto-1-de-casa-com-2-quartos-para-alugar,-156-em-bom-futuro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-2-quartos-bom-futuro-bairros-fortaleza-156m2-aluguel-RS1200-id-2684517014/",
+          "valor_aluguel": 4600,
+          "url_imagem": "../assets/img/properties/house1.jpg",
           "amenidades": [
             "Copa",
             "Varanda gourmet",
-            "Quintal"
+
           ],
           "descricao": "Casa com 2 Quartos para alugar, 156m² em Bom Futuro, Fortaleza",
           "coords": {
@@ -1140,12 +1002,11 @@ export class LocationsService {
         {
           "endereco": "Antônio Bezerra, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 1,
           "area": 40,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/d53bcf289071fbaf51b0eb0ea53d6150/foto-1-de-apartamento-com-2-quartos-para-alugar,-40-em-antônio-bezerra,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-antonio-bezerra-bairros-fortaleza-com-garagem-40m2-aluguel-RS990-id-2684434802/",
+          "valor_aluguel": 1050,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
           "amenidades": [
             "Lavanderia",
             "Sala de jantar",
@@ -1161,19 +1022,16 @@ export class LocationsService {
         {
           "endereco": "Avenida Ministro José Américo, 150 - Parque Iracema, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 2,
+          "banheiros": 3,
           "vagas": 1,
           "area": 60,
-          "valor_aluguel": "1.800",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/1074e34c53b461421f322d6f23075597/foto-1-de-apartamento-com-3-quartos-para-alugar,-60-em-parque-iracema,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-parque-iracema-bairros-fortaleza-com-garagem-60m2-aluguel-RS1800-id-2682316440/",
+          "valor_aluguel": 3550,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Elevador",
             "Condomínio fechado",
             "Academia",
-            "Aceita animais",
-            "Jardim",
-            "..."
+            "Jardim"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 60m² em Parque Iracema, Fortaleza",
           "coords": {
@@ -1185,14 +1043,11 @@ export class LocationsService {
           "endereco": "Rua Dom Sebastião Leme, 477 - Fátima, Fortaleza - CE",
           "quartos": 3,
           "banheiros": 2,
-          "vagas": 1,
+          "vagas": 2,
           "area": 90,
-          "valor_aluguel": "1.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/57e25f3aac58c9e6fbe42d61538059f4/foto-1-de-apartamento-com-3-quartos-para-alugar,-90-em-fátima,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-fatima-bairros-fortaleza-com-garagem-90m2-aluguel-RS1500-id-2684411639/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1600,
+          "url_imagem": "../assets/img/properties/apartament5.jpg",
+          "amenidades": [],
           "descricao": "Apartamento com 3 Quartos para alugar, 90m² em Fátima, Fortaleza",
           "coords": {
             "lat": -3.745701,
@@ -1203,11 +1058,10 @@ export class LocationsService {
           "endereco": "Rua Barbosa de Freitas, 229 - Meireles, Fortaleza - CE",
           "quartos": 2,
           "banheiros": 2,
-          "vagas": 2,
+          "vagas": 1,
           "area": 62,
-          "valor_aluguel": "2.300",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/2915485d97fb3b61724b50925d745e2d/foto-1-de-apartamento-com-2-quartos-para-alugar,-62-em-meireles,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-meireles-bairros-fortaleza-com-garagem-62m2-aluguel-RS2300-id-2684518503/",
+          "valor_aluguel": 4850,
+          "url_imagem": "../assets/img/properties/apartament5.jpg",
           "amenidades": [
             "Área de serviço"
           ],
@@ -1219,16 +1073,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Alcântara Bilhar, 4174 - Padre Andrade, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 35,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/1adc823a056fd49f633a83d39e96bf1d/foto-1-de-ponto-comercial-para-alugar,-35-em-padre-andrade,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-padre-andrade-bairros-fortaleza-35m2-aluguel-RS700-id-2684397842/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1800,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 35m² em Padre Andrade, Fortaleza",
           "coords": {
             "lat": -3.7370093,
@@ -1237,16 +1087,10 @@ export class LocationsService {
         },
         {
           "endereco": "Rua João Sales, 1665 - Planalto Ayrton Senna, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
           "area": 1241,
-          "valor_aluguel": "4.800",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/f13e4cef4078e0242cb02ca1fdf1684f/foto-1-de-lote/terreno-para-alugar,-1241-em-planalto-ayrton-senna,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-planalto-ayrton-senna-bairros-fortaleza-1241m2-aluguel-RS4800-id-2684628396/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1800,
+          "url_imagem": "../assets/img/properties/ground2.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar, 1241m² em Planalto Ayrton Senna, Fortaleza",
           "coords": {
             "lat": -3.8283714,
@@ -1259,9 +1103,8 @@ export class LocationsService {
           "banheiros": 2,
           "vagas": 1,
           "area": 46,
-          "valor_aluguel": "1.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/3df53f56c8640a3fd21c6f2b6027f643/foto-1-de-apartamento-com-2-quartos-para-alugar,-46-em-barroso,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-barroso-bairros-fortaleza-com-garagem-46m2-aluguel-RS1200-id-2684293603/",
+          "valor_aluguel": 4150,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Playground",
             "Área de serviço",
@@ -1277,16 +1120,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Antônio Sales, 1317 - Joaquim Tavora, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 35,
-          "valor_aluguel": "1.300",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/3c06a92ab68d6b3ccda3359895770901/foto-1-de-sala-comercial-para-alugar,-35-em-joaquim-tavora,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-joaquim-tavora-bairros-fortaleza-35m2-aluguel-RS1300-id-2684748896/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4150,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 35m² em Joaquim Tavora, Fortaleza",
           "coords": {
             "lat": -3.7424386,
@@ -1299,16 +1138,14 @@ export class LocationsService {
           "banheiros": 2,
           "vagas": 1,
           "area": 50,
-          "valor_aluguel": "3.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/a797bbee3626a429f6e5e725cce9900b/foto-1-de-apartamento-com-2-quartos-para-alugar,-50-em-josé-bonifácio,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-jose-bonifacio-bairros-fortaleza-com-garagem-50m2-aluguel-RS3000-id-2683738138/",
+          "valor_aluguel": 2650,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
           "amenidades": [
             "Piscina",
             "Mobiliado",
             "Churrasqueira",
             "Elevador",
-            "Condomínio fechado",
-            "..."
+            "Condomínio fechado"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 50m² em José Bonifácio, Fortaleza",
           "coords": {
@@ -1320,14 +1157,11 @@ export class LocationsService {
           "endereco": "Rua Antônio Augusto, 2070 - Aldeota, Fortaleza - CE",
           "quartos": 3,
           "banheiros": 3,
-          "vagas": null,
+          "vagas": 1,
           "area": 111,
-          "valor_aluguel": "3.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/b0028978a46a75ba5d0950971c1ebac6/foto-1-de-apartamento-com-3-quartos-para-alugar,-111-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-aldeota-bairros-fortaleza-111m2-aluguel-RS3000-id-2684754497/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4450,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
+          "amenidades": [],
           "descricao": "Apartamento com 3 Quartos para alugar, 111m² em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7385355,
@@ -1337,12 +1171,11 @@ export class LocationsService {
         {
           "endereco": "Rua Alfredo Mamede - Mondubim, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": 1,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 60,
-          "valor_aluguel": "1.100",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/282bd5bf084efca9a832559773057003/foto-1-de-apartamento-com-2-quartos-para-alugar,-60-em-mondubim,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-mondubim-bairros-fortaleza-com-garagem-60m2-aluguel-RS1100-id-2684622023/",
+          "valor_aluguel": 1150,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
           "amenidades": [
             "Ar-condicionado",
             "Cozinha",
@@ -1358,14 +1191,13 @@ export class LocationsService {
           "endereco": "Rua Capitão Clóvis Maia, 177 - Alto da Balança, Fortaleza - CE",
           "quartos": 2,
           "banheiros": 2,
-          "vagas": null,
+          "vagas": 1,
           "area": 94,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/1b807dcc809a56eeb9f6285f0c34a3ae/foto-1-de-casa-com-2-quartos-para-alugar,-94-em-alto-da-balança,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-2-quartos-alto-da-balanca-bairros-fortaleza-94m2-aluguel-RS800-id-2684522602/",
+          "valor_aluguel": 600,
+          "url_imagem": "../assets/img/properties/house2.jpg",
           "amenidades": [
             "Conexão à internet",
-            "Quintal"
+
           ],
           "descricao": "Casa com 2 Quartos para alugar, 94m² em Alto da Balança, Fortaleza",
           "coords": {
@@ -1376,14 +1208,13 @@ export class LocationsService {
         {
           "endereco": "Rua Chico Lemos, 689 - Cidade dos Funcionários, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 4,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 150,
-          "valor_aluguel": "2.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/497659c0de5b0bdc39cf6a44f87010e4/foto-1-de-casa-com-2-quartos-para-alugar,-150-em-cidade-dos-funcionários,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-2-quartos-cidade-dos-funcionarios-bairros-fortaleza-150m2-aluguel-RS2500-id-2684517013/",
+          "valor_aluguel": 3700,
+          "url_imagem": "../assets/img/properties/house3.jpg",
           "amenidades": [
-            "Aceita animais"
+
           ],
           "descricao": "Casa com 2 Quartos para alugar, 150m² em Cidade dos Funcionários, Fortaleza",
           "coords": {
@@ -1394,15 +1225,12 @@ export class LocationsService {
         {
           "endereco": "Rua I, 207 - Itaperi, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 70,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/ac815bc7ccc66990da65212aae08f65d/foto-1-de-apartamento-com-2-quartos-para-alugar,-70-em-itaperi,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-itaperi-bairros-fortaleza-70m2-aluguel-RS550-id-2682046540/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2650,
+          "url_imagem": "../assets/img/properties/apartament5.jpg",
+          "amenidades": [],
           "descricao": "Apartamento com 2 Quartos para alugar, 70m² em Itaperi, Fortaleza",
           "coords": {
             "lat": -3.7989426,
@@ -1412,19 +1240,17 @@ export class LocationsService {
         {
           "endereco": "Rua Nunes Valente, 1880 - Meireles, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 2,
+          "banheiros": 3,
           "vagas": 2,
           "area": 95,
-          "valor_aluguel": "3.700",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/d05fbdabdb91821387b274dd5807b547/foto-1-de-apartamento-com-3-quartos-para-alugar,-95-em-meireles,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-meireles-bairros-fortaleza-com-garagem-95m2-aluguel-RS3700-id-2682330353/",
+          "valor_aluguel": 3800,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
             "Condomínio fechado",
-            "Varanda",
-            "..."
+            "Varanda"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 95m² em Meireles, Fortaleza",
           "coords": {
@@ -1435,12 +1261,11 @@ export class LocationsService {
         {
           "endereco": "Rua Frei Teobaldo, 701 - Álvaro Weyne, Fortaleza - CE",
           "quartos": 1,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 50,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/b3571c9d23940464eb5189ff9a6d3fc9/foto-1-de-casa-com-1-quarto-para-alugar,-50-em-álvaro-weyne,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-1-quartos-alvaro-weyne-bairros-fortaleza-50m2-aluguel-RS459-id-2684473999/",
+          "valor_aluguel": 4850,
+          "url_imagem": "../assets/img/properties/house5.jpg",
           "amenidades": [
             "Cozinha",
             "Varanda"
@@ -1453,16 +1278,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Gonçalves Ledo, 30 - Praia de Iracema, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 36,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/dbe0845e8e04432601dee188e2dec6ef/foto-1-de-ponto-comercial-para-alugar,-36-em-praia-de-iracema,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-praia-de-iracema-bairros-fortaleza-36m2-aluguel-RS900-id-2684824731/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 750,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 36m² em Praia de Iracema, Fortaleza",
           "coords": {
             "lat": -3.7237187,
@@ -1471,16 +1292,10 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Gomes Brasil, 340 - Parangaba, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
           "area": 260,
-          "valor_aluguel": "1.700",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/efac27604a4c929afb5d644c8b392748/foto-1-de-lote/terreno-para-alugar,-260-em-parangaba,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-parangaba-bairros-fortaleza-260m2-aluguel-RS1700-id-2682677716/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4050,
+          "url_imagem": "../assets/img/properties/ground3.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar, 260m² em Parangaba, Fortaleza",
           "coords": {
             "lat": -3.7725383,
@@ -1489,16 +1304,10 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Doutor José Frota, 29 - Mucuripe, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
           "area": 80,
-          "valor_aluguel": "1.000",
-          "url_imagem": null,
-          "url_detalhes": "/imovel/lote-terreno-mucuripe-bairros-fortaleza-80m2-aluguel-RS1000-id-2682680306/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4550,
+          "url_imagem": "../assets/img/properties/ground2.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar, 80m² em Mucuripe, Fortaleza",
           "coords": {
             "lat": -3.7268153,
@@ -1507,16 +1316,10 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Crisanto Arruda, 0 - Passaré, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
           "area": 2000,
-          "valor_aluguel": "1.600",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/bec6d45e3daa1d97055be56da8f6a0f6/foto-1-de-lote/terreno-para-alugar,-2000-em-passaré,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-passare-bairros-fortaleza-2000m2-aluguel-RS1600-id-2682676831/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 5000,
+          "url_imagem": "../assets/img/properties/ground3.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar, 2000m² em Passaré, Fortaleza",
           "coords": {
             "lat": -3.8094465,
@@ -1529,16 +1332,14 @@ export class LocationsService {
           "banheiros": 2,
           "vagas": 1,
           "area": 53,
-          "valor_aluguel": "2.300",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/8b71067bbb825585f421cb36293cc1d5/foto-1-de-apartamento-com-2-quartos-para-alugar,-53-em-benfica,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-benfica-bairros-fortaleza-com-garagem-53m2-aluguel-RS2300-id-2682070500/",
+          "valor_aluguel": 1200,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Churrasqueira",
             "Elevador",
             "Condomínio fechado",
             "Varanda",
-            "Academia",
-            "..."
+            "Academia"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 53m² em Benfica, Fortaleza",
           "coords": {
@@ -1548,15 +1349,13 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Ary Barroso, 70 - Papicu, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 30,
-          "valor_aluguel": "1.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/9bad79e0fc70eb089c738711f50c4505/foto-1-de-sala-comercial-para-alugar,-30-em-papicu,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-papicu-bairros-fortaleza-30m2-aluguel-RS1500-id-2671188570/",
+          "valor_aluguel": 650,
+          "url_imagem": "../assets/img/properties/office1.jpg",
           "amenidades": [
-            "Aceita animais"
+
           ],
           "descricao": "Sala Comercial para alugar, 30m² em Papicu, Fortaleza",
           "coords": {
@@ -1568,11 +1367,10 @@ export class LocationsService {
           "endereco": "Rua Crisanto Arruda, 752 - Passaré, Fortaleza - CE",
           "quartos": 2,
           "banheiros": 2,
-          "vagas": 1,
+          "vagas": 2,
           "area": 47,
-          "valor_aluguel": "1.700",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/d5f6fd3d1f49e0585a1f3c8fa3649a2b/foto-1-de-apartamento-com-2-quartos-para-alugar,-47-em-passaré,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-passare-bairros-fortaleza-com-garagem-47m2-aluguel-RS1700-id-2684626306/",
+          "valor_aluguel": 1900,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Churrasqueira",
             "Piscina",
@@ -1587,13 +1385,11 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Senador Carlos Jereissati - Dias Macedo, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 200,
-          "valor_aluguel": "5.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/95e107d3abb3d469c7c1809f72e5061c/foto-1-de-galpão/depósito/armazém-para-alugar,-200-em-dias-macedo,-fortaleza.jpg",
-          "url_detalhes": "/imovel/galpao-deposito-armazem-dias-macedo-bairros-fortaleza-200m2-aluguel-RS5000-id-2684555797/",
+          "valor_aluguel": 4950,
+          "url_imagem": "../assets/img/properties/storage1.jpg",
           "amenidades": [
             "Condomínio fechado"
           ],
@@ -1609,14 +1405,13 @@ export class LocationsService {
           "banheiros": 2,
           "vagas": 1,
           "area": 50,
-          "valor_aluguel": "2.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/ea29655fe2662ba8395ffb984b382a96/foto-1-de-apartamento-com-1-quarto-para-venda-ou-aluguel,-50-em-meireles,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-1-quartos-meireles-bairros-fortaleza-com-garagem-50m2-venda-RS480000-id-2681340507/",
+          "valor_aluguel": 4200,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
           "amenidades": [
             "Elevador",
             "Interfone",
             "Mobiliado",
-            "Aceita animais"
+
           ],
           "descricao": "Apartamento com 1 Quarto para venda ou aluguel, 50m² em Meireles, Fortaleza",
           "coords": {
@@ -1626,13 +1421,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Vicente Leite, 1960 - Aldeota, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 7,
-          "vagas": 5,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 400,
-          "valor_aluguel": "6.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/7bb7461a8e6c8c3045eac356802e887a/foto-1-de-ponto-comercial-para-alugar,-400-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-aldeota-bairros-fortaleza-com-garagem-400m2-aluguel-RS6000-id-2669565494/",
+          "valor_aluguel": 3700,
+          "url_imagem": "../assets/img/properties/office3.jpg",
           "amenidades": [
             "Copa",
             "Área de serviço"
@@ -1646,12 +1439,11 @@ export class LocationsService {
         {
           "endereco": "Avenida Bernardo Manuel, 8600 - Itaperi, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": 1,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 50,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/9077b63f50629140831bbc2aafcc5c89/foto-1-de-apartamento-com-2-quartos-para-alugar,-50-em-itaperi,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-itaperi-bairros-fortaleza-com-garagem-50m2-aluguel-RS600-id-2682199712/",
+          "valor_aluguel": 1700,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Condomínio fechado",
             "Cozinha",
@@ -1668,17 +1460,16 @@ export class LocationsService {
           "endereco": "Rua França, 1151 - Maraponga, Fortaleza - CE",
           "quartos": 3,
           "banheiros": 3,
-          "vagas": 1,
+          "vagas": 2,
           "area": 100,
-          "valor_aluguel": "1.600",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/aa17da478bf78af07f10da89dca778e0/foto-1-de-casa-com-3-quartos-para-alugar,-100-em-maraponga,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-3-quartos-maraponga-bairros-fortaleza-com-garagem-100m2-aluguel-RS1600-id-2684737723/",
+          "valor_aluguel": 2100,
+          "url_imagem": "../assets/img/properties/house5.jpg",
           "amenidades": [
             "Varanda",
             "Garagem",
             "Cozinha",
             "Varanda gourmet",
-            "Quintal"
+
           ],
           "descricao": "Casa com 3 Quartos para alugar, 100m² em Maraponga, Fortaleza",
           "coords": {
@@ -1688,13 +1479,11 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 6740 - Cocó, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
           "vagas": 1,
           "area": 28,
-          "valor_aluguel": "3.800",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/cfb9e088dab066885f28bcf82e8b8beb/foto-1-de-sala-comercial-para-alugar,-28-em-cocó,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-coco-bairros-fortaleza-com-garagem-28m2-aluguel-RS3800-id-2684576609/",
+          "valor_aluguel": 3400,
+          "url_imagem": "../assets/img/properties/office2.jpg",
           "amenidades": [
             "Espaço gourmet",
             "Elevador",
@@ -1710,16 +1499,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Osvaldo Cruz, 2133 - Dionísio Torres, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": 6,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 300,
-          "valor_aluguel": "6.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/a935ea31be13658aabf1005fa02721f0/foto-1-de-sala-comercial-para-alugar,-300-em-dionísio-torres,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-dionisio-torres-bairros-fortaleza-com-garagem-300m2-aluguel-RS6500-id-2666465660/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 600,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 300m² em Dionísio Torres, Fortaleza",
           "coords": {
             "lat": -3.7440734,
@@ -1730,18 +1515,16 @@ export class LocationsService {
           "endereco": "Rua Luiza Miranda Coelho, 1355 - Engenheiro Luciano Cavalcante, Fortaleza - CE",
           "quartos": 3,
           "banheiros": 2,
-          "vagas": 2,
+          "vagas": 1,
           "area": 70,
-          "valor_aluguel": "2.700",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/1840d948e907e7488eb6d257319820bc/foto-1-de-apartamento-com-3-quartos-para-alugar,-70-em-engenheiro-luciano-cavalcante,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-engenheiro-luciano-cavalcante-bairros-fortaleza-com-garagem-70m2-aluguel-RS2700-id-2636845678/",
+          "valor_aluguel": 3050,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
             "Condomínio fechado",
-            "Varanda",
-            "..."
+            "Varanda"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 70m² em Engenheiro Luciano Cavalcante, Fortaleza",
           "coords": {
@@ -1752,12 +1535,11 @@ export class LocationsService {
         {
           "endereco": "Rua Manuel Teixeira, 131 - JOSE DE ALENCAR, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 1,
           "area": 51,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/060a305d45ce8802116b0ba72e20c501/foto-1-de-apartamento-com-2-quartos-para-alugar,-51-em-jose-de-alencar,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-jose-de-alencar-bairros-fortaleza-com-garagem-51m2-aluguel-RS650-id-2683618344/",
+          "valor_aluguel": 3200,
+          "url_imagem": "../assets/img/properties/apartament5.jpg",
           "amenidades": [
             "Cozinha",
             "Área de serviço"
@@ -1770,13 +1552,11 @@ export class LocationsService {
         },
         {
           "endereco": "Pedras, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 25,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/0ce9184f5c09f9ff9912772c72ec17f7/foto-1-de-ponto-comercial-para-alugar,-25-em-pedras,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-pedras-bairros-fortaleza-25m2-aluguel-RS850-id-2684194085/",
+          "valor_aluguel": 1550,
+          "url_imagem": "../assets/img/properties/office3.jpg",
           "amenidades": [
             "Cozinha"
           ],
@@ -1790,11 +1570,10 @@ export class LocationsService {
           "endereco": "Avenida Pintor Antônio Bandeira, 4250 - Praia do Futuro II, Fortaleza - CE",
           "quartos": 2,
           "banheiros": 2,
-          "vagas": 1,
+          "vagas": 2,
           "area": 80,
-          "valor_aluguel": "1.300",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/833159046119d8c4595e2471e5cbec64/foto-1-de-apartamento-com-2-quartos-para-alugar,-80-em-praia-do-futuro-ii,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-praia-do-futuro-ii-bairros-fortaleza-com-garagem-80m2-aluguel-RS1300-id-2684627908/",
+          "valor_aluguel": 3100,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Salão de festas",
             "Segurança 24h"
@@ -1807,16 +1586,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pedro Borges, 33 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 38,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/8a63f9468abb68190ae399c0a33eefe5/foto-1-de-sala-comercial-para-alugar,-38-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-38m2-aluguel-RS600-id-2604746986/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2900,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 38m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7279488,
@@ -1827,14 +1602,11 @@ export class LocationsService {
           "endereco": "Rua Zózimo Barroso, 53 - Fátima, Fortaleza - CE",
           "quartos": 2,
           "banheiros": 2,
-          "vagas": null,
+          "vagas": 2,
           "area": 56,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/128f0ee130622aab9bd758422b787e91/foto-1-de-apartamento-com-2-quartos-para-alugar,-56-em-fátima,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-fatima-bairros-fortaleza-56m2-aluguel-RS960-id-2684754203/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2150,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
+          "amenidades": [],
           "descricao": "Apartamento com 2 Quartos para alugar, 56m² em Fátima, Fortaleza",
           "coords": {
             "lat": -3.750779699999999,
@@ -1844,19 +1616,16 @@ export class LocationsService {
         {
           "endereco": "Parque Dois Irmãos, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 1,
           "area": 43,
-          "valor_aluguel": "1.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/1151e39f4bf9826f64359c468d624ab2/foto-1-de-apartamento-com-2-quartos-para-alugar,-43-em-parque-dois-irmãos,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-parque-dois-irmaos-bairros-fortaleza-com-garagem-43m2-aluguel-RS1000-id-2684577108/",
+          "valor_aluguel": 2350,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
-            "Aceita animais",
             "Varanda gourmet",
-            "Quadra poliesportiva",
-            "..."
+            "Quadra poliesportiva"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 43m² em Parque Dois Irmãos, Fortaleza",
           "coords": {
@@ -1866,16 +1635,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Engenheiro Leal Lima Verde, 1401 - JOSE DE ALENCAR, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": 5,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 55,
-          "valor_aluguel": "1.650",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/c674773421fe69e8a01155a86fbe4688/foto-1-de-ponto-comercial-para-alugar,-55-em-jose-de-alencar,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-jose-de-alencar-bairros-fortaleza-com-garagem-55m2-aluguel-RS1650-id-2684199134/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1350,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 55m² em JOSE DE ALENCAR, Fortaleza",
           "coords": {
             "lat": -3.802248,
@@ -1885,19 +1650,17 @@ export class LocationsService {
         {
           "endereco": "Rua Coronel Jucá, 960 - Aldeota, Fortaleza - CE",
           "quartos": 4,
-          "banheiros": 5,
-          "vagas": null,
+          "banheiros": 3,
+          "vagas": 1,
           "area": 200,
-          "valor_aluguel": "5.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/2c07e07f87dcec13ed7e476e41d911fe/foto-1-de-apartamento-com-4-quartos-para-alugar,-200-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-4-quartos-aldeota-bairros-fortaleza-200m2-aluguel-RS5000-id-2684878003/",
+          "valor_aluguel": 4150,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
           "amenidades": [
             "Piscina",
             "Mobiliado",
             "Churrasqueira",
             "Academia",
-            "Playground",
-            "..."
+            "Playground"
           ],
           "descricao": "Apartamento com 4 Quartos para alugar, 200m² em Aldeota, Fortaleza",
           "coords": {
@@ -1907,16 +1670,10 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Beatriz Segal, 0 - Barroso, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
           "area": 396,
-          "valor_aluguel": "1.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/aed4aff1f5555bb13a1c9d93e145c5a5/foto-1-de-lote/terreno-para-alugar,-396-em-barroso,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-barroso-bairros-fortaleza-396m2-aluguel-RS1000-id-2629140392/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3950,
+          "url_imagem": "../assets/img/properties/ground2.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar, 396m² em Barroso, Fortaleza",
           "coords": {
             "lat": -3.7994272,
@@ -1927,14 +1684,11 @@ export class LocationsService {
           "endereco": "Avenida Engenheiro Alberto Sá, 705 - Papicu, Fortaleza - CE",
           "quartos": 2,
           "banheiros": 2,
-          "vagas": 1,
+          "vagas": 2,
           "area": 53,
-          "valor_aluguel": "1.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/3589395d1c5daf00f8a9be7f4aafe644/foto-1-de-ponto-comercial-com-2-quartos-para-alugar,-53-em-papicu,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-2-quartos-papicu-bairros-fortaleza-com-garagem-53m2-aluguel-RS1200-id-2681032903/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4900,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial com 2 Quartos para alugar, 53m² em Papicu, Fortaleza",
           "coords": {
             "lat": -3.7348957,
@@ -1947,16 +1701,14 @@ export class LocationsService {
           "banheiros": 2,
           "vagas": 1,
           "area": 55,
-          "valor_aluguel": "1.800",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/385c531e97a372e9aef07a998f09e81e/foto-1-de-apartamento-com-2-quartos-para-alugar,-55-em-passaré,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-passare-bairros-fortaleza-com-garagem-55m2-aluguel-RS1800-id-2684483384/",
+          "valor_aluguel": 2150,
+          "url_imagem": "../assets/img/properties/apartament5.jpg",
           "amenidades": [
             "Piscina",
             "Mobiliado",
             "Churrasqueira",
             "Elevador",
-            "Condomínio fechado",
-            "..."
+            "Condomínio fechado"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 55m² em Passaré, Fortaleza",
           "coords": {
@@ -1967,19 +1719,16 @@ export class LocationsService {
         {
           "endereco": "Rua Suíça, 320 - Maraponga, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 2,
-          "vagas": 1,
+          "banheiros": 3,
+          "vagas": 2,
           "area": 60,
-          "valor_aluguel": "1.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/c735a0de13d8051e58d396b7291118d3/foto-1-de-apartamento-com-3-quartos-para-alugar,-60-em-maraponga,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-maraponga-bairros-fortaleza-com-garagem-60m2-aluguel-RS1000-id-2677895081/",
+          "valor_aluguel": 2750,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Elevador",
             "Condomínio fechado",
-            "Aceita animais",
             "Jardim",
-            "Área de serviço",
-            "..."
+            "Área de serviço"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 60m² em Maraponga, Fortaleza",
           "coords": {
@@ -1991,16 +1740,14 @@ export class LocationsService {
           "endereco": "Rua Princesa Isabel, 27 - Centro, Fortaleza - CE",
           "quartos": 2,
           "banheiros": 2,
-          "vagas": 1,
+          "vagas": 2,
           "area": 60,
-          "valor_aluguel": "1.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/cbeb3578735a820f4627d7da089a4153/foto-1-de-apartamento-com-2-quartos-para-alugar,-60-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-centro-bairros-fortaleza-com-garagem-60m2-aluguel-RS1200-id-2684474729/",
+          "valor_aluguel": 2300,
+          "url_imagem": "../assets/img/properties/apartament5.jpg",
           "amenidades": [
             "Condomínio fechado",
             "Portão eletrônico",
             "Portaria 24h",
-            "Aceita animais",
             "Cozinha americana"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 60m² em Centro, Fortaleza",
@@ -2012,19 +1759,16 @@ export class LocationsService {
         {
           "endereco": "Avenida Rogaciano Leite, 900 - Salinas, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 4,
+          "banheiros": 2,
           "vagas": 2,
           "area": 112,
-          "valor_aluguel": "3.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/969b10976920026f89ade89c2c707751/foto-1-de-apartamento-com-3-quartos-para-alugar,-112-em-salinas,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-salinas-bairros-fortaleza-com-garagem-112m2-aluguel-RS3500-id-2675571825/",
+          "valor_aluguel": 1050,
+          "url_imagem": "../assets/img/properties/apartament5.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
-            "Aceita animais",
-            "Área de serviço",
-            "..."
+            "Área de serviço"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 112m² em Salinas, Fortaleza",
           "coords": {
@@ -2034,13 +1778,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua General Sampaio, 1746 - Centro, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 20,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 5493,
-          "valor_aluguel": "80.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/517f9e0348b9b9176b5a15520eec0f57/foto-1-de-prédio-comercial-para-alugar,-5493-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/predio-comercial-centro-bairros-fortaleza-5493m2-aluguel-RS80000-id-2659104186/",
+          "valor_aluguel": 4200,
+          "url_imagem": "../assets/img/properties/office3.jpg",
           "amenidades": [
             "Copa"
           ],
@@ -2053,12 +1795,11 @@ export class LocationsService {
         {
           "endereco": "Rua Paulo Faustino, 181 - Engenheiro Luciano Cavalcante, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 2,
+          "banheiros": 3,
           "vagas": 1,
           "area": 75,
-          "valor_aluguel": "1.450",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/3922bf2b284600c5afa46dd171c461b8/foto-1-de-apartamento-com-3-quartos-para-alugar,-75-em-engenheiro-luciano-cavalcante,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-engenheiro-luciano-cavalcante-bairros-fortaleza-com-garagem-75m2-aluguel-RS1450-id-2684517111/",
+          "valor_aluguel": 3350,
+          "url_imagem": "../assets/img/properties/apartament5.jpg",
           "amenidades": [
             "Área de serviço"
           ],
@@ -2070,13 +1811,11 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Washington Soares, 3663 - Edson Queiroz, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": 1,
+          "vagas": 2,
           "area": 30,
-          "valor_aluguel": "2.600",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/d9f5fbbf1c204736567e0d0def0e326d/foto-1-de-sala-comercial-para-alugar,-30-em-edson-queiroz,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-edson-queiroz-bairros-fortaleza-com-garagem-30m2-aluguel-RS2600-id-2684738698/",
+          "valor_aluguel": 3250,
+          "url_imagem": "../assets/img/properties/office2.jpg",
           "amenidades": [
             "Garagem",
             "Cozinha",
@@ -2091,18 +1830,17 @@ export class LocationsService {
         {
           "endereco": "Rua Monsenhor Liberato, 1815 - Fátima, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 3,
-          "vagas": 2,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 60,
-          "valor_aluguel": "1.700",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/baebe1a3d6fbdfd0896af41f2eb3a1df/foto-1-de-casa-com-3-quartos-para-alugar,-60-em-fátima,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-3-quartos-fatima-bairros-fortaleza-com-garagem-60m2-aluguel-RS1700-id-2658411013/",
+          "valor_aluguel": 3650,
+          "url_imagem": "../assets/img/properties/house1.jpg",
           "amenidades": [
             "Área de serviço",
             "Box blindex",
             "Interfone",
-            "Quintal",
-            "Aceita animais"
+            ,
+
           ],
           "descricao": "Casa com 3 Quartos para alugar, 60m² em Fátima, Fortaleza",
           "coords": {
@@ -2116,9 +1854,8 @@ export class LocationsService {
           "banheiros": 2,
           "vagas": 1,
           "area": 53,
-          "valor_aluguel": "1.100",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/9dc3320e6a9d98f532a7ac0041cb87f8/foto-1-de-apartamento-com-2-quartos-para-alugar,-53-em-vicente-pinzon,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-vicente-pinzon-bairros-fortaleza-com-garagem-53m2-aluguel-RS1100-id-2684628632/",
+          "valor_aluguel": 1850,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Elevador",
             "Piscina",
@@ -2135,19 +1872,16 @@ export class LocationsService {
         {
           "endereco": "Avenida Juscelino Kubitschek, 4950 - Passaré, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": 1,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 50,
-          "valor_aluguel": "1.100",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/1b65f40e7340ecfc646640a15f01b159/foto-1-de-apartamento-com-2-quartos-para-alugar,-50-em-passaré,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-passare-bairros-fortaleza-com-garagem-50m2-aluguel-RS1100-id-2673761991/",
+          "valor_aluguel": 2750,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Piscina",
             "Condomínio fechado",
             "Academia",
-            "Aceita animais",
-            "Jardim",
-            "..."
+            "Jardim"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 50m² em Passaré, Fortaleza",
           "coords": {
@@ -2159,18 +1893,16 @@ export class LocationsService {
           "endereco": "Centro, Fortaleza - CE",
           "quartos": 2,
           "banheiros": 2,
-          "vagas": null,
+          "vagas": 1,
           "area": 50,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/9a829d7ad3e16538ab26fdb5397bb521/foto-1-de-apartamento-com-2-quartos-para-alugar,-50-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-centro-bairros-fortaleza-50m2-aluguel-RS850-id-2684437633/",
+          "valor_aluguel": 3350,
+          "url_imagem": "../assets/img/properties/apartament5.jpg",
           "amenidades": [
             "Varanda",
             "Área de serviço",
             "Armário na cozinha",
             "Cozinha",
-            "Interfone",
-            "..."
+            "Interfone"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 50m² em Centro, Fortaleza",
           "coords": {
@@ -2180,13 +1912,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Barão do Rio Branco, 1071 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 40,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/bd74b107b5a0ee4e7f9b99829394f7bc/foto-1-de-sala-comercial-para-alugar,-40-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-40m2-aluguel-RS350-id-2530359570/",
+          "valor_aluguel": 3100,
+          "url_imagem": "../assets/img/properties/office2.jpg",
           "amenidades": [
             "Cozinha",
             "Segurança 24h",
@@ -2200,16 +1930,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 304 - Centro, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 30,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/37d88609e70f10c01e7faaa058de8a24/foto-1-de-imóvel-comercial-para-alugar,-30-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/imovel-comercial-centro-bairros-fortaleza-30m2-aluguel-RS600-id-2682682959/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1350,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Imóvel Comercial para alugar, 30m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7291185,
@@ -2218,16 +1944,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pedro Borges, 33 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 34,
-          "valor_aluguel": null,
-          "url_imagem": null,
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-34m2-venda-RS90000-id-2624365914/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2650,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para venda ou aluguel, 34m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7279488,
@@ -2237,19 +1959,16 @@ export class LocationsService {
         {
           "endereco": "Avenida Santos Dumont, 6997 - Papicu, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 3,
-          "vagas": 1,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 100,
-          "valor_aluguel": "1.600",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/3355f28399b035e1652f7968a1c58a9e/foto-1-de-apartamento-com-2-quartos-para-alugar,-100-em-papicu,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-papicu-bairros-fortaleza-com-garagem-100m2-aluguel-RS1600-id-2684591028/",
+          "valor_aluguel": 750,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Elevador",
             "Condomínio fechado",
-            "Aceita animais",
             "Jardim",
-            "Playground",
-            "..."
+            "Playground"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 100m² em Papicu, Fortaleza",
           "coords": {
@@ -2259,16 +1978,10 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Visconde de Mauá, 530 - Meireles, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
           "area": 8,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/336d50229c7490058bf1985cb97f2778/foto-1-de-lote/terreno-para-alugar,-8-em-meireles,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-meireles-bairros-fortaleza-8m2-aluguel-RS200-id-2682679108/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2950,
+          "url_imagem": "../assets/img/properties/ground1.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar, 8m² em Meireles, Fortaleza",
           "coords": {
             "lat": -3.7305609,
@@ -2278,12 +1991,11 @@ export class LocationsService {
         {
           "endereco": "Rua Waldery Uchôa - Benfica, Fortaleza - CE",
           "quartos": 4,
-          "banheiros": 1,
-          "vagas": 1,
+          "banheiros": 3,
+          "vagas": 2,
           "area": 120,
-          "valor_aluguel": "1.550",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/a55ec77a33b28ce755e96fa36ef95517/foto-1-de-casa-com-4-quartos-para-alugar,-120-em-benfica,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-4-quartos-benfica-bairros-fortaleza-com-garagem-120m2-aluguel-RS1550-id-2684406870/",
+          "valor_aluguel": 1000,
+          "url_imagem": "../assets/img/properties/house5.jpg",
           "amenidades": [
             "Garagem",
             "Cozinha"
@@ -2298,11 +2010,10 @@ export class LocationsService {
           "endereco": "Avenida Alberto Craveiro, 1240 - Dias Macedo, Fortaleza - CE",
           "quartos": 2,
           "banheiros": 2,
-          "vagas": 1,
+          "vagas": 2,
           "area": 55,
-          "valor_aluguel": "1.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/49b269c3eee13d63d8da40a9fbcd59db/foto-1-de-apartamento-com-2-quartos-para-alugar,-55-em-dias-macedo,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-dias-macedo-bairros-fortaleza-com-garagem-55m2-aluguel-RS1200-id-2684632103/",
+          "valor_aluguel": 1350,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
           "amenidades": [
             "Piscina",
             "Salão de festas",
@@ -2318,13 +2029,11 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida da Abolição, 2950 - Meireles, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 45,
-          "valor_aluguel": "1.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/b2aea0b7320f1a695d594369bd8f9228/foto-1-de-ponto-comercial-para-alugar,-45-em-meireles,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-meireles-bairros-fortaleza-45m2-aluguel-RS1500-id-2659904068/",
+          "valor_aluguel": 3600,
+          "url_imagem": "../assets/img/properties/office2.jpg",
           "amenidades": [
             "Condomínio fechado"
           ],
@@ -2336,16 +2045,10 @@ export class LocationsService {
         },
         {
           "endereco": "Estrada de Ferro, 0 - Maraponga, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
           "area": 1300,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/7190c60d909545065ee984c4db54e2a8/foto-1-de-lote/terreno-para-alugar,-1300-em-maraponga,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-maraponga-bairros-fortaleza-1300m2-aluguel-RS800-id-2672795083/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3250,
+          "url_imagem": "../assets/img/properties/ground3.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar, 1300m² em Maraponga, Fortaleza",
           "coords": {
             "lat": -3.8209388,
@@ -2358,16 +2061,13 @@ export class LocationsService {
           "banheiros": 3,
           "vagas": 2,
           "area": 120,
-          "valor_aluguel": "1.400",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/93775309210fc493febc1de17090d737/foto-1-de-apartamento-com-3-quartos-para-alugar,-120-em-paupina,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-paupina-bairros-fortaleza-com-garagem-120m2-aluguel-RS1400-id-2680978123/",
+          "valor_aluguel": 4850,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Condomínio fechado",
-            "Aceita animais",
-            "Jardim",
-            "..."
+            "Jardim"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 120m² em Paupina, Fortaleza",
           "coords": {
@@ -2377,13 +2077,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua República do Líbano, 1200 - Varjota, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 6,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 400,
-          "valor_aluguel": "9.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/7f1a0effed6c2f9c2bd1ca1c2eb42cbf/foto-1-de-ponto-comercial-para-alugar,-400-em-varjota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-varjota-bairros-fortaleza-400m2-aluguel-RS9500-id-2678321198/",
+          "valor_aluguel": 2350,
+          "url_imagem": "../assets/img/properties/office2.jpg",
           "amenidades": [
             "Área de serviço"
           ],
@@ -2397,18 +2095,15 @@ export class LocationsService {
           "endereco": "Avenida Luciano Carneiro, 869 - Fátima, Fortaleza - CE",
           "quartos": 3,
           "banheiros": 2,
-          "vagas": 1,
+          "vagas": 2,
           "area": 110,
-          "valor_aluguel": "1.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/5afbc4b5c80e53e0d1a613a2082448af/foto-1-de-apartamento-com-3-quartos-para-alugar,-110-em-fátima,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-fatima-bairros-fortaleza-com-garagem-110m2-aluguel-RS1200-id-2683698727/",
+          "valor_aluguel": 4300,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
           "amenidades": [
             "Condomínio fechado",
             "Varanda",
-            "Aceita animais",
             "Área de serviço",
-            "Portaria 24h",
-            "..."
+            "Portaria 24h"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 110m² em Fátima, Fortaleza",
           "coords": {
@@ -2418,16 +2113,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Professor Jacinto Botelho, 75 - Guararapes, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 50,
-          "valor_aluguel": "2.300",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/34c8b4ecab40ee88660b0199786c2ff2/foto-1-de-ponto-comercial-para-alugar,-50-em-guararapes,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-guararapes-bairros-fortaleza-50m2-aluguel-RS2300-id-2681918411/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 950,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 50m² em Guararapes, Fortaleza",
           "coords": {
             "lat": -3.757879,
@@ -2437,15 +2128,12 @@ export class LocationsService {
         {
           "endereco": "Rua Carlos Vasconcelos, 617 - Meireles, Fortaleza - CE",
           "quartos": 4,
-          "banheiros": 5,
-          "vagas": 5,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 225,
-          "valor_aluguel": "11.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/8e617cb88522bf6a7c52278bbb8bbe4a/foto-1-de-apartamento-com-4-quartos-para-alugar,-225-em-meireles,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-4-quartos-meireles-bairros-fortaleza-com-garagem-225m2-aluguel-RS11000-id-2683956439/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1600,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
+          "amenidades": [],
           "descricao": "Apartamento com 4 Quartos para alugar, 225m² em Meireles, Fortaleza",
           "coords": {
             "lat": -3.7277308,
@@ -2455,15 +2143,12 @@ export class LocationsService {
         {
           "endereco": "Rua da Assunção, 944 - Centro, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 41,
-          "valor_aluguel": "1.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/9843cb59e640bd071ef0f0931e2277d7/foto-1-de-apartamento-com-2-quartos-para-alugar,-41-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-centro-bairros-fortaleza-41m2-aluguel-RS1000-id-2684520105/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4400,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
+          "amenidades": [],
           "descricao": "Apartamento com 2 Quartos para alugar, 41m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7381767,
@@ -2472,16 +2157,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Paulo Mendes, 155 - Praia do Futuro, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 2,
+          "banheiros": 1,
           "vagas": 1,
           "area": 98,
-          "valor_aluguel": "1.100",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/da28070b27aed9bdb78b3133aed883bd/foto-1-de-ponto-comercial-para-alugar,-98-em-praia-do-futuro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-praia-do-futuro-bairros-fortaleza-com-garagem-98m2-aluguel-RS1100-id-2582780154/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 950,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 98m² em Praia do Futuro, Fortaleza",
           "coords": {
             "lat": -3.7492867,
@@ -2491,12 +2172,11 @@ export class LocationsService {
         {
           "endereco": "Rua Álvaro Bomilcar, 3873 - Tauape, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": 1,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 80,
-          "valor_aluguel": "1.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/a090ec623eba5e5f74ef423e127e7306/foto-1-de-apartamento-com-2-quartos-para-alugar,-80-em-tauape,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-tauape-bairros-fortaleza-com-garagem-80m2-aluguel-RS1200-id-2682138906/",
+          "valor_aluguel": 3350,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Varanda",
             "Garagem",
@@ -2512,16 +2192,10 @@ export class LocationsService {
         },
         {
           "endereco": "Rua H, 0 - Parque Dois Irmãos, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
           "area": 438,
-          "valor_aluguel": "1.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/2e8200a92c2e3dbc71c74dbcdc3d100a/foto-1-de-lote/terreno-para-alugar,-438-em-parque-dois-irmãos,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-parque-dois-irmaos-bairros-fortaleza-438m2-aluguel-RS1200-id-2672791894/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1250,
+          "url_imagem": "../assets/img/properties/ground3.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar, 438m² em Parque Dois Irmãos, Fortaleza",
           "coords": {
             "lat": -3.8010167,
@@ -2530,13 +2204,11 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Américo Barreira, 909 - Demócrito Rocha, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 2,
-          "vagas": 5,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 360,
-          "valor_aluguel": "5.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/41b1568a431446bfaebabff7d3c45c24/foto-1-de-galpão/depósito/armazém-para-alugar,-360-em-demócrito-rocha,-fortaleza.jpg",
-          "url_detalhes": "/imovel/galpao-deposito-armazem-democrito-rocha-bairros-fortaleza-com-garagem-360m2-aluguel-RS5500-id-2674927699/",
+          "valor_aluguel": 2900,
+          "url_imagem": "../assets/img/properties/storage1.jpg",
           "amenidades": [
             "Rampa",
             "Acesso para deficientes",
@@ -2552,15 +2224,12 @@ export class LocationsService {
         {
           "endereco": "Rua Pereira Filgueiras, 149 - Centro, Fortaleza - CE",
           "quartos": 1,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 55,
-          "valor_aluguel": "1.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/d9fd72bfbfcbd8e5bd7121ba50d5713a/foto-1-de-casa-com-1-quarto-para-alugar,-55-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-1-quartos-centro-bairros-fortaleza-55m2-aluguel-RS1000-id-2684409535/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2550,
+          "url_imagem": "../assets/img/properties/house5.jpg",
+          "amenidades": [],
           "descricao": "Casa com 1 Quarto para alugar, 55m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.72564,
@@ -2570,12 +2239,11 @@ export class LocationsService {
         {
           "endereco": "Avenida da Abolição, 2021 - Meireles, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 4,
-          "vagas": 2,
+          "banheiros": 3,
+          "vagas": 1,
           "area": 144,
-          "valor_aluguel": "7.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/cebbeb5240a70f19291da0c715009568/foto-1-de-apartamento-com-3-quartos-para-alugar,-144-em-meireles,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-meireles-bairros-fortaleza-com-garagem-144m2-aluguel-RS7500-id-2684518712/",
+          "valor_aluguel": 3500,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Ar-condicionado",
             "Área de serviço",
@@ -2590,16 +2258,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Azevedo Bolão, 1290 - Parquelândia, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 50,
-          "valor_aluguel": "1.300",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/4e38f6b3e927dd8097b0fa65f60820f3/foto-1-de-ponto-comercial-para-alugar,-50-em-parquelândia,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-parquelandia-bairros-fortaleza-50m2-aluguel-RS1300-id-2684397941/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 900,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 50m² em Parquelândia, Fortaleza",
           "coords": {
             "lat": -3.736308,
@@ -2609,19 +2273,17 @@ export class LocationsService {
         {
           "endereco": "Rua Andrade Furtado, 1179 - Cocó, Fortaleza - CE",
           "quartos": 4,
-          "banheiros": 6,
-          "vagas": 3,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 178,
-          "valor_aluguel": "5.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/0166b899cc0f957a8d356b88f3e87155/foto-1-de-apartamento-com-4-quartos-para-alugar,-178-em-cocó,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-4-quartos-coco-bairros-fortaleza-com-garagem-178m2-aluguel-RS5500-id-2684628608/",
+          "valor_aluguel": 850,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Academia",
             "Espaço gourmet",
-            "Ar-condicionado",
-            "..."
+            "Ar-condicionado"
           ],
           "descricao": "Apartamento com 4 Quartos para alugar, 178m² em Cocó, Fortaleza",
           "coords": {
@@ -2631,16 +2293,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pedro Borges, 30 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 40,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/9594780f76930c6244d09b6b69656f15/foto-1-de-sala-comercial-para-alugar,-40-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-40m2-aluguel-RS800-id-2646364170/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2400,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 40m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.728075,
@@ -2650,17 +2308,16 @@ export class LocationsService {
         {
           "endereco": "Rua 101 - Novo Mondubim, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": 1,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 41,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/56cef83022587dcc9a1d0179e11a1b47/foto-1-de-apartamento-com-2-quartos-para-venda-ou-aluguel,-41-em-novo-mondubim,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-novo-mondubim-bairros-fortaleza-com-garagem-41m2-venda-RS120000-id-2668724902/",
+          "valor_aluguel": 1050,
+          "url_imagem": "../assets/img/properties/apartament5.jpg",
           "amenidades": [
             "Churrasqueira",
             "Interfone",
             "Quadra poliesportiva",
-            "Aceita animais"
+
           ],
           "descricao": "Apartamento com 2 Quartos para venda ou aluguel, 41m² em Novo Mondubim, Fortaleza",
           "coords": {
@@ -2671,12 +2328,11 @@ export class LocationsService {
         {
           "endereco": "Rua das Oiticicas, 111 - Passaré, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 1,
           "area": 47,
-          "valor_aluguel": "1.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/a20150c8f51ced96f7d631358c3a950b/foto-1-de-apartamento-com-2-quartos-para-alugar,-47-em-passaré,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-passare-bairros-fortaleza-com-garagem-47m2-aluguel-RS1200-id-2682201396/",
+          "valor_aluguel": 800,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
           "amenidades": [
             "Churrasqueira",
             "Piscina"
@@ -2690,19 +2346,16 @@ export class LocationsService {
         {
           "endereco": "Rua Doutor Salustio de Pinho, 1 - Praia do Futuro II, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 2,
+          "banheiros": 3,
           "vagas": 1,
           "area": 200,
-          "valor_aluguel": "2.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/ff2f1852fcb89c9cead763aff1f3a77e/foto-1-de-casa-de-condomínio-com-3-quartos-para-alugar,-200-em-praia-do-futuro-ii,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-de-condominio-3-quartos-praia-do-futuro-ii-bairros-fortaleza-com-garagem-200m2-aluguel-RS2500-id-2664165403/",
+          "valor_aluguel": 3000,
+          "url_imagem": "../assets/img/properties/house4.jpg",
           "amenidades": [
             "Piscina",
             "Condomínio fechado",
             "Varanda",
-            "Aceita animais",
-            "Jardim",
-            "..."
+            "Jardim"
           ],
           "descricao": "Casa de Condomínio com 3 Quartos para alugar, 200m² em Praia do Futuro II, Fortaleza",
           "coords": {
@@ -2712,13 +2365,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Senador Pompeu, 649 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 23,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/1957ccadb915262e563085502ae84f98/foto-1-de-sala-comercial-para-alugar,-23-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-23m2-aluguel-RS600-id-2661379813/",
+          "valor_aluguel": 3700,
+          "url_imagem": "../assets/img/properties/office2.jpg",
           "amenidades": [
             "Cozinha",
             "Segurança 24h",
@@ -2734,19 +2385,16 @@ export class LocationsService {
         {
           "endereco": "Rua do Parque, 333 - Cambeba, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 2,
+          "banheiros": 3,
           "vagas": 2,
           "area": 70,
-          "valor_aluguel": "2.900",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/57974f8082264e21121355bdf167f51a/foto-1-de-apartamento-com-3-quartos-para-alugar,-70-em-cambeba,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-cambeba-bairros-fortaleza-com-garagem-70m2-aluguel-RS2900-id-2681779000/",
+          "valor_aluguel": 2400,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
-            "Condomínio fechado",
-            "Aceita animais",
-            "..."
+            "Condomínio fechado"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 70m² em Cambeba, Fortaleza",
           "coords": {
@@ -2757,12 +2405,11 @@ export class LocationsService {
         {
           "endereco": "Antônio Bezerra, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 40,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/007f3a9c14445b235ab6d84f5b84a6ca/foto-1-de-apartamento-com-2-quartos-para-alugar,-40-em-antônio-bezerra,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-antonio-bezerra-bairros-fortaleza-40m2-aluguel-RS880-id-2684430827/",
+          "valor_aluguel": 4750,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Lavanderia",
             "Sala de jantar",
@@ -2777,15 +2424,12 @@ export class LocationsService {
         {
           "endereco": "Avenida Dom Manuel, 259 - Centro, Fortaleza - CE",
           "quartos": 1,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 22,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/2bab2259207fca02dd562878fe4d8283/foto-1-de-kitnet-com-1-quarto-para-alugar,-22-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/kitnet-1-quartos-centro-bairros-fortaleza-22m2-aluguel-RS300-id-2684240737/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4250,
+          "url_imagem": "",
+          "amenidades": [],
           "descricao": "Kitnet com 1 Quarto para alugar, 22m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7264458,
@@ -2794,16 +2438,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pedro Borges, 20 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 75,
-          "valor_aluguel": "1.434",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/cc068260f6c05c394769a480f6a06ec2/foto-1-de-sala-comercial-para-alugar,-75-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-75m2-aluguel-RS1434-id-2561791253/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4750,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 75m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7282492,
@@ -2816,16 +2456,13 @@ export class LocationsService {
           "banheiros": 2,
           "vagas": 1,
           "area": 42,
-          "valor_aluguel": "1.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/3383f3f7ee68794e219fab2460c802da/foto-1-de-apartamento-com-2-quartos-para-alugar,-42-em-barroso,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-barroso-bairros-fortaleza-com-garagem-42m2-aluguel-RS1000-id-2684139560/",
+          "valor_aluguel": 1200,
+          "url_imagem": "../assets/img/properties/apartament5.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
-            "Aceita animais",
-            "Garagem",
-            "..."
+            "Garagem"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 42m² em Barroso, Fortaleza",
           "coords": {
@@ -2836,15 +2473,14 @@ export class LocationsService {
         {
           "endereco": "Rua Mucambinho - Barroso, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 1,
           "area": 45,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/f641d6a1159961fcb870e1a27a0e79b7/foto-1-de-apartamento-com-2-quartos-para-alugar,-45-em-barroso,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-barroso-bairros-fortaleza-com-garagem-45m2-aluguel-RS900-id-2681989328/",
+          "valor_aluguel": 3100,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
           "amenidades": [
             "Interfone",
-            "Aceita animais"
+
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 45m² em Barroso, Fortaleza",
           "coords": {
@@ -2855,19 +2491,16 @@ export class LocationsService {
         {
           "endereco": "Rua C, 105 - Parque Dois Irmãos, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": 1,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 44,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/7f9938513c824b440f60c5b981383a64/foto-1-de-apartamento-com-2-quartos-para-alugar,-44-em-parque-dois-irmãos,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-parque-dois-irmaos-bairros-fortaleza-com-garagem-44m2-aluguel-RS800-id-2608979675/",
+          "valor_aluguel": 1000,
+          "url_imagem": "../assets/img/properties/apartament5.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
-            "Aceita animais",
             "Garagem",
-            "Área de serviço",
-            "..."
+            "Área de serviço"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 44m² em Parque Dois Irmãos, Fortaleza",
           "coords": {
@@ -2881,9 +2514,8 @@ export class LocationsService {
           "banheiros": 3,
           "vagas": 2,
           "area": 118,
-          "valor_aluguel": "2.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/4ba82d0165b60016a142de04e4be873a/foto-1-de-apartamento-com-3-quartos-para-alugar,-118-em-cocó,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-coco-bairros-fortaleza-com-garagem-118m2-aluguel-RS2000-id-2641104237/",
+          "valor_aluguel": 1200,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
           "amenidades": [
             "Elevador",
             "Condomínio fechado",
@@ -2899,12 +2531,11 @@ export class LocationsService {
         {
           "endereco": "Alameda Maria Doralice, 209 - Cidade 2000, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 54,
-          "valor_aluguel": "1.400",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/cda03429dd7ee44ccb1b0516dca95b20/foto-1-de-casa-com-2-quartos-para-alugar,-54-em-cidade-2000,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-2-quartos-cidade-2000-bairros-fortaleza-54m2-aluguel-RS1400-id-2684293620/",
+          "valor_aluguel": 3050,
+          "url_imagem": "../assets/img/properties/house5.jpg",
           "amenidades": [
             "Copa",
             "Área de serviço"
@@ -2917,16 +2548,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Guilherme Rocha, 459 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 44,
-          "valor_aluguel": "3.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/8a1ad59ad147c8498874fe68cecea7ca/foto-1-de-ponto-comercial-para-alugar,-44-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-centro-bairros-fortaleza-44m2-aluguel-RS3000-id-2655309514/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1350,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 44m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7264026,
@@ -2936,15 +2563,12 @@ export class LocationsService {
         {
           "endereco": "Rua Justiniano de Serpa, 268 - Farias Brito, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 60,
-          "valor_aluguel": "1.000",
-          "url_imagem": null,
-          "url_detalhes": "/imovel/apartamento-2-quartos-farias-brito-bairros-fortaleza-60m2-aluguel-RS1000-id-2684621415/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4500,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
+          "amenidades": [],
           "descricao": "Apartamento com 2 Quartos para alugar, 60m² em Farias Brito, Fortaleza",
           "coords": {
             "lat": -3.7335104,
@@ -2954,19 +2578,17 @@ export class LocationsService {
         {
           "endereco": "Avenida da Saudade, 95 - Passaré, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 2,
+          "banheiros": 3,
           "vagas": 2,
           "area": 60,
-          "valor_aluguel": "1.840",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/57221d852489e8186252e1c090710c71/foto-1-de-apartamento-com-3-quartos-para-alugar,-60-em-passaré,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-passare-bairros-fortaleza-com-garagem-60m2-aluguel-RS1840-id-2644301666/",
+          "valor_aluguel": 1300,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Condomínio fechado",
             "Varanda",
-            "Academia",
-            "..."
+            "Academia"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 60m² em Passaré, Fortaleza",
           "coords": {
@@ -2977,12 +2599,11 @@ export class LocationsService {
         {
           "endereco": "Rua Padre Pedro de Alencar, 1662 - Messejana, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 1,
           "area": 60,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/529dca75a3bb314240f8f7b57274d2a6/foto-1-de-apartamento-com-3-quartos-para-alugar,-60-em-messejana,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-messejana-bairros-fortaleza-com-garagem-60m2-aluguel-RS800-id-2684735496/",
+          "valor_aluguel": 3750,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
@@ -3000,16 +2621,14 @@ export class LocationsService {
           "banheiros": 2,
           "vagas": 1,
           "area": 160,
-          "valor_aluguel": "2.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/cd3768d7c25b344b8e31d160b83a87e7/foto-1-de-casa-de-condomínio-com-2-quartos-para-alugar,-160-em-praia-do-futuro-ii,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-de-condominio-2-quartos-praia-do-futuro-ii-bairros-fortaleza-com-garagem-160m2-aluguel-RS2000-id-2664394600/",
+          "valor_aluguel": 4150,
+          "url_imagem": "../assets/img/properties/house3.jpg",
           "amenidades": [
             "Piscina",
             "Condomínio fechado",
             "Jardim",
             "Área de serviço",
-            "Portaria 24h",
-            "..."
+            "Portaria 24h"
           ],
           "descricao": "Casa de Condomínio com 2 Quartos para alugar, 160m² em Praia do Futuro II, Fortaleza",
           "coords": {
@@ -3020,19 +2639,17 @@ export class LocationsService {
         {
           "endereco": "Rua Hil de Moraes, 12 - Guararapes, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 2,
+          "banheiros": 3,
           "vagas": 2,
           "area": 70,
-          "valor_aluguel": "3.100",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/40f9484d507de8e6bf99b7ebbd06434d/foto-1-de-apartamento-com-3-quartos-para-alugar,-70-em-guararapes,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-guararapes-bairros-fortaleza-com-garagem-70m2-aluguel-RS3100-id-2575126594/",
+          "valor_aluguel": 4800,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
             "Condomínio fechado",
-            "Varanda",
-            "..."
+            "Varanda"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 70m² em Guararapes, Fortaleza",
           "coords": {
@@ -3042,16 +2659,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Guilherme Rocha, 381 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 76,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/562de7287992cc57b665a87d231c5fbc/foto-1-de-sala-comercial-para-alugar,-76-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-76m2-aluguel-RS250-id-2566172878/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4100,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 76m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7265229,
@@ -3061,15 +2674,12 @@ export class LocationsService {
         {
           "endereco": "Rua Pereira Filgueiras, 778 - Centro, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 3,
+          "banheiros": 2,
           "vagas": 1,
           "area": 142,
-          "valor_aluguel": "2.300",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/ce2898dfe4e86aafe507f0ca59578c5e/foto-1-de-casa-com-2-quartos-para-alugar,-142-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-2-quartos-centro-bairros-fortaleza-com-garagem-142m2-aluguel-RS2300-id-2684411540/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1050,
+          "url_imagem": "../assets/img/properties/house5.jpg",
+          "amenidades": [],
           "descricao": "Casa com 2 Quartos para alugar, 142m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7275622,
@@ -3078,16 +2688,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Alcântara Bilhar, 4174 Altos - Padre Andrade, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 35,
-          "valor_aluguel": "1.300",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/553f0d2b50b87f1653c5e16887fdd133/foto-1-de-ponto-comercial-para-alugar,-35-em-padre-andrade,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-padre-andrade-bairros-fortaleza-35m2-aluguel-RS1300-id-2684396349/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2850,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 35m² em Padre Andrade, Fortaleza",
           "coords": {
             "lat": -3.7370093,
@@ -3096,16 +2702,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pedro Borges, 20 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 75,
-          "valor_aluguel": "1.434",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/6906a40f982bc393f868ce0668566e8e/foto-1-de-sala-comercial-para-alugar,-75-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-75m2-aluguel-RS1434-id-2547859694/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4900,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 75m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7282492,
@@ -3115,12 +2717,11 @@ export class LocationsService {
         {
           "endereco": "Rua Zacarias Gondim, 54 - Montese, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 40,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/bbaf1851bfef366dffe3c6eefa91c83b/foto-1-de-apartamento-com-2-quartos-para-alugar,-40-em-montese,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-montese-bairros-fortaleza-40m2-aluguel-RS760-id-2684637223/",
+          "valor_aluguel": 3050,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
           "amenidades": [
             "Cozinha",
             "Condomínio fechado"
@@ -3134,12 +2735,11 @@ export class LocationsService {
         {
           "endereco": "Avenida João Pessoa, 4693 - Damas, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 3,
+          "banheiros": 2,
           "vagas": 1,
           "area": 100,
-          "valor_aluguel": "1.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/d3276593b0ab80902e87a98b37c76227/foto-1-de-apartamento-com-3-quartos-para-alugar,-100-em-damas,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-damas-bairros-fortaleza-com-garagem-100m2-aluguel-RS1500-id-2684640596/",
+          "valor_aluguel": 1450,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Garagem",
             "Cozinha",
@@ -3154,15 +2754,12 @@ export class LocationsService {
         {
           "endereco": "Rua José Vilar, 267 - Meireles, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 4,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 65,
-          "valor_aluguel": "2.800",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/5c449ac4b3f62889f2e6347fcd1e6dc6/foto-1-de-apartamento-com-2-quartos-para-alugar,-65-em-meireles,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-meireles-bairros-fortaleza-65m2-aluguel-RS2800-id-2684411640/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4800,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
+          "amenidades": [],
           "descricao": "Apartamento com 2 Quartos para alugar, 65m² em Meireles, Fortaleza",
           "coords": {
             "lat": -3.7269282,
@@ -3172,17 +2769,16 @@ export class LocationsService {
         {
           "endereco": "Rua 101 - Mondubim, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": 1,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 43,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/4a60d84b8bee63f31b7adb6d0d3301d6/foto-1-de-apartamento-com-2-quartos-para-venda-ou-aluguel,-43-em-mondubim,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-mondubim-bairros-fortaleza-com-garagem-43m2-venda-RS115000-id-2683324613/",
+          "valor_aluguel": 1700,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
           "amenidades": [
             "Interfone",
             "Quadra poliesportiva",
             "Sistema de alarme",
-            "Aceita animais"
+
           ],
           "descricao": "Apartamento com 2 Quartos para venda ou aluguel, 43m² em Mondubim, Fortaleza",
           "coords": {
@@ -3194,18 +2790,16 @@ export class LocationsService {
           "endereco": "Avenida da Saudade, 95 - Passaré, Fortaleza - CE",
           "quartos": 3,
           "banheiros": 2,
-          "vagas": 2,
+          "vagas": 1,
           "area": 60,
-          "valor_aluguel": "1.840",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/18a9ead0edabf199c78c2ce9f18e7af7/foto-1-de-apartamento-com-3-quartos-para-alugar,-60-em-passaré,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-passare-bairros-fortaleza-com-garagem-60m2-aluguel-RS1840-id-2644310895/",
+          "valor_aluguel": 4100,
+          "url_imagem": "../assets/img/properties/apartament5.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Condomínio fechado",
             "Varanda",
-            "Academia",
-            "..."
+            "Academia"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 60m² em Passaré, Fortaleza",
           "coords": {
@@ -3215,13 +2809,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Senador Alencar, 632 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 40,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/d090605b570ed592a227dde75ff7f638/foto-1-de-sala-comercial-para-alugar,-40-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-40m2-aluguel-RS800-id-2530358321/",
+          "valor_aluguel": 2600,
+          "url_imagem": "../assets/img/properties/office2.jpg",
           "amenidades": [
             "Cozinha"
           ],
@@ -3233,16 +2825,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 42,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/5fafec5fc09fb2b0904df9bea33ace18/foto-1-de-sala-comercial-para-alugar,-42-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-42m2-aluguel-RS500-id-2590874031/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1550,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7278961,
@@ -3252,12 +2840,11 @@ export class LocationsService {
         {
           "endereco": "Avenida Geógrafo Antônio Ribeiro Zaranza, 2598 - Cajazeiras, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 45,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/d1dad68009e0ca0c0aca16aa92275e13/foto-1-de-apartamento-com-2-quartos-para-alugar,-45-em-cajazeiras,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-cajazeiras-bairros-fortaleza-45m2-aluguel-RS800-id-2660348681/",
+          "valor_aluguel": 3800,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Churrasqueira",
             "Playground",
@@ -3272,16 +2859,10 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Edmundo Falcão, 1 - Antônio Diogo, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
           "area": 825,
-          "valor_aluguel": "1.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/f863cb8828b1b44e8851f00d9268055c/foto-1-de-lote/terreno-para-alugar,-825-em-antônio-diogo,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-antonio-diogo-bairros-fortaleza-825m2-aluguel-RS1500-id-2628642648/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4600,
+          "url_imagem": "../assets/img/properties/ground1.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar, 825m² em Antônio Diogo, Fortaleza",
           "coords": {
             "lat": -3.7521079,
@@ -3291,19 +2872,17 @@ export class LocationsService {
         {
           "endereco": "Rua Pedro I, 233 - Centro, Fortaleza - CE",
           "quartos": 1,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 40,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/524e5c055ab0a3449f3fa2298235eec5/foto-1-de-apartamento-com-1-quarto-para-alugar,-40-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-1-quartos-centro-bairros-fortaleza-40m2-aluguel-RS850-id-2684558812/",
+          "valor_aluguel": 1350,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
           "amenidades": [
             "Condomínio fechado",
             "Portaria 24h",
             "Interfone",
             "Janela grande",
-            "Portão eletrônico",
-            "..."
+            "Portão eletrônico"
           ],
           "descricao": "Apartamento com 1 Quarto para alugar, 40m² em Centro, Fortaleza",
           "coords": {
@@ -3314,19 +2893,16 @@ export class LocationsService {
         {
           "endereco": "Rua Manoel Monteiro, 685 - Cidade dos Funcionários, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": 1,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 55,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/b7172b3d65017bbb44bcdca94eb533ac/foto-1-de-apartamento-com-2-quartos-para-alugar,-55-em-cidade-dos-funcionários,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-cidade-dos-funcionarios-bairros-fortaleza-com-garagem-55m2-aluguel-RS900-id-2631478377/",
+          "valor_aluguel": 2500,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
           "amenidades": [
             "Elevador",
             "Condomínio fechado",
-            "Aceita animais",
             "Área de serviço",
-            "Perto de vias de acesso",
-            "..."
+            "Perto de vias de acesso"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 55m² em Cidade dos Funcionários, Fortaleza",
           "coords": {
@@ -3336,13 +2912,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Senador Pompeu, 649 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 23,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/35f4e55c732df6c030670b4f96140901/foto-1-de-sala-comercial-para-alugar,-23-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-23m2-aluguel-RS600-id-2661380141/",
+          "valor_aluguel": 4250,
+          "url_imagem": "../assets/img/properties/office1.jpg",
           "amenidades": [
             "Cozinha",
             "Segurança 24h",
@@ -3358,17 +2932,16 @@ export class LocationsService {
         {
           "endereco": "Rua Senador Alencar, 1649 - Centro, Fortaleza - CE",
           "quartos": 1,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 40,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/9ffdbc3eae011b6e18d136bb48acf341/foto-1-de-kitnet-com-1-quarto-para-alugar,-40-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/kitnet-1-quartos-centro-bairros-fortaleza-40m2-aluguel-RS709-id-2684473410/",
+          "valor_aluguel": 1650,
+          "url_imagem": "",
           "amenidades": [
             "Condomínio fechado",
             "Portão eletrônico",
             "Portaria 24h",
-            "Aceita animais"
+
           ],
           "descricao": "Kitnet com 1 Quarto para alugar, 40m² em Centro, Fortaleza",
           "coords": {
@@ -3379,19 +2952,17 @@ export class LocationsService {
         {
           "endereco": "Rua Hil de Moraes, 12 - Edson Queiroz, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 3,
-          "vagas": 1,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 55,
-          "valor_aluguel": "3.100",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/71efce657d9e1317b0622f24dbd1fa28/foto-1-de-apartamento-com-2-quartos-para-alugar,-55-em-edson-queiroz,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-edson-queiroz-bairros-fortaleza-com-garagem-55m2-aluguel-RS3100-id-2667942620/",
+          "valor_aluguel": 1350,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
             "Condomínio fechado",
-            "Varanda",
-            "..."
+            "Varanda"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 55m² em Edson Queiroz, Fortaleza",
           "coords": {
@@ -3403,16 +2974,15 @@ export class LocationsService {
           "endereco": "Rua Padre Guerra, 178 - Pici, Fortaleza - CE",
           "quartos": 2,
           "banheiros": 2,
-          "vagas": 1,
+          "vagas": 2,
           "area": 150,
-          "valor_aluguel": "1.550",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/bad9813fd803f5080c3a37fd2b43d233/foto-1-de-casa-com-2-quartos-para-alugar,-150-em-pici,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-2-quartos-pici-bairros-fortaleza-com-garagem-150m2-aluguel-RS1550-id-2659419792/",
+          "valor_aluguel": 3600,
+          "url_imagem": "../assets/img/properties/house4.jpg",
           "amenidades": [
             "Área de serviço",
-            "Quintal",
+            ,
             "Interfone",
-            "Aceita animais"
+
           ],
           "descricao": "Casa com 2 Quartos para alugar, 150m² em Pici, Fortaleza",
           "coords": {
@@ -3422,16 +2992,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 31,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/41ab5be5363f229251f4e5fac79ae6c7/foto-1-de-sala-comercial-para-alugar,-31-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-31m2-aluguel-RS400-id-2476318259/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2850,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.724243,
@@ -3440,16 +3006,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Guilherme Rocha, 381 - Centro, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 34,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/e158c037830585097407ced3df1124ec/foto-1-de-sala-comercial-para-alugar,-34-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-34m2-aluguel-RS250-id-2663153303/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1350,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 34m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7265229,
@@ -3462,16 +3024,14 @@ export class LocationsService {
           "banheiros": 2,
           "vagas": 1,
           "area": 52,
-          "valor_aluguel": "1.900",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/97bff4e9f5bf53e74680d55ee85f279c/foto-1-de-apartamento-com-2-quartos-para-alugar,-52-em-cambeba,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-cambeba-bairros-fortaleza-com-garagem-52m2-aluguel-RS1900-id-2681246395/",
+          "valor_aluguel": 700,
+          "url_imagem": "../assets/img/properties/apartament5.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
             "Condomínio fechado",
-            "Varanda",
-            "..."
+            "Varanda"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 52m² em Cambeba, Fortaleza",
           "coords": {
@@ -3481,16 +3041,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua do Pocinho, 33 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 34,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/439ab827e82749e54510b84c6207c112/foto-1-de-sala-comercial-para-venda-ou-aluguel,-34-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-34m2-venda-RS80000-id-2624366115/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1100,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para venda ou aluguel, 34m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.728003,
@@ -3503,16 +3059,13 @@ export class LocationsService {
           "banheiros": 3,
           "vagas": 2,
           "area": 70,
-          "valor_aluguel": "2.400",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/9e20d8677413c16fb57e64a4b4d51fdc/foto-1-de-apartamento-com-3-quartos-para-alugar,-70-em-engenheiro-luciano-cavalcante,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-engenheiro-luciano-cavalcante-bairros-fortaleza-com-garagem-70m2-aluguel-RS2400-id-2682326551/",
+          "valor_aluguel": 700,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
           "amenidades": [
             "Elevador",
             "Condomínio fechado",
-            "Aceita animais",
             "Área de serviço",
-            "Portaria 24h",
-            "..."
+            "Portaria 24h"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 70m² em Engenheiro Luciano Cavalcante, Fortaleza",
           "coords": {
@@ -3523,19 +3076,17 @@ export class LocationsService {
         {
           "endereco": "Rua Emílio Sá, 560 - Jardim Cearense, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 1,
           "area": 65,
-          "valor_aluguel": "1.600",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/eddb6b75ba13bcaf7c5c42d2db0159ec/foto-1-de-apartamento-com-2-quartos-para-alugar,-65-em-jardim-cearense,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-jardim-cearense-bairros-fortaleza-com-garagem-65m2-aluguel-RS1600-id-2673763595/",
+          "valor_aluguel": 850,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
             "Condomínio fechado",
-            "Varanda",
-            "..."
+            "Varanda"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 65m² em Jardim Cearense, Fortaleza",
           "coords": {
@@ -3545,16 +3096,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pereira Filgueiras, 2020 - Aldeota, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 36,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/d27ba26982f128d66ec96cc5596b2fa4/foto-1-de-sala-comercial-para-alugar,-36-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-aldeota-bairros-fortaleza-36m2-aluguel-RS800-id-2476320320/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3500,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 36m² em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.73106,
@@ -3563,16 +3110,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Guilherme Rocha, 381 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 32,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/bbc2ee269dcfc89d1217059a98870b81/foto-1-de-sala-comercial-para-alugar,-32-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-32m2-aluguel-RS250-id-2566171915/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4450,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 32m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7265229,
@@ -3582,15 +3125,12 @@ export class LocationsService {
         {
           "endereco": "Avenida Mozart Pinheiro de Lucena, 3106 - Quintino Cunha, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 60,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/d14d12a5fe7aac1a6882ec2e2eb11290/foto-1-de-apartamento-com-2-quartos-para-alugar,-60-em-quintino-cunha,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-quintino-cunha-bairros-fortaleza-60m2-aluguel-RS509-id-2503692701/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3650,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
+          "amenidades": [],
           "descricao": "Apartamento com 2 Quartos para alugar, 60m² em Quintino Cunha, Fortaleza",
           "coords": {
             "lat": -3.731846,
@@ -3599,16 +3139,10 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Doutor Edmilson Barros de Oliveira - Cocó, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
           "area": 440,
-          "valor_aluguel": "2.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/fedc821d4670613a5cf4d3955d697198/foto-1-de-lote/terreno-para-venda-ou-aluguel,-440-em-cocó,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-coco-bairros-fortaleza-440m2-venda-RS650000-id-2554835498/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 600,
+          "url_imagem": "../assets/img/properties/ground2.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para venda ou aluguel, 440m² em Cocó, Fortaleza",
           "coords": {
             "lat": -3.7515363,
@@ -3617,16 +3151,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 42,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/69e22e31169f42ecbcb967bdee084ca6/foto-1-de-sala-comercial-para-alugar,-42-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-42m2-aluguel-RS500-id-2476322391/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1550,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7278961,
@@ -3635,16 +3165,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pedro Borges, 20 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 75,
-          "valor_aluguel": "1.434",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/4029b663c518540101ef35f09d68390d/foto-1-de-sala-comercial-para-alugar,-75-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-75m2-aluguel-RS1434-id-2547861672/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2150,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 75m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7282492,
@@ -3653,16 +3179,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Desembargador Moreira, 1701 - Meireles, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 28,
-          "valor_aluguel": null,
-          "url_imagem": null,
-          "url_detalhes": "/imovel/predio-comercial-meireles-bairros-fortaleza-28m2-aluguel-RS950-id-2647884959/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1250,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Prédio Comercial para alugar, 28m² em Meireles, Fortaleza",
           "coords": {
             "lat": -3.7411064,
@@ -3671,16 +3193,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pedro Dantas, 415 - Dias Macedo, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 176,
-          "valor_aluguel": "4.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/a3c3b6b8b9ff7f7472a72607e2d17a86/foto-1-de-ponto-comercial-para-alugar,-176-em-dias-macedo,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-dias-macedo-bairros-fortaleza-176m2-aluguel-RS4000-id-2657331833/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2400,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 176m² em Dias Macedo, Fortaleza",
           "coords": {
             "lat": -3.7861273,
@@ -3690,19 +3208,16 @@ export class LocationsService {
         {
           "endereco": "Rua C, 91 - Passaré, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 1,
           "area": 45,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/d0ccf1a743ae1220db576f384a36410d/foto-1-de-apartamento-com-2-quartos-para-alugar,-45-em-passaré,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-passare-bairros-fortaleza-com-garagem-45m2-aluguel-RS900-id-2653978266/",
+          "valor_aluguel": 3700,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Condomínio fechado",
-            "Academia",
-            "Aceita animais",
-            "..."
+            "Academia"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 45m² em Passaré, Fortaleza",
           "coords": {
@@ -3712,16 +3227,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 42,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/f85d53ad8ec5926217655f4a739d8c8a/foto-1-de-sala-comercial-para-alugar,-42-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-42m2-aluguel-RS500-id-2476317666/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3900,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7278961,
@@ -3730,13 +3241,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Carlos Vasconcelos, 889 - Aldeota, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 35,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/8d1565c3d0c732791f218dc9ac1a02a9/foto-1-de-sala-comercial-para-alugar,-35-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-aldeota-bairros-fortaleza-35m2-aluguel-RS880-id-2530357154/",
+          "valor_aluguel": 1900,
+          "url_imagem": "../assets/img/properties/office2.jpg",
           "amenidades": [
             "Cozinha"
           ],
@@ -3749,19 +3258,16 @@ export class LocationsService {
         {
           "endereco": "Rua Bento Albuquerque, 1555 - Cocó, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 3,
+          "banheiros": 2,
           "vagas": 2,
           "area": 120,
-          "valor_aluguel": "2.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/0761346444512ac54a47b03929216d90/foto-1-de-apartamento-com-3-quartos-para-alugar,-120-em-cocó,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-coco-bairros-fortaleza-com-garagem-120m2-aluguel-RS2000-id-2684005523/",
+          "valor_aluguel": 2400,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Elevador",
             "Condomínio fechado",
-            "Aceita animais",
             "Jardim",
-            "Área de serviço",
-            "..."
+            "Área de serviço"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 120m² em Cocó, Fortaleza",
           "coords": {
@@ -3775,16 +3281,13 @@ export class LocationsService {
           "banheiros": 3,
           "vagas": 2,
           "area": 96,
-          "valor_aluguel": "3.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/9306441e958d1987c0655b218f8c1247/foto-1-de-apartamento-com-3-quartos-para-alugar,-96-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-aldeota-bairros-fortaleza-com-garagem-96m2-aluguel-RS3000-id-2681233391/",
+          "valor_aluguel": 4350,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Elevador",
             "Condomínio fechado",
             "Varanda",
-            "Academia",
-            "Aceita animais",
-            "..."
+            "Academia"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 96m² em Aldeota, Fortaleza",
           "coords": {
@@ -3795,19 +3298,16 @@ export class LocationsService {
         {
           "endereco": "Rua Dom Sebastião Leme, 477 - Fátima, Fortaleza - CE",
           "quartos": 4,
-          "banheiros": 3,
+          "banheiros": 2,
           "vagas": 2,
           "area": 90,
-          "valor_aluguel": "1.550",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/091a5dfc0bc5c9d695b3e6eada0a3e92/foto-1-de-apartamento-com-4-quartos-para-alugar,-90-em-fátima,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-4-quartos-fatima-bairros-fortaleza-com-garagem-90m2-aluguel-RS1550-id-2684405438/",
+          "valor_aluguel": 2000,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Varanda",
-            "Aceita animais",
             "Garagem",
             "Jardim",
-            "Playground",
-            "..."
+            "Playground"
           ],
           "descricao": "Apartamento com 4 Quartos para alugar, 90m² em Fátima, Fortaleza",
           "coords": {
@@ -3817,13 +3317,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua João Gentil, 2964 - Granja Lisboa, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 85,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/f71734cf29a0524704e9bb62eaf7734c/foto-1-de-ponto-comercial-para-alugar,-85-em-granja-lisboa,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-granja-lisboa-bairros-fortaleza-85m2-aluguel-RS850-id-2646365082/",
+          "valor_aluguel": 4950,
+          "url_imagem": "../assets/img/properties/office1.jpg",
           "amenidades": [
             "Conexão à internet"
           ],
@@ -3837,18 +3335,16 @@ export class LocationsService {
           "endereco": "Avenida da Saudade, 95 - Passaré, Fortaleza - CE",
           "quartos": 3,
           "banheiros": 2,
-          "vagas": 2,
+          "vagas": 1,
           "area": 60,
-          "valor_aluguel": "1.900",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/5c4b02500b173c66afe7006df5777727/foto-1-de-apartamento-com-3-quartos-para-alugar,-60-em-passaré,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-passare-bairros-fortaleza-com-garagem-60m2-aluguel-RS1900-id-2664968766/",
+          "valor_aluguel": 1000,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
             "Condomínio fechado",
-            "Varanda",
-            "..."
+            "Varanda"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 60m² em Passaré, Fortaleza",
           "coords": {
@@ -3858,16 +3354,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Guilherme Rocha, 381 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 38,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/6456c2125947790b80318e8fed025a8f/foto-1-de-sala-comercial-para-alugar,-38-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-38m2-aluguel-RS250-id-2566172134/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4450,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 38m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7265229,
@@ -3880,9 +3372,8 @@ export class LocationsService {
           "banheiros": 2,
           "vagas": 1,
           "area": 62,
-          "valor_aluguel": "1.300",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/73bb51af96946d185e6160cd59e3bfda/foto-1-de-apartamento-com-3-quartos-para-alugar,-62-em-messejana,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-messejana-bairros-fortaleza-com-garagem-62m2-aluguel-RS1300-id-2684025352/",
+          "valor_aluguel": 700,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Playground",
             "Ar-condicionado",
@@ -3897,13 +3388,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Barão do Rio Branco, 1071 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 27,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/5aa8700094caf7edfd9eb6566811f65b/foto-1-de-sala-comercial-para-alugar,-27-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-27m2-aluguel-RS309-id-2567893407/",
+          "valor_aluguel": 3000,
+          "url_imagem": "../assets/img/properties/office2.jpg",
           "amenidades": [
             "Elevador",
             "Interfone"
@@ -3916,16 +3405,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Washington Soares, 1400 - Edson Queiroz, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 48,
-          "valor_aluguel": "1.300",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/60bfba0dbd790049a75f4c799be0fa1b/foto-1-de-sala-comercial-para-alugar,-48-em-edson-queiroz,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-edson-queiroz-bairros-fortaleza-48m2-aluguel-RS1300-id-2683072992/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1150,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 48m² em Edson Queiroz, Fortaleza",
           "coords": {
             "lat": -3.7712784,
@@ -3934,16 +3419,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 42,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/120de48070281953c8f2b022383a9eb8/foto-1-de-sala-comercial-para-alugar,-42-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-42m2-aluguel-RS500-id-2476321811/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2150,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7278961,
@@ -3952,16 +3433,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 42,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/67370ae820da3d5ba4893cc0b7b65d3d/foto-1-de-sala-comercial-para-alugar,-42-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-42m2-aluguel-RS500-id-2476322201/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1650,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7278961,
@@ -3970,16 +3447,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Guilherme Rocha, 381 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 38,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/75155f69d779a9642d7f96b6ba3596e7/foto-1-de-sala-comercial-para-alugar,-38-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-38m2-aluguel-RS250-id-2566171914/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2750,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 38m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7265229,
@@ -3989,19 +3462,16 @@ export class LocationsService {
         {
           "endereco": "Rua Bento Albuquerque, 1555 - Cocó, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 3,
+          "banheiros": 2,
           "vagas": 2,
           "area": 120,
-          "valor_aluguel": "2.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/8d0a423c2bcc748ae2c43cb34b20529a/foto-1-de-apartamento-com-3-quartos-para-alugar,-120-em-cocó,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-coco-bairros-fortaleza-com-garagem-120m2-aluguel-RS2000-id-2684003013/",
+          "valor_aluguel": 3150,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Elevador",
             "Condomínio fechado",
-            "Aceita animais",
             "Jardim",
-            "Área de serviço",
-            "..."
+            "Área de serviço"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 120m² em Cocó, Fortaleza",
           "coords": {
@@ -4011,16 +3481,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua do Rosário, 77 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 60,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/1d153e9e90e1f68a332de8f78a4c1bdf/foto-1-de-sala-comercial-para-alugar,-60-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-60m2-aluguel-RS901-id-2547861196/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 800,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 60m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.728418999999999,
@@ -4029,16 +3495,10 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Professor Solon Farias, Lt-07 - Sapiranga, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
           "area": 1720,
-          "valor_aluguel": "3.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/6e930dd34ee22a9b1866e02e25965dde/foto-1-de-lote/terreno-para-alugar,-1720-em-sapiranga,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-sapiranga-bairros-fortaleza-1720m2-aluguel-RS3500-id-2683714821/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2150,
+          "url_imagem": "../assets/img/properties/ground3.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar, 1720m² em Sapiranga, Fortaleza",
           "coords": {
             "lat": -3.7860838,
@@ -4047,16 +3507,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pedro Borges, 20 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 60,
-          "valor_aluguel": "1.143",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/33511f9faf7d7343dc4d06058afaca8a/foto-1-de-sala-comercial-para-alugar,-60-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-60m2-aluguel-RS1143-id-2561791256/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2100,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 60m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7282492,
@@ -4065,16 +3521,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 31,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/8b0cbaf2165fd170e4ee9270ebfeb319/foto-1-de-sala-comercial-para-alugar,-31-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-31m2-aluguel-RS400-id-2476321051/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1700,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.724243,
@@ -4083,16 +3535,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pedro Borges, 20 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 74,
-          "valor_aluguel": "1.407",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/336504740e8a46aa1c3c5796a36e3e3e/foto-1-de-sala-comercial-para-alugar,-74-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-74m2-aluguel-RS1407-id-2574566704/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2800,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 74m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7282492,
@@ -4101,16 +3549,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Senador Virgílio Távora, 1701 - Meireles, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 2,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 35,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/d4226198618d853755c9ac341a39c4bb/foto-1-de-imóvel-comercial-para-alugar,-35-em-meireles,-fortaleza.jpg",
-          "url_detalhes": "/imovel/imovel-comercial-meireles-bairros-fortaleza-35m2-aluguel-RS795-id-2682677726/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1300,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Imóvel Comercial para alugar, 35m² em Meireles, Fortaleza",
           "coords": {
             "lat": -3.7403814,
@@ -4119,13 +3563,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Floriano Peixoto, 402 - Centro, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 5,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 578,
-          "valor_aluguel": "17.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/45f9f917405d96a8f424b329aab1a0d9/foto-1-de-ponto-comercial-para-alugar,-578-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-centro-bairros-fortaleza-578m2-aluguel-RS17000-id-2663598769/",
+          "valor_aluguel": 4500,
+          "url_imagem": "../assets/img/properties/office3.jpg",
           "amenidades": [
             "Copa"
           ],
@@ -4138,19 +3580,16 @@ export class LocationsService {
         {
           "endereco": "Rua Maria Maia, 75 - Siqueira, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": 1,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 45,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/c6f7417cb8a2d160df226c41378747d0/foto-1-de-apartamento-com-2-quartos-para-alugar,-45-em-siqueira,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-siqueira-bairros-fortaleza-com-garagem-45m2-aluguel-RS700-id-2629077795/",
+          "valor_aluguel": 2000,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
-            "Condomínio fechado",
-            "Aceita animais",
-            "..."
+            "Condomínio fechado"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 45m² em Siqueira, Fortaleza",
           "coords": {
@@ -4160,16 +3599,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Senador Alencar - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 26,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/2676909b94bf22db9fe20911ff852bf5/foto-1-de-sala-comercial-para-alugar,-26-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-26m2-aluguel-RS400-id-2588260947/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3450,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 26m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7229233,
@@ -4178,16 +3613,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Guilherme Rocha, 381 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 34,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/974885c4d82971cffe29022d2c6236c0/foto-1-de-sala-comercial-para-alugar,-34-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-34m2-aluguel-RS250-id-2566172874/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2600,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 34m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7265229,
@@ -4196,16 +3627,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pedro Borges, 20 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 75,
-          "valor_aluguel": "1.434",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/f572c8a97d106d9ba43c24b566cceb0b/foto-1-de-sala-comercial-para-alugar,-75-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-75m2-aluguel-RS1434-id-2547860396/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1800,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 75m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7282492,
@@ -4215,19 +3642,16 @@ export class LocationsService {
         {
           "endereco": "Rua A do Loteamento Residencial Célio Gurgel, 1697 - Barroso, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 1,
           "area": 42,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/7bec9652ff9e9fa6bf83dcc365aea55d/foto-1-de-apartamento-com-2-quartos-para-alugar,-42-em-barroso,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-barroso-bairros-fortaleza-com-garagem-42m2-aluguel-RS900-id-2674510892/",
+          "valor_aluguel": 1650,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
-            "Aceita animais",
-            "Garagem",
-            "..."
+            "Garagem"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 42m² em Barroso, Fortaleza",
           "coords": {
@@ -4237,13 +3661,11 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Dom Luís, 1233 - Meireles, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 31,
-          "valor_aluguel": "1.100",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/aa83e3634b78be9b50b89136a1cbfd2e/foto-1-de-sala-comercial-para-alugar,-31-em-meireles,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-meireles-bairros-fortaleza-31m2-aluguel-RS1100-id-2675887616/",
+          "valor_aluguel": 4950,
+          "url_imagem": "../assets/img/properties/office3.jpg",
           "amenidades": [
             "Varanda"
           ],
@@ -4255,16 +3677,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pedro Borges, 33 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 35,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/af452c1688eefc12c7ac18d44b2b0110/foto-1-de-imóvel-comercial-para-alugar,-35-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/imovel-comercial-centro-bairros-fortaleza-35m2-aluguel-RS300-id-2682682953/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2300,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Imóvel Comercial para alugar, 35m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7279488,
@@ -4273,13 +3691,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pedro Borges, 30 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 52,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/fdddbc3f585b8d7a767b876f97180d0c/foto-1-de-sala-comercial-para-alugar,-52-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-52m2-aluguel-RS600-id-2640120875/",
+          "valor_aluguel": 3550,
+          "url_imagem": "../assets/img/properties/office2.jpg",
           "amenidades": [
             "Cozinha"
           ],
@@ -4292,15 +3708,12 @@ export class LocationsService {
         {
           "endereco": "Rua Afrânio Peixoto, 288 - Parangaba, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 3,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 60,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/66f11ed4a6eb2e7e570f4df14696ef2e/foto-1-de-apartamento-com-2-quartos-para-alugar,-60-em-parangaba,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-parangaba-bairros-fortaleza-60m2-aluguel-RS950-id-2684550415/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1400,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
+          "amenidades": [],
           "descricao": "Apartamento com 2 Quartos para alugar, 60m² em Parangaba, Fortaleza",
           "coords": {
             "lat": -3.7805487,
@@ -4310,12 +3723,11 @@ export class LocationsService {
         {
           "endereco": "Rua Três de Maio, 1140 - Bela Vista, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 75,
-          "valor_aluguel": "1.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/57b6f7a1bbbc345afacf6224da60464a/foto-1-de-casa-com-2-quartos-para-alugar,-75-em-bela-vista,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-2-quartos-bela-vista-bairros-fortaleza-75m2-aluguel-RS1000-id-2684518742/",
+          "valor_aluguel": 1550,
+          "url_imagem": "../assets/img/properties/house2.jpg",
           "amenidades": [
             "Varanda gourmet"
           ],
@@ -4327,16 +3739,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 31,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/086d7bde6ef66172f6ac10171821e009/foto-1-de-sala-comercial-para-alugar,-31-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-31m2-aluguel-RS400-id-2476321050/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4750,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.724243,
@@ -4345,16 +3753,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Senador Virgílio Távora, 1701 - Meireles, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 2,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 35,
-          "valor_aluguel": null,
-          "url_imagem": null,
-          "url_detalhes": "/imovel/imovel-comercial-meireles-bairros-fortaleza-35m2-aluguel-RS795-id-2682682961/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2450,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Imóvel Comercial para alugar, 35m² em Meireles, Fortaleza",
           "coords": {
             "lat": -3.7403814,
@@ -4363,16 +3767,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 42,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/f83a56a177aed628efe894539ece8407/foto-1-de-sala-comercial-para-alugar,-42-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-42m2-aluguel-RS500-id-2476320440/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1950,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7278961,
@@ -4381,16 +3781,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pedro Borges, 20 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 89,
-          "valor_aluguel": "1.691",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/269bd3ec27d20d6b523b3ffbaa686a9b/foto-1-de-sala-comercial-para-alugar,-89-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-89m2-aluguel-RS1691-id-2547859697/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3400,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 89m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7282492,
@@ -4399,13 +3795,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Senador Pompeu, 649 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 23,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/12af3c62d80915d578bd307218ba5f73/foto-1-de-sala-comercial-para-alugar,-23-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-23m2-aluguel-RS600-id-2661380142/",
+          "valor_aluguel": 4800,
+          "url_imagem": "../assets/img/properties/office1.jpg",
           "amenidades": [
             "Cozinha",
             "Segurança 24h",
@@ -4420,16 +3814,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pedro Borges, 20 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 89,
-          "valor_aluguel": "1.682",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/aae5575619e1cad6ef97da5e1c5cb82d/foto-1-de-sala-comercial-para-alugar,-89-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-89m2-aluguel-RS1682-id-2567976400/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2100,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 89m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7282492,
@@ -4438,16 +3828,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 6740 - Papicu, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": 1,
+          "vagas": 2,
           "area": 28,
-          "valor_aluguel": "1.400",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/49b9051e6be6ac8618f8278defcc7db3/foto-1-de-sala-comercial-para-alugar,-28-em-papicu,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-papicu-bairros-fortaleza-com-garagem-28m2-aluguel-RS1400-id-2630487620/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2850,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 28m² em Papicu, Fortaleza",
           "coords": {
             "lat": -3.744682199999999,
@@ -4456,16 +3842,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rodovia BR-116, 5850 - Cajazeiras, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 30,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/8731494ee7c9611ba6d7dcfc0161733e/foto-1-de-sala-comercial-para-alugar,-30-em-cajazeiras,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-cajazeiras-bairros-fortaleza-30m2-aluguel-RS600-id-2631745502/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2300,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 30m² em Cajazeiras, Fortaleza",
           "coords": {
             "lat": -3.7727805,
@@ -4478,16 +3860,14 @@ export class LocationsService {
           "banheiros": 2,
           "vagas": 2,
           "area": 60,
-          "valor_aluguel": "1.840",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/36edc37855db421224a89894fd2fda1e/foto-1-de-apartamento-com-3-quartos-para-alugar,-60-em-passaré,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-passare-bairros-fortaleza-com-garagem-60m2-aluguel-RS1840-id-2664969638/",
+          "valor_aluguel": 1900,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
             "Condomínio fechado",
-            "Varanda",
-            "..."
+            "Varanda"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 60m² em Passaré, Fortaleza",
           "coords": {
@@ -4497,16 +3877,10 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Beatriz Segal, 0 - Barroso, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
           "area": 495,
-          "valor_aluguel": "1.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/59f2e4a8ed8615e573e81efe2a0e1606/foto-1-de-lote/terreno-para-alugar,-495-em-barroso,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-barroso-bairros-fortaleza-495m2-aluguel-RS1000-id-2629139128/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1700,
+          "url_imagem": "../assets/img/properties/ground1.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar, 495m² em Barroso, Fortaleza",
           "coords": {
             "lat": -3.7994272,
@@ -4515,16 +3889,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Nunes Valente, 2025 - Aldeota, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 134,
-          "valor_aluguel": "4.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/e82b0ce5d265d4c83aa626ce34c94be1/foto-1-de-imóvel-comercial-para-alugar,-134-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/imovel-comercial-aldeota-bairros-fortaleza-134m2-aluguel-RS4000-id-2683571828/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4750,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Imóvel Comercial para alugar, 134m² em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7423873,
@@ -4533,16 +3903,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 5335 - Papicu, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 30,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/5e3952114ff2f59d5b15c99f3d47aedc/foto-1-de-sala-comercial-para-alugar,-30-em-papicu,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-papicu-bairros-fortaleza-30m2-aluguel-RS750-id-2547859708/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2550,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 30m² em Papicu, Fortaleza",
           "coords": {
             "lat": -3.7407389,
@@ -4551,16 +3917,10 @@ export class LocationsService {
         },
         {
           "endereco": "Cidade dos Funcionários, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
           "area": 225,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/bae1f4e02ba9f3cb1d77d730ec9588fd/foto-1-de-lote/terreno-para-alugar,-225-em-cidade-dos-funcionários,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-cidade-dos-funcionarios-bairros-fortaleza-225m2-aluguel-RS600-id-2650167365/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1950,
+          "url_imagem": "../assets/img/properties/ground2.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar, 225m² em Cidade dos Funcionários, Fortaleza",
           "coords": {
             "lat": -3.7971588,
@@ -4569,16 +3929,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pedro Dantas, 413 - Dias Macedo, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 80,
-          "valor_aluguel": "1.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/e30164ce69a81f5a50be60915d36ea19/foto-1-de-ponto-comercial-para-alugar,-80-em-dias-macedo,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-dias-macedo-bairros-fortaleza-80m2-aluguel-RS1500-id-2657335857/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3350,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 80m² em Dias Macedo, Fortaleza",
           "coords": {
             "lat": -3.7861367,
@@ -4588,19 +3944,17 @@ export class LocationsService {
         {
           "endereco": "Rua Dragão do Mar, 345 - Praia de Iracema, Fortaleza - CE",
           "quartos": 1,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 1,
           "area": 41,
-          "valor_aluguel": "2.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/5b3b0beba595ccc95df7dab428a7a803/foto-1-de-apartamento-com-1-quarto-para-alugar,-41-em-praia-de-iracema,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-1-quartos-praia-de-iracema-bairros-fortaleza-com-garagem-41m2-aluguel-RS2500-id-2677227697/",
+          "valor_aluguel": 3650,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
             "Condomínio fechado",
-            "Varanda",
-            "..."
+            "Varanda"
           ],
           "descricao": "Apartamento com 1 Quarto para alugar, 41m² em Praia de Iracema, Fortaleza",
           "coords": {
@@ -4610,13 +3964,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Barão do Rio Branco, 1071 - Centro, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 27,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/10a6613126ba0d4cfd85194d04ed75c3/foto-1-de-sala-comercial-para-alugar,-27-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-27m2-aluguel-RS400-id-2559328778/",
+          "valor_aluguel": 2550,
+          "url_imagem": "../assets/img/properties/office2.jpg",
           "amenidades": [
             "Elevador",
             "Portaria 24h"
@@ -4629,16 +3981,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 42,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/4b73f87f969c4a54209d747f9e612efc/foto-1-de-sala-comercial-para-alugar,-42-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-42m2-aluguel-RS500-id-2476319993/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2550,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7278961,
@@ -4647,16 +3995,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 31,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/95a50a0ff4a9afaa79465f585aef43fc/foto-1-de-sala-comercial-para-alugar,-31-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-31m2-aluguel-RS400-id-2476318262/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2800,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.724243,
@@ -4665,16 +4009,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Perboyre e Silva, 114 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 47,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/2b34cb6a03200ebb924e7ce9771f6c02/foto-1-de-sala-comercial-para-alugar,-47-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-47m2-aluguel-RS450-id-2655352457/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3400,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 47m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7290021,
@@ -4684,16 +4024,15 @@ export class LocationsService {
         {
           "endereco": "Rua Paulo de Almeida Sanford, 145 - Edson Queiroz, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 4,
-          "vagas": 2,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 171,
-          "valor_aluguel": "3.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/cd9e45e4dc1eb60f85b85cd2f5411a6e/foto-1-de-casa-com-3-quartos-para-venda-ou-aluguel,-171-em-edson-queiroz,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-3-quartos-edson-queiroz-bairros-fortaleza-com-garagem-171m2-venda-RS545000-id-2646452460/",
+          "valor_aluguel": 1100,
+          "url_imagem": "../assets/img/properties/house1.jpg",
           "amenidades": [
             "Cozinha",
             "Área de serviço",
-            "Quintal"
+
           ],
           "descricao": "Casa com 3 Quartos para venda ou aluguel, 171m² em Edson Queiroz, Fortaleza",
           "coords": {
@@ -4703,16 +4042,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Dom Luís, 500 - Meireles, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
-          "area": 28,
-          "valor_aluguel": "1.100",
-          "url_imagem": null,
-          "url_detalhes": "/imovel/sala-comercial-meireles-bairros-fortaleza-28m2-aluguel-RS1100-id-2682046128/",
-          "amenidades": [
-
-          ],
+          "vagas": 1,
+          "area": 76,
+          "valor_aluguel": 1400,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": null,
           "coords": {
             "lat": -3.7356097,
@@ -4721,16 +4056,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Alberto Magno, 1374 - Montese, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 30,
-          "valor_aluguel": "1.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/2f4d8825689718732fe3a9b5d5f7edc0/foto-1-de-sala-comercial-para-alugar,-30-em-montese,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-montese-bairros-fortaleza-30m2-aluguel-RS1000-id-2646363314/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3850,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 30m² em Montese, Fortaleza",
           "coords": {
             "lat": -3.7660701,
@@ -4739,16 +4070,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Major Facundo, 1680 - Fátima, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 80,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/da333c126791400b39f63452bdbcc45c/foto-1-de-ponto-comercial-para-alugar,-80-em-fátima,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-fatima-bairros-fortaleza-80m2-aluguel-RS700-id-2642813498/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4400,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 80m² em Fátima, Fortaleza",
           "coords": {
             "lat": -3.7375185,
@@ -4758,15 +4085,12 @@ export class LocationsService {
         {
           "endereco": "Rua Pascoal de Castro Alves, 500 - Papicu, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 4,
-          "vagas": 4,
+          "banheiros": 3,
+          "vagas": 1,
           "area": 230,
-          "valor_aluguel": "1.950",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/f77d62e81f5c942525e732efe06d4040/foto-1-de-imóvel-comercial-com-3-quartos-para-alugar,-230-em-papicu,-fortaleza.jpg",
-          "url_detalhes": "/imovel/imovel-comercial-3-quartos-papicu-bairros-fortaleza-com-garagem-230m2-aluguel-RS1950-id-2655437845/",
-          "amenidades": [
-            "Próximo a shopping"
-          ],
+          "valor_aluguel": 4100,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Imóvel Comercial com 3 Quartos para alugar, 230m² em Papicu, Fortaleza",
           "coords": {
             "lat": -3.7327933,
@@ -4776,19 +4100,16 @@ export class LocationsService {
         {
           "endereco": "Rua Brigadeiro Haroldo Veloso, 568 - Sapiranga, Fortaleza - CE",
           "quartos": 5,
-          "banheiros": 5,
-          "vagas": 16,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 480,
-          "valor_aluguel": "5.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/c0c1ae244e6460cdbae0ca734d19aa59/foto-1-de-casa-com-5-quartos-para-alugar,-480-em-sapiranga,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-5-quartos-sapiranga-bairros-fortaleza-com-garagem-480m2-aluguel-RS5000-id-2682203200/",
+          "valor_aluguel": 2350,
+          "url_imagem": "../assets/img/properties/house5.jpg",
           "amenidades": [
             "Churrasqueira",
-            "Quintal",
-            "Aceita animais",
+            ,
             "Área de serviço",
-            "Escritório",
-            "..."
+            "Escritório"
           ],
           "descricao": "Casa com 5 Quartos para alugar, 480m² em Sapiranga, Fortaleza",
           "coords": {
@@ -4798,16 +4119,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rodovia BR-116, 5850 - Cajazeiras, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 30,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/50e400db0ffbd95847c805302f2ecf5e/foto-1-de-sala-comercial-para-alugar,-30-em-cajazeiras,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-cajazeiras-bairros-fortaleza-30m2-aluguel-RS600-id-2631743145/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2250,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 30m² em Cajazeiras, Fortaleza",
           "coords": {
             "lat": -3.7727805,
@@ -4818,11 +4135,10 @@ export class LocationsService {
           "endereco": "Rua Vilebaldo Aguiar, 1151 - Cocó, Fortaleza - CE",
           "quartos": 3,
           "banheiros": 3,
-          "vagas": 2,
+          "vagas": 1,
           "area": 71,
-          "valor_aluguel": "2.300",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/37839efbd2286556aebffbce08bc0e16/foto-1-de-apartamento-com-3-quartos-para-alugar,-71-em-cocó,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-coco-bairros-fortaleza-com-garagem-71m2-aluguel-RS2300-id-2684026525/",
+          "valor_aluguel": 2700,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Área de serviço",
             "Piscina para adulto",
@@ -4837,16 +4153,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Presidente Artur Bernardes, 3470 - JOSE DE ALENCAR, Fortaleza - CE",
-          "quartos": 40,
-          "banheiros": 40,
-          "vagas": null,
+          "banheiros": 3,
+          "vagas": 2,
           "area": 4066,
-          "valor_aluguel": "78.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/2db72ffd5132fbb886e1cef47523fcf8/foto-1-de-prédio-comercial-com-40-quartos-para-alugar,-4066-em-jose-de-alencar,-fortaleza.jpg",
-          "url_detalhes": "/imovel/predio-comercial-40-quartos-jose-de-alencar-bairros-fortaleza-4066m2-aluguel-RS78000-id-2668527241/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2050,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Prédio Comercial com 40 Quartos para alugar, 4066m² em JOSE DE ALENCAR, Fortaleza",
           "coords": {
             "lat": -3.8089627,
@@ -4855,16 +4167,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Senador Virgílio Távora, 1701 - Meireles, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 2,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 35,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/af98b42751eb146d0b7ee88e429e80b2/foto-1-de-imóvel-comercial-para-alugar,-35-em-meireles,-fortaleza.jpg",
-          "url_detalhes": "/imovel/imovel-comercial-meireles-bairros-fortaleza-35m2-aluguel-RS795-id-2682680992/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1200,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Imóvel Comercial para alugar, 35m² em Meireles, Fortaleza",
           "coords": {
             "lat": -3.7403814,
@@ -4873,16 +4181,12 @@ export class LocationsService {
         },
         {
           "endereco": "Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 27,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/0d4635163bb4bc236c3a5b6510a4c26b/foto-1-de-sala-comercial-para-venda-ou-aluguel,-27-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-27m2-venda-RS67000-id-2644947409/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4950,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para venda ou aluguel, 27m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7329688,
@@ -4891,16 +4195,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Ministro Albuquerque Lima, 894 - Conjunto Ceará, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 2,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 30,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/6633cd89be3d62a41e969022c9506429/foto-1-de-imóvel-comercial-para-alugar,-30-em-conjunto-ceará,-fortaleza.jpg",
-          "url_detalhes": "/imovel/imovel-comercial-conjunto-ceara-bairros-fortaleza-30m2-aluguel-RS600-id-2682682776/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 600,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Imóvel Comercial para alugar, 30m² em Conjunto Ceará, Fortaleza",
           "coords": {
             "lat": -3.7708043,
@@ -4909,13 +4209,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Benjamim Brasil, 626 - Jardim Cearense, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 2,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 100,
-          "valor_aluguel": "1.600",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/d589753ef4b37818c41b637550365d53/foto-1-de-ponto-comercial-para-alugar,-100-em-jardim-cearense,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-jardim-cearense-bairros-fortaleza-100m2-aluguel-RS1600-id-2648637173/",
+          "valor_aluguel": 4450,
+          "url_imagem": "../assets/img/properties/office3.jpg",
           "amenidades": [
             "Copa"
           ],
@@ -4927,16 +4225,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 5335 - Papicu, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 30,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/944332ffdf835fe6c3ea2b1dc8515af9/foto-1-de-sala-comercial-para-alugar,-30-em-papicu,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-papicu-bairros-fortaleza-30m2-aluguel-RS750-id-2547860603/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3550,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 30m² em Papicu, Fortaleza",
           "coords": {
             "lat": -3.7407389,
@@ -4945,13 +4239,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pereira Filgueiras - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 36,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/5ac7b7c9530fe073a4b15741a1caa9a5/foto-1-de-sala-comercial-para-alugar,-36-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-36m2-aluguel-RS800-id-2624351937/",
+          "valor_aluguel": 4250,
+          "url_imagem": "../assets/img/properties/office2.jpg",
           "amenidades": [
             "Elevador",
             "Sistema de alarme"
@@ -4964,16 +4256,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Guilherme Rocha, 381 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 76,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/a10958479a15bb1e2d32730a9748ca24/foto-1-de-sala-comercial-para-alugar,-76-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-76m2-aluguel-RS250-id-2641469864/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3750,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 76m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7265229,
@@ -4982,13 +4270,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Senador Pompeu, 649 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 23,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/d8221e91e1750019a48a374eda3a9cf5/foto-1-de-sala-comercial-para-alugar,-23-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-23m2-aluguel-RS600-id-2661379814/",
+          "valor_aluguel": 4850,
+          "url_imagem": "../assets/img/properties/office1.jpg",
           "amenidades": [
             "Cozinha",
             "Segurança 24h",
@@ -5003,16 +4289,10 @@ export class LocationsService {
         },
         {
           "endereco": "Edson Queiroz, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
           "area": 1440,
-          "valor_aluguel": "2.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/b7c773be4eb87bc5e3ee9bbebfcd8bc0/foto-1-de-lote/terreno-para-alugar,-1440-em-edson-queiroz,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-edson-queiroz-bairros-fortaleza-1440m2-aluguel-RS2200-id-2624423327/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4150,
+          "url_imagem": "../assets/img/properties/ground2.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar, 1440m² em Edson Queiroz, Fortaleza",
           "coords": {
             "lat": -3.7708535,
@@ -5021,16 +4301,10 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
-          "area": null,
-          "valor_aluguel": null,
-          "url_imagem": null,
-          "url_detalhes": "/imovel/lote-terreno-aldeota-bairros-fortaleza-aluguel-RS180-id-2547859287/",
-          "amenidades": [
-
-          ],
+          "area": 203,
+          "valor_aluguel": 4650,
+          "url_imagem": "../assets/img/properties/ground2.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7327632,
@@ -5040,19 +4314,16 @@ export class LocationsService {
         {
           "endereco": "Rua Doutor Atualpa Barbosa Lima, 145 - Praia de Iracema, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 3,
-          "vagas": 1,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 100,
-          "valor_aluguel": "1.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/f0b50028706a21bf0bb9c0e03ee3495b/foto-1-de-apartamento-com-3-quartos-para-alugar,-100-em-praia-de-iracema,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-praia-de-iracema-bairros-fortaleza-com-garagem-100m2-aluguel-RS1500-id-2684404568/",
+          "valor_aluguel": 4400,
+          "url_imagem": "../assets/img/properties/apartament5.jpg",
           "amenidades": [
             "Elevador",
             "Varanda",
-            "Aceita animais",
             "Garagem",
-            "Jardim",
-            "..."
+            "Jardim"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 100m² em Praia de Iracema, Fortaleza",
           "coords": {
@@ -5063,15 +4334,12 @@ export class LocationsService {
         {
           "endereco": "Rua Genipo Fernandes, 15 - Quintino Cunha, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 60,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/d389baca8992602a8ab54408c0e544a1/foto-1-de-casa-com-2-quartos-para-alugar,-60-em-quintino-cunha,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-2-quartos-quintino-cunha-bairros-fortaleza-60m2-aluguel-RS759-id-2684472597/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1100,
+          "url_imagem": "../assets/img/properties/house3.jpg",
+          "amenidades": [],
           "descricao": "Casa com 2 Quartos para alugar, 60m² em Quintino Cunha, Fortaleza",
           "coords": {
             "lat": -3.7293547,
@@ -5084,16 +4352,14 @@ export class LocationsService {
           "banheiros": 2,
           "vagas": 2,
           "area": 80,
-          "valor_aluguel": "3.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/9180bfdba5a4dda810abaaf2b10b015e/foto-1-de-apartamento-com-2-quartos-para-alugar,-80-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-aldeota-bairros-fortaleza-com-garagem-80m2-aluguel-RS3000-id-2675375306/",
+          "valor_aluguel": 3500,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
             "Condomínio fechado",
-            "Varanda",
-            "..."
+            "Varanda"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 80m² em Aldeota, Fortaleza",
           "coords": {
@@ -5103,13 +4369,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pedro Borges, 30 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 52,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/e6b2ee6d30b0b1f9b752a20689dd65df/foto-1-de-sala-comercial-para-alugar,-52-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-52m2-aluguel-RS600-id-2640120953/",
+          "valor_aluguel": 4950,
+          "url_imagem": "../assets/img/properties/office2.jpg",
           "amenidades": [
             "Cozinha"
           ],
@@ -5122,12 +4386,11 @@ export class LocationsService {
         {
           "endereco": "Travessa Armando Oliveira, 14 - Parquelândia, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 40,
-          "valor_aluguel": "1.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/401f653125200578bd80427f71fa85fa/foto-1-de-apartamento-com-2-quartos-para-alugar,-40-em-parquelândia,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-parquelandia-bairros-fortaleza-40m2-aluguel-RS1000-id-2684829896/",
+          "valor_aluguel": 1100,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
           "amenidades": [
             "Cozinha",
             "Área de serviço"
@@ -5140,13 +4403,9 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Raimundo Oliveira Filho, 659 - Papicu, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
           "area": 1100,
-          "valor_aluguel": "3.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/a20958a207d4ee1970af591b664bbb44/foto-1-de-lote/terreno-para-alugar,-1100-em-papicu,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-papicu-bairros-fortaleza-1100m2-aluguel-RS3000-id-2673408492/",
+          "valor_aluguel": 2900,
+          "url_imagem": "../assets/img/properties/ground3.jpg",
           "amenidades": [
             "Frente para o leste",
             "Frente para o sul",
@@ -5162,16 +4421,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Gurgel do Amaral, 1250 - Coaçu, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 21,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/9e31644e85aec49757a90ea61db9b48e/foto-1-de-ponto-comercial-para-alugar,-21-em-coaçu,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-coacu-bairros-fortaleza-21m2-aluguel-RS616-id-2682070910/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4750,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 21m² em Coaçu, Fortaleza",
           "coords": {
             "lat": -3.8363856,
@@ -5180,13 +4435,9 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Maria Alice, SN - Engenheiro Luciano Cavalcante, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
           "area": 841,
-          "valor_aluguel": "5.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/ab4758a63e4eb7639ef53e911127aa81/foto-1-de-lote/terreno-para-alugar,-841-em-engenheiro-luciano-cavalcante,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-engenheiro-luciano-cavalcante-bairros-fortaleza-841m2-aluguel-RS5500-id-2597718458/",
+          "valor_aluguel": 2950,
+          "url_imagem": "../assets/img/properties/ground2.jpg",
           "amenidades": [
             "Desnível para frente (rua)",
             "Plano",
@@ -5201,19 +4452,17 @@ export class LocationsService {
         {
           "endereco": "Avenida da Saudade, 95 - Passaré, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 2,
+          "banheiros": 3,
           "vagas": 2,
           "area": 60,
-          "valor_aluguel": "1.900",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/455a4209a49ed222c6ad47548a4b25db/foto-1-de-apartamento-com-3-quartos-para-alugar,-60-em-passaré,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-passare-bairros-fortaleza-com-garagem-60m2-aluguel-RS1900-id-2644286074/",
+          "valor_aluguel": 3700,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Condomínio fechado",
             "Varanda",
-            "Academia",
-            "..."
+            "Academia"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 60m² em Passaré, Fortaleza",
           "coords": {
@@ -5223,16 +4472,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 39,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/84d4e9bcb13e86550aa4ac19c025a219/foto-1-de-sala-comercial-para-alugar,-39-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-39m2-aluguel-RS500-id-2585981893/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2200,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 39m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7278961,
@@ -5241,16 +4486,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 42,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/f0907dc1a942c0d286d80f426db2584d/foto-1-de-sala-comercial-para-alugar,-42-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-42m2-aluguel-RS500-id-2566289256/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2500,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7278961,
@@ -5259,16 +4500,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 42,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/25aa8031a7898f123b20b413b53ddfa9/foto-1-de-sala-comercial-para-alugar,-42-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-42m2-aluguel-RS500-id-2510345984/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2900,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7278961,
@@ -5277,13 +4514,11 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Duque de Caxias, 823 - Centro, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 36,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/6e2fe8cdcf093136567ac29e01938ccf/foto-1-de-sala-comercial-para-alugar,-36-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-36m2-aluguel-RS600-id-78799530/",
+          "valor_aluguel": 3100,
+          "url_imagem": "../assets/img/properties/office2.jpg",
           "amenidades": [
             "Circuito de segurança",
             "Elevador"
@@ -5298,11 +4533,10 @@ export class LocationsService {
           "endereco": "Rua José Napoleão, 200 - Meireles, Fortaleza - CE",
           "quartos": 1,
           "banheiros": 2,
-          "vagas": 2,
+          "vagas": 1,
           "area": 61,
-          "valor_aluguel": "2.100",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/4cfc876669780be1be66b86009c6103a/foto-1-de-apartamento-com-1-quarto-para-alugar,-61-em-meireles,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-1-quartos-meireles-bairros-fortaleza-com-garagem-61m2-aluguel-RS2100-id-2663819545/",
+          "valor_aluguel": 1700,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
           "amenidades": [
             "Ar-condicionado",
             "Área de serviço",
@@ -5316,16 +4550,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 42,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/11ed466fa75d1391417008e6d69c2537/foto-1-de-sala-comercial-para-alugar,-42-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-42m2-aluguel-RS500-id-2476321506/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2650,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7278961,
@@ -5334,16 +4564,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Mister Hull, 3522 - Presidente Kennedy, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 55,
-          "valor_aluguel": "1.400",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/211d1ca57ee57e337f54de0015f87fb6/foto-1-de-ponto-comercial-para-alugar,-55-em-presidente-kennedy,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-presidente-kennedy-bairros-fortaleza-55m2-aluguel-RS1400-id-2646364481/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 600,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 55m² em Presidente Kennedy, Fortaleza",
           "coords": {
             "lat": -3.7370827,
@@ -5352,16 +4578,10 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Maximino, 237 - JOSE DE ALENCAR, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
           "area": 720,
-          "valor_aluguel": "1.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/d41e0db4818ae1c1b06ca427cf624b0e/foto-1-de-lote/terreno-para-alugar,-720-em-jose-de-alencar,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-jose-de-alencar-bairros-fortaleza-720m2-aluguel-RS1500-id-2547860328/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3550,
+          "url_imagem": "../assets/img/properties/ground2.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar, 720m² em JOSE DE ALENCAR, Fortaleza",
           "coords": {
             "lat": -3.8096866,
@@ -5370,16 +4590,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pedro Borges, 20 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 60,
-          "valor_aluguel": "1.143",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/2ec9e52919523691de759e1d687ff7d8/foto-1-de-sala-comercial-para-alugar,-60-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-60m2-aluguel-RS1143-id-2576463845/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4050,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 60m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7282492,
@@ -5388,16 +4604,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua do Pocinho, 20 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 74,
-          "valor_aluguel": "1.407",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/946e61a5afa7f5b4a01e5813d60579dc/foto-1-de-sala-comercial-para-alugar,-74-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-74m2-aluguel-RS1407-id-2561610726/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 750,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 74m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7282036,
@@ -5406,13 +4618,11 @@ export class LocationsService {
         },
         {
           "endereco": "Pedras, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 15,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/eef1fb5b37873523d9c6d52d6897084b/foto-1-de-ponto-comercial-para-alugar,-15-em-pedras,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-pedras-bairros-fortaleza-15m2-aluguel-RS550-id-2684194340/",
+          "valor_aluguel": 3450,
+          "url_imagem": "../assets/img/properties/office1.jpg",
           "amenidades": [
             "Cozinha"
           ],
@@ -5424,13 +4634,11 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 1267 - Centro, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 25,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/dc058684d1d50005c01caf06dd59c59b/foto-1-de-sala-comercial-para-alugar,-25-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-25m2-aluguel-RS700-id-2620648828/",
+          "valor_aluguel": 1050,
+          "url_imagem": "../assets/img/properties/office3.jpg",
           "amenidades": [
             "Mobiliado"
           ],
@@ -5442,16 +4650,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Guilherme Rocha, 381 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 38,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/64e31fabe5481cc970ed4915db817605/foto-1-de-sala-comercial-para-alugar,-38-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-38m2-aluguel-RS250-id-2634522799/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 850,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 38m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7265229,
@@ -5462,18 +4666,16 @@ export class LocationsService {
           "endereco": "Rua Barão de Aracati, 145 - Meireles, Fortaleza - CE",
           "quartos": 2,
           "banheiros": 2,
-          "vagas": 1,
+          "vagas": 2,
           "area": 56,
-          "valor_aluguel": "4.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/6c9720b82c353cba6dad51fcd1d4762d/foto-1-de-apartamento-com-2-quartos-para-venda-ou-aluguel,-56-em-meireles,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-meireles-bairros-fortaleza-com-garagem-56m2-venda-RS890000-id-2652094959/",
+          "valor_aluguel": 4750,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Piscina",
             "Mobiliado",
             "Elevador",
             "Condomínio fechado",
-            "Academia",
-            "..."
+            "Academia"
           ],
           "descricao": "Apartamento com 2 Quartos para venda ou aluguel, 56m² em Meireles, Fortaleza",
           "coords": {
@@ -5483,16 +4685,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 5335 - Papicu, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 30,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/63588fd0d5ab8a9529b8d309eadf3f00/foto-1-de-sala-comercial-para-alugar,-30-em-papicu,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-papicu-bairros-fortaleza-30m2-aluguel-RS750-id-2547861987/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3150,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 30m² em Papicu, Fortaleza",
           "coords": {
             "lat": -3.7407389,
@@ -5502,12 +4700,11 @@ export class LocationsService {
         {
           "endereco": "Rua A do Loteamento Residencial Célio Gurgel, 227 - Barroso, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 1,
           "area": 45,
-          "valor_aluguel": "1.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/1adcf938c3818a525b54fc8c7cd899fe/foto-1-de-apartamento-com-2-quartos-para-alugar,-45-em-barroso,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-barroso-bairros-fortaleza-com-garagem-45m2-aluguel-RS1200-id-2659109858/",
+          "valor_aluguel": 900,
+          "url_imagem": "../assets/img/properties/apartament5.jpg",
           "amenidades": [
             "Playground",
             "Área de serviço",
@@ -5524,15 +4721,12 @@ export class LocationsService {
         {
           "endereco": "Rua Leonardo Mota, 400 - Meireles, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 3,
+          "banheiros": 2,
           "vagas": 2,
           "area": 167,
-          "valor_aluguel": "2.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/93095ada02ce958a1a48338c7010f11a/foto-1-de-apartamento-com-3-quartos-para-alugar,-167-em-meireles,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-meireles-bairros-fortaleza-com-garagem-167m2-aluguel-RS2000-id-2618675942/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3950,
+          "url_imagem": "../assets/img/properties/apartament5.jpg",
+          "amenidades": [],
           "descricao": "Apartamento com 3 Quartos para alugar, 167m² em Meireles, Fortaleza",
           "coords": {
             "lat": -3.7303397,
@@ -5541,16 +4735,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pedro Borges, 33 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 30,
-          "valor_aluguel": "1.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/6763801cf6fab59e49c79ff2b9d0eb86/foto-1-de-sala-comercial-para-alugar,-30-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-30m2-aluguel-RS1000-id-2655686385/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2850,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 30m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7279488,
@@ -5560,19 +4750,16 @@ export class LocationsService {
         {
           "endereco": "Rua Barão de Aracati, 160 - Meireles, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": 1,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 64,
-          "valor_aluguel": "2.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/0d39e949dabddd11520eb746577fea1e/foto-1-de-apartamento-com-2-quartos-para-alugar,-64-em-meireles,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-meireles-bairros-fortaleza-com-garagem-64m2-aluguel-RS2500-id-2684355143/",
+          "valor_aluguel": 1650,
+          "url_imagem": "../assets/img/properties/apartament5.jpg",
           "amenidades": [
             "Elevador",
             "Condomínio fechado",
-            "Aceita animais",
             "Ar-condicionado",
-            "Jardim",
-            "..."
+            "Jardim"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 64m² em Meireles, Fortaleza",
           "coords": {
@@ -5582,16 +4769,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Padre Antônio Tomás, 2420 - Aldeota, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": 1,
+          "vagas": 2,
           "area": 30,
-          "valor_aluguel": "1.100",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/d8c687636cb1dd5dd89a7f919e8bef07/foto-1-de-sala-comercial-para-alugar,-30-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-aldeota-bairros-fortaleza-com-garagem-30m2-aluguel-RS1100-id-2663122600/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3850,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 30m² em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7433887,
@@ -5600,13 +4783,11 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Humberto Monte, 2929 - Pici, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 2,
-          "vagas": 2,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 64,
-          "valor_aluguel": "1.650",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/7b30bf72777dd99740afa279e5c93d5f/foto-1-de-ponto-comercial-para-alugar,-64-em-pici,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-pici-bairros-fortaleza-com-garagem-64m2-aluguel-RS1650-id-2684263934/",
+          "valor_aluguel": 4050,
+          "url_imagem": "../assets/img/properties/office2.jpg",
           "amenidades": [
             "Elevador",
             "Condomínio fechado",
@@ -5621,12 +4802,11 @@ export class LocationsService {
         {
           "endereco": "Rua Embaúba - Eusebio, Eusébio - CE",
           "quartos": 4,
-          "banheiros": 7,
-          "vagas": 6,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 142,
-          "valor_aluguel": "2.800",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/be271f008494fc30ef35378ebb29ad20/foto-1-de-casa-com-4-quartos-para-alugar,-142-em-eusebio,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-4-quartos-eusebio-bairros-fortaleza-com-garagem-142m2-aluguel-RS2800-id-2684624238/",
+          "valor_aluguel": 2600,
+          "url_imagem": "../assets/img/properties/house2.jpg",
           "amenidades": [
             "Varanda gourmet"
           ],
@@ -5638,16 +4818,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 39,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/2c3964bc0f973f3354fd253516da1d5e/foto-1-de-sala-comercial-para-alugar,-39-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-39m2-aluguel-RS500-id-2476321215/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1600,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 39m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7278961,
@@ -5657,12 +4833,11 @@ export class LocationsService {
         {
           "endereco": "Rua Fiuza de Pontes, 48 - Aldeota, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 2,
-          "vagas": 3,
+          "banheiros": 3,
+          "vagas": 1,
           "area": 200,
-          "valor_aluguel": "3.900",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/21549d66a0f8c1313fe89a4cbc273466/foto-1-de-imóvel-comercial-com-3-quartos-para-alugar,-200-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/imovel-comercial-3-quartos-aldeota-bairros-fortaleza-com-garagem-200m2-aluguel-RS3900-id-2672802976/",
+          "valor_aluguel": 3150,
+          "url_imagem": "../assets/img/properties/office2.jpg",
           "amenidades": [
             "Portão eletrônico"
           ],
@@ -5678,12 +4853,9 @@ export class LocationsService {
           "banheiros": 3,
           "vagas": 1,
           "area": 358,
-          "valor_aluguel": "2.300",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/ffae8969008568527ee82668bfc060fb/foto-1-de-casa-com-3-quartos-para-alugar,-358-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-3-quartos-aldeota-bairros-fortaleza-com-garagem-358m2-aluguel-RS2300-id-2651474082/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4150,
+          "url_imagem": "../assets/img/properties/house1.jpg",
+          "amenidades": [],
           "descricao": "Casa com 3 Quartos para alugar, 358m² em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7312746,
@@ -5693,17 +4865,16 @@ export class LocationsService {
         {
           "endereco": "Avenida Bulevar III, 318 - Jangurussu, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 33,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/6bb2e063728fb87cbbd7708b893aa303/foto-1-de-apartamento-com-2-quartos-para-alugar,-33-em-jangurussu,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-jangurussu-bairros-fortaleza-33m2-aluguel-RS600-id-2643235964/",
+          "valor_aluguel": 2400,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
           "amenidades": [
             "Cozinha",
             "Sistema de alarme",
             "Área de serviço",
-            "Aceita animais"
+
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 33m² em Jangurussu, Fortaleza",
           "coords": {
@@ -5714,12 +4885,11 @@ export class LocationsService {
         {
           "endereco": "Travessa Armando Oliveira, 14 - Parquelândia, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 40,
-          "valor_aluguel": "1.000",
-          "url_imagem": null,
-          "url_detalhes": "/imovel/apartamento-2-quartos-parquelandia-bairros-fortaleza-40m2-aluguel-RS1000-id-2684829896/",
+          "valor_aluguel": 3400,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Cozinha",
             "Área de serviço"
@@ -5732,16 +4902,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua General Bernardo Figueiredo, 415 - Amadeu Furtado, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 45,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/04389872eca79616570d619061d00d77/foto-1-de-ponto-comercial-para-alugar,-45-em-amadeu-furtado,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-amadeu-furtado-bairros-fortaleza-45m2-aluguel-RS900-id-2636124922/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4550,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 45m² em Amadeu Furtado, Fortaleza",
           "coords": {
             "lat": -3.7398369,
@@ -5752,18 +4918,15 @@ export class LocationsService {
           "endereco": "Rua Recanto Verde, 1479 - Jangurussu, Fortaleza - CE",
           "quartos": 2,
           "banheiros": 2,
-          "vagas": null,
+          "vagas": 2,
           "area": 90,
-          "valor_aluguel": "1.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/2865dbd1e442566c6cf1735583aba23e/foto-1-de-imóvel-comercial-com-2-quartos-para-alugar,-90-em-jangurussu,-fortaleza.jpg",
-          "url_detalhes": "/imovel/imovel-comercial-2-quartos-jangurussu-bairros-fortaleza-90m2-aluguel-RS1500-id-2682451372/",
+          "valor_aluguel": 1850,
+          "url_imagem": "../assets/img/properties/office1.jpg",
           "amenidades": [
-            "Quintal",
-            "Aceita animais",
+            ,
             "Área de serviço",
             "Cozinha",
-            "Interfone",
-            "..."
+            "Interfone"
           ],
           "descricao": "Imóvel Comercial com 2 Quartos para alugar, 90m² em Jangurussu, Fortaleza",
           "coords": {
@@ -5773,16 +4936,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Pontes Vieira, 2340 - Dionísio Torres, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": 1,
+          "vagas": 2,
           "area": 49,
-          "valor_aluguel": "2.450",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/e1cb50faf8832bbec0a65ea8c7279864/foto-1-de-sala-comercial-para-alugar,-49-em-dionísio-torres,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-dionisio-torres-bairros-fortaleza-com-garagem-49m2-aluguel-RS2450-id-2547859268/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2500,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 49m² em Dionísio Torres, Fortaleza",
           "coords": {
             "lat": -3.7513729,
@@ -5791,13 +4950,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Senador Pompeu, 649 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 23,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/540801359c27613692e2f203b34df5ed/foto-1-de-sala-comercial-para-alugar,-23-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-23m2-aluguel-RS600-id-2661385887/",
+          "valor_aluguel": 900,
+          "url_imagem": "../assets/img/properties/office2.jpg",
           "amenidades": [
             "Cozinha",
             "Segurança 24h",
@@ -5812,16 +4969,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 39,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/d432be3c114c47eef6cc91fed3d2fa1f/foto-1-de-sala-comercial-para-alugar,-39-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-39m2-aluguel-RS500-id-2476322199/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4150,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 39m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7278961,
@@ -5830,16 +4983,12 @@ export class LocationsService {
         },
         {
           "endereco": "Cidade dos Funcionários, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 16,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/4219a3d7c1e80d4307f4bea738d8606d/foto-1-de-sala-comercial-para-alugar,-16-em-cidade-dos-funcionários,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-cidade-dos-funcionarios-bairros-fortaleza-16m2-aluguel-RS550-id-2684811695/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1650,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 16m² em Cidade dos Funcionários, Fortaleza",
           "coords": {
             "lat": -3.7971588,
@@ -5848,16 +4997,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pedro Borges, 33 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 38,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/8a63f9468abb68190ae399c0a33eefe5/foto-1-de-sala-comercial-para-alugar,-38-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-38m2-aluguel-RS600-id-2604746986/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 750,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 38m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7279488,
@@ -5866,16 +5011,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Senador Alencar - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 26,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/bd3bd962c86f17272c2a165a540377aa/foto-1-de-sala-comercial-para-alugar,-26-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-26m2-aluguel-RS400-id-2588260948/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1300,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 26m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7229233,
@@ -5884,16 +5025,12 @@ export class LocationsService {
         },
         {
           "endereco": "Parque Dois Irmãos, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 2,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 22,
-          "valor_aluguel": "4.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/e5330cca27f2d07edcaf5adab6a78db6/foto-1-de-ponto-comercial-para-alugar,-22-em-parque-dois-irmãos,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-parque-dois-irmaos-bairros-fortaleza-22m2-aluguel-RS4000-id-2637532974/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 750,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 22m² em Parque Dois Irmãos, Fortaleza",
           "coords": {
             "lat": -3.8089995,
@@ -5902,16 +5039,10 @@ export class LocationsService {
         },
         {
           "endereco": "Rua H, 0 - Parque Dois Irmãos, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
           "area": 438,
-          "valor_aluguel": "1.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/2e8200a92c2e3dbc71c74dbcdc3d100a/foto-1-de-lote/terreno-para-alugar,-438-em-parque-dois-irmãos,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-parque-dois-irmaos-bairros-fortaleza-438m2-aluguel-RS1200-id-2672791894/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4050,
+          "url_imagem": "../assets/img/properties/ground1.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar, 438m² em Parque Dois Irmãos, Fortaleza",
           "coords": {
             "lat": -3.8010167,
@@ -5921,15 +5052,12 @@ export class LocationsService {
         {
           "endereco": "Rua General Bernardo Figueiredo, 2020 - Parquelândia, Fortaleza - CE",
           "quartos": 5,
-          "banheiros": null,
-          "vagas": 2,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 440,
-          "valor_aluguel": "2.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/517cd81d87aa54968d45cd03c5ee3d4b/foto-1-de-imóvel-comercial-com-5-quartos-para-alugar,-440-em-parquelândia,-fortaleza.jpg",
-          "url_detalhes": "/imovel/imovel-comercial-5-quartos-parquelandia-bairros-fortaleza-com-garagem-440m2-aluguel-RS2500-id-2661439683/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1100,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Imóvel Comercial com 5 Quartos para alugar, 440m² em Parquelândia, Fortaleza",
           "coords": {
             "lat": -3.7404762,
@@ -5939,15 +5067,12 @@ export class LocationsService {
         {
           "endereco": "Rua da Assunção, 443 - José Bonifácio, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 35,
-          "valor_aluguel": "1.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/8d513b95ba8f689008d8499deb6f66ac/foto-1-de-ponto-comercial-com-2-quartos-para-alugar,-35-em-josé-bonifácio,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-2-quartos-jose-bonifacio-bairros-fortaleza-35m2-aluguel-RS1000-id-2650494916/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2550,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial com 2 Quartos para alugar, 35m² em José Bonifácio, Fortaleza",
           "coords": {
             "lat": -3.7340616,
@@ -5956,16 +5081,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Presidente Artur Bernardes, 3470 - JOSE DE ALENCAR, Fortaleza - CE",
-          "quartos": 40,
-          "banheiros": 40,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 4066,
-          "valor_aluguel": "78.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/2db72ffd5132fbb886e1cef47523fcf8/foto-1-de-prédio-comercial-com-40-quartos-para-alugar,-4066-em-jose-de-alencar,-fortaleza.jpg",
-          "url_detalhes": "/imovel/predio-comercial-40-quartos-jose-de-alencar-bairros-fortaleza-4066m2-aluguel-RS78000-id-2668527241/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2650,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Prédio Comercial com 40 Quartos para alugar, 4066m² em JOSE DE ALENCAR, Fortaleza",
           "coords": {
             "lat": -3.8089627,
@@ -5974,13 +5095,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pedro Borges, 30 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 40,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/4ec62fd858a18881a60a910328b5bee1/foto-1-de-sala-comercial-para-alugar,-40-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-40m2-aluguel-RS600-id-2635497057/",
+          "valor_aluguel": 2750,
+          "url_imagem": "../assets/img/properties/office3.jpg",
           "amenidades": [
             "Cozinha"
           ],
@@ -5993,12 +5112,11 @@ export class LocationsService {
         {
           "endereco": "Rua Dona Leopoldina, 388 - Centro, Fortaleza - CE",
           "quartos": 1,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 25,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/6c6a7f589eb741900ecaf052bb6cfca3/foto-1-de-kitnet-com-1-quarto-para-alugar,-25-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/kitnet-1-quartos-centro-bairros-fortaleza-25m2-aluguel-RS600-id-2517306046/",
+          "valor_aluguel": 1700,
+          "url_imagem": "",
           "amenidades": [
             "Cozinha"
           ],
@@ -6010,16 +5128,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Maestro Lisboa, 401 - JOSE DE ALENCAR, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 17,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/1f39d85e72174b4cced7f7c2d759e1c1/foto-1-de-sala-comercial-para-alugar,-17-em-jose-de-alencar,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-jose-de-alencar-bairros-fortaleza-17m2-aluguel-RS700-id-2551272056/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1600,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 17m² em JOSE DE ALENCAR, Fortaleza",
           "coords": {
             "lat": -3.8077569,
@@ -6032,15 +5146,14 @@ export class LocationsService {
           "banheiros": 3,
           "vagas": 2,
           "area": 253,
-          "valor_aluguel": "1.900",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/efbec3321b8fcc89b4d78d134e2b1299/foto-1-de-casa-com-4-quartos-para-alugar,-253-em-maraponga,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-4-quartos-maraponga-bairros-fortaleza-com-garagem-253m2-aluguel-RS1900-id-2640115515/",
+          "valor_aluguel": 3950,
+          "url_imagem": "../assets/img/properties/house4.jpg",
           "amenidades": [
             "Varanda",
             "Garagem",
             "Cozinha",
             "Área de serviço",
-            "Aceita animais"
+
           ],
           "descricao": "Casa com 4 Quartos para alugar, 253m² em Maraponga, Fortaleza",
           "coords": {
@@ -6051,17 +5164,16 @@ export class LocationsService {
         {
           "endereco": "Rua 101 - Novo Mondubim, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": 1,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 41,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/56cef83022587dcc9a1d0179e11a1b47/foto-1-de-apartamento-com-2-quartos-para-venda-ou-aluguel,-41-em-novo-mondubim,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-novo-mondubim-bairros-fortaleza-com-garagem-41m2-venda-RS120000-id-2668724902/",
+          "valor_aluguel": 3400,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
           "amenidades": [
             "Churrasqueira",
             "Interfone",
             "Quadra poliesportiva",
-            "Aceita animais"
+
           ],
           "descricao": "Apartamento com 2 Quartos para venda ou aluguel, 41m² em Novo Mondubim, Fortaleza",
           "coords": {
@@ -6071,13 +5183,11 @@ export class LocationsService {
         },
         {
           "endereco": "Papicu, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 2,
-          "vagas": 3,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 300,
-          "valor_aluguel": "7.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/858bc5300d0a4c6fdc80ff09c03fc242/foto-1-de-ponto-comercial-para-venda-ou-aluguel,-300-em-papicu,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-papicu-bairros-fortaleza-com-garagem-300m2-venda-RS4400000-id-2542701185/",
+          "valor_aluguel": 3550,
+          "url_imagem": "../assets/img/properties/office1.jpg",
           "amenidades": [
             "Cozinha"
           ],
@@ -6090,14 +5200,13 @@ export class LocationsService {
         {
           "endereco": "Rua Professor Jacinto Botelho, 60 - Guararapes, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 3,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 100,
-          "valor_aluguel": "3.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/424aade3ad076ad4d4427c9cebf6607f/foto-1-de-apartamento-com-3-quartos-para-alugar,-100-em-guararapes,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-guararapes-bairros-fortaleza-100m2-aluguel-RS3500-id-2646365200/",
+          "valor_aluguel": 4150,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
           "amenidades": [
-            "Aceita animais"
+
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 100m² em Guararapes, Fortaleza",
           "coords": {
@@ -6109,16 +5218,15 @@ export class LocationsService {
           "endereco": "Rua Rafael Tobias, 2800 - JOSE DE ALENCAR, Fortaleza - CE",
           "quartos": 3,
           "banheiros": 3,
-          "vagas": 5,
+          "vagas": 2,
           "area": 126,
-          "valor_aluguel": "3.150",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/fd2a3cd297d28445a9d352b62b064aaa/foto-1-de-casa-com-3-quartos-para-alugar,-126-em-jose-de-alencar,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-3-quartos-jose-de-alencar-bairros-fortaleza-com-garagem-126m2-aluguel-RS3150-id-2658741076/",
+          "valor_aluguel": 1200,
+          "url_imagem": "../assets/img/properties/house2.jpg",
           "amenidades": [
             "Cozinha",
             "Interfone",
             "Área de serviço",
-            "Aceita animais"
+
           ],
           "descricao": "Casa com 3 Quartos para alugar, 126m² em JOSE DE ALENCAR, Fortaleza",
           "coords": {
@@ -6128,13 +5236,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Capitão Melo, 3358 - Joaquim Tavora, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 25,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/e6c05ece3ba4774dea2ac4c93a609876/foto-1-de-ponto-comercial-para-alugar,-25-em-joaquim-tavora,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-joaquim-tavora-bairros-fortaleza-25m2-aluguel-RS800-id-2682649260/",
+          "valor_aluguel": 1050,
+          "url_imagem": "../assets/img/properties/office2.jpg",
           "amenidades": [
             "Cozinha"
           ],
@@ -6147,12 +5253,11 @@ export class LocationsService {
         {
           "endereco": "Rua Daura, 151 - Barroso, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": 1,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 41,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/aa8dbbcf613ad8cbf5c260c86bdb1cf0/foto-1-de-apartamento-com-2-quartos-para-alugar,-41-em-barroso,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-barroso-bairros-fortaleza-com-garagem-41m2-aluguel-RS850-id-2659109859/",
+          "valor_aluguel": 800,
+          "url_imagem": "../assets/img/properties/apartament5.jpg",
           "amenidades": [
             "Playground",
             "Área de serviço",
@@ -6167,13 +5272,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Tomás Acioli, 840 - Joaquim Tavora, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 59,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/b3d94be37164a787657b93f5ff6b84e4/foto-1-de-sala-comercial-para-venda-ou-aluguel,-59-em-joaquim-tavora,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-joaquim-tavora-bairros-fortaleza-59m2-venda-RS120000-id-2624493866/",
+          "valor_aluguel": 3650,
+          "url_imagem": "../assets/img/properties/office1.jpg",
           "amenidades": [
             "Cozinha",
             "Elevador"
@@ -6188,18 +5291,16 @@ export class LocationsService {
           "endereco": "Rua José Hipólito, 120 - Messejana, Fortaleza - CE",
           "quartos": 4,
           "banheiros": 3,
-          "vagas": 2,
+          "vagas": 1,
           "area": 125,
-          "valor_aluguel": "2.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/7139fac32547e2bab663be2bb4c06f5e/foto-1-de-apartamento-com-4-quartos-para-alugar,-125-em-messejana,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-4-quartos-messejana-bairros-fortaleza-com-garagem-125m2-aluguel-RS2200-id-2661161856/",
+          "valor_aluguel": 3300,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Área de serviço",
             "Playground",
-            "Quadra poliesportiva",
-            "..."
+            "Quadra poliesportiva"
           ],
           "descricao": "Apartamento com 4 Quartos para alugar, 125m² em Messejana, Fortaleza",
           "coords": {
@@ -6209,16 +5310,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pereira Filgueiras, 2392 - Centro, Fortaleza - CE",
-          "quartos": 2,
           "banheiros": 2,
-          "vagas": null,
-          "area": 70,
-          "valor_aluguel": "1.200",
-          "url_imagem": null,
-          "url_detalhes": "/imovel/apartamento-2-quartos-centro-bairros-fortaleza-70m2-aluguel-RS1200-id-2682377433/",
-          "amenidades": [
-
-          ],
+          "vagas": 2,
+          "area": 167,
+          "valor_aluguel": 3900,
+          "url_imagem": "../assets/img/properties/apartament5.jpg",
+          "amenidades": [],
           "descricao": null,
           "coords": {
             "lat": -3.7320987,
@@ -6227,16 +5324,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Antônio Sales, 1516 - Joaquim Tavora, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 43,
-          "valor_aluguel": "1.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/d9f3b446377404a15b9ab5180b30f989/foto-1-de-sala-comercial-para-alugar,-43-em-joaquim-tavora,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-joaquim-tavora-bairros-fortaleza-43m2-aluguel-RS1200-id-2582208899/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3900,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 43m² em Joaquim Tavora, Fortaleza",
           "coords": {
             "lat": -3.7431975,
@@ -6247,18 +5340,16 @@ export class LocationsService {
           "endereco": "Rua Barão de Aracati, 145 - Meireles, Fortaleza - CE",
           "quartos": 2,
           "banheiros": 2,
-          "vagas": 1,
+          "vagas": 2,
           "area": 56,
-          "valor_aluguel": "4.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/6c9720b82c353cba6dad51fcd1d4762d/foto-1-de-apartamento-com-2-quartos-para-venda-ou-aluguel,-56-em-meireles,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-meireles-bairros-fortaleza-com-garagem-56m2-venda-RS890000-id-2652094959/",
+          "valor_aluguel": 3150,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Piscina",
             "Mobiliado",
             "Elevador",
             "Condomínio fechado",
-            "Academia",
-            "..."
+            "Academia"
           ],
           "descricao": "Apartamento com 2 Quartos para venda ou aluguel, 56m² em Meireles, Fortaleza",
           "coords": {
@@ -6269,12 +5360,11 @@ export class LocationsService {
         {
           "endereco": "Avenida Dolor Barreira, 1000 - De Lourdes, Fortaleza - CE",
           "quartos": 1,
-          "banheiros": 1,
-          "vagas": 14,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 21,
-          "valor_aluguel": "2.290",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/56caadd9138f3f0c58fb74df32d833b8/foto-1-de-sala-comercial-com-1-quarto-para-alugar,-21-em-de-lourdes,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-1-quartos-de-lourdes-bairros-fortaleza-com-garagem-21m2-aluguel-RS2290-id-2548544438/",
+          "valor_aluguel": 2950,
+          "url_imagem": "../assets/img/properties/office1.jpg",
           "amenidades": [
             "Hall de entrada",
             "Sala de reunião"
@@ -6291,16 +5381,14 @@ export class LocationsService {
           "banheiros": 2,
           "vagas": 2,
           "area": 70,
-          "valor_aluguel": "3.100",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/40f9484d507de8e6bf99b7ebbd06434d/foto-1-de-apartamento-com-3-quartos-para-alugar,-70-em-guararapes,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-guararapes-bairros-fortaleza-com-garagem-70m2-aluguel-RS3100-id-2575126594/",
+          "valor_aluguel": 3550,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
             "Condomínio fechado",
-            "Varanda",
-            "..."
+            "Varanda"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 70m² em Guararapes, Fortaleza",
           "coords": {
@@ -6310,13 +5398,11 @@ export class LocationsService {
         },
         {
           "endereco": "Cidade dos Funcionários, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 35,
-          "valor_aluguel": "1.600",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/c17b5ddf1f318ffec8f0cf4ee29e45d6/foto-1-de-sala-comercial-para-alugar,-35-em-cidade-dos-funcionários,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-cidade-dos-funcionarios-bairros-fortaleza-35m2-aluguel-RS1600-id-2646444609/",
+          "valor_aluguel": 2350,
+          "url_imagem": "../assets/img/properties/office1.jpg",
           "amenidades": [
             "Interfone"
           ],
@@ -6328,13 +5414,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua General Clarindo de Queiroz, 800 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 30,
-          "valor_aluguel": "1.300",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/5873c1f4e6fb381d93bb7c786d38e425/foto-1-de-sala-comercial-para-alugar,-30-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-30m2-aluguel-RS1300-id-2573298519/",
+          "valor_aluguel": 1800,
+          "url_imagem": "../assets/img/properties/office1.jpg",
           "amenidades": [
             "Cozinha",
             "Elevador",
@@ -6350,12 +5434,11 @@ export class LocationsService {
         {
           "endereco": "Rua Pinto Madeira, 1075 - Centro, Fortaleza - CE",
           "quartos": 1,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 30,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/fb8ffa46c246cc5b19e0b957afb45634/foto-1-de-apartamento-com-1-quarto-para-alugar,-30-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-1-quartos-centro-bairros-fortaleza-30m2-aluguel-RS900-id-2639636979/",
+          "valor_aluguel": 4850,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
           "amenidades": [
             "Lavanderia",
             "Cozinha",
@@ -6369,13 +5452,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua João Gentil, 2964 - Granja Lisboa, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 85,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/f71734cf29a0524704e9bb62eaf7734c/foto-1-de-ponto-comercial-para-alugar,-85-em-granja-lisboa,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-granja-lisboa-bairros-fortaleza-85m2-aluguel-RS850-id-2646365082/",
+          "valor_aluguel": 1000,
+          "url_imagem": "../assets/img/properties/office3.jpg",
           "amenidades": [
             "Conexão à internet"
           ],
@@ -6387,16 +5468,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Senador Virgílio Távora, 1701 - Meireles, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 2,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 35,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/af98b42751eb146d0b7ee88e429e80b2/foto-1-de-imóvel-comercial-para-alugar,-35-em-meireles,-fortaleza.jpg",
-          "url_detalhes": "/imovel/imovel-comercial-meireles-bairros-fortaleza-35m2-aluguel-RS795-id-2682680992/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4600,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Imóvel Comercial para alugar, 35m² em Meireles, Fortaleza",
           "coords": {
             "lat": -3.7403814,
@@ -6407,18 +5484,16 @@ export class LocationsService {
           "endereco": "Rua Doutor Manuel Teófilo, 995 - Itaperi, Fortaleza - CE",
           "quartos": 3,
           "banheiros": 2,
-          "vagas": 1,
+          "vagas": 2,
           "area": 60,
-          "valor_aluguel": null,
-          "url_imagem": null,
-          "url_detalhes": "/imovel/apartamento-3-quartos-itaperi-bairros-fortaleza-com-garagem-60m2-aluguel-RS909-id-2660637856/",
+          "valor_aluguel": 3450,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Condomínio fechado",
             "Jardim",
-            "Área de serviço",
-            "..."
+            "Área de serviço"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 60m² em Itaperi, Fortaleza",
           "coords": {
@@ -6429,15 +5504,14 @@ export class LocationsService {
         {
           "endereco": "Avenida da Saudade - Passaré, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": 1,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 48,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/9310051f1d5e422f9b03791b95f67712/foto-1-de-apartamento-com-2-quartos-para-venda-ou-aluguel,-48-em-passaré,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-passare-bairros-fortaleza-com-garagem-48m2-venda-RS110000-id-2638186505/",
+          "valor_aluguel": 1650,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
           "amenidades": [
             "Interfone",
-            "Aceita animais"
+
           ],
           "descricao": "Apartamento com 2 Quartos para venda ou aluguel, 48m² em Passaré, Fortaleza",
           "coords": {
@@ -6447,16 +5521,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pedro Borges, 33 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 34,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/f65cfc40f467f1a9841dc7a3a9f2dbf3/foto-1-de-sala-comercial-para-venda-ou-aluguel,-34-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-34m2-venda-RS90000-id-2624365914/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3250,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para venda ou aluguel, 34m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7279488,
@@ -6465,16 +5535,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua do Pocinho, 33 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 34,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/439ab827e82749e54510b84c6207c112/foto-1-de-sala-comercial-para-venda-ou-aluguel,-34-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-34m2-venda-RS80000-id-2624366115/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4800,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para venda ou aluguel, 34m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.728003,
@@ -6483,16 +5549,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Alagoas, 2910 - Pici, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 55,
-          "valor_aluguel": "1.100",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/cde8d7734729b2dfc88338038b1182e5/foto-1-de-ponto-comercial-para-alugar,-55-em-pici,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-pici-bairros-fortaleza-55m2-aluguel-RS1100-id-2646362148/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4350,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 55m² em Pici, Fortaleza",
           "coords": {
             "lat": -3.7531168,
@@ -6501,16 +5563,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Dom Luís, 500 - Meireles, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 32,
-          "valor_aluguel": "1.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/db4dde466cba0d31a8ca7fe600b31e24/foto-1-de-sala-comercial-para-alugar,-32-em-meireles,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-meireles-bairros-fortaleza-32m2-aluguel-RS1200-id-2579525921/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 850,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 32m² em Meireles, Fortaleza",
           "coords": {
             "lat": -3.7356097,
@@ -6519,13 +5577,11 @@ export class LocationsService {
         },
         {
           "endereco": "Maraponga, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 2,
-          "vagas": 7,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 550,
-          "valor_aluguel": "6.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/539d6a0d0737f4fc51d98e59ee46e0ad/foto-1-de-prédio-comercial-para-venda-ou-aluguel,-550-em-maraponga,-fortaleza.jpg",
-          "url_detalhes": "/imovel/predio-comercial-maraponga-bairros-fortaleza-com-garagem-550m2-venda-RS750000-id-2645797213/",
+          "valor_aluguel": 4300,
+          "url_imagem": "../assets/img/properties/office1.jpg",
           "amenidades": [
             "Depósito"
           ],
@@ -6537,16 +5593,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 31,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/394684d67f3d7e98ecbd12c3830321c3/foto-1-de-sala-comercial-para-alugar,-31-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-31m2-aluguel-RS400-id-2476321047/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3650,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.724243,
@@ -6556,12 +5608,11 @@ export class LocationsService {
         {
           "endereco": "Rua Maria Pinheiro Campelo, 673 - Lagoa Redonda, Fortaleza - CE",
           "quartos": 1,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 45,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/8a9681db0223da4d8e2375c34f2825ca/foto-1-de-apartamento-com-1-quarto-para-alugar,-45-em-lagoa-redonda,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-1-quartos-lagoa-redonda-bairros-fortaleza-45m2-aluguel-RS500-id-2643236681/",
+          "valor_aluguel": 2850,
+          "url_imagem": "../assets/img/properties/apartament5.jpg",
           "amenidades": [
             "Cozinha",
             "Área de serviço"
@@ -6575,12 +5626,11 @@ export class LocationsService {
         {
           "endereco": "Rua Waldery Uchôa - Benfica, Fortaleza - CE",
           "quartos": 4,
-          "banheiros": 1,
+          "banheiros": 3,
           "vagas": 1,
           "area": 120,
-          "valor_aluguel": "1.550",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/a55ec77a33b28ce755e96fa36ef95517/foto-1-de-casa-com-4-quartos-para-alugar,-120-em-benfica,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-4-quartos-benfica-bairros-fortaleza-com-garagem-120m2-aluguel-RS1550-id-2684406870/",
+          "valor_aluguel": 5000,
+          "url_imagem": "../assets/img/properties/house1.jpg",
           "amenidades": [
             "Garagem",
             "Cozinha"
@@ -6593,16 +5643,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 5335 - Papicu, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 30,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/8dd531b6fd48712b1e4701190c9d1c02/foto-1-de-sala-comercial-para-alugar,-30-em-papicu,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-papicu-bairros-fortaleza-30m2-aluguel-RS750-id-2547859033/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 700,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 30m² em Papicu, Fortaleza",
           "coords": {
             "lat": -3.7407389,
@@ -6611,13 +5657,11 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Dom Luís, 500 - Aldeota, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 2,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 62,
-          "valor_aluguel": "3.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/9b27ac258a1d63359b8f625c3df16526/foto-1-de-sala-comercial-para-alugar,-62-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-aldeota-bairros-fortaleza-62m2-aluguel-RS3000-id-2663432975/",
+          "valor_aluguel": 2150,
+          "url_imagem": "../assets/img/properties/office2.jpg",
           "amenidades": [
             "Escritório",
             "Vista para o mar"
@@ -6631,19 +5675,17 @@ export class LocationsService {
         {
           "endereco": "Rua Bento Albuquerque, 3300 - Manoel Dias Branco, Fortaleza - CE",
           "quartos": 4,
-          "banheiros": 5,
-          "vagas": 3,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 163,
-          "valor_aluguel": "7.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/3c6c00806760aee12991c2fc2d32fc79/foto-1-de-apartamento-com-4-quartos-para-alugar,-163-em-manoel-dias-branco,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-4-quartos-manoel-dias-branco-bairros-fortaleza-com-garagem-163m2-aluguel-RS7000-id-2646838018/",
+          "valor_aluguel": 1100,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
             "Condomínio fechado",
-            "Quintal",
-            "..."
+
           ],
           "descricao": "Apartamento com 4 Quartos para alugar, 163m² em Manoel Dias Branco, Fortaleza",
           "coords": {
@@ -6653,16 +5695,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 42,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/69e22e31169f42ecbcb967bdee084ca6/foto-1-de-sala-comercial-para-alugar,-42-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-42m2-aluguel-RS500-id-2476322391/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1650,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7278961,
@@ -6671,16 +5709,12 @@ export class LocationsService {
         },
         {
           "endereco": "Parque Manibura, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 50,
-          "valor_aluguel": "2.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/11f941b58b1bb27d559cd5b74f395d17/foto-1-de-ponto-comercial-para-alugar,-50-em-parque-manibura,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-parque-manibura-bairros-fortaleza-50m2-aluguel-RS2000-id-2627583062/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1600,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 50m² em Parque Manibura, Fortaleza",
           "coords": {
             "lat": -3.7912376,
@@ -6690,15 +5724,12 @@ export class LocationsService {
         {
           "endereco": "Vila Nazira, 96 - Fátima, Fortaleza - CE",
           "quartos": 6,
-          "banheiros": 4,
-          "vagas": 1,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 250,
-          "valor_aluguel": "3.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/d5744e8a4b89ceaf464d87490eb6234b/foto-1-de-casa-com-6-quartos-para-alugar,-250-em-fátima,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-6-quartos-fatima-bairros-fortaleza-com-garagem-250m2-aluguel-RS3000-id-2684144537/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3300,
+          "url_imagem": "../assets/img/properties/house3.jpg",
+          "amenidades": [],
           "descricao": "Casa com 6 Quartos para alugar, 250m² em Fátima, Fortaleza",
           "coords": {
             "lat": -3.7424532,
@@ -6707,16 +5738,10 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Andrade Furtado, 0 - Cocó, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
           "area": 498,
-          "valor_aluguel": "1.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/18271c29c0ef2f471042aae6723f274e/foto-1-de-lote/terreno-para-alugar,-498-em-cocó,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-coco-bairros-fortaleza-498m2-aluguel-RS1000-id-2547861878/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2800,
+          "url_imagem": "../assets/img/properties/ground1.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar, 498m² em Cocó, Fortaleza",
           "coords": {
             "lat": -3.7427741,
@@ -6725,16 +5750,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 31,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/782298b41e5832972c2002f756352a1e/foto-1-de-sala-comercial-para-alugar,-31-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-31m2-aluguel-RS400-id-2476321889/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1150,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.724243,
@@ -6743,16 +5764,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pereira Filgueiras, 2020 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 36,
-          "valor_aluguel": "1.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/368e7a1049aed5fdb88646671b65a4b9/foto-1-de-sala-comercial-para-alugar,-36-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-36m2-aluguel-RS1200-id-2682985586/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3600,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 36m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7311979,
@@ -6761,16 +5778,10 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Roberto Gradvohl, 1 - JOSE DE ALENCAR, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
           "area": 1000,
-          "valor_aluguel": "2.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/5f372fd44cc89f1b90e29c7411b22cc4/foto-1-de-lote/terreno-para-alugar,-1000-em-jose-de-alencar,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-jose-de-alencar-bairros-fortaleza-1000m2-aluguel-RS2000-id-2682682862/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4550,
+          "url_imagem": "../assets/img/properties/ground1.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar, 1000m² em JOSE DE ALENCAR, Fortaleza",
           "coords": {
             "lat": -3.8093649,
@@ -6779,16 +5790,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pedro Borges, 20 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 72,
-          "valor_aluguel": "1.370",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/b9cb841eca518426ac020cf3106e5071/foto-1-de-sala-comercial-para-alugar,-72-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-72m2-aluguel-RS1370-id-2547860397/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1650,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 72m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7282492,
@@ -6797,16 +5804,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pedro Borges, 20 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 75,
-          "valor_aluguel": "1.434",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/74f19e20f03700c5e7f1efee16a89bd4/foto-1-de-sala-comercial-para-alugar,-75-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-75m2-aluguel-RS1434-id-2561789776/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4650,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 75m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7282492,
@@ -6815,16 +5818,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Senador Virgílio Távora, 1901 - Aldeota, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 28,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/6ae12545fa452461608f2faa6cadc7c5/foto-1-de-sala-comercial-para-alugar,-28-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-aldeota-bairros-fortaleza-28m2-aluguel-RS800-id-2666643824/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1450,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 28m² em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.743278,
@@ -6835,15 +5834,14 @@ export class LocationsService {
           "endereco": "Rua Porto Velho, 9 - João XXIII, Fortaleza - CE",
           "quartos": 2,
           "banheiros": 2,
-          "vagas": null,
+          "vagas": 1,
           "area": 50,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/5739fc25e5abb666d09d672b5968402e/foto-1-de-casa-com-2-quartos-para-alugar,-50-em-joão-xxiii,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-2-quartos-joao-xxiii-bairros-fortaleza-50m2-aluguel-RS950-id-2667603828/",
+          "valor_aluguel": 4800,
+          "url_imagem": "../assets/img/properties/house4.jpg",
           "amenidades": [
             "Varanda",
             "Cozinha",
-            "Aceita animais"
+
           ],
           "descricao": "Casa com 2 Quartos para alugar, 50m² em João XXIII, Fortaleza",
           "coords": {
@@ -6853,13 +5851,9 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Maria Alice, SN - Engenheiro Luciano Cavalcante, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
           "area": 841,
-          "valor_aluguel": "5.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/ab4758a63e4eb7639ef53e911127aa81/foto-1-de-lote/terreno-para-alugar,-841-em-engenheiro-luciano-cavalcante,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-engenheiro-luciano-cavalcante-bairros-fortaleza-841m2-aluguel-RS5500-id-2597718458/",
+          "valor_aluguel": 4400,
+          "url_imagem": "../assets/img/properties/ground1.jpg",
           "amenidades": [
             "Desnível para frente (rua)",
             "Plano",
@@ -6875,11 +5869,10 @@ export class LocationsService {
           "endereco": "Rua Nogueira Acioli, 1365 - Aldeota, Fortaleza - CE",
           "quartos": 2,
           "banheiros": 2,
-          "vagas": 1,
+          "vagas": 2,
           "area": 89,
-          "valor_aluguel": "1.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/9e6a57ff2826c626906270fff2b4796b/foto-1-de-apartamento-com-2-quartos-para-alugar,-89-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-aldeota-bairros-fortaleza-com-garagem-89m2-aluguel-RS1500-id-2663820182/",
+          "valor_aluguel": 600,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Área de serviço"
           ],
@@ -6895,16 +5888,13 @@ export class LocationsService {
           "banheiros": 3,
           "vagas": 1,
           "area": 100,
-          "valor_aluguel": "1.100",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/292f88bab30e6165f66cc1c98fde2ca9/foto-1-de-apartamento-com-3-quartos-para-alugar,-100-em-papicu,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-papicu-bairros-fortaleza-com-garagem-100m2-aluguel-RS1100-id-2684514900/",
+          "valor_aluguel": 4650,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
           "amenidades": [
             "Elevador",
             "Condomínio fechado",
             "Varanda",
-            "Aceita animais",
-            "Playground",
-            "..."
+            "Playground"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 100m² em Papicu, Fortaleza",
           "coords": {
@@ -6915,15 +5905,12 @@ export class LocationsService {
         {
           "endereco": "Rua 5, 350 - Parque Iracema, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 5,
+          "banheiros": 2,
           "vagas": 2,
           "area": 70,
-          "valor_aluguel": "2.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/9f8d2a642cf96361780d7f929a8d538f/foto-1-de-apartamento-com-2-quartos-para-alugar,-70-em-parque-iracema,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-parque-iracema-bairros-fortaleza-com-garagem-70m2-aluguel-RS2500-id-2675760018/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2550,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
+          "amenidades": [],
           "descricao": "Apartamento com 2 Quartos para alugar, 70m² em Parque Iracema, Fortaleza",
           "coords": {
             "lat": -3.8042961,
@@ -6932,16 +5919,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 31,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/65157e0ee66df419abb6a8b9ba58a32a/foto-1-de-sala-comercial-para-alugar,-31-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-31m2-aluguel-RS400-id-2650282769/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 950,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.724243,
@@ -6950,16 +5933,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 31,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/d73d569e292dc002728c41dee72cc010/foto-1-de-sala-comercial-para-alugar,-31-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-31m2-aluguel-RS400-id-2476320431/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4950,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.724243,
@@ -6968,13 +5947,11 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Duque de Caxias, 823 - Centro, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 36,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/6e2fe8cdcf093136567ac29e01938ccf/foto-1-de-sala-comercial-para-alugar,-36-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-36m2-aluguel-RS600-id-78799530/",
+          "valor_aluguel": 2050,
+          "url_imagem": "../assets/img/properties/office2.jpg",
           "amenidades": [
             "Circuito de segurança",
             "Elevador"
@@ -6988,12 +5965,11 @@ export class LocationsService {
         {
           "endereco": "Avenida da Abolição, 3089 - Beira Mar, Fortaleza - CE",
           "quartos": 1,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 30,
-          "valor_aluguel": "1.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/ecbaae1ce705a8e63bedc98f2386698f/foto-1-de-apartamento-com-1-quarto-para-alugar,-30-em-beira-mar,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-1-quartos-beira-mar-bairros-fortaleza-30m2-aluguel-RS1200-id-2556387735/",
+          "valor_aluguel": 1850,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
           "amenidades": [
             "Câmera de segurança",
             "Jardim",
@@ -7009,13 +5985,11 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 1267 - Aldeota, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": 1,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 23,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/c0569160c3045eef686c5ea164de25ad/foto-1-de-sala-comercial-para-alugar,-23-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-aldeota-bairros-fortaleza-com-garagem-23m2-aluguel-RS700-id-2632882309/",
+          "valor_aluguel": 750,
+          "url_imagem": "../assets/img/properties/office1.jpg",
           "amenidades": [
             "Elevador",
             "Escritório"
@@ -7028,16 +6002,10 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
-          "area": null,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/a99bd99ece715c5d7d55b753739fd7c2/foto-1-de-lote/terreno-para-alugar-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-aldeota-bairros-fortaleza-aluguel-RS180-id-2614654708/",
-          "amenidades": [
-
-          ],
+          "area": 128,
+          "valor_aluguel": 3550,
+          "url_imagem": "../assets/img/properties/ground2.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7327632,
@@ -7048,16 +6016,15 @@ export class LocationsService {
           "endereco": "Rua Vereador Ademar Arruda, 95 - Centro, Fortaleza - CE",
           "quartos": 2,
           "banheiros": 2,
-          "vagas": null,
+          "vagas": 2,
           "area": 85,
-          "valor_aluguel": "1.390",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/57404c86a3529aeda31fe69aa439a5d2/foto-1-de-casa-com-2-quartos-para-alugar,-85-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-2-quartos-centro-bairros-fortaleza-85m2-aluguel-RS1390-id-2682649364/",
+          "valor_aluguel": 2650,
+          "url_imagem": "../assets/img/properties/house5.jpg",
           "amenidades": [
             "Varanda",
             "Cozinha",
             "Área de serviço",
-            "Aceita animais"
+
           ],
           "descricao": "Casa com 2 Quartos para alugar, 85m² em Centro, Fortaleza",
           "coords": {
@@ -7067,16 +6034,10 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Antônio Augusto, 120 - Meireles, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
-          "area": null,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/6e64e3c764b6846fd4f32216e0ab3231/foto-1-de-lote/terreno-para-alugar-em-meireles,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-meireles-bairros-fortaleza-aluguel-RS150-id-2682680303/",
-          "amenidades": [
-
-          ],
+          "area": 54,
+          "valor_aluguel": 1150,
+          "url_imagem": "../assets/img/properties/ground2.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar em Meireles, Fortaleza",
           "coords": {
             "lat": -3.7221461,
@@ -7085,16 +6046,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 42,
-          "valor_aluguel": null,
-          "url_imagem": null,
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-42m2-aluguel-RS500-id-2476320442/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1350,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7278961,
@@ -7103,13 +6060,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pedro Borges, 30 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 50,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/b3631a618ec9c7b7aa60df5036d06f5c/foto-1-de-sala-comercial-para-alugar,-50-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-50m2-aluguel-RS950-id-2530360118/",
+          "valor_aluguel": 3850,
+          "url_imagem": "../assets/img/properties/office3.jpg",
           "amenidades": [
             "Cozinha"
           ],
@@ -7121,16 +6076,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Pontes Vieira, 2340 - Dionísio Torres, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 34,
-          "valor_aluguel": "2.400",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/365ca654985dc15fb981851666b1682b/foto-1-de-sala-comercial-para-alugar,-34-em-dionísio-torres,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-dionisio-torres-bairros-fortaleza-34m2-aluguel-RS2400-id-2669126091/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1750,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 34m² em Dionísio Torres, Fortaleza",
           "coords": {
             "lat": -3.7513729,
@@ -7139,16 +6090,12 @@ export class LocationsService {
         },
         {
           "endereco": "Parangaba, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 35,
-          "valor_aluguel": "1.100",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/ff7e63ee3bf61376bd43cbe15202f451/foto-1-de-sala-comercial-para-alugar,-35-em-parangaba,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-parangaba-bairros-fortaleza-35m2-aluguel-RS1100-id-2596667561/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1500,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 35m² em Parangaba, Fortaleza",
           "coords": {
             "lat": -3.7771358,
@@ -7157,16 +6104,10 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Araripe Júnior, 0 - Cambeba, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
           "area": 1000,
-          "valor_aluguel": "1.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/032877f0b260218fdc19e4091445fdd9/foto-1-de-lote/terreno-para-venda-ou-aluguel,-1000-em-cambeba,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-cambeba-bairros-fortaleza-1000m2-venda-RS800000-id-2510438309/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1550,
+          "url_imagem": "../assets/img/properties/ground1.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para venda ou aluguel, 1000m² em Cambeba, Fortaleza",
           "coords": {
             "lat": -3.8096082,
@@ -7175,16 +6116,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 42,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/5fafec5fc09fb2b0904df9bea33ace18/foto-1-de-sala-comercial-para-alugar,-42-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-42m2-aluguel-RS500-id-2590874031/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3350,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7278961,
@@ -7193,16 +6130,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pedro I, 663 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 20,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/07e9fb84afb646ff1f49fa990fceed44/foto-1-de-sala-comercial-para-alugar,-20-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-20m2-aluguel-RS650-id-2649107376/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4000,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 20m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7306716,
@@ -7212,15 +6145,12 @@ export class LocationsService {
         {
           "endereco": "Rua José Alves Cavalcante, 211 - Cidade dos Funcionários, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 3,
-          "vagas": 3,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 130,
-          "valor_aluguel": "2.900",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/aa2ca0ad63ee9a7563a100a94a3fc298/foto-1-de-casa-com-3-quartos-para-alugar,-130-em-cidade-dos-funcionários,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-3-quartos-cidade-dos-funcionarios-bairros-fortaleza-com-garagem-130m2-aluguel-RS2900-id-2676033765/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1200,
+          "url_imagem": "../assets/img/properties/house5.jpg",
+          "amenidades": [],
           "descricao": "Casa com 3 Quartos para alugar, 130m² em Cidade dos Funcionários, Fortaleza",
           "coords": {
             "lat": -3.793137499999999,
@@ -7230,12 +6160,11 @@ export class LocationsService {
         {
           "endereco": "Rua Pedro Aristides Albuquerque, 550 - Joaquim Tavora, Fortaleza - CE",
           "quartos": 4,
-          "banheiros": 5,
-          "vagas": 2,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 250,
-          "valor_aluguel": "5.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/5a72c6f6cc0130a35e07c2d5a69cd17e/foto-1-de-imóvel-comercial-com-4-quartos-para-alugar,-250-em-joaquim-tavora,-fortaleza.jpg",
-          "url_detalhes": "/imovel/imovel-comercial-4-quartos-joaquim-tavora-bairros-fortaleza-com-garagem-250m2-aluguel-RS5000-id-2611023207/",
+          "valor_aluguel": 1900,
+          "url_imagem": "../assets/img/properties/office2.jpg",
           "amenidades": [
             "Portão eletrônico",
             "Cozinha americana"
@@ -7248,16 +6177,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Antônio Sales, 1950 - Dionísio Torres, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 28,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/da5e8b9621592fbf6ee6f212827fb512/foto-1-de-ponto-comercial-para-alugar,-28-em-dionísio-torres,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-dionisio-torres-bairros-fortaleza-28m2-aluguel-RS950-id-2640758691/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2100,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 28m² em Dionísio Torres, Fortaleza",
           "coords": {
             "lat": -3.7442774,
@@ -7266,13 +6191,11 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 1343 - Aldeota, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 32,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/ce206bca263427c0386a4fcb188ba2a5/foto-1-de-sala-comercial-para-alugar,-32-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-aldeota-bairros-fortaleza-32m2-aluguel-RS800-id-2658271895/",
+          "valor_aluguel": 3550,
+          "url_imagem": "../assets/img/properties/office1.jpg",
           "amenidades": [
             "Cozinha",
             "Circuito de segurança",
@@ -7291,16 +6214,13 @@ export class LocationsService {
           "banheiros": 2,
           "vagas": 1,
           "area": 85,
-          "valor_aluguel": "2.700",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/d41c880b646599c9258b8802da228af5/foto-1-de-apartamento-com-2-quartos-para-alugar,-85-em-meireles,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-meireles-bairros-fortaleza-com-garagem-85m2-aluguel-RS2700-id-2632745557/",
+          "valor_aluguel": 1750,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Elevador",
             "Varanda",
-            "Aceita animais",
             "Garagem",
-            "Cozinha",
-            "..."
+            "Cozinha"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 85m² em Meireles, Fortaleza",
           "coords": {
@@ -7310,16 +6230,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Peru, 279 - Itaperi, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 2,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 110,
-          "valor_aluguel": "1.650",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/9a127ec190f7ecbb7e99c916ec285973/foto-1-de-imóvel-comercial-para-alugar,-110-em-itaperi,-fortaleza.jpg",
-          "url_detalhes": "/imovel/imovel-comercial-itaperi-bairros-fortaleza-110m2-aluguel-RS1650-id-2682682786/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4400,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Imóvel Comercial para alugar, 110m² em Itaperi, Fortaleza",
           "coords": {
             "lat": -3.7842759,
@@ -7328,13 +6244,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Barão do Rio Branco, 1071 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 27,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/5aa8700094caf7edfd9eb6566811f65b/foto-1-de-sala-comercial-para-alugar,-27-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-27m2-aluguel-RS309-id-2567893407/",
+          "valor_aluguel": 3900,
+          "url_imagem": "../assets/img/properties/office2.jpg",
           "amenidades": [
             "Elevador",
             "Interfone"
@@ -7348,19 +6262,17 @@ export class LocationsService {
         {
           "endereco": "Avenida da Saudade, 95 - Passaré, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 2,
+          "banheiros": 3,
           "vagas": 2,
           "area": 60,
-          "valor_aluguel": "1.900",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/455a4209a49ed222c6ad47548a4b25db/foto-1-de-apartamento-com-3-quartos-para-alugar,-60-em-passaré,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-passare-bairros-fortaleza-com-garagem-60m2-aluguel-RS1900-id-2644286074/",
+          "valor_aluguel": 1000,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Condomínio fechado",
             "Varanda",
-            "Academia",
-            "..."
+            "Academia"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 60m² em Passaré, Fortaleza",
           "coords": {
@@ -7372,18 +6284,16 @@ export class LocationsService {
           "endereco": "Avenida Pedro Lazar, 830 - Cambeba, Fortaleza - CE",
           "quartos": 2,
           "banheiros": 2,
-          "vagas": 1,
+          "vagas": 2,
           "area": 52,
-          "valor_aluguel": "1.900",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/97bff4e9f5bf53e74680d55ee85f279c/foto-1-de-apartamento-com-2-quartos-para-alugar,-52-em-cambeba,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-cambeba-bairros-fortaleza-com-garagem-52m2-aluguel-RS1900-id-2681246395/",
+          "valor_aluguel": 1250,
+          "url_imagem": "../assets/img/properties/apartament5.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
             "Condomínio fechado",
-            "Varanda",
-            "..."
+            "Varanda"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 52m² em Cambeba, Fortaleza",
           "coords": {
@@ -7393,16 +6303,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pedro Borges, 20 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 89,
-          "valor_aluguel": "1.691",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/269bd3ec27d20d6b523b3ffbaa686a9b/foto-1-de-sala-comercial-para-alugar,-89-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-89m2-aluguel-RS1691-id-2547859697/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4850,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 89m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7282492,
@@ -7411,16 +6317,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Guilherme Rocha, 381 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 76,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/a10958479a15bb1e2d32730a9748ca24/foto-1-de-sala-comercial-para-alugar,-76-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-76m2-aluguel-RS250-id-2641469864/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4050,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 76m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7265229,
@@ -7430,15 +6332,12 @@ export class LocationsService {
         {
           "endereco": "Avenida Visconde do Rio Branco, 2125 - Joaquim Tavora, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 5,
+          "banheiros": 3,
           "vagas": 1,
           "area": 100,
-          "valor_aluguel": "1.250",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/557f90f1c8a967021b360864c3e6a669/foto-1-de-apartamento-com-3-quartos-para-alugar,-100-em-joaquim-tavora,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-joaquim-tavora-bairros-fortaleza-com-garagem-100m2-aluguel-RS1250-id-2547859730/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3400,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
+          "amenidades": [],
           "descricao": "Apartamento com 3 Quartos para alugar, 100m² em Joaquim Tavora, Fortaleza",
           "coords": {
             "lat": -3.7394224,
@@ -7447,16 +6346,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 31,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/086d7bde6ef66172f6ac10171821e009/foto-1-de-sala-comercial-para-alugar,-31-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-31m2-aluguel-RS400-id-2476321050/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4800,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.724243,
@@ -7465,16 +6360,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 31,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/9b565442e8a9b4dc901802d296129fe1/foto-1-de-sala-comercial-para-alugar,-31-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-31m2-aluguel-RS400-id-2566289253/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2600,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.724243,
@@ -7483,16 +6374,10 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
-          "area": null,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/e7799ed9afb4997e09b14b9867fd0086/foto-1-de-lote/terreno-para-alugar-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-aldeota-bairros-fortaleza-aluguel-RS180-id-2614657812/",
-          "amenidades": [
-
-          ],
+          "area": 156,
+          "valor_aluguel": 1800,
+          "url_imagem": "../assets/img/properties/ground3.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7327632,
@@ -7501,16 +6386,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rodovia BR-116, 6163 - Aerolândia, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 2,
-          "vagas": 2,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 256,
-          "valor_aluguel": "1.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/aaae8addc700d01317ca695b4b99460c/foto-1-de-ponto-comercial-para-alugar,-256-em-aerolândia,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-aerolandia-bairros-fortaleza-com-garagem-256m2-aluguel-RS1500-id-2585849655/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2700,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 256m² em Aerolândia, Fortaleza",
           "coords": {
             "lat": -3.775246,
@@ -7521,18 +6402,15 @@ export class LocationsService {
           "endereco": "Via Paisagística do Loteamento Itaperussú, 80 - Itaperi, Fortaleza - CE",
           "quartos": 2,
           "banheiros": 2,
-          "vagas": 1,
+          "vagas": 2,
           "area": 53,
-          "valor_aluguel": "1.050",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/f548177dab906bec57f5f428f1f7d5fc/foto-1-de-apartamento-com-2-quartos-para-alugar,-53-em-itaperi,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-itaperi-bairros-fortaleza-com-garagem-53m2-aluguel-RS1050-id-2682367175/",
+          "valor_aluguel": 1700,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
-            "Quintal",
-            "Aceita animais",
-            "..."
+
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 53m² em Itaperi, Fortaleza",
           "coords": {
@@ -7542,16 +6420,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 23,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/fe6cacc079533d2b433c4bb94ef7af86/foto-1-de-sala-comercial-para-alugar,-23-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-23m2-aluguel-RS400-id-2511545675/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 950,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 23m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.724243,
@@ -7560,16 +6434,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua do Rosário, 77 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 56,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/fdba0e3d2c3b61ba8b79e792e79d00e4/foto-1-de-sala-comercial-para-alugar,-56-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-56m2-aluguel-RS841-id-2547860207/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2500,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 56m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.728418999999999,
@@ -7579,12 +6449,11 @@ export class LocationsService {
         {
           "endereco": "Antônio Bezerra, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 40,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/007f3a9c14445b235ab6d84f5b84a6ca/foto-1-de-apartamento-com-2-quartos-para-alugar,-40-em-antônio-bezerra,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-antonio-bezerra-bairros-fortaleza-40m2-aluguel-RS880-id-2684430827/",
+          "valor_aluguel": 3300,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
           "amenidades": [
             "Lavanderia",
             "Sala de jantar",
@@ -7598,16 +6467,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 31,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/7a09af2d298720059ba450e0346d14ee/foto-1-de-sala-comercial-para-alugar,-31-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-31m2-aluguel-RS400-id-2476321883/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1450,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.724243,
@@ -7618,11 +6483,10 @@ export class LocationsService {
           "endereco": "Rua Bento Albuquerque, 1633 - Cocó, Fortaleza - CE",
           "quartos": 2,
           "banheiros": 2,
-          "vagas": 1,
+          "vagas": 2,
           "area": 74,
-          "valor_aluguel": "1.350",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/b1f959c722bb2228c7ec1e2db346d4bd/foto-1-de-apartamento-com-2-quartos-para-alugar,-74-em-cocó,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-coco-bairros-fortaleza-com-garagem-74m2-aluguel-RS1350-id-2667088403/",
+          "valor_aluguel": 2400,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Área de serviço"
           ],
@@ -7635,15 +6499,12 @@ export class LocationsService {
         {
           "endereco": "Rua Pereira Filgueiras, 149 - Centro, Fortaleza - CE",
           "quartos": 1,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 55,
-          "valor_aluguel": "1.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/d9fd72bfbfcbd8e5bd7121ba50d5713a/foto-1-de-casa-com-1-quarto-para-alugar,-55-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-1-quartos-centro-bairros-fortaleza-55m2-aluguel-RS1000-id-2684409535/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1150,
+          "url_imagem": "../assets/img/properties/house2.jpg",
+          "amenidades": [],
           "descricao": "Casa com 1 Quarto para alugar, 55m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.72564,
@@ -7656,9 +6517,8 @@ export class LocationsService {
           "banheiros": 2,
           "vagas": 1,
           "area": 65,
-          "valor_aluguel": "2.009",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/217f54edf64bf12e959ca60442312a6b/foto-1-de-apartamento-com-2-quartos-para-alugar,-65-em-dionísio-torres,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-dionisio-torres-bairros-fortaleza-com-garagem-65m2-aluguel-RS2009-id-2645713157/",
+          "valor_aluguel": 2500,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Circuito de segurança",
             "Elevador",
@@ -7675,14 +6535,13 @@ export class LocationsService {
         {
           "endereco": "Rua Artur de Carvalho, 187 - Vila União, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 3,
+          "vagas": 1,
           "area": 19,
-          "valor_aluguel": "1.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/f345cd5c18b9c178d267e84d8afddee3/foto-1-de-casa-com-3-quartos-para-alugar,-19-em-vila-união,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-3-quartos-vila-uniao-bairros-fortaleza-19m2-aluguel-RS1200-id-2684338266/",
+          "valor_aluguel": 4150,
+          "url_imagem": "../assets/img/properties/house4.jpg",
           "amenidades": [
-            "Aceita animais"
+
           ],
           "descricao": "Casa com 3 Quartos para alugar, 19m² em Vila União, Fortaleza",
           "coords": {
@@ -7692,16 +6551,10 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Doutor Edmilson Barros de Oliveira - Cocó, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
           "area": 440,
-          "valor_aluguel": "2.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/fedc821d4670613a5cf4d3955d697198/foto-1-de-lote/terreno-para-venda-ou-aluguel,-440-em-cocó,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-coco-bairros-fortaleza-440m2-venda-RS650000-id-2554835498/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1700,
+          "url_imagem": "../assets/img/properties/ground3.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para venda ou aluguel, 440m² em Cocó, Fortaleza",
           "coords": {
             "lat": -3.7515363,
@@ -7710,16 +6563,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 6870 - Papicu, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 45,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/c922565cee61aa56ebff25a31fbe9b9d/foto-1-de-ponto-comercial-para-alugar,-45-em-papicu,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-papicu-bairros-fortaleza-45m2-aluguel-RS950-id-2672264916/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4750,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 45m² em Papicu, Fortaleza",
           "coords": {
             "lat": -3.7448345,
@@ -7728,16 +6577,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Doutor Gilberto Studart, 55 - Cocó, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 40,
-          "valor_aluguel": "2.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/05ccb188174c19c2eebfea6897283810/foto-1-de-imóvel-comercial-para-alugar,-40-em-cocó,-fortaleza.jpg",
-          "url_detalhes": "/imovel/imovel-comercial-coco-bairros-fortaleza-40m2-aluguel-RS2000-id-2682680307/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3650,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Imóvel Comercial para alugar, 40m² em Cocó, Fortaleza",
           "coords": {
             "lat": -3.743293,
@@ -7746,13 +6591,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Senador Pompeu, 649 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 23,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/1957ccadb915262e563085502ae84f98/foto-1-de-sala-comercial-para-alugar,-23-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-23m2-aluguel-RS600-id-2661379813/",
+          "valor_aluguel": 1450,
+          "url_imagem": "../assets/img/properties/office2.jpg",
           "amenidades": [
             "Cozinha",
             "Segurança 24h",
@@ -7769,18 +6612,16 @@ export class LocationsService {
           "endereco": "Rua Doutor Salustio de Pinho, 1 - Praia do Futuro II, Fortaleza - CE",
           "quartos": 2,
           "banheiros": 2,
-          "vagas": 1,
+          "vagas": 2,
           "area": 160,
-          "valor_aluguel": "2.000",
-          "url_imagem": null,
-          "url_detalhes": "/imovel/casa-de-condominio-2-quartos-praia-do-futuro-ii-bairros-fortaleza-com-garagem-160m2-aluguel-RS2000-id-2664394600/",
+          "valor_aluguel": 2650,
+          "url_imagem": "../assets/img/properties/house4.jpg",
           "amenidades": [
             "Piscina",
             "Condomínio fechado",
             "Jardim",
             "Área de serviço",
-            "Portaria 24h",
-            "..."
+            "Portaria 24h"
           ],
           "descricao": "Casa de Condomínio com 2 Quartos para alugar, 160m² em Praia do Futuro II, Fortaleza",
           "coords": {
@@ -7790,16 +6631,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Guilherme Rocha, 381 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 38,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/c9cb5e5e22c3f14159e2b05c251018f5/foto-1-de-sala-comercial-para-alugar,-38-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-38m2-aluguel-RS250-id-2566171916/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3800,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 38m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7265229,
@@ -7809,15 +6646,12 @@ export class LocationsService {
         {
           "endereco": "Avenida Duque de Caxias, 641 - Centro, Fortaleza - CE",
           "quartos": 8,
-          "banheiros": 5,
-          "vagas": null,
+          "banheiros": 3,
+          "vagas": 2,
           "area": 600,
-          "valor_aluguel": "5.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/8be460b718720e105b401dcf0c0f8f42/foto-1-de-imóvel-comercial-com-8-quartos-para-alugar,-600-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/imovel-comercial-8-quartos-centro-bairros-fortaleza-600m2-aluguel-RS5000-id-2651166363/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 850,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Imóvel Comercial com 8 Quartos para alugar, 600m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7317895,
@@ -7827,12 +6661,11 @@ export class LocationsService {
         {
           "endereco": "Avenida Geógrafo Antônio Ribeiro Zaranza, 2598 - Cajazeiras, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 45,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/d1dad68009e0ca0c0aca16aa92275e13/foto-1-de-apartamento-com-2-quartos-para-alugar,-45-em-cajazeiras,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-cajazeiras-bairros-fortaleza-45m2-aluguel-RS800-id-2660348681/",
+          "valor_aluguel": 1050,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Churrasqueira",
             "Playground",
@@ -7847,16 +6680,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 31,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/d8a6088ae81d75ecd3985d65f82b3601/foto-1-de-sala-comercial-para-alugar,-31-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-31m2-aluguel-RS400-id-2495874683/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3450,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.724243,
@@ -7866,19 +6695,17 @@ export class LocationsService {
         {
           "endereco": "Rua João Cordeiro, 688 - Aldeota, Fortaleza - CE",
           "quartos": 1,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 1,
           "area": 44,
-          "valor_aluguel": "1.950",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/67f20b7df195bbff807d411fd04aaba2/foto-1-de-apartamento-com-1-quarto-para-alugar,-44-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-1-quartos-aldeota-bairros-fortaleza-com-garagem-44m2-aluguel-RS1950-id-2680809602/",
+          "valor_aluguel": 3150,
+          "url_imagem": "../assets/img/properties/apartament5.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
             "Varanda",
-            "Academia",
-            "..."
+            "Academia"
           ],
           "descricao": "Apartamento com 1 Quarto para alugar, 44m² em Aldeota, Fortaleza",
           "coords": {
@@ -7890,18 +6717,15 @@ export class LocationsService {
           "endereco": "Rua Francisco Nogueira, 340 - Cajazeiras, Fortaleza - CE",
           "quartos": 3,
           "banheiros": 2,
-          "vagas": null,
+          "vagas": 2,
           "area": 70,
-          "valor_aluguel": "1.150",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/39378a36d724796f5f5d03442b4cc3bc/foto-1-de-apartamento-com-3-quartos-para-alugar,-70-em-cajazeiras,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-cajazeiras-bairros-fortaleza-70m2-aluguel-RS1150-id-2682377435/",
+          "valor_aluguel": 4800,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Mobiliado",
-            "Aceita animais",
             "Playground",
             "Salão de festas",
-            "Quadra poliesportiva",
-            "..."
+            "Quadra poliesportiva"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 70m² em Cajazeiras, Fortaleza",
           "coords": {
@@ -7911,16 +6735,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
           "vagas": 1,
           "area": 39,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/b16a7565f83288bcc75364b3b3a98f79/foto-1-de-sala-comercial-para-alugar,-39-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-com-garagem-39m2-aluguel-RS500-id-2476320439/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3050,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 39m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7278961,
@@ -7929,13 +6749,11 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Engenheiro Alberto Sá, 705 - Papicu, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 2,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 54,
-          "valor_aluguel": "1.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/4eee6f80fe20d370d13d77e3f8b79e99/foto-1-de-ponto-comercial-para-alugar,-54-em-papicu,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-papicu-bairros-fortaleza-54m2-aluguel-RS1200-id-2679378194/",
+          "valor_aluguel": 1050,
+          "url_imagem": "../assets/img/properties/office3.jpg",
           "amenidades": [
             "Depósito"
           ],
@@ -7948,19 +6766,16 @@ export class LocationsService {
         {
           "endereco": "Rua A do Loteamento Residencial Célio Gurgel, 1697 - Barroso, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": 1,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 42,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/648a472ab8d7fd5e7639e5513e346702/foto-1-de-apartamento-com-2-quartos-para-alugar,-42-em-barroso,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-barroso-bairros-fortaleza-com-garagem-42m2-aluguel-RS900-id-2670723659/",
+          "valor_aluguel": 3600,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
-            "Aceita animais",
-            "Garagem",
-            "..."
+            "Garagem"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 42m² em Barroso, Fortaleza",
           "coords": {
@@ -7972,11 +6787,10 @@ export class LocationsService {
           "endereco": "Rua Cruzeiro do Sul, 669 - Álvaro Weyne, Fortaleza - CE",
           "quartos": 2,
           "banheiros": 2,
-          "vagas": null,
+          "vagas": 2,
           "area": 75,
-          "valor_aluguel": "1.009",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/db3165e83fb903b59884bcc55feb559f/foto-1-de-casa-com-2-quartos-para-alugar,-75-em-álvaro-weyne,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-2-quartos-alvaro-weyne-bairros-fortaleza-75m2-aluguel-RS1009-id-2648600470/",
+          "valor_aluguel": 5000,
+          "url_imagem": "../assets/img/properties/house1.jpg",
           "amenidades": [
             "Cozinha",
             "Área de serviço"
@@ -7990,17 +6804,16 @@ export class LocationsService {
         {
           "endereco": "Rua Alencar Oliveira - Passaré, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 44,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/ff1b999da30823062430044304fafa48/foto-1-de-apartamento-com-2-quartos-para-alugar,-44-em-passaré,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-passare-bairros-fortaleza-44m2-aluguel-RS800-id-2683031983/",
+          "valor_aluguel": 3050,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Interfone",
             "Quadra poliesportiva",
             "Sistema de alarme",
-            "Aceita animais"
+
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 44m² em Passaré, Fortaleza",
           "coords": {
@@ -8011,16 +6824,15 @@ export class LocationsService {
         {
           "endereco": "Rua Paulo de Almeida Sanford, 145 - Edson Queiroz, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 4,
-          "vagas": 2,
+          "banheiros": 3,
+          "vagas": 1,
           "area": 171,
-          "valor_aluguel": "3.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/cd9e45e4dc1eb60f85b85cd2f5411a6e/foto-1-de-casa-com-3-quartos-para-venda-ou-aluguel,-171-em-edson-queiroz,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-3-quartos-edson-queiroz-bairros-fortaleza-com-garagem-171m2-venda-RS545000-id-2646452460/",
+          "valor_aluguel": 2500,
+          "url_imagem": "../assets/img/properties/house4.jpg",
           "amenidades": [
             "Cozinha",
             "Área de serviço",
-            "Quintal"
+
           ],
           "descricao": "Casa com 3 Quartos para venda ou aluguel, 171m² em Edson Queiroz, Fortaleza",
           "coords": {
@@ -8031,15 +6843,12 @@ export class LocationsService {
         {
           "endereco": "Avenida Trajano de Medeiros, 2150 - Vicente Pinzon, Fortaleza - CE",
           "quartos": 5,
-          "banheiros": 8,
-          "vagas": 7,
+          "banheiros": 3,
+          "vagas": 1,
           "area": 500,
-          "valor_aluguel": "7.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/cfc9a07f5118bb041af2042179718ec1/foto-1-de-casa-com-5-quartos-para-alugar,-500-em-vicente-pinzon,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-5-quartos-vicente-pinzon-bairros-fortaleza-com-garagem-500m2-aluguel-RS7000-id-2647782453/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2600,
+          "url_imagem": "../assets/img/properties/house2.jpg",
+          "amenidades": [],
           "descricao": "Casa com 5 Quartos para alugar, 500m² em Vicente Pinzon, Fortaleza",
           "coords": {
             "lat": -3.7381928,
@@ -8050,16 +6859,15 @@ export class LocationsService {
           "endereco": "Rua Rafael Tobias, 2800 - JOSE DE ALENCAR, Fortaleza - CE",
           "quartos": 3,
           "banheiros": 3,
-          "vagas": 5,
+          "vagas": 2,
           "area": 126,
-          "valor_aluguel": "3.150",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/fd2a3cd297d28445a9d352b62b064aaa/foto-1-de-casa-com-3-quartos-para-alugar,-126-em-jose-de-alencar,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-3-quartos-jose-de-alencar-bairros-fortaleza-com-garagem-126m2-aluguel-RS3150-id-2658721123/",
+          "valor_aluguel": 2550,
+          "url_imagem": "../assets/img/properties/house2.jpg",
           "amenidades": [
             "Cozinha",
             "Interfone",
             "Área de serviço",
-            "Aceita animais"
+
           ],
           "descricao": "Casa com 3 Quartos para alugar, 126m² em JOSE DE ALENCAR, Fortaleza",
           "coords": {
@@ -8073,16 +6881,14 @@ export class LocationsService {
           "banheiros": 2,
           "vagas": 1,
           "area": 55,
-          "valor_aluguel": "2.900",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/96b64fa6c5444f710a3d7058f38698b5/foto-1-de-apartamento-com-2-quartos-para-alugar,-55-em-edson-queiroz,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-edson-queiroz-bairros-fortaleza-com-garagem-55m2-aluguel-RS2900-id-2590820712/",
+          "valor_aluguel": 2850,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
             "Condomínio fechado",
-            "Varanda",
-            "..."
+            "Varanda"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 55m² em Edson Queiroz, Fortaleza",
           "coords": {
@@ -8093,18 +6899,17 @@ export class LocationsService {
         {
           "endereco": "Sapiranga, Fortaleza - CE",
           "quartos": 4,
-          "banheiros": 4,
-          "vagas": 2,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 269,
-          "valor_aluguel": "3.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/15c5ef8e680e9196f620686339a46eb9/foto-1-de-casa-com-4-quartos-para-alugar,-269-em-sapiranga,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-4-quartos-sapiranga-bairros-fortaleza-com-garagem-269m2-aluguel-RS3000-id-2628740378/",
+          "valor_aluguel": 3100,
+          "url_imagem": "../assets/img/properties/house2.jpg",
           "amenidades": [
             "Churrasqueira",
             "Cozinha",
             "Área de serviço",
-            "Quintal",
-            "Aceita animais"
+            ,
+
           ],
           "descricao": "Casa com 4 Quartos para alugar, 269m² em Sapiranga, Fortaleza",
           "coords": {
@@ -8115,19 +6920,17 @@ export class LocationsService {
         {
           "endereco": "Rua B, 120 - Messejana, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": 1,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 48,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/1f3c7351f48212754d2ecac240777d4b/foto-1-de-apartamento-com-2-quartos-para-alugar,-48-em-messejana,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-messejana-bairros-fortaleza-com-garagem-48m2-aluguel-RS800-id-2657253992/",
+          "valor_aluguel": 2900,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Condomínio fechado",
             "Área de serviço",
-            "Playground",
-            "..."
+            "Playground"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 48m² em Messejana, Fortaleza",
           "coords": {
@@ -8137,16 +6940,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 3870 - Aldeota, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 8,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/411955d0c6acc5f1ebf0e54d5114757d/foto-1-de-ponto-comercial-para-alugar,-8-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-aldeota-bairros-fortaleza-8m2-aluguel-RS800-id-2638807296/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3950,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 8m² em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7396991,
@@ -8155,16 +6954,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Guilherme Rocha, 381 - Centro, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 38,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/616bbc86982a4ef315b9260c2fcf5b05/foto-1-de-sala-comercial-para-alugar,-38-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-38m2-aluguel-RS250-id-2583233749/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4000,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 38m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7265229,
@@ -8173,16 +6968,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont - Aldeota, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 58,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/94aba62ebfcee6bd4be7dc3884947f52/foto-1-de-sala-comercial-para-alugar,-58-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-aldeota-bairros-fortaleza-58m2-aluguel-RS900-id-2632018213/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3400,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 58m² em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7349664,
@@ -8191,13 +6982,11 @@ export class LocationsService {
         },
         {
           "endereco": "Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 27,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/ff0f58942925e14db51bcd03f839e54d/foto-1-de-sala-comercial-para-venda-ou-aluguel,-27-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-27m2-venda-RS67000-id-2580070210/",
+          "valor_aluguel": 2650,
+          "url_imagem": "../assets/img/properties/office1.jpg",
           "amenidades": [
             "Elevador"
           ],
@@ -8209,16 +6998,10 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
-          "area": null,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/b5989032215fd6267338f0e5805d53fc/foto-1-de-lote/terreno-para-alugar-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-aldeota-bairros-fortaleza-aluguel-RS180-id-2547859023/",
-          "amenidades": [
-
-          ],
+          "area": 159,
+          "valor_aluguel": 2900,
+          "url_imagem": "../assets/img/properties/ground1.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7327632,
@@ -8228,15 +7011,12 @@ export class LocationsService {
         {
           "endereco": "Rua Firmino Rocha Aguiar, 1033 - Guararapes, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 4,
+          "banheiros": 2,
           "vagas": 2,
           "area": 72,
-          "valor_aluguel": "2.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/48b5af626063d23319328a39b7183ec4/foto-1-de-apartamento-com-2-quartos-para-alugar,-72-em-guararapes,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-guararapes-bairros-fortaleza-com-garagem-72m2-aluguel-RS2500-id-2683728190/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2350,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
+          "amenidades": [],
           "descricao": "Apartamento com 2 Quartos para alugar, 72m² em Guararapes, Fortaleza",
           "coords": {
             "lat": -3.7628197,
@@ -8249,16 +7029,13 @@ export class LocationsService {
           "banheiros": 2,
           "vagas": 2,
           "area": 70,
-          "valor_aluguel": "2.900",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/57974f8082264e21121355bdf167f51a/foto-1-de-apartamento-com-3-quartos-para-alugar,-70-em-cambeba,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-cambeba-bairros-fortaleza-com-garagem-70m2-aluguel-RS2900-id-2681779000/",
+          "valor_aluguel": 1250,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
-            "Condomínio fechado",
-            "Aceita animais",
-            "..."
+            "Condomínio fechado"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 70m² em Cambeba, Fortaleza",
           "coords": {
@@ -8268,16 +7045,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 31,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/929b60ee5a3fe8df33a68091830de291/foto-1-de-sala-comercial-para-alugar,-31-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-31m2-aluguel-RS400-id-2530712922/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1950,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.724243,
@@ -8288,18 +7061,15 @@ export class LocationsService {
           "endereco": "Rua Bento Albuquerque, 1555 - Cocó, Fortaleza - CE",
           "quartos": 3,
           "banheiros": 3,
-          "vagas": 2,
+          "vagas": 1,
           "area": 120,
-          "valor_aluguel": "2.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/0761346444512ac54a47b03929216d90/foto-1-de-apartamento-com-3-quartos-para-alugar,-120-em-cocó,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-coco-bairros-fortaleza-com-garagem-120m2-aluguel-RS2000-id-2684005523/",
+          "valor_aluguel": 4700,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
           "amenidades": [
             "Elevador",
             "Condomínio fechado",
-            "Aceita animais",
             "Jardim",
-            "Área de serviço",
-            "..."
+            "Área de serviço"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 120m² em Cocó, Fortaleza",
           "coords": {
@@ -8310,15 +7080,12 @@ export class LocationsService {
         {
           "endereco": "Rua Afrânio Peixoto, 288 - Parangaba, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 3,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 60,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/66f11ed4a6eb2e7e570f4df14696ef2e/foto-1-de-apartamento-com-2-quartos-para-alugar,-60-em-parangaba,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-parangaba-bairros-fortaleza-60m2-aluguel-RS950-id-2684550415/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3950,
+          "url_imagem": "../assets/img/properties/apartament5.jpg",
+          "amenidades": [],
           "descricao": "Apartamento com 2 Quartos para alugar, 60m² em Parangaba, Fortaleza",
           "coords": {
             "lat": -3.7805487,
@@ -8328,12 +7095,11 @@ export class LocationsService {
         {
           "endereco": "Rua Marcondes Pereira, 537 - Joaquim Tavora, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 134,
-          "valor_aluguel": "1.600",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/e2fc7c7b8ce7ba10acf27a3dee46fa77/foto-1-de-apartamento-com-3-quartos-para-alugar,-134-em-joaquim-tavora,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-joaquim-tavora-bairros-fortaleza-134m2-aluguel-RS1600-id-2684522700/",
+          "valor_aluguel": 4950,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
           "amenidades": [
             "Depósito",
             "Salão de festas"
@@ -8346,13 +7112,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pedro Borges, 33 - Centro, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 34,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/b44468117c679866456d0cba48707106/foto-1-de-sala-comercial-para-alugar,-34-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-34m2-aluguel-RS800-id-2558178091/",
+          "valor_aluguel": 4900,
+          "url_imagem": "../assets/img/properties/office1.jpg",
           "amenidades": [
             "Elevador",
             "Portaria 24h",
@@ -8367,19 +7131,16 @@ export class LocationsService {
         {
           "endereco": "Rua Vilebaldo Aguiar, 2246 - Cocó, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 1,
-          "vagas": 1,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 68,
-          "valor_aluguel": "1.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/abdab68ec7964f3bcf40c7f1e471f592/foto-1-de-apartamento-com-3-quartos-para-alugar,-68-em-cocó,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-coco-bairros-fortaleza-com-garagem-68m2-aluguel-RS1200-id-2684608700/",
+          "valor_aluguel": 1000,
+          "url_imagem": "../assets/img/properties/apartament5.jpg",
           "amenidades": [
             "Elevador",
             "Condomínio fechado",
-            "Aceita animais",
             "Salão de festas",
-            "Closet",
-            "..."
+            "Closet"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 68m² em Cocó, Fortaleza",
           "coords": {
@@ -8389,13 +7150,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Gonçalves Ledo, 177 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 35,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/313ed4b936e8e1a2a5b5aa2833016af1/foto-1-de-sala-comercial-para-alugar,-35-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-35m2-aluguel-RS600-id-2653476627/",
+          "valor_aluguel": 2800,
+          "url_imagem": "../assets/img/properties/office3.jpg",
           "amenidades": [
             "Cozinha"
           ],
@@ -8407,16 +7166,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Ministro Albuquerque Lima, 894 - Conjunto Ceará, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 2,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 30,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/6633cd89be3d62a41e969022c9506429/foto-1-de-imóvel-comercial-para-alugar,-30-em-conjunto-ceará,-fortaleza.jpg",
-          "url_detalhes": "/imovel/imovel-comercial-conjunto-ceara-bairros-fortaleza-30m2-aluguel-RS600-id-2682682776/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3950,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Imóvel Comercial para alugar, 30m² em Conjunto Ceará, Fortaleza",
           "coords": {
             "lat": -3.7708043,
@@ -8427,11 +7182,10 @@ export class LocationsService {
           "endereco": "Rua Vinícios de Morais, 1064 - Maraponga, Fortaleza - CE",
           "quartos": 3,
           "banheiros": 3,
-          "vagas": 3,
+          "vagas": 1,
           "area": 95,
-          "valor_aluguel": "1.800",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/b539fcb6dfa1b51e6cb385008b39b14e/foto-1-de-casa-com-3-quartos-para-alugar,-95-em-maraponga,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-3-quartos-maraponga-bairros-fortaleza-com-garagem-95m2-aluguel-RS1800-id-2678521007/",
+          "valor_aluguel": 3350,
+          "url_imagem": "../assets/img/properties/house4.jpg",
           "amenidades": [
             "Área de serviço"
           ],
@@ -8444,19 +7198,16 @@ export class LocationsService {
         {
           "endereco": "Rua João Cordeiro, 1377 - Aldeota, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 30,
-          "valor_aluguel": "1.609",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/ee6ded7ceda8bcf1cfff676891656bb8/foto-1-de-apartamento-com-2-quartos-para-alugar,-30-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-aldeota-bairros-fortaleza-30m2-aluguel-RS1609-id-2684492196/",
+          "valor_aluguel": 1500,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
           "amenidades": [
             "Elevador",
             "Condomínio fechado",
-            "Aceita animais",
             "Portaria 24h",
-            "Cozinha americana",
-            "..."
+            "Cozinha americana"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 30m² em Aldeota, Fortaleza",
           "coords": {
@@ -8466,16 +7217,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 30,
-          "valor_aluguel": "1.202",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/4a69e4dd0aaea82aa5175ab56a4fa960/foto-1-de-sala-comercial-para-alugar,-30-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-aldeota-bairros-fortaleza-30m2-aluguel-RS1202-id-2547862279/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1000,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 30m² em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7327632,
@@ -8484,16 +7231,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 42,
-          "valor_aluguel": null,
-          "url_imagem": null,
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-42m2-aluguel-RS500-id-2476320438/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1650,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7278961,
@@ -8502,16 +7245,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pedro Borges, 20 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 72,
-          "valor_aluguel": "1.370",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/99f4fb220c963817128db8dfb04a84c4/foto-1-de-sala-comercial-para-alugar,-72-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-72m2-aluguel-RS1370-id-2547860401/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1400,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 72m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7282492,
@@ -8520,16 +7259,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Major Facundo, 1344 - Centro, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 2,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 140,
-          "valor_aluguel": "2.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/8d287ee0e2595261e1f95f7d0f53598e/foto-1-de-imóvel-comercial-para-alugar,-140-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/imovel-comercial-centro-bairros-fortaleza-140m2-aluguel-RS2200-id-2672791901/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2450,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Imóvel Comercial para alugar, 140m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.734789,
@@ -8538,16 +7273,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Miguel Calmont, 350 - Vicente Pinzon, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 30,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/e2b21daf0a24edeb226864e5727cfad3/foto-1-de-ponto-comercial-para-alugar,-30-em-vicente-pinzon,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-vicente-pinzon-bairros-fortaleza-30m2-aluguel-RS600-id-2624493644/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1500,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 30m² em Vicente Pinzon, Fortaleza",
           "coords": {
             "lat": -3.727287099999999,
@@ -8556,16 +7287,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 5335 - Papicu, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 30,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/28bdb88abad03e0d5505b1507ef25560/foto-1-de-sala-comercial-para-alugar,-30-em-papicu,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-papicu-bairros-fortaleza-30m2-aluguel-RS750-id-2547859707/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2050,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 30m² em Papicu, Fortaleza",
           "coords": {
             "lat": -3.7407389,
@@ -8574,16 +7301,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rodovia BR-116, 5870 - Aerolândia, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 73,
-          "valor_aluguel": "1.300",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/07cf2bc6f49fc877d71bece449aa19e1/foto-1-de-ponto-comercial-para-alugar,-73-em-aerolândia,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-aerolandia-bairros-fortaleza-73m2-aluguel-RS1300-id-2642889530/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3550,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 73m² em Aerolândia, Fortaleza",
           "coords": {
             "lat": -3.7728982,
@@ -8592,13 +7315,11 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Visconde do Rio Branco, 1728 - Centro, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 2,
-          "vagas": 2,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 463,
-          "valor_aluguel": "4.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/0d92bb5e0c84baa1bdba70f86ed9fcd2/foto-1-de-galpão/depósito/armazém-para-alugar,-463-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/galpao-deposito-armazem-centro-bairros-fortaleza-com-garagem-463m2-aluguel-RS4500-id-2672810887/",
+          "valor_aluguel": 3050,
+          "url_imagem": "../assets/img/properties/storage3.jpg",
           "amenidades": [
             "Escritório"
           ],
@@ -8614,16 +7335,14 @@ export class LocationsService {
           "banheiros": 2,
           "vagas": 1,
           "area": 90,
-          "valor_aluguel": "1.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/e239712b6192e9b1ef6d13b2b2f53e61/foto-1-de-apartamento-com-3-quartos-para-alugar,-90-em-bela-vista,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-bela-vista-bairros-fortaleza-com-garagem-90m2-aluguel-RS1000-id-2634157381/",
+          "valor_aluguel": 4050,
+          "url_imagem": "../assets/img/properties/apartament5.jpg",
           "amenidades": [
             "Varanda",
             "Garagem",
             "Playground",
             "Quadra poliesportiva",
-            "Cozinha",
-            "..."
+            "Cozinha"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 90m² em Bela Vista, Fortaleza",
           "coords": {
@@ -8637,15 +7356,14 @@ export class LocationsService {
           "banheiros": 3,
           "vagas": 1,
           "area": 112,
-          "valor_aluguel": "1.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/8b49e8d3376e4d9308cd96e7c2ef5590/foto-1-de-apartamento-com-3-quartos-para-alugar,-112-em-rodolfo-teófilo,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-rodolfo-teofilo-bairros-fortaleza-com-garagem-112m2-aluguel-RS1000-id-2677369105/",
+          "valor_aluguel": 3850,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Varanda",
             "Garagem",
             "Cozinha",
             "Área de serviço",
-            "Aceita animais"
+
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 112m² em Rodolfo Teófilo, Fortaleza",
           "coords": {
@@ -8656,19 +7374,16 @@ export class LocationsService {
         {
           "endereco": "Avenida Alberto Craveiro, 1240 - Dias Macedo, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 1,
           "area": 45,
-          "valor_aluguel": "1.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/4b4fbcbdf65ae4130105c7285aa75aff/foto-1-de-apartamento-com-2-quartos-para-alugar,-45-em-dias-macedo,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-dias-macedo-bairros-fortaleza-com-garagem-45m2-aluguel-RS1000-id-2656947658/",
+          "valor_aluguel": 4200,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
-            "Aceita animais",
             "Garagem",
-            "Jardim",
-            "..."
+            "Jardim"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 45m² em Dias Macedo, Fortaleza",
           "coords": {
@@ -8679,15 +7394,14 @@ export class LocationsService {
         {
           "endereco": "Rua Pereira Filgueiras, 2249 - Aldeota, Fortaleza - CE",
           "quartos": 1,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 45,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/f1ef351267f678ab3e88ef1270c200a6/foto-1-de-apartamento-com-1-quarto-para-alugar,-45-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-1-quartos-aldeota-bairros-fortaleza-45m2-aluguel-RS780-id-2684405142/",
+          "valor_aluguel": 950,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
           "amenidades": [
             "Cozinha",
-            "Aceita animais"
+
           ],
           "descricao": "Apartamento com 1 Quarto para alugar, 45m² em Aldeota, Fortaleza",
           "coords": {
@@ -8697,16 +7411,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 42,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/c07fc66a004cc7eae8b039dbd8fccbd3/foto-1-de-sala-comercial-para-alugar,-42-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-42m2-aluguel-RS500-id-2476320434/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2450,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7278961,
@@ -8719,12 +7429,9 @@ export class LocationsService {
           "banheiros": 2,
           "vagas": 1,
           "area": 80,
-          "valor_aluguel": "2.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/3b9a4abfe89efee18d51173a2ebaec15/foto-1-de-apartamento-com-2-quartos-para-alugar,-80-em-meireles,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-meireles-bairros-fortaleza-com-garagem-80m2-aluguel-RS2000-id-2618677715/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4750,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
+          "amenidades": [],
           "descricao": "Apartamento com 2 Quartos para alugar, 80m² em Meireles, Fortaleza",
           "coords": {
             "lat": -3.7265791,
@@ -8734,18 +7441,17 @@ export class LocationsService {
         {
           "endereco": "Rua B - Itaperi, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 2,
-          "vagas": 3,
+          "banheiros": 3,
+          "vagas": 2,
           "area": 120,
-          "valor_aluguel": "1.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/3d79b7b395563d7392d19ff67957cd7a/foto-1-de-casa-com-3-quartos-para-venda-ou-aluguel,-120-em-itaperi,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-3-quartos-itaperi-bairros-fortaleza-com-garagem-120m2-venda-RS309000-id-2573822915/",
+          "valor_aluguel": 1050,
+          "url_imagem": "../assets/img/properties/house1.jpg",
           "amenidades": [
             "Cozinha",
             "Lavanderia",
             "Área de serviço",
-            "Quintal",
-            "Aceita animais"
+            ,
+
           ],
           "descricao": "Casa com 3 Quartos para venda ou aluguel, 120m² em Itaperi, Fortaleza",
           "coords": {
@@ -8755,16 +7461,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Barão do Rio Branco - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 36,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/c965c36e804251e662538b9b2914a180/foto-1-de-sala-comercial-para-alugar,-36-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-36m2-aluguel-RS450-id-2660814264/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2400,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 36m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.730413,
@@ -8773,16 +7475,10 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
-          "area": null,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/2075d32266c52a56d9a7847b0cf3530b/foto-1-de-lote/terreno-para-alugar-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-aldeota-bairros-fortaleza-aluguel-RS180-id-2547859290/",
-          "amenidades": [
-
-          ],
+          "area": 140,
+          "valor_aluguel": 4150,
+          "url_imagem": "../assets/img/properties/ground3.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7327632,
@@ -8791,16 +7487,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Guilherme Moreira, 345 - Fátima, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 28,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/391aa1990e881d298551c1b3b5efec1d/foto-1-de-ponto-comercial-para-alugar,-28-em-fátima,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-fatima-bairros-fortaleza-28m2-aluguel-RS950-id-2673668882/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2050,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 28m² em Fátima, Fortaleza",
           "coords": {
             "lat": -3.7500579,
@@ -8809,16 +7501,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pedro Borges, 33 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 34,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/9b6c05ade6cc3be477c5b4660d41a8ff/foto-1-de-imóvel-comercial-para-alugar,-34-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/imovel-comercial-centro-bairros-fortaleza-34m2-aluguel-RS700-id-2658012503/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3300,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Imóvel Comercial para alugar, 34m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7279488,
@@ -8828,15 +7516,12 @@ export class LocationsService {
         {
           "endereco": "Rua José Napoleão, 355 - Meireles, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 11,
-          "vagas": 2,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 130,
-          "valor_aluguel": "2.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/a47095e920afe3508cd9116a74d83267/foto-1-de-apartamento-com-3-quartos-para-alugar,-130-em-meireles,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-meireles-bairros-fortaleza-com-garagem-130m2-aluguel-RS2500-id-2679481124/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4350,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
+          "amenidades": [],
           "descricao": "Apartamento com 3 Quartos para alugar, 130m² em Meireles, Fortaleza",
           "coords": {
             "lat": -3.7285157,
@@ -8845,16 +7530,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pedro Borges, 20 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 69,
-          "valor_aluguel": "1.319",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/34837f9f83be9bd0a3b38ffe317e0b78/foto-1-de-sala-comercial-para-alugar,-69-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-69m2-aluguel-RS1319-id-2587318072/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3450,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 69m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7282492,
@@ -8863,16 +7544,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Fiscal Vieira, 3575 - Joaquim Tavora, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 314,
-          "valor_aluguel": "2.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/a18976342718b0518022d376e794446b/foto-1-de-prédio-comercial-para-alugar,-314-em-joaquim-tavora,-fortaleza.jpg",
-          "url_detalhes": "/imovel/predio-comercial-joaquim-tavora-bairros-fortaleza-314m2-aluguel-RS2000-id-2674604181/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4800,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Prédio Comercial para alugar, 314m² em Joaquim Tavora, Fortaleza",
           "coords": {
             "lat": -3.752580999999999,
@@ -8883,14 +7560,11 @@ export class LocationsService {
           "endereco": "Rua Xavier de Oliveira, 338 - Amadeu Furtado, Fortaleza - CE",
           "quartos": 4,
           "banheiros": 2,
-          "vagas": 4,
+          "vagas": 1,
           "area": 160,
-          "valor_aluguel": "2.700",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/d69eae8e272bec621954d4f8fd6715bb/foto-1-de-casa-com-4-quartos-para-alugar,-160-em-amadeu-furtado,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-4-quartos-amadeu-furtado-bairros-fortaleza-com-garagem-160m2-aluguel-RS2700-id-2672179813/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1600,
+          "url_imagem": "../assets/img/properties/house3.jpg",
+          "amenidades": [],
           "descricao": "Casa com 4 Quartos para alugar, 160m² em Amadeu Furtado, Fortaleza",
           "coords": {
             "lat": -3.7474077,
@@ -8899,13 +7573,11 @@ export class LocationsService {
         },
         {
           "endereco": "Passaré, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 80,
-          "valor_aluguel": "1.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/ad6ea67815ea067b531a5fbe84aed86d/foto-1-de-ponto-comercial-para-alugar,-80-em-passaré,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-passare-bairros-fortaleza-80m2-aluguel-RS1200-id-2577871435/",
+          "valor_aluguel": 2450,
+          "url_imagem": "../assets/img/properties/office1.jpg",
           "amenidades": [
             "Cozinha"
           ],
@@ -8918,15 +7590,12 @@ export class LocationsService {
         {
           "endereco": "Rua Tomás Lopes, 113 - Praia de Iracema, Fortaleza - CE",
           "quartos": 1,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 33,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/4d1ac94f19b7fc7a32ccf4166ef5d781/foto-1-de-kitnet-com-1-quarto-para-alugar,-33-em-praia-de-iracema,-fortaleza.jpg",
-          "url_detalhes": "/imovel/kitnet-1-quartos-praia-de-iracema-bairros-fortaleza-33m2-aluguel-RS650-id-2664683133/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3500,
+          "url_imagem": "",
+          "amenidades": [],
           "descricao": "Kitnet com 1 Quarto para alugar, 33m² em Praia de Iracema, Fortaleza",
           "coords": {
             "lat": -3.7214121,
@@ -8935,16 +7604,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 619 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 40,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/3b4c52419af8e76698372691fcf1e948/foto-1-de-sala-comercial-para-alugar,-40-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-40m2-aluguel-RS900-id-2649711142/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3400,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 40m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.727184,
@@ -8953,16 +7618,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Crispina de Freitas, 100 - Edson Queiroz, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 43,
-          "valor_aluguel": "1.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/1a78cb0797397cfb989069e0c0fbd381/foto-1-de-ponto-comercial-para-alugar,-43-em-edson-queiroz,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-edson-queiroz-bairros-fortaleza-43m2-aluguel-RS1000-id-2624518146/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4700,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 43m² em Edson Queiroz, Fortaleza",
           "coords": {
             "lat": -3.7869021,
@@ -8972,19 +7633,17 @@ export class LocationsService {
         {
           "endereco": "Avenida Bezerra de Menezes, 1966 - Sao Gerardo, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 4,
+          "banheiros": 3,
           "vagas": 2,
           "area": 121,
-          "valor_aluguel": "4.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/3b9e52e891e604aa0282cc50e162e002/foto-1-de-apartamento-com-3-quartos-para-alugar,-121-em-sao-gerardo,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-sao-gerardo-bairros-fortaleza-com-garagem-121m2-aluguel-RS4500-id-2672426681/",
+          "valor_aluguel": 700,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Piscina",
             "Mobiliado",
             "Churrasqueira",
             "Elevador",
-            "Condomínio fechado",
-            "..."
+            "Condomínio fechado"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 121m² em Sao Gerardo, Fortaleza",
           "coords": {
@@ -8994,16 +7653,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua do Rosário, 94 - Centro, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 2,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 52,
-          "valor_aluguel": "1.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/d7b9e32f7e3f39ca2c9984ebcc1858a8/foto-1-de-imóvel-comercial-para-alugar,-52-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/imovel-comercial-centro-bairros-fortaleza-52m2-aluguel-RS1200-id-2563250231/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2900,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Imóvel Comercial para alugar, 52m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7284303,
@@ -9012,16 +7667,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 42,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/9a310ec6ab2fd3359bda3193c14b462a/foto-1-de-sala-comercial-para-alugar,-42-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-42m2-aluguel-RS500-id-2499378451/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4750,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7278961,
@@ -9031,12 +7682,11 @@ export class LocationsService {
         {
           "endereco": "Centro, Fortaleza - CE",
           "quartos": 1,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 20,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/3c8126bec3a0c010d8a21b14ac8d5ec9/foto-1-de-kitnet-com-1-quarto-para-alugar,-20-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/kitnet-1-quartos-centro-bairros-fortaleza-20m2-aluguel-RS500-id-2644154546/",
+          "valor_aluguel": 3800,
+          "url_imagem": "",
           "amenidades": [
             "Cozinha"
           ],
@@ -9048,13 +7698,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Mário Alencar Araripe, 1565 - JOSE DE ALENCAR, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 26,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/370552118e28e6559d832ab8a9bb9ccb/foto-1-de-sala-comercial-para-alugar,-26-em-jose-de-alencar,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-jose-de-alencar-bairros-fortaleza-26m2-aluguel-RS550-id-2663134892/",
+          "valor_aluguel": 2300,
+          "url_imagem": "../assets/img/properties/office3.jpg",
           "amenidades": [
             "Escritório"
           ],
@@ -9067,12 +7715,11 @@ export class LocationsService {
         {
           "endereco": "Rua Coronel Manuel Albano, 656 - Maraponga, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 2,
+          "banheiros": 3,
           "vagas": 2,
           "area": 60,
-          "valor_aluguel": "1.400",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/a461151742f3d8e767516f2f5369ca48/foto-1-de-apartamento-com-3-quartos-para-alugar,-60-em-maraponga,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-maraponga-bairros-fortaleza-com-garagem-60m2-aluguel-RS1400-id-2684626304/",
+          "valor_aluguel": 2300,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Playground",
             "Salão de festas"
@@ -9086,17 +7733,16 @@ export class LocationsService {
         {
           "endereco": "Rua Rafael Tobias, 2800 - JOSE DE ALENCAR, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 3,
-          "vagas": 5,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 126,
-          "valor_aluguel": "3.150",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/fd2a3cd297d28445a9d352b62b064aaa/foto-1-de-casa-com-3-quartos-para-alugar,-126-em-jose-de-alencar,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-3-quartos-jose-de-alencar-bairros-fortaleza-com-garagem-126m2-aluguel-RS3150-id-2658724862/",
+          "valor_aluguel": 3950,
+          "url_imagem": "../assets/img/properties/house2.jpg",
           "amenidades": [
             "Cozinha",
             "Interfone",
             "Área de serviço",
-            "Aceita animais"
+
           ],
           "descricao": "Casa com 3 Quartos para alugar, 126m² em JOSE DE ALENCAR, Fortaleza",
           "coords": {
@@ -9108,11 +7754,10 @@ export class LocationsService {
           "endereco": "Rua Capitão Clóvis Maia, 47 - Alto da Balança, Fortaleza - CE",
           "quartos": 2,
           "banheiros": 2,
-          "vagas": null,
+          "vagas": 1,
           "area": 41,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/a36bd1363ce0b18685ab22f0a5364f52/foto-1-de-apartamento-com-2-quartos-para-alugar,-41-em-alto-da-balança,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-alto-da-balanca-bairros-fortaleza-41m2-aluguel-RS800-id-2683945715/",
+          "valor_aluguel": 1750,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
           "amenidades": [
             "Cozinha",
             "Área de serviço"
@@ -9125,16 +7770,12 @@ export class LocationsService {
         },
         {
           "endereco": "Lagoa Sapiranga Coité, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 8,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/83cdb560f773cd13a5c9ea966e63ea94/foto-1-de-sala-comercial-para-alugar,-8-em-lagoa-sapiranga-coité,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-lagoa-sapiranga-coite-bairros-fortaleza-8m2-aluguel-RS462-id-2678989998/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2550,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 8m² em Lagoa Sapiranga Coité, Fortaleza",
           "coords": {
             "lat": -3.7952935,
@@ -9145,14 +7786,11 @@ export class LocationsService {
           "endereco": "Rua Doutor João Amora, 504 - Manuel Sátiro, Fortaleza - CE",
           "quartos": 3,
           "banheiros": 3,
-          "vagas": null,
+          "vagas": 2,
           "area": 90,
-          "valor_aluguel": "1.100",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/bf8c7b69866ebeb5442b96c7917e6df6/foto-1-de-casa-com-3-quartos-para-alugar,-90-em-manuel-sátiro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-3-quartos-manuel-satiro-bairros-fortaleza-90m2-aluguel-RS1100-id-2657993268/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3150,
+          "url_imagem": "../assets/img/properties/house2.jpg",
+          "amenidades": [],
           "descricao": "Casa com 3 Quartos para alugar, 90m² em Manuel Sátiro, Fortaleza",
           "coords": {
             "lat": -3.7998042,
@@ -9162,15 +7800,12 @@ export class LocationsService {
         {
           "endereco": "Rua Leonardo Mota, 400 - Meireles, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 3,
-          "vagas": 2,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 167,
-          "valor_aluguel": "2.000",
-          "url_imagem": null,
-          "url_detalhes": "/imovel/apartamento-3-quartos-meireles-bairros-fortaleza-com-garagem-167m2-aluguel-RS2000-id-2618675942/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4300,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
+          "amenidades": [],
           "descricao": "Apartamento com 3 Quartos para alugar, 167m² em Meireles, Fortaleza",
           "coords": {
             "lat": -3.7303397,
@@ -9180,12 +7815,11 @@ export class LocationsService {
         {
           "endereco": "Rua Monsenhor Bruno, 1590 - Aldeota, Fortaleza - CE",
           "quartos": 1,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 35,
-          "valor_aluguel": "1.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/22a1cbd4bd90d8dd79f28e82b01dd3f5/foto-1-de-kitnet-com-1-quarto-para-alugar,-35-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/kitnet-1-quartos-aldeota-bairros-fortaleza-35m2-aluguel-RS1000-id-2624365731/",
+          "valor_aluguel": 3500,
+          "url_imagem": "",
           "amenidades": [
             "Cozinha"
           ],
@@ -9198,19 +7832,16 @@ export class LocationsService {
         {
           "endereco": "Avenida Geógrafo Antônio Ribeiro Zaranza, 2598 - Cajazeiras, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 1,
           "area": 44,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/f6c73710714d9ff730161e99ecfaece7/foto-1-de-apartamento-com-2-quartos-para-alugar,-44-em-cajazeiras,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-cajazeiras-bairros-fortaleza-com-garagem-44m2-aluguel-RS750-id-2666041683/",
+          "valor_aluguel": 4950,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
           "amenidades": [
             "Churrasqueira",
-            "Aceita animais",
             "Garagem",
             "Playground",
-            "Salão de festas",
-            "..."
+            "Salão de festas"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 44m² em Cajazeiras, Fortaleza",
           "coords": {
@@ -9221,19 +7852,16 @@ export class LocationsService {
         {
           "endereco": "Rua Marechal Deodoro, 535 - Benfica, Fortaleza - CE",
           "quartos": 5,
-          "banheiros": 4,
+          "banheiros": 3,
           "vagas": 1,
           "area": 153,
-          "valor_aluguel": "3.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/2376a40b4c97b81e0f56c1d575e121d5/foto-1-de-casa-com-5-quartos-para-alugar,-153-em-benfica,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-5-quartos-benfica-bairros-fortaleza-com-garagem-153m2-aluguel-RS3000-id-2644408389/",
+          "valor_aluguel": 3800,
+          "url_imagem": "../assets/img/properties/house1.jpg",
           "amenidades": [
             "Varanda",
-            "Quintal",
-            "Aceita animais",
+            ,
             "Garagem",
-            "Área de serviço",
-            "..."
+            "Área de serviço"
           ],
           "descricao": "Casa com 5 Quartos para alugar, 153m² em Benfica, Fortaleza",
           "coords": {
@@ -9245,17 +7873,16 @@ export class LocationsService {
           "endereco": "Rua Tibúrcio Cavalcanti, 2111 - Dionísio Torres, Fortaleza - CE",
           "quartos": 3,
           "banheiros": 2,
-          "vagas": 1,
+          "vagas": 2,
           "area": 100,
-          "valor_aluguel": "2.450",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/3c048d76c288831925e479dc673795f2/foto-1-de-casa-com-3-quartos-para-alugar,-100-em-dionísio-torres,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-3-quartos-dionisio-torres-bairros-fortaleza-com-garagem-100m2-aluguel-RS2450-id-2670089901/",
+          "valor_aluguel": 1300,
+          "url_imagem": "../assets/img/properties/house4.jpg",
           "amenidades": [
             "Área de serviço",
             "Box blindex",
             "Interfone",
-            "Quintal",
-            "Aceita animais"
+            ,
+
           ],
           "descricao": "Casa com 3 Quartos para alugar, 100m² em Dionísio Torres, Fortaleza",
           "coords": {
@@ -9265,16 +7892,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Dom Luís, 500 - Aldeota, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 39,
-          "valor_aluguel": "1.300",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/dcc3e37ab87ca8f3ffe8149dc82b6226/foto-1-de-sala-comercial-para-alugar,-39-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-aldeota-bairros-fortaleza-39m2-aluguel-RS1300-id-2643476358/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4300,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 39m² em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7340637,
@@ -9283,16 +7906,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Desembargador Moreira, 1701 - Meireles, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 28,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/ff0d1e9f571f07add2957c6360ed17d6/foto-1-de-prédio-comercial-para-alugar,-28-em-meireles,-fortaleza.jpg",
-          "url_detalhes": "/imovel/predio-comercial-meireles-bairros-fortaleza-28m2-aluguel-RS950-id-2647884959/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2700,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Prédio Comercial para alugar, 28m² em Meireles, Fortaleza",
           "coords": {
             "lat": -3.7411064,
@@ -9302,15 +7921,12 @@ export class LocationsService {
         {
           "endereco": "Avenida Dioguinho, 4200 - Praia do Futuro, Fortaleza - CE",
           "quartos": 1,
-          "banheiros": 3,
+          "banheiros": 2,
           "vagas": 2,
           "area": 61,
-          "valor_aluguel": "2.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/710ebe25668b543cb99cceb604ec9df4/foto-1-de-apartamento-com-1-quarto-para-alugar,-61-em-praia-do-futuro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-1-quartos-praia-do-futuro-bairros-fortaleza-com-garagem-61m2-aluguel-RS2500-id-2637526273/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1300,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
+          "amenidades": [],
           "descricao": "Apartamento com 1 Quarto para alugar, 61m² em Praia do Futuro, Fortaleza",
           "coords": {
             "lat": -3.7492867,
@@ -9319,20 +7935,15 @@ export class LocationsService {
         },
         {
           "endereco": "Rua José Vilar - Dionísio Torres, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 31,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/5544e0819a635474ae1efbdf1a1c19bb/foto-1-de-sala-comercial-para-alugar,-31-em-dionísio-torres,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-dionisio-torres-bairros-fortaleza-31m2-aluguel-RS900-id-2656107722/",
+          "valor_aluguel": 4000,
+          "url_imagem": "../assets/img/properties/office2.jpg",
           "amenidades": [
             "Garagem",
             "Área de serviço",
-            "Próximo a escola",
-            "Próximo a hospitais",
-            "Escritório",
-            "..."
+            "Escritório"
           ],
           "descricao": "Sala Comercial para alugar, 31m² em Dionísio Torres, Fortaleza",
           "coords": {
@@ -9343,15 +7954,12 @@ export class LocationsService {
         {
           "endereco": "Rua Tomás Lopes, 113 - Praia de Iracema, Fortaleza - CE",
           "quartos": 1,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 33,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/6af033e87b0293012e01d65f861a0676/foto-1-de-kitnet-com-1-quarto-para-alugar,-33-em-praia-de-iracema,-fortaleza.jpg",
-          "url_detalhes": "/imovel/kitnet-1-quartos-praia-de-iracema-bairros-fortaleza-33m2-aluguel-RS650-id-2651802669/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 750,
+          "url_imagem": "",
+          "amenidades": [],
           "descricao": "Kitnet com 1 Quarto para alugar, 33m² em Praia de Iracema, Fortaleza",
           "coords": {
             "lat": -3.7214121,
@@ -9361,15 +7969,12 @@ export class LocationsService {
         {
           "endereco": "Rua Ministro Eduardo Ellery Barreira, 60 - Guararapes, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 6,
-          "vagas": null,
+          "banheiros": 3,
+          "vagas": 1,
           "area": 110,
-          "valor_aluguel": "1.900",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/78ff80c999b81348f694d4378f920350/foto-1-de-apartamento-com-3-quartos-para-alugar,-110-em-guararapes,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-guararapes-bairros-fortaleza-110m2-aluguel-RS1900-id-2677522495/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3650,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
+          "amenidades": [],
           "descricao": "Apartamento com 3 Quartos para alugar, 110m² em Guararapes, Fortaleza",
           "coords": {
             "lat": -3.7612735,
@@ -9378,13 +7983,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Benjamim Brasil, 2150 - Mondubim, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 2,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 420,
-          "valor_aluguel": "5.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/c4eab0f86107ab7955bf06a70b069b03/foto-1-de-galpão/depósito/armazém-para-alugar,-420-em-mondubim,-fortaleza.jpg",
-          "url_detalhes": "/imovel/galpao-deposito-armazem-mondubim-bairros-fortaleza-420m2-aluguel-RS5500-id-2682307600/",
+          "valor_aluguel": 700,
+          "url_imagem": "../assets/img/properties/storage2.jpg",
           "amenidades": [
             "Estacionamento",
             "Rampa",
@@ -9399,16 +8002,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Guilherme Rocha, 381 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 76,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/5f3e6b0276807fbd0ff096fe23d36f57/foto-1-de-sala-comercial-para-alugar,-76-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-76m2-aluguel-RS250-id-2566172875/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 650,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 76m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7265229,
@@ -9417,16 +8016,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Visconde do Rio Branco, 1725 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 58,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/0fc6438277b1b72e56b50a0b9d8073a1/foto-1-de-ponto-comercial-para-alugar,-58-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-centro-bairros-fortaleza-58m2-aluguel-RS780-id-2583343381/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1850,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 58m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7359587,
@@ -9435,16 +8030,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 42,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/f83a56a177aed628efe894539ece8407/foto-1-de-sala-comercial-para-alugar,-42-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-42m2-aluguel-RS500-id-2476320440/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4950,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7278961,
@@ -9454,19 +8045,17 @@ export class LocationsService {
         {
           "endereco": "Rua Luiza Miranda Coelho, 1130 - Engenheiro Luciano Cavalcante, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 2,
-          "vagas": 2,
+          "banheiros": 3,
+          "vagas": 1,
           "area": 75,
-          "valor_aluguel": "3.600",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/b4240cdd4d5c7a2ab0369ab36bb7d0e3/foto-1-de-apartamento-com-3-quartos-para-alugar,-75-em-engenheiro-luciano-cavalcante,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-engenheiro-luciano-cavalcante-bairros-fortaleza-com-garagem-75m2-aluguel-RS3600-id-2626013354/",
+          "valor_aluguel": 1550,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Piscina",
             "Mobiliado",
             "Elevador",
             "Condomínio fechado",
-            "Varanda",
-            "..."
+            "Varanda"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 75m² em Engenheiro Luciano Cavalcante, Fortaleza",
           "coords": {
@@ -9476,16 +8065,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida José Bastos, 4140 - Rodolfo Teófilo, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 2,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 32,
-          "valor_aluguel": "1.300",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/bf39c824f07c976632eaa0eea3cdf397/foto-1-de-ponto-comercial-para-alugar,-32-em-rodolfo-teófilo,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-rodolfo-teofilo-bairros-fortaleza-32m2-aluguel-RS1300-id-2566289255/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3750,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 32m² em Rodolfo Teófilo, Fortaleza",
           "coords": {
             "lat": -3.7536176,
@@ -9494,16 +8079,12 @@ export class LocationsService {
         },
         {
           "endereco": "Montese, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 2,
-          "vagas": 4,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 179,
-          "valor_aluguel": "2.800",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/e787a51717df0c9bba0d185716fb7c8b/foto-1-de-ponto-comercial-para-alugar,-179-em-montese,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-montese-bairros-fortaleza-com-garagem-179m2-aluguel-RS2800-id-2673906096/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2850,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 179m² em Montese, Fortaleza",
           "coords": {
             "lat": -3.7683772,
@@ -9512,16 +8093,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 42,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/2ffd22ddf84b1fe4f9691f4f07457659/foto-1-de-sala-comercial-para-alugar,-42-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-42m2-aluguel-RS500-id-2518064521/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4350,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7278961,
@@ -9530,16 +8107,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Padre Valdevino, 1777 - Aldeota, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 58,
-          "valor_aluguel": "4.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/2bba6e2f9d3bf789eeddbe2dbfa14297/foto-1-de-ponto-comercial-para-alugar,-58-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-aldeota-bairros-fortaleza-58m2-aluguel-RS4000-id-2558578258/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4300,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 58m² em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.741841,
@@ -9549,19 +8122,15 @@ export class LocationsService {
         {
           "endereco": "Rua Joaquim Manuel de Macêdo, 1768 - Henrique Jorge, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": 1,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 50,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/e2a71ea34cd93d720f0b29ac45d2ac55/foto-1-de-apartamento-com-2-quartos-para-alugar,-50-em-henrique-jorge,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-henrique-jorge-bairros-fortaleza-com-garagem-50m2-aluguel-RS800-id-2612978036/",
+          "valor_aluguel": 2550,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Condomínio fechado",
-            "Aceita animais",
             "Área de serviço",
-            "Perto de vias de acesso",
-            "Próximo a escola",
-            "..."
+            "Perto de vias de acesso"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 50m² em Henrique Jorge, Fortaleza",
           "coords": {
@@ -9572,19 +8141,16 @@ export class LocationsService {
         {
           "endereco": "Rua Francisco Nogueira, 340 - Cajazeiras, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 3,
+          "banheiros": 2,
           "vagas": 1,
           "area": 70,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/83d384f58dc2febe8616e4143b2d4668/foto-1-de-apartamento-com-3-quartos-para-alugar,-70-em-cajazeiras,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-cajazeiras-bairros-fortaleza-com-garagem-70m2-aluguel-RS850-id-2671091214/",
+          "valor_aluguel": 1700,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
           "amenidades": [
-            "Aceita animais",
             "Garagem",
             "Ar-condicionado",
             "Jardim",
-            "Área de serviço",
-            "..."
+            "Área de serviço"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 70m² em Cajazeiras, Fortaleza",
           "coords": {
@@ -9594,16 +8160,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 30,
-          "valor_aluguel": "2.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/ba4aeaf0843b3d7216ab85faa1e63f9e/foto-1-de-sala-comercial-para-alugar,-30-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-aldeota-bairros-fortaleza-30m2-aluguel-RS2500-id-2622078785/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1100,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 30m² em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7327632,
@@ -9616,16 +8178,14 @@ export class LocationsService {
           "banheiros": 2,
           "vagas": 2,
           "area": 90,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/4f714ac007278f14be7c8a0a02f790a0/foto-1-de-apartamento-com-3-quartos-para-alugar,-90-em-praia-do-futuro-ii,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-praia-do-futuro-ii-bairros-fortaleza-com-garagem-90m2-aluguel-RS450-id-2537796301/",
+          "valor_aluguel": 1950,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Piscina",
             "Mobiliado",
             "Churrasqueira",
             "Elevador",
-            "Condomínio fechado",
-            "..."
+            "Condomínio fechado"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 90m² em Praia do Futuro II, Fortaleza",
           "coords": {
@@ -9635,16 +8195,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 1235 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 30,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/c47eadc41da71c9a33f0397b0237cc68/foto-1-de-kitnet-para-alugar,-30-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/kitnet-centro-bairros-fortaleza-30m2-aluguel-RS300-id-2616559247/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2100,
+          "url_imagem": "",
+          "amenidades": [],
           "descricao": "Kitnet para alugar, 30m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7255337,
@@ -9653,16 +8209,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Dom Luís, 500 - Meireles, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
-          "area": 28,
-          "valor_aluguel": "1.100",
-          "url_imagem": null,
-          "url_detalhes": "/imovel/sala-comercial-meireles-bairros-fortaleza-28m2-aluguel-RS1100-id-2682046128/",
-          "amenidades": [
-
-          ],
+          "vagas": 2,
+          "area": 84,
+          "valor_aluguel": 1900,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": null,
           "coords": {
             "lat": -3.7356097,
@@ -9672,15 +8224,12 @@ export class LocationsService {
         {
           "endereco": "Rua Barão Aquiraz, 120 - Messejana, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 1,
           "area": 45,
-          "valor_aluguel": "1.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/bf1b5e24534dc93d2fb409edd4115307/foto-1-de-apartamento-com-2-quartos-para-alugar,-45-em-messejana,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-messejana-bairros-fortaleza-com-garagem-45m2-aluguel-RS1200-id-2684871052/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2550,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
+          "amenidades": [],
           "descricao": "Apartamento com 2 Quartos para alugar, 45m² em Messejana, Fortaleza",
           "coords": {
             "lat": -3.832464,
@@ -9689,16 +8238,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Delmiro de Farias, 1741 - Rodolfo Teófilo, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 425,
-          "valor_aluguel": "5.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/7ed48f1c6c8a397eebbeecde45f13c9a/foto-1-de-galpão/depósito/armazém-para-alugar,-425-em-rodolfo-teófilo,-fortaleza.jpg",
-          "url_detalhes": "/imovel/galpao-deposito-armazem-rodolfo-teofilo-bairros-fortaleza-425m2-aluguel-RS5000-id-2624423341/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4500,
+          "url_imagem": "../assets/img/properties/storage2.jpg",
+          "amenidades": [],
           "descricao": "Galpão/Depósito/Armazém para alugar, 425m² em Rodolfo Teófilo, Fortaleza",
           "coords": {
             "lat": -3.7455877,
@@ -9708,12 +8253,11 @@ export class LocationsService {
         {
           "endereco": "Rua Tenente Moacir Matos, 55 - Montese, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 1,
           "area": 72,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/c173f7f5c9903fbc1b28973298aab336/foto-1-de-apartamento-com-2-quartos-para-venda-ou-aluguel,-72-em-montese,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-montese-bairros-fortaleza-com-garagem-72m2-venda-RS150000-id-2661147786/",
+          "valor_aluguel": 2550,
+          "url_imagem": "../assets/img/properties/apartament5.jpg",
           "amenidades": [
             "Condomínio fechado",
             "Cozinha",
@@ -9730,12 +8274,11 @@ export class LocationsService {
         {
           "endereco": "Avenida Doutor Theberge, 1859 - Presidente Kennedy, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 1,
           "area": 108,
-          "valor_aluguel": "1.809",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/d2637dd667444a60712ea4ff7f5d23c6/foto-1-de-casa-com-2-quartos-para-alugar,-108-em-presidente-kennedy,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-2-quartos-presidente-kennedy-bairros-fortaleza-com-garagem-108m2-aluguel-RS1809-id-2669475441/",
+          "valor_aluguel": 4550,
+          "url_imagem": "../assets/img/properties/house1.jpg",
           "amenidades": [
             "Ar-condicionado",
             "Cozinha",
@@ -9754,13 +8297,12 @@ export class LocationsService {
           "banheiros": 2,
           "vagas": 1,
           "area": 71,
-          "valor_aluguel": "1.180",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/aa3f5a0bcc8d64810ba259463338bc65/foto-1-de-apartamento-com-3-quartos-para-alugar,-71-em-antônio-bezerra,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-antonio-bezerra-bairros-fortaleza-com-garagem-71m2-aluguel-RS1180-id-2667876900/",
+          "valor_aluguel": 3900,
+          "url_imagem": "../assets/img/properties/apartament5.jpg",
           "amenidades": [
             "Garagem",
             "Cozinha",
-            "Aceita animais"
+
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 71m² em Antônio Bezerra, Fortaleza",
           "coords": {
@@ -9771,12 +8313,11 @@ export class LocationsService {
         {
           "endereco": "Avenida Desembargador Moreira, 2020 - Aldeota, Fortaleza - CE",
           "quartos": 1,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 29,
-          "valor_aluguel": "1.300",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/545bbf9abe3da88da024bc057075c9c7/foto-1-de-sala-comercial-com-1-quarto-para-alugar,-29-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-1-quartos-aldeota-bairros-fortaleza-29m2-aluguel-RS1300-id-2684626531/",
+          "valor_aluguel": 3400,
+          "url_imagem": "../assets/img/properties/office2.jpg",
           "amenidades": [
             "Elevador",
             "Segurança 24h"
@@ -9789,16 +8330,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua do Rosário, 77 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 60,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/bdc4bd2a60a4560c0394dbdfe5af10ad/foto-1-de-sala-comercial-para-alugar,-60-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-60m2-aluguel-RS901-id-2547860469/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2000,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 60m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.728418999999999,
@@ -9807,16 +8344,10 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
-          "area": null,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/00d677c0d259df17c9f350052aba29e3/foto-1-de-lote/terreno-para-alugar-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-aldeota-bairros-fortaleza-aluguel-RS180-id-2614659099/",
-          "amenidades": [
-
-          ],
+          "area": 26,
+          "valor_aluguel": 1300,
+          "url_imagem": "../assets/img/properties/ground3.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7327632,
@@ -9826,19 +8357,16 @@ export class LocationsService {
         {
           "endereco": "Avenida Beira Mar, 4444 - Mucuripe, Fortaleza - CE",
           "quartos": 1,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 40,
-          "valor_aluguel": "1.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/c514c784762f09cd2c093716e7c85e7b/foto-1-de-apartamento-com-1-quarto-para-alugar,-40-em-mucuripe,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-1-quartos-mucuripe-bairros-fortaleza-40m2-aluguel-RS1200-id-2676878509/",
+          "valor_aluguel": 4550,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Elevador",
-            "Aceita animais",
             "Área de serviço",
             "Cozinha",
-            "Interfone",
-            "..."
+            "Interfone"
           ],
           "descricao": "Apartamento com 1 Quarto para alugar, 40m² em Mucuripe, Fortaleza",
           "coords": {
@@ -9848,16 +8376,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Guilherme Rocha, 381 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 38,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/64e31fabe5481cc970ed4915db817605/foto-1-de-sala-comercial-para-alugar,-38-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-38m2-aluguel-RS250-id-2634522799/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2800,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 38m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7265229,
@@ -9866,16 +8390,10 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
-          "area": null,
-          "valor_aluguel": null,
-          "url_imagem": null,
-          "url_detalhes": "/imovel/lote-terreno-aldeota-bairros-fortaleza-aluguel-RS250-id-2547860444/",
-          "amenidades": [
-
-          ],
+          "area": 253,
+          "valor_aluguel": 1150,
+          "url_imagem": "../assets/img/properties/ground3.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7327632,
@@ -9884,16 +8402,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pedro Borges, 20 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 60,
-          "valor_aluguel": "1.143",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/2ec9e52919523691de759e1d687ff7d8/foto-1-de-sala-comercial-para-alugar,-60-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-60m2-aluguel-RS1143-id-2576463845/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2600,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 60m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7282492,
@@ -9902,16 +8416,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Barão de Studart, 2358 - Aldeota, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 33,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/0b5553f64bacb6f67eec00120cb41739/foto-1-de-sala-comercial-para-alugar,-33-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-aldeota-bairros-fortaleza-33m2-aluguel-RS750-id-2652073962/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1900,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 33m² em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7441496,
@@ -9921,15 +8431,12 @@ export class LocationsService {
         {
           "endereco": "Rua Manuel Teixeira, 131 - Cambeba, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 1,
           "area": 51,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/2362632abace7096488d32c40aa051a4/foto-1-de-apartamento-com-2-quartos-para-alugar,-51-em-cambeba,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-cambeba-bairros-fortaleza-com-garagem-51m2-aluguel-RS750-id-2634208772/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1600,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
+          "amenidades": [],
           "descricao": "Apartamento com 2 Quartos para alugar, 51m² em Cambeba, Fortaleza",
           "coords": {
             "lat": -3.8157835,
@@ -9938,16 +8445,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 1235 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 30,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/101aff23543f7456420c8661627239c8/foto-1-de-kitnet-para-alugar,-30-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/kitnet-centro-bairros-fortaleza-30m2-aluguel-RS250-id-2616565394/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2550,
+          "url_imagem": "",
+          "amenidades": [],
           "descricao": "Kitnet para alugar, 30m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7255337,
@@ -9957,19 +8460,16 @@ export class LocationsService {
         {
           "endereco": "Rua Luiza Guimarães, 709 - Lagoa Redonda, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 3,
-          "vagas": 1,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 83,
-          "valor_aluguel": "2.100",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/2f6e8e7932c4d3363df0dc597e329414/foto-1-de-casa-de-condomínio-com-3-quartos-para-alugar,-83-em-lagoa-redonda,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-de-condominio-3-quartos-lagoa-redonda-bairros-fortaleza-com-garagem-83m2-aluguel-RS2100-id-2625908672/",
+          "valor_aluguel": 1700,
+          "url_imagem": "../assets/img/properties/house4.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Varanda",
-            "Quintal",
-            "Aceita animais",
-            "..."
+
           ],
           "descricao": "Casa de Condomínio com 3 Quartos para alugar, 83m² em Lagoa Redonda, Fortaleza",
           "coords": {
@@ -9981,18 +8481,15 @@ export class LocationsService {
           "endereco": "Rua Bento Albuquerque, 1210 - Cocó, Fortaleza - CE",
           "quartos": 3,
           "banheiros": 3,
-          "vagas": 1,
+          "vagas": 2,
           "area": 127,
-          "valor_aluguel": "2.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/639587486ac5d73105719ab9a69f4f44/foto-1-de-apartamento-com-3-quartos-para-alugar,-127-em-cocó,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-coco-bairros-fortaleza-com-garagem-127m2-aluguel-RS2500-id-2673996111/",
+          "valor_aluguel": 4950,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
           "amenidades": [
             "Elevador",
             "Condomínio fechado",
-            "Aceita animais",
             "Jardim",
-            "Portaria 24h",
-            "..."
+            "Portaria 24h"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 127m² em Cocó, Fortaleza",
           "coords": {
@@ -10003,19 +8500,17 @@ export class LocationsService {
         {
           "endereco": "Rua José Cavalcante Sobrinho, 120 - Messejana, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 1,
           "area": 48,
-          "valor_aluguel": "1.100",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/18a17c838e3e34af80209ff59704acca/foto-1-de-apartamento-com-2-quartos-para-alugar,-48-em-messejana,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-messejana-bairros-fortaleza-com-garagem-48m2-aluguel-RS1100-id-2684295107/",
+          "valor_aluguel": 3900,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Ar-condicionado",
             "Área de serviço",
-            "Playground",
-            "..."
+            "Playground"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 48m² em Messejana, Fortaleza",
           "coords": {
@@ -10026,19 +8521,14 @@ export class LocationsService {
         {
           "endereco": "Avenida Rui Barbosa, 2694 - Joaquim Tavora, Fortaleza - CE",
           "quartos": 1,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 35,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/6ab597280ce12d426204b23974ea541b/foto-1-de-kitnet-com-1-quarto-para-alugar,-35-em-joaquim-tavora,-fortaleza.jpg",
-          "url_detalhes": "/imovel/kitnet-1-quartos-joaquim-tavora-bairros-fortaleza-35m2-aluguel-RS980-id-2683650718/",
+          "valor_aluguel": 1750,
+          "url_imagem": "",
           "amenidades": [
-            "Próximo a escola",
-            "Próximo a hospitais",
             "Cozinha",
-            "Praça",
-            "Próximo a shopping",
-            "..."
+            "Praça"
           ],
           "descricao": "Kitnet com 1 Quarto para alugar, 35m² em Joaquim Tavora, Fortaleza",
           "coords": {
@@ -10048,16 +8538,10 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
-          "area": null,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/eed170367761a1f07d443fa3d61cee32/foto-1-de-lote/terreno-para-alugar-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-aldeota-bairros-fortaleza-aluguel-RS180-id-2547861979/",
-          "amenidades": [
-
-          ],
+          "area": 128,
+          "valor_aluguel": 2950,
+          "url_imagem": "../assets/img/properties/ground1.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7327632,
@@ -10067,19 +8551,17 @@ export class LocationsService {
         {
           "endereco": "Avenida Trajano de Medeiros, 1970 - De Lourdes, Fortaleza - CE",
           "quartos": 5,
-          "banheiros": 7,
-          "vagas": 10,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 880,
-          "valor_aluguel": "22.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/387d51cc05a61de21a1a36d91d90137a/foto-1-de-casa-com-5-quartos-para-alugar,-880-em-de-lourdes,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-5-quartos-de-lourdes-bairros-fortaleza-com-garagem-880m2-aluguel-RS22000-id-2568028653/",
+          "valor_aluguel": 3050,
+          "url_imagem": "../assets/img/properties/house3.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Varanda",
-            "Quintal",
-            "Ar-condicionado",
-            "..."
+            ,
+            "Ar-condicionado"
           ],
           "descricao": "Casa com 5 Quartos para alugar, 880m² em De Lourdes, Fortaleza",
           "coords": {
@@ -10090,19 +8572,16 @@ export class LocationsService {
         {
           "endereco": "Rua A do Loteamento Residencial Célio Gurgel, 1697 - Barroso, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 1,
           "area": 42,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/7bec9652ff9e9fa6bf83dcc365aea55d/foto-1-de-apartamento-com-2-quartos-para-alugar,-42-em-barroso,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-barroso-bairros-fortaleza-com-garagem-42m2-aluguel-RS900-id-2674510892/",
+          "valor_aluguel": 2350,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
-            "Aceita animais",
-            "Garagem",
-            "..."
+            "Garagem"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 42m² em Barroso, Fortaleza",
           "coords": {
@@ -10113,19 +8592,16 @@ export class LocationsService {
         {
           "endereco": "Rua João Cordeiro, 688 - Praia de Iracema, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 2,
-          "vagas": 2,
+          "banheiros": 3,
+          "vagas": 1,
           "area": 80,
-          "valor_aluguel": "3.800",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/67b7da537a3f03000bab16c7cf72356a/foto-1-de-apartamento-com-3-quartos-para-alugar,-80-em-praia-de-iracema,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-praia-de-iracema-bairros-fortaleza-com-garagem-80m2-aluguel-RS3800-id-2684187673/",
+          "valor_aluguel": 1050,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
-            "Aceita animais",
-            "Área de serviço",
-            "..."
+            "Área de serviço"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 80m² em Praia de Iracema, Fortaleza",
           "coords": {
@@ -10136,12 +8612,11 @@ export class LocationsService {
         {
           "endereco": "Avenida Bernardo Manuel, 8600 - Itaperi, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 1,
           "area": 47,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/157c3910f5e69f1955c191e743a2560a/foto-1-de-apartamento-com-2-quartos-para-alugar,-47-em-itaperi,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-itaperi-bairros-fortaleza-com-garagem-47m2-aluguel-RS500-id-2638172894/",
+          "valor_aluguel": 2300,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
           "amenidades": [
             "Condomínio fechado",
             "Cozinha"
@@ -10154,16 +8629,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 30,
-          "valor_aluguel": "1.202",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/08c9c97ba59dc6788800bd43e9307197/foto-1-de-sala-comercial-para-alugar,-30-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-aldeota-bairros-fortaleza-30m2-aluguel-RS1202-id-2547862371/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2400,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 30m² em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7327632,
@@ -10173,15 +8644,12 @@ export class LocationsService {
         {
           "endereco": "Avenida Dom Manuel, 277 - Centro, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 60,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/e70381ada9b2427611feaf55402dbb59/foto-1-de-casa-com-2-quartos-para-alugar,-60-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-2-quartos-centro-bairros-fortaleza-60m2-aluguel-RS750-id-2563525053/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3950,
+          "url_imagem": "../assets/img/properties/house4.jpg",
+          "amenidades": [],
           "descricao": "Casa com 2 Quartos para alugar, 60m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7266173,
@@ -10190,16 +8658,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua do Rosário, 119 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 70,
-          "valor_aluguel": "1.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/e1a4db0991287f784b3c23fbfaee857f/foto-1-de-galpão/depósito/armazém-para-alugar,-70-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/galpao-deposito-armazem-centro-bairros-fortaleza-70m2-aluguel-RS1500-id-2665190412/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2800,
+          "url_imagem": "../assets/img/properties/storage3.jpg",
+          "amenidades": [],
           "descricao": "Galpão/Depósito/Armazém para alugar, 70m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.728648,
@@ -10208,16 +8672,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 31,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/050396395d2e4bf1868fa4d502d0500f/foto-1-de-sala-comercial-para-alugar,-31-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-31m2-aluguel-RS500-id-2600691662/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 800,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.724243,
@@ -10226,16 +8686,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 5335 - Papicu, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 30,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/901cb3bf17e1a3e115cc2d36dbbb345b/foto-1-de-sala-comercial-para-alugar,-30-em-papicu,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-papicu-bairros-fortaleza-30m2-aluguel-RS750-id-2547859706/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2350,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 30m² em Papicu, Fortaleza",
           "coords": {
             "lat": -3.7407389,
@@ -10244,16 +8700,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Monsenhor Bruno, 1153 - Aldeota, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 35,
-          "valor_aluguel": "1.600",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/f4e7c092bf43a04c2c20e484d72b66b5/foto-1-de-sala-comercial-para-alugar,-35-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-aldeota-bairros-fortaleza-35m2-aluguel-RS1600-id-2670635518/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2700,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 35m² em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7332159,
@@ -10262,16 +8714,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 31,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/14a96c30392f88da53a23b7eb37ec9f0/foto-1-de-sala-comercial-para-alugar,-31-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-31m2-aluguel-RS400-id-2476321892/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4150,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.724243,
@@ -10281,19 +8729,17 @@ export class LocationsService {
         {
           "endereco": "Rua Bento Albuquerque, 2158 - Cocó, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 5,
+          "banheiros": 2,
           "vagas": 2,
           "area": 126,
-          "valor_aluguel": "4.900",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/071451e47f375d08f7bbdb10e098fb20/foto-1-de-apartamento-com-2-quartos-para-alugar,-126-em-cocó,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-coco-bairros-fortaleza-com-garagem-126m2-aluguel-RS4900-id-2684294353/",
+          "valor_aluguel": 4900,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Área de serviço",
             "Playground",
-            "Quadra poliesportiva",
-            "..."
+            "Quadra poliesportiva"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 126m² em Cocó, Fortaleza",
           "coords": {
@@ -10304,19 +8750,17 @@ export class LocationsService {
         {
           "endereco": "Avenida Recreio, 1870 - Lagoa Redonda, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": 3,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 69,
-          "valor_aluguel": "1.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/1d0ef64f208e678087500b1f1ae71e56/foto-1-de-casa-de-condomínio-com-2-quartos-para-venda-ou-aluguel,-69-em-lagoa-redonda,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-de-condominio-2-quartos-lagoa-redonda-bairros-fortaleza-com-garagem-69m2-venda-RS190000-id-2662260290/",
+          "valor_aluguel": 3550,
+          "url_imagem": "../assets/img/properties/house1.jpg",
           "amenidades": [
             "Churrasqueira",
             "Condomínio fechado",
-            "Quintal",
+            ,
             "Área de serviço",
-            "Cozinha",
-            "..."
+            "Cozinha"
           ],
           "descricao": "Casa de Condomínio com 2 Quartos para venda ou aluguel, 69m² em Lagoa Redonda, Fortaleza",
           "coords": {
@@ -10326,16 +8770,10 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
-          "area": null,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/adf02e6d5b8d4c75d4f14b23c74fcdcf/foto-1-de-lote/terreno-para-alugar-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-aldeota-bairros-fortaleza-aluguel-RS180-id-2547859030/",
-          "amenidades": [
-
-          ],
+          "area": 128,
+          "valor_aluguel": 1800,
+          "url_imagem": "../assets/img/properties/ground2.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7327632,
@@ -10344,16 +8782,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Engenheiro Alberto Sá - Papicu, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 25,
-          "valor_aluguel": "1.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/971d2a44991921b2efab232e5ac5ef71/foto-1-de-ponto-comercial-para-alugar,-25-em-papicu,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-papicu-bairros-fortaleza-25m2-aluguel-RS1200-id-2663022053/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2500,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 25m² em Papicu, Fortaleza",
           "coords": {
             "lat": -3.7342568,
@@ -10363,19 +8797,16 @@ export class LocationsService {
         {
           "endereco": "Rua Zuca Accioly, 1101 - Manoel Dias Branco, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 3,
-          "vagas": 2,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 120,
-          "valor_aluguel": "2.700",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/653d36f244d468677ff791018bf24eee/foto-1-de-apartamento-com-3-quartos-para-alugar,-120-em-manoel-dias-branco,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-manoel-dias-branco-bairros-fortaleza-com-garagem-120m2-aluguel-RS2700-id-2673982520/",
+          "valor_aluguel": 1950,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Condomínio fechado",
-            "Varanda",
-            "Aceita animais",
-            "..."
+            "Varanda"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 120m² em Manoel Dias Branco, Fortaleza",
           "coords": {
@@ -10385,16 +8816,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 42,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/fdf728f6a782e2dc75c6f11a013160bc/foto-1-de-sala-comercial-para-alugar,-42-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-42m2-aluguel-RS500-id-2476321311/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1350,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7278961,
@@ -10403,16 +8830,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 30,
-          "valor_aluguel": "1.202",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/ee85f24731e9d8285cfcaec733eacf1b/foto-1-de-sala-comercial-para-alugar,-30-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-aldeota-bairros-fortaleza-30m2-aluguel-RS1202-id-2547862372/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1450,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 30m² em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7327632,
@@ -10422,12 +8845,11 @@ export class LocationsService {
         {
           "endereco": "Rua Doutor Gilberto Studart, 2155 - Papicu, Fortaleza - CE",
           "quartos": 4,
-          "banheiros": 4,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 210,
-          "valor_aluguel": "2.100",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/2a1c3665201844ae9d7ab989228a2ca8/foto-1-de-apartamento-com-4-quartos-para-alugar,-210-em-papicu,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-4-quartos-papicu-bairros-fortaleza-210m2-aluguel-RS2100-id-2683876823/",
+          "valor_aluguel": 3700,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
           "amenidades": [
             "Varanda",
             "Cozinha",
@@ -10446,16 +8868,14 @@ export class LocationsService {
           "banheiros": 2,
           "vagas": 1,
           "area": 65,
-          "valor_aluguel": "1.600",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/a0a5ce510315a7a1f17fa84fb605a9b5/foto-1-de-apartamento-com-2-quartos-para-alugar,-65-em-jacarecanga,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-jacarecanga-bairros-fortaleza-com-garagem-65m2-aluguel-RS1600-id-2677902602/",
+          "valor_aluguel": 5000,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
           "amenidades": [
             "Churrasqueira",
             "Elevador",
             "Condomínio fechado",
             "Varanda",
-            "Academia",
-            "..."
+            "Academia"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 65m² em Jacarecanga, Fortaleza",
           "coords": {
@@ -10467,18 +8887,15 @@ export class LocationsService {
           "endereco": "Rua República do Líbano, 1330 - Varjota, Fortaleza - CE",
           "quartos": 3,
           "banheiros": 2,
-          "vagas": null,
+          "vagas": 1,
           "area": 107,
-          "valor_aluguel": "2.999",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/b5e43493540ecbbdde7f7dfbdfa11fa5/foto-1-de-apartamento-com-3-quartos-para-alugar,-107-em-varjota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-varjota-bairros-fortaleza-107m2-aluguel-RS2999-id-2666364925/",
+          "valor_aluguel": 2250,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
           "amenidades": [
             "Mobiliado",
-            "Aceita animais",
             "Playground",
             "Varanda gourmet",
-            "Salão de festas",
-            "..."
+            "Salão de festas"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 107m² em Varjota, Fortaleza",
           "coords": {
@@ -10488,16 +8905,10 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
-          "area": null,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/7ea1c3508bdbe325d4a8316176aa3dfe/foto-1-de-lote/terreno-para-alugar-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-aldeota-bairros-fortaleza-aluguel-RS180-id-2547860505/",
-          "amenidades": [
-
-          ],
+          "area": 268,
+          "valor_aluguel": 3750,
+          "url_imagem": "../assets/img/properties/ground1.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7327632,
@@ -10508,14 +8919,11 @@ export class LocationsService {
           "endereco": "Rua José Cavalcante Sobrinho, 120 - Messejana, Fortaleza - CE",
           "quartos": 2,
           "banheiros": 2,
-          "vagas": 1,
+          "vagas": 2,
           "area": 52,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/b40698c8b47ea7cd5b3c3e34db4b2669/foto-1-de-apartamento-com-2-quartos-para-alugar,-52-em-messejana,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-messejana-bairros-fortaleza-com-garagem-52m2-aluguel-RS950-id-2663493579/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3150,
+          "url_imagem": "../assets/img/properties/apartament5.jpg",
+          "amenidades": [],
           "descricao": "Apartamento com 2 Quartos para alugar, 52m² em Messejana, Fortaleza",
           "coords": {
             "lat": -3.8364575,
@@ -10524,13 +8932,11 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Professor Gomes de Matos, 661 B - Parreão, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 2,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 100,
-          "valor_aluguel": "4.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/3a56091df8556be0348f06da63ad6c29/foto-1-de-ponto-comercial-para-alugar,-100-em-parreão,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-parreao-bairros-fortaleza-100m2-aluguel-RS4500-id-2683073774/",
+          "valor_aluguel": 2500,
+          "url_imagem": "../assets/img/properties/office3.jpg",
           "amenidades": [
             "Copa",
             "Área de serviço"
@@ -10544,15 +8950,12 @@ export class LocationsService {
         {
           "endereco": "Rua Francisco Glicério, 742 - Maraponga, Fortaleza - CE",
           "quartos": 1,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 30,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/3a9b74128f16a0a20359b7b697403110/foto-1-de-apartamento-com-1-quarto-para-alugar,-30-em-maraponga,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-1-quartos-maraponga-bairros-fortaleza-30m2-aluguel-RS670-id-2667373168/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1100,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
+          "amenidades": [],
           "descricao": "Apartamento com 1 Quarto para alugar, 30m² em Maraponga, Fortaleza",
           "coords": {
             "lat": -3.7961716,
@@ -10561,16 +8964,12 @@ export class LocationsService {
         },
         {
           "endereco": "Dionísio Torres, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 2,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 95,
-          "valor_aluguel": "3.900",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/3e81d6e93b97a380c9cc98fd4d3c01c8/foto-1-de-ponto-comercial-para-alugar,-95-em-dionísio-torres,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-dionisio-torres-bairros-fortaleza-95m2-aluguel-RS3900-id-2638762665/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1450,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 95m² em Dionísio Torres, Fortaleza",
           "coords": {
             "lat": -3.7493092,
@@ -10580,12 +8979,11 @@ export class LocationsService {
         {
           "endereco": "Rua Floriano Peixoto, 2100 - Centro, Fortaleza - CE",
           "quartos": 1,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 30,
-          "valor_aluguel": null,
-          "url_imagem": null,
-          "url_detalhes": "/imovel/kitnet-1-quartos-centro-bairros-fortaleza-30m2-aluguel-RS420-id-2645845783/",
+          "valor_aluguel": 4250,
+          "url_imagem": "",
           "amenidades": [
             "Área de serviço"
           ],
@@ -10597,13 +8995,11 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 6740 - Cocó, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 2,
-          "vagas": 2,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 55,
-          "valor_aluguel": "4.600",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/119788588ae9e0018e36f74fe6ba7c38/foto-1-de-sala-comercial-para-venda-ou-aluguel,-55-em-cocó,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-coco-bairros-fortaleza-com-garagem-55m2-venda-RS731000-id-2625969101/",
+          "valor_aluguel": 2350,
+          "url_imagem": "../assets/img/properties/office1.jpg",
           "amenidades": [
             "Condomínio fechado",
             "Elevador"
@@ -10620,13 +9016,12 @@ export class LocationsService {
           "banheiros": 3,
           "vagas": 1,
           "area": 134,
-          "valor_aluguel": "1.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/41642e300358a38a78766572cfc97c30/foto-1-de-apartamento-com-3-quartos-para-alugar,-134-em-parque-manibura,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-parque-manibura-bairros-fortaleza-com-garagem-134m2-aluguel-RS1000-id-2683004874/",
+          "valor_aluguel": 3050,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Cozinha",
             "Área de serviço",
-            "Aceita animais"
+
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 134m² em Parque Manibura, Fortaleza",
           "coords": {
@@ -10637,19 +9032,17 @@ export class LocationsService {
         {
           "endereco": "Rua Silva Jatahy, 600 - Meireles, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 1,
           "area": 58,
-          "valor_aluguel": "3.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/b1e37ce57001212c6c652aa664f48172/foto-1-de-apartamento-com-2-quartos-para-alugar,-58-em-meireles,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-meireles-bairros-fortaleza-com-garagem-58m2-aluguel-RS3200-id-2638775521/",
+          "valor_aluguel": 2200,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
             "Condomínio fechado",
-            "Academia",
-            "..."
+            "Academia"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 58m² em Meireles, Fortaleza",
           "coords": {
@@ -10660,12 +9053,11 @@ export class LocationsService {
         {
           "endereco": "Rua Franco Rocha, 477 - Henrique Jorge, Fortaleza - CE",
           "quartos": 1,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 1,
           "area": 45,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/e6fdbb72ed6ef75d6ab72e20017be1df/foto-1-de-apartamento-com-1-quarto-para-alugar,-45-em-henrique-jorge,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-1-quartos-henrique-jorge-bairros-fortaleza-com-garagem-45m2-aluguel-RS690-id-2599652860/",
+          "valor_aluguel": 2200,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
           "amenidades": [
             "Condomínio fechado",
             "Portão eletrônico",
@@ -10680,15 +9072,12 @@ export class LocationsService {
         {
           "endereco": "Rua Guilherme Rocha, 1299 - Centro, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 3,
-          "vagas": 1,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 53,
-          "valor_aluguel": "1.800",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/544214549bcd1a92fc84923fec0036a8/foto-1-de-apartamento-com-2-quartos-para-alugar,-53-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-centro-bairros-fortaleza-com-garagem-53m2-aluguel-RS1800-id-2648672557/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4900,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
+          "amenidades": [],
           "descricao": "Apartamento com 2 Quartos para alugar, 53m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.723799999999999,
@@ -10697,13 +9086,11 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Padre Antônio Tomás, 2420 - Aldeota, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 30,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/114e870709ec3628b5a72947d019e46e/foto-1-de-sala-comercial-para-alugar,-30-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-aldeota-bairros-fortaleza-30m2-aluguel-RS900-id-2628084080/",
+          "valor_aluguel": 1250,
+          "url_imagem": "../assets/img/properties/office1.jpg",
           "amenidades": [
             "Elevador"
           ],
@@ -10716,15 +9103,12 @@ export class LocationsService {
         {
           "endereco": "Rua José Vilar, 2350 - Dionísio Torres, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 4,
-          "vagas": 3,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 306,
-          "valor_aluguel": "1.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/53a3dba3894e488e62bc42af61ea4170/foto-1-de-apartamento-com-3-quartos-para-alugar,-306-em-dionísio-torres,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-dionisio-torres-bairros-fortaleza-com-garagem-306m2-aluguel-RS1500-id-2587784096/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1300,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
+          "amenidades": [],
           "descricao": "Apartamento com 3 Quartos para alugar, 306m² em Dionísio Torres, Fortaleza",
           "coords": {
             "lat": -3.7449555,
@@ -10733,16 +9117,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rodovia BR-116, 5850 - Cajazeiras, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 30,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/8731494ee7c9611ba6d7dcfc0161733e/foto-1-de-sala-comercial-para-alugar,-30-em-cajazeiras,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-cajazeiras-bairros-fortaleza-30m2-aluguel-RS600-id-2631745502/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 750,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 30m² em Cajazeiras, Fortaleza",
           "coords": {
             "lat": -3.7727805,
@@ -10751,16 +9131,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Fiscal Vieira, 3575 - Joaquim Tavora, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 2,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 90,
-          "valor_aluguel": "1.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/a6a816480556e6338f702345e3da62bf/foto-1-de-ponto-comercial-para-alugar,-90-em-joaquim-tavora,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-joaquim-tavora-bairros-fortaleza-90m2-aluguel-RS1500-id-2674905407/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4500,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 90m² em Joaquim Tavora, Fortaleza",
           "coords": {
             "lat": -3.752580999999999,
@@ -10769,16 +9145,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Paulo Firmeza, 685 - Tauape, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 180,
-          "valor_aluguel": "2.600",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/6f5d93c965d4a496d0e07a998a839221/foto-1-de-imóvel-comercial-para-alugar,-180-em-tauape,-fortaleza.jpg",
-          "url_detalhes": "/imovel/imovel-comercial-tauape-bairros-fortaleza-180m2-aluguel-RS2600-id-2682682785/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3950,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Imóvel Comercial para alugar, 180m² em Tauape, Fortaleza",
           "coords": {
             "lat": -3.7570709,
@@ -10788,12 +9160,11 @@ export class LocationsService {
         {
           "endereco": "Rua Padre Valdevino, 1138 - Joaquim Tavora, Fortaleza - CE",
           "quartos": 1,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 1,
           "area": 30,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/c8cb10f11aadde1fb7b8cbaa73aefe9c/foto-1-de-ponto-comercial-com-1-quarto-para-alugar,-30-em-joaquim-tavora,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-1-quartos-joaquim-tavora-bairros-fortaleza-com-garagem-30m2-aluguel-RS750-id-2675524322/",
+          "valor_aluguel": 1550,
+          "url_imagem": "../assets/img/properties/office1.jpg",
           "amenidades": [
             "Sistema de alarme"
           ],
@@ -10805,16 +9176,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pastor Samuel Munguba, 1424 - Rodolfo Teófilo, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": 3,
-          "area": 0,
-          "valor_aluguel": "1.700",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/3735c217138af785db322c90ac1275fc/foto-1-de-ponto-comercial-para-alugar,-120-em-rodolfo-teófilo,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-rodolfo-teofilo-bairros-fortaleza-com-garagem-120m2-aluguel-RS1700-id-2599894903/",
-          "amenidades": [
-
-          ],
+          "vagas": 1,
+          "area": 120,
+          "valor_aluguel": 3800,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 120m² em Rodolfo Teófilo, Fortaleza",
           "coords": {
             "lat": -3.7502822,
@@ -10823,16 +9190,12 @@ export class LocationsService {
         },
         {
           "endereco": "Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 27,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/0d4635163bb4bc236c3a5b6510a4c26b/foto-1-de-sala-comercial-para-venda-ou-aluguel,-27-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-27m2-venda-RS67000-id-2644947409/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3900,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para venda ou aluguel, 27m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7329688,
@@ -10841,16 +9204,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 1267 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 25,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/1761dee1e3dfc3e30965cf1107d4439f/foto-1-de-sala-comercial-para-alugar,-25-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-25m2-aluguel-RS800-id-2564884176/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4000,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 25m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7313778,
@@ -10859,16 +9218,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Farias Brito, 160 - Varjota, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 36,
-          "valor_aluguel": "1.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/dbd7be3b74fcd94f163117133451b5fb/foto-1-de-imóvel-comercial-para-alugar,-36-em-varjota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/imovel-comercial-varjota-bairros-fortaleza-36m2-aluguel-RS1000-id-2672793334/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 800,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Imóvel Comercial para alugar, 36m² em Varjota, Fortaleza",
           "coords": {
             "lat": -3.7360992,
@@ -10877,16 +9232,10 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
-          "area": null,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/617732d00e39c600ae87b3b0144e423e/foto-1-de-lote/terreno-para-alugar-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-aldeota-bairros-fortaleza-aluguel-RS180-id-2547860441/",
-          "amenidades": [
-
-          ],
+          "area": 300,
+          "valor_aluguel": 3300,
+          "url_imagem": "../assets/img/properties/ground3.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7327632,
@@ -10895,16 +9244,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Gustavo Braga, 425 - Rodolfo Teófilo, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 52,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/4476bd954fdf9418334d4970962dea7a/foto-1-de-ponto-comercial-para-alugar,-52-em-rodolfo-teófilo,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-rodolfo-teofilo-bairros-fortaleza-52m2-aluguel-RS900-id-2622893675/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1900,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 52m² em Rodolfo Teófilo, Fortaleza",
           "coords": {
             "lat": -3.7485862,
@@ -10913,16 +9258,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 5335 - Papicu, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 30,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/ef4eeed3d7a2b9806825d21d0a2e050a/foto-1-de-sala-comercial-para-alugar,-30-em-papicu,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-papicu-bairros-fortaleza-30m2-aluguel-RS750-id-2674051524/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3900,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 30m² em Papicu, Fortaleza",
           "coords": {
             "lat": -3.7407389,
@@ -10931,16 +9272,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Antônio Sales, 1950 - Dionísio Torres, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 28,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/2b54c7e4a05b1ad8554a9be367445303/foto-1-de-ponto-comercial-para-alugar,-28-em-dionísio-torres,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-dionisio-torres-bairros-fortaleza-28m2-aluguel-RS950-id-2547861192/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2550,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 28m² em Dionísio Torres, Fortaleza",
           "coords": {
             "lat": -3.7442774,
@@ -10949,16 +9286,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Senador Virgílio Távora, 1701 - Meireles, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 2,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 35,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/214680e0036c7866883ddcbff1aa89a6/foto-1-de-imóvel-comercial-para-alugar,-35-em-meireles,-fortaleza.jpg",
-          "url_detalhes": "/imovel/imovel-comercial-meireles-bairros-fortaleza-35m2-aluguel-RS795-id-2682680991/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3650,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Imóvel Comercial para alugar, 35m² em Meireles, Fortaleza",
           "coords": {
             "lat": -3.7403814,
@@ -10969,18 +9302,16 @@ export class LocationsService {
           "endereco": "Rua Crisanto Arruda, 752 - Passaré, Fortaleza - CE",
           "quartos": 2,
           "banheiros": 2,
-          "vagas": 1,
+          "vagas": 2,
           "area": 48,
-          "valor_aluguel": "1.650",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/da63bff1b4cb883ceb4783501f160600/foto-1-de-apartamento-com-2-quartos-para-alugar,-48-em-passaré,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-passare-bairros-fortaleza-com-garagem-48m2-aluguel-RS1650-id-2665384621/",
+          "valor_aluguel": 1450,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Piscina",
             "Mobiliado",
             "Churrasqueira",
             "Elevador",
-            "Academia",
-            "..."
+            "Academia"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 48m² em Passaré, Fortaleza",
           "coords": {
@@ -10990,16 +9321,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pereira Filgueiras, 555 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 45,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/557919a6d705e687aab06b96e9ba0075/foto-1-de-ponto-comercial-para-alugar,-45-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-centro-bairros-fortaleza-45m2-aluguel-RS800-id-2635556346/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1900,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 45m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7266715,
@@ -11008,16 +9335,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pedro Borges, 20 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 60,
-          "valor_aluguel": "1.143",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/33511f9faf7d7343dc4d06058afaca8a/foto-1-de-sala-comercial-para-alugar,-60-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-60m2-aluguel-RS1143-id-2561791256/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3850,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 60m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7282492,
@@ -11027,19 +9350,16 @@ export class LocationsService {
         {
           "endereco": "Rua João Cordeiro, 1306 - Aldeota, Fortaleza - CE",
           "quartos": 7,
-          "banheiros": 7,
-          "vagas": 4,
+          "banheiros": 3,
+          "vagas": 1,
           "area": 350,
-          "valor_aluguel": "4.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/7ecf5d65d55bc3b79f59b3cb5c235adf/foto-1-de-imóvel-comercial-com-7-quartos-para-alugar,-350-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/imovel-comercial-7-quartos-aldeota-bairros-fortaleza-com-garagem-350m2-aluguel-RS4500-id-2653041702/",
+          "valor_aluguel": 1950,
+          "url_imagem": "../assets/img/properties/office1.jpg",
           "amenidades": [
-            "Aceita animais",
             "Área de serviço",
             "Estacionamento",
             "Escritório",
-            "Depósito",
-            "..."
+            "Depósito"
           ],
           "descricao": "Imóvel Comercial com 7 Quartos para alugar, 350m² em Aldeota, Fortaleza",
           "coords": {
@@ -11049,16 +9369,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Professor Gomes de Matos, 625 - Montese, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 9,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 540,
-          "valor_aluguel": "12.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/2c6bae1a203d217fd47bb827ad932bf1/foto-1-de-imóvel-comercial-para-alugar,-540-em-montese,-fortaleza.jpg",
-          "url_detalhes": "/imovel/imovel-comercial-montese-bairros-fortaleza-540m2-aluguel-RS12000-id-2684406157/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1400,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Imóvel Comercial para alugar, 540m² em Montese, Fortaleza",
           "coords": {
             "lat": -3.7590998,
@@ -11067,16 +9383,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Alberto Magno, 243 - Montese, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 120,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/fee09988f65843c6ece0a41a7883debe/foto-1-de-imóvel-comercial-para-alugar,-120-em-montese,-fortaleza.jpg",
-          "url_detalhes": "/imovel/imovel-comercial-montese-bairros-fortaleza-120m2-aluguel-RS800-id-2667582259/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2200,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Imóvel Comercial para alugar, 120m² em Montese, Fortaleza",
           "coords": {
             "lat": -3.7585526,
@@ -11085,13 +9397,11 @@ export class LocationsService {
         },
         {
           "endereco": "Jangurussu, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": 3,
+          "vagas": 1,
           "area": 9,
-          "valor_aluguel": "1.400",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/73a2dad3fc884db6e20ec528cf0fb48a/foto-1-de-sala-comercial-para-alugar,-9-em-jangurussu,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-jangurussu-bairros-fortaleza-com-garagem-9m2-aluguel-RS1400-id-2628632589/",
+          "valor_aluguel": 4100,
+          "url_imagem": "../assets/img/properties/office2.jpg",
           "amenidades": [
             "Ar-condicionado"
           ],
@@ -11105,14 +9415,13 @@ export class LocationsService {
           "endereco": "Rua Mário Alencar Araripe, 1545 - Agua Fria, Fortaleza - CE",
           "quartos": 3,
           "banheiros": 2,
-          "vagas": 4,
+          "vagas": 2,
           "area": 201,
-          "valor_aluguel": "2.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/1d281331d872511d737b00e2e1065700/foto-1-de-casa-com-3-quartos-para-alugar,-201-em-agua-fria,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-3-quartos-agua-fria-bairros-fortaleza-com-garagem-201m2-aluguel-RS2200-id-2659754586/",
+          "valor_aluguel": 3350,
+          "url_imagem": "../assets/img/properties/house1.jpg",
           "amenidades": [
             "Área de serviço",
-            "Quintal"
+
           ],
           "descricao": "Casa com 3 Quartos para alugar, 201m² em Agua Fria, Fortaleza",
           "coords": {
@@ -11122,16 +9431,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 31,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/49b943e6bfcb45555dab886349de6053/foto-1-de-sala-comercial-para-alugar,-31-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-31m2-aluguel-RS400-id-2476321891/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1500,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.724243,
@@ -11140,16 +9445,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 30,
-          "valor_aluguel": "1.202",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/e9d8f3d666d96bafc37f0473dc40705c/foto-1-de-sala-comercial-para-alugar,-30-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-aldeota-bairros-fortaleza-30m2-aluguel-RS1202-id-2547862562/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1400,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 30m² em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7327632,
@@ -11158,13 +9459,11 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Washington Soares, 1400 - Engenheiro Luciano Cavalcante, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 76,
-          "valor_aluguel": "2.650",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/3433fb37a4a6f6ff252593927ab387fb/foto-1-de-sala-comercial-para-alugar,-76-em-engenheiro-luciano-cavalcante,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-engenheiro-luciano-cavalcante-bairros-fortaleza-76m2-aluguel-RS2650-id-2566670152/",
+          "valor_aluguel": 3550,
+          "url_imagem": "../assets/img/properties/office3.jpg",
           "amenidades": [
             "Cozinha",
             "Segurança 24h",
@@ -11179,16 +9478,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 30,
-          "valor_aluguel": "1.202",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/a8a97954546d06d943d990d887ec38e1/foto-1-de-sala-comercial-para-alugar,-30-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-aldeota-bairros-fortaleza-30m2-aluguel-RS1202-id-2547862370/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1450,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 30m² em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7327632,
@@ -11197,13 +9492,11 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Bezerra de Menezes, 1351 - Sao Gerardo, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 29,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/0d5443f92c8e153f7056a7359d5433db/foto-1-de-sala-comercial-para-alugar,-29-em-sao-gerardo,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-sao-gerardo-bairros-fortaleza-29m2-aluguel-RS750-id-2528179498/",
+          "valor_aluguel": 2950,
+          "url_imagem": "../assets/img/properties/office1.jpg",
           "amenidades": [
             "Serviços públicos essenciais",
             "Condomínio fechado"
@@ -11217,19 +9510,16 @@ export class LocationsService {
         {
           "endereco": "Rua Visconde de Mauá, 1661 - Aldeota, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 2,
+          "banheiros": 3,
           "vagas": 2,
           "area": 95,
-          "valor_aluguel": "3.700",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/afc568c1384d2226e5337fab64187c7d/foto-1-de-apartamento-com-3-quartos-para-alugar,-95-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-aldeota-bairros-fortaleza-com-garagem-95m2-aluguel-RS3700-id-2682333298/",
+          "valor_aluguel": 700,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Elevador",
             "Condomínio fechado",
             "Varanda",
-            "Aceita animais",
-            "Área de serviço",
-            "..."
+            "Área de serviço"
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 95m² em Aldeota, Fortaleza",
           "coords": {
@@ -11239,13 +9529,11 @@ export class LocationsService {
         },
         {
           "endereco": "Aldeota, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 400,
-          "valor_aluguel": "15.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/64702c3f8eecfb662863b1dac2d2f10d/foto-1-de-imóvel-comercial-para-venda-ou-aluguel,-400-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/imovel-comercial-aldeota-bairros-fortaleza-400m2-venda-RS1650000-id-2542702076/",
+          "valor_aluguel": 4800,
+          "url_imagem": "../assets/img/properties/office2.jpg",
           "amenidades": [
             "Interfone"
           ],
@@ -11257,13 +9545,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Gonçalves Ledo, 177 - Praia de Iracema, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 27,
-          "valor_aluguel": null,
-          "url_imagem": null,
-          "url_detalhes": "/imovel/ponto-comercial-praia-de-iracema-bairros-fortaleza-27m2-aluguel-RS750-id-2652782859/",
+          "valor_aluguel": 950,
+          "url_imagem": "../assets/img/properties/office3.jpg",
           "amenidades": [
             "Cozinha"
           ],
@@ -11275,16 +9561,10 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Independência, 1546 - Vila Velha, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
           "area": 412,
-          "valor_aluguel": "1.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/2884a89bd118ad776b355d0bcb49f8fb/foto-1-de-lote/terreno-para-alugar,-412-em-vila-velha,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-vila-velha-bairros-fortaleza-412m2-aluguel-RS1000-id-2481326220/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4950,
+          "url_imagem": "../assets/img/properties/ground1.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar, 412m² em Vila Velha, Fortaleza",
           "coords": {
             "lat": -3.725621899999999,
@@ -11293,13 +9573,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Senador Pompeu, 649 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 23,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/12af3c62d80915d578bd307218ba5f73/foto-1-de-sala-comercial-para-alugar,-23-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-23m2-aluguel-RS600-id-2661380142/",
+          "valor_aluguel": 2800,
+          "url_imagem": "../assets/img/properties/office2.jpg",
           "amenidades": [
             "Cozinha",
             "Segurança 24h",
@@ -11315,17 +9593,16 @@ export class LocationsService {
         {
           "endereco": "Rua Capitão Olavo, 1093 - Aerolândia, Fortaleza - CE",
           "quartos": 1,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 48,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/df56689b33272b9e33d5c88f5020ec2c/foto-1-de-casa-com-1-quarto-para-alugar,-48-em-aerolândia,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-1-quartos-aerolandia-bairros-fortaleza-48m2-aluguel-RS700-id-2684479307/",
+          "valor_aluguel": 3150,
+          "url_imagem": "../assets/img/properties/house3.jpg",
           "amenidades": [
             "Cozinha",
             "Área de serviço",
-            "Quintal",
-            "Aceita animais"
+            ,
+
           ],
           "descricao": "Casa com 1 Quarto para alugar, 48m² em Aerolândia, Fortaleza",
           "coords": {
@@ -11335,16 +9612,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 42,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/b4a89a78ae6deea4420d47efa6cb73c6/foto-1-de-sala-comercial-para-alugar,-42-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-42m2-aluguel-RS500-id-2476321213/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3800,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7278961,
@@ -11353,16 +9626,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 30,
-          "valor_aluguel": "1.202",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/e8b91162461236165680d1c6168a27e0/foto-1-de-sala-comercial-para-alugar,-30-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-aldeota-bairros-fortaleza-30m2-aluguel-RS1202-id-2547862369/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1750,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 30m² em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7327632,
@@ -11373,18 +9642,16 @@ export class LocationsService {
           "endereco": "Rua Equador, 1198 - Parangaba, Fortaleza - CE",
           "quartos": 2,
           "banheiros": 2,
-          "vagas": 1,
+          "vagas": 2,
           "area": 58,
-          "valor_aluguel": "2.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/4f332762fcc8803ec8352f119baa5a02/foto-1-de-apartamento-com-2-quartos-para-alugar,-58-em-parangaba,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-parangaba-bairros-fortaleza-com-garagem-58m2-aluguel-RS2000-id-2684628121/",
+          "valor_aluguel": 2100,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Academia",
             "Jardim",
-            "Playground",
-            "..."
+            "Playground"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 58m² em Parangaba, Fortaleza",
           "coords": {
@@ -11395,17 +9662,16 @@ export class LocationsService {
         {
           "endereco": "Rua Capitão Américo Menezes, 277 - Parangaba, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 3,
-          "vagas": 1,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 83,
-          "valor_aluguel": "1.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/c817898f21c46e317b77c9cf11ff430d/foto-1-de-apartamento-com-3-quartos-para-alugar,-83-em-parangaba,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-parangaba-bairros-fortaleza-com-garagem-83m2-aluguel-RS1000-id-2667874106/",
+          "valor_aluguel": 1150,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
           "amenidades": [
             "Varanda",
             "Garagem",
             "Cozinha",
-            "Aceita animais"
+
           ],
           "descricao": "Apartamento com 3 Quartos para alugar, 83m² em Parangaba, Fortaleza",
           "coords": {
@@ -11415,16 +9681,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Doutor Joaquim Bento, 207 - Messejana, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 2,
-          "vagas": 3,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 840,
-          "valor_aluguel": "16.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/3bf18a6d1d27dbda2c8ea11d53018992/foto-1-de-ponto-comercial-para-alugar,-840-em-messejana,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-messejana-bairros-fortaleza-com-garagem-840m2-aluguel-RS16000-id-2651604660/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2800,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 840m² em Messejana, Fortaleza",
           "coords": {
             "lat": -3.829112,
@@ -11433,16 +9695,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Guilherme Rocha, 381 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 38,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/46577208dae559133f8a5f02e930cee8/foto-1-de-sala-comercial-para-alugar,-38-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-38m2-aluguel-RS250-id-2566170341/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4650,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 38m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7265229,
@@ -11451,16 +9709,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 39,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/6557f7a7d8acdea14970a32067fd3d27/foto-1-de-sala-comercial-para-alugar,-39-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-39m2-aluguel-RS500-id-2514167465/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2800,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 39m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7278961,
@@ -11469,16 +9723,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Desembargador Faustino de Albuquerque, 781 - Cidade dos Funcionários, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 65,
-          "valor_aluguel": "1.300",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/0cf508e63db4aaced86bb50a5d85a6df/foto-1-de-ponto-comercial-para-alugar,-65-em-cidade-dos-funcionários,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-cidade-dos-funcionarios-bairros-fortaleza-65m2-aluguel-RS1300-id-2659104175/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3400,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 65m² em Cidade dos Funcionários, Fortaleza",
           "coords": {
             "lat": -3.786462499999999,
@@ -11487,16 +9737,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 31,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/5ef991f4fd0c7a3daacd3a99a64fd2b9/foto-1-de-sala-comercial-para-alugar,-31-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-31m2-aluguel-RS400-id-2476321048/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3100,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.724243,
@@ -11506,15 +9752,12 @@ export class LocationsService {
         {
           "endereco": "Avenida Dom Manuel, 277 - Centro, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 51,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/b22f5d55fb25596a6cdb1248a1c2b90a/foto-1-de-casa-com-2-quartos-para-alugar,-51-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-2-quartos-centro-bairros-fortaleza-51m2-aluguel-RS900-id-2560848321/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3250,
+          "url_imagem": "../assets/img/properties/house4.jpg",
+          "amenidades": [],
           "descricao": "Casa com 2 Quartos para alugar, 51m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7266173,
@@ -11523,16 +9766,10 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Costa Sousa, 146 - Benfica, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
           "area": 19,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/a34f2aa7c1439bdcb69dbd90b8e12be7/foto-1-de-lote/terreno-para-alugar,-19-em-benfica,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-benfica-bairros-fortaleza-19m2-aluguel-RS250-id-2647764258/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4000,
+          "url_imagem": "../assets/img/properties/ground1.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar, 19m² em Benfica, Fortaleza",
           "coords": {
             "lat": -3.7440145,
@@ -11541,16 +9778,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Monsenhor Bruno, 1153 - Aldeota, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 35,
-          "valor_aluguel": "1.600",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/6a7bb33de7e0822eb3d44c6a287707ad/foto-1-de-sala-comercial-para-alugar,-35-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-aldeota-bairros-fortaleza-35m2-aluguel-RS1600-id-2670635702/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1600,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 35m² em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7332159,
@@ -11560,15 +9793,12 @@ export class LocationsService {
         {
           "endereco": "Rua Engenheiro Antônio Ferreira Antero, 160 - Parque Manibura, Fortaleza - CE",
           "quartos": 4,
-          "banheiros": 1,
-          "vagas": 3,
+          "banheiros": 3,
+          "vagas": 1,
           "area": 220,
-          "valor_aluguel": "5.800",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/a3bf0ce6887369d0c21d2318bae20895/foto-1-de-casa-com-4-quartos-para-alugar,-220-em-parque-manibura,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-4-quartos-parque-manibura-bairros-fortaleza-com-garagem-220m2-aluguel-RS5800-id-2571252963/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2200,
+          "url_imagem": "../assets/img/properties/house3.jpg",
+          "amenidades": [],
           "descricao": "Casa com 4 Quartos para alugar, 220m² em Parque Manibura, Fortaleza",
           "coords": {
             "lat": -3.7887442,
@@ -11577,16 +9807,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 42,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/9105c430cd05fa040a3d3357819ef1d5/foto-1-de-sala-comercial-para-alugar,-42-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-42m2-aluguel-RS500-id-2476317667/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2400,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7278961,
@@ -11595,16 +9821,10 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
-          "area": null,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/a32c6fa593f07b8007e995fc071c431d/foto-1-de-lote/terreno-para-alugar-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-aldeota-bairros-fortaleza-aluguel-RS180-id-2547859027/",
-          "amenidades": [
-
-          ],
+          "area": 61,
+          "valor_aluguel": 1950,
+          "url_imagem": "../assets/img/properties/ground1.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7327632,
@@ -11613,16 +9833,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 30,
-          "valor_aluguel": "1.202",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/b9f74795d946a5ad5f5f9e3837787dd8/foto-1-de-sala-comercial-para-alugar,-30-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-aldeota-bairros-fortaleza-30m2-aluguel-RS1202-id-2547861989/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 900,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 30m² em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7327632,
@@ -11631,16 +9847,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Vilebaldo Aguiar, 0 - Manoel Dias Branco, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 29,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/2aea94b0d0871981068fd071caba3174/foto-1-de-ponto-comercial-para-alugar,-29-em-manoel-dias-branco,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-manoel-dias-branco-bairros-fortaleza-29m2-aluguel-RS750-id-2547862477/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4400,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 29m² em Manoel Dias Branco, Fortaleza",
           "coords": {
             "lat": -3.7411057,
@@ -11649,16 +9861,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Senador Virgílio Távora, 1701 - Meireles, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 2,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 35,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/2630bf6f71ad96620b8606a5e8f3e4a5/foto-1-de-imóvel-comercial-para-alugar,-35-em-meireles,-fortaleza.jpg",
-          "url_detalhes": "/imovel/imovel-comercial-meireles-bairros-fortaleza-35m2-aluguel-RS795-id-2682680989/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1250,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Imóvel Comercial para alugar, 35m² em Meireles, Fortaleza",
           "coords": {
             "lat": -3.7403814,
@@ -11668,12 +9876,11 @@ export class LocationsService {
         {
           "endereco": "Avenida Juscelino Kubitschek, 4950 - Passaré, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 1,
           "area": 48,
-          "valor_aluguel": "1.100",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/7a92ebc372d4ad7c89ca0ac20b693c7d/foto-1-de-apartamento-com-2-quartos-para-alugar,-48-em-passaré,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-passare-bairros-fortaleza-com-garagem-48m2-aluguel-RS1100-id-2655641654/",
+          "valor_aluguel": 2450,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Playground",
             "Área de serviço",
@@ -11690,17 +9897,16 @@ export class LocationsService {
         {
           "endereco": "Rua Senador Alencar, 1649 - Centro, Fortaleza - CE",
           "quartos": 1,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 40,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/9ffdbc3eae011b6e18d136bb48acf341/foto-1-de-kitnet-com-1-quarto-para-alugar,-40-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/kitnet-1-quartos-centro-bairros-fortaleza-40m2-aluguel-RS709-id-2684473410/",
+          "valor_aluguel": 2250,
+          "url_imagem": "",
           "amenidades": [
             "Condomínio fechado",
             "Portão eletrônico",
             "Portaria 24h",
-            "Aceita animais"
+
           ],
           "descricao": "Kitnet com 1 Quarto para alugar, 40m² em Centro, Fortaleza",
           "coords": {
@@ -11710,16 +9916,12 @@ export class LocationsService {
         },
         {
           "endereco": "Parangaba, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 13,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/48ef417f67bc6dc02b780b1c3d6b113c/foto-1-de-sala-comercial-para-alugar,-13-em-parangaba,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-parangaba-bairros-fortaleza-13m2-aluguel-RS550-id-2644947124/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 900,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 13m² em Parangaba, Fortaleza",
           "coords": {
             "lat": -3.7771358,
@@ -11728,16 +9930,10 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida João Pessoa, 0 - Damas, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
           "area": 2077,
-          "valor_aluguel": "4.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/e7bc3be54b24fcb8fde45f48d57c5510/foto-1-de-lote/terreno-para-alugar,-2077-em-damas,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-damas-bairros-fortaleza-2077m2-aluguel-RS4000-id-2547861967/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 950,
+          "url_imagem": "../assets/img/properties/ground3.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar, 2077m² em Damas, Fortaleza",
           "coords": {
             "lat": -3.7674607,
@@ -11747,19 +9943,16 @@ export class LocationsService {
         {
           "endereco": "Rua A do Loteamento Residencial Célio Gurgel, 1697 - Barroso, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 1,
           "area": 42,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/36ce9db538330b1bd566833c3783313d/foto-1-de-apartamento-com-2-quartos-para-alugar,-42-em-barroso,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-barroso-bairros-fortaleza-com-garagem-42m2-aluguel-RS950-id-2677909812/",
+          "valor_aluguel": 650,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
-            "Aceita animais",
-            "Garagem",
-            "..."
+            "Garagem"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 42m² em Barroso, Fortaleza",
           "coords": {
@@ -11769,16 +9962,10 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Afonso Pena, 99 - Edson Queiroz, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
           "area": 1040,
-          "valor_aluguel": "1.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/9f809a2abc7cc3be666fa05a63131b84/foto-1-de-lote/terreno-para-alugar,-1040-em-edson-queiroz,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-edson-queiroz-bairros-fortaleza-1040m2-aluguel-RS1500-id-2547861411/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3250,
+          "url_imagem": "../assets/img/properties/ground3.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar, 1040m² em Edson Queiroz, Fortaleza",
           "coords": {
             "lat": -3.791358899999999,
@@ -11787,16 +9974,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua do Pocinho, 30 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 37,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/e0aeac2ccc1899f7eae2e5834c6055bb/foto-1-de-sala-comercial-para-alugar,-37-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-37m2-aluguel-RS932-id-2601674677/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1250,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 37m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7282174,
@@ -11809,16 +9992,14 @@ export class LocationsService {
           "banheiros": 2,
           "vagas": 1,
           "area": 60,
-          "valor_aluguel": "1.100",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/5e205018e16f6690eecffccbc381e594/foto-1-de-apartamento-com-2-quartos-para-alugar,-60-em-prefeito-josé-walter,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-prefeito-jose-walter-bairros-fortaleza-com-garagem-60m2-aluguel-RS1100-id-2607940681/",
+          "valor_aluguel": 2450,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Garagem",
             "Playground",
-            "Salão de festas",
-            "..."
+            "Salão de festas"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 60m² em Prefeito José Walter, Fortaleza",
           "coords": {
@@ -11829,19 +10010,17 @@ export class LocationsService {
         {
           "endereco": "Rua Fiuza de Pontes, 191 - Centro, Fortaleza - CE",
           "quartos": 4,
-          "banheiros": 6,
-          "vagas": 5,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 284,
-          "valor_aluguel": "8.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/1e9250c9eb69c15252e3c038f5af6694/foto-1-de-apartamento-com-4-quartos-para-alugar,-284-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-4-quartos-centro-bairros-fortaleza-com-garagem-284m2-aluguel-RS8000-id-2675574698/",
+          "valor_aluguel": 1250,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Academia",
             "Jardim",
-            "Área de serviço",
-            "..."
+            "Área de serviço"
           ],
           "descricao": "Apartamento com 4 Quartos para alugar, 284m² em Centro, Fortaleza",
           "coords": {
@@ -11851,16 +10030,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Professor Gomes de Matos, 648 - Bom Futuro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 25,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/5767d89ed8bed3225be3a76faadfa293/foto-1-de-sala-comercial-para-alugar,-25-em-bom-futuro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-bom-futuro-bairros-fortaleza-25m2-aluguel-RS450-id-2683074074/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2450,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 25m² em Bom Futuro, Fortaleza",
           "coords": {
             "lat": -3.7589887,
@@ -11869,16 +10044,10 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Martinho Rodrigues, 510 - Fátima, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
           "area": 547,
-          "valor_aluguel": "3.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/e17b4c59b5ff88df63efc6e483bb0859/foto-1-de-lote/terreno-para-alugar,-547-em-fátima,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-fatima-bairros-fortaleza-547m2-aluguel-RS3000-id-2676480314/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1850,
+          "url_imagem": "../assets/img/properties/ground1.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar, 547m² em Fátima, Fortaleza",
           "coords": {
             "lat": -3.7561814,
@@ -11888,12 +10057,11 @@ export class LocationsService {
         {
           "endereco": "Rua 1010, 56 - Conjunto Ceará, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 1,
           "area": 80,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/c198e9c790070b6103b482e178873b69/foto-1-de-apartamento-com-2-quartos-para-alugar,-80-em-conjunto-ceará,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-conjunto-ceara-bairros-fortaleza-com-garagem-80m2-aluguel-RS679-id-2674497805/",
+          "valor_aluguel": 2400,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Cozinha",
             "Área de serviço"
@@ -11907,19 +10075,15 @@ export class LocationsService {
         {
           "endereco": "Rua Mário Mamede, 1214 - Fátima, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": 1,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 100,
-          "valor_aluguel": "1.100",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/41631df5b2d20c28dbb47f125717151d/foto-1-de-casa-com-2-quartos-para-alugar,-100-em-fátima,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-2-quartos-fatima-bairros-fortaleza-com-garagem-100m2-aluguel-RS1100-id-2549476870/",
+          "valor_aluguel": 3950,
+          "url_imagem": "../assets/img/properties/house4.jpg",
           "amenidades": [
-            "Quintal",
-            "Aceita animais",
+            ,
             "Garagem",
-            "Perto de vias de acesso",
-            "Próximo a escola",
-            "..."
+            "Perto de vias de acesso"
           ],
           "descricao": "Casa com 2 Quartos para alugar, 100m² em Fátima, Fortaleza",
           "coords": {
@@ -11930,15 +10094,12 @@ export class LocationsService {
         {
           "endereco": "Avenida Doutor Silas Munguba, 728 - Itaperi, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 60,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/31d10883eb7c15cf49a10c8759293807/foto-1-de-apartamento-com-2-quartos-para-alugar,-60-em-itaperi,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-itaperi-bairros-fortaleza-60m2-aluguel-RS750-id-2684165742/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2850,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
+          "amenidades": [],
           "descricao": "Apartamento com 2 Quartos para alugar, 60m² em Itaperi, Fortaleza",
           "coords": {
             "lat": -3.7804924,
@@ -11947,16 +10108,10 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida da Saudade, 3251 - Passaré, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
           "area": 5454,
-          "valor_aluguel": "4.000",
-          "url_imagem": null,
-          "url_detalhes": "/imovel/lote-terreno-passare-bairros-fortaleza-5454m2-aluguel-RS4000-id-2547861767/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4500,
+          "url_imagem": "../assets/img/properties/ground2.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar, 5454m² em Passaré, Fortaleza",
           "coords": {
             "lat": -3.8153585,
@@ -11966,15 +10121,12 @@ export class LocationsService {
         {
           "endereco": "Rua Sabino Borges, 66 - Aerolândia, Fortaleza - CE",
           "quartos": 1,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 22,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/02de767a9b1402a1c6771aff41cb3d18/foto-1-de-kitnet-com-1-quarto-para-alugar,-22-em-aerolândia,-fortaleza.jpg",
-          "url_detalhes": "/imovel/kitnet-1-quartos-aerolandia-bairros-fortaleza-22m2-aluguel-RS450-id-2659105580/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1900,
+          "url_imagem": "",
+          "amenidades": [],
           "descricao": "Kitnet com 1 Quarto para alugar, 22m² em Aerolândia, Fortaleza",
           "coords": {
             "lat": -3.7729528,
@@ -11983,16 +10135,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida João Pessoa, 5233 - Damas, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 4,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 734,
-          "valor_aluguel": "5.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/fe60e62d5511a8b6283f04de2056df96/foto-1-de-ponto-comercial-para-alugar,-734-em-damas,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-damas-bairros-fortaleza-734m2-aluguel-RS5500-id-2684027913/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4300,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 734m² em Damas, Fortaleza",
           "coords": {
             "lat": -3.7574896,
@@ -12001,16 +10149,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Amaro Cavalcante, 104 - Monte Castelo, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 100,
-          "valor_aluguel": "1.300",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/248f6eb0c684321408743f4f33fa9a8d/foto-1-de-ponto-comercial-para-alugar,-100-em-monte-castelo,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-monte-castelo-bairros-fortaleza-100m2-aluguel-RS1300-id-2623346613/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 5000,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 100m² em Monte Castelo, Fortaleza",
           "coords": {
             "lat": -3.7238635,
@@ -12019,13 +10163,11 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Dom Luís, 1233 - Meireles, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 31,
-          "valor_aluguel": "1.100",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/aa83e3634b78be9b50b89136a1cbfd2e/foto-1-de-sala-comercial-para-alugar,-31-em-meireles,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-meireles-bairros-fortaleza-31m2-aluguel-RS1100-id-2675887616/",
+          "valor_aluguel": 3000,
+          "url_imagem": "../assets/img/properties/office1.jpg",
           "amenidades": [
             "Varanda"
           ],
@@ -12037,13 +10179,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Napoleão Quezado, 201 - Parangaba, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 9,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 4094,
-          "valor_aluguel": "90.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/b7b1e41f32304051f57b7fb43c489150/foto-1-de-ponto-comercial-para-alugar,-4094-em-parangaba,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-parangaba-bairros-fortaleza-4094m2-aluguel-RS90000-id-2640415586/",
+          "valor_aluguel": 2950,
+          "url_imagem": "../assets/img/properties/office2.jpg",
           "amenidades": [
             "Copa",
             "Ar-condicionado",
@@ -12057,16 +10197,10 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
-          "area": null,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/6160d33dcc141f16d305cd6724ded5e8/foto-1-de-lote/terreno-para-alugar-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-aldeota-bairros-fortaleza-aluguel-RS180-id-2547861514/",
-          "amenidades": [
-
-          ],
+          "area": 134,
+          "valor_aluguel": 1300,
+          "url_imagem": "../assets/img/properties/ground1.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7327632,
@@ -12076,15 +10210,12 @@ export class LocationsService {
         {
           "endereco": "Rua da Assunção, 950 - Centro, Fortaleza - CE",
           "quartos": 1,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 53,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/6093a6c981cd3dd814a9229733bb404e/foto-1-de-casa-com-1-quarto-para-alugar,-53-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-1-quartos-centro-bairros-fortaleza-53m2-aluguel-RS950-id-2646364586/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1450,
+          "url_imagem": "../assets/img/properties/house5.jpg",
+          "amenidades": [],
           "descricao": "Casa com 1 Quarto para alugar, 53m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.738547,
@@ -12095,18 +10226,15 @@ export class LocationsService {
           "endereco": "Rua Eduardo Barros Leal, 80 - Sao Gerardo, Fortaleza - CE",
           "quartos": 2,
           "banheiros": 2,
-          "vagas": 1,
+          "vagas": 2,
           "area": 113,
-          "valor_aluguel": "1.109",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/7ac5bd844ec94901cc710f5f2442078a/foto-1-de-apartamento-com-2-quartos-para-alugar,-113-em-sao-gerardo,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-sao-gerardo-bairros-fortaleza-com-garagem-113m2-aluguel-RS1109-id-2684473110/",
+          "valor_aluguel": 4850,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
             "Churrasqueira",
             "Elevador",
             "Condomínio fechado",
-            "Aceita animais",
-            "Espaço gourmet",
-            "..."
+            "Espaço gourmet"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 113m² em Sao Gerardo, Fortaleza",
           "coords": {
@@ -12116,16 +10244,10 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
-          "area": null,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/4248848d38b7b8fea3761cb96606866c/foto-1-de-lote/terreno-para-alugar-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-aldeota-bairros-fortaleza-aluguel-RS180-id-2547859106/",
-          "amenidades": [
-
-          ],
+          "area": 241,
+          "valor_aluguel": 700,
+          "url_imagem": "../assets/img/properties/ground3.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7327632,
@@ -12134,16 +10256,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Pontes Vieira, 2340 - Dionísio Torres, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 68,
-          "valor_aluguel": "4.050",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/559f8ed9eb637b185b82f67b1c7212a7/foto-1-de-sala-comercial-para-alugar,-68-em-dionísio-torres,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-dionisio-torres-bairros-fortaleza-68m2-aluguel-RS4050-id-2570723976/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 650,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 68m² em Dionísio Torres, Fortaleza",
           "coords": {
             "lat": -3.7513729,
@@ -12152,13 +10270,9 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Domingos Olímpio, 96 - José Bonifácio, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
           "area": 80,
-          "valor_aluguel": "2.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/be6678f5e2d9177842480c12f71c3474/foto-1-de-lote/terreno-para-alugar,-80-em-josé-bonifácio,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-jose-bonifacio-bairros-fortaleza-80m2-aluguel-RS2500-id-2655982853/",
+          "valor_aluguel": 2900,
+          "url_imagem": "../assets/img/properties/ground2.jpg",
           "amenidades": [
             "Frente para o oeste",
             "Rede de água e esgoto",
@@ -12175,15 +10289,12 @@ export class LocationsService {
         {
           "endereco": "Rua Tomás Lopes, 113 - Praia de Iracema, Fortaleza - CE",
           "quartos": 1,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 33,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/46d6bbdae0102f34f085f881abcb934b/foto-1-de-kitnet-com-1-quarto-para-alugar,-33-em-praia-de-iracema,-fortaleza.jpg",
-          "url_detalhes": "/imovel/kitnet-1-quartos-praia-de-iracema-bairros-fortaleza-33m2-aluguel-RS650-id-2651796824/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4150,
+          "url_imagem": "",
+          "amenidades": [],
           "descricao": "Kitnet com 1 Quarto para alugar, 33m² em Praia de Iracema, Fortaleza",
           "coords": {
             "lat": -3.7214121,
@@ -12192,16 +10303,10 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
-          "area": null,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/6842bf23162932a09719dd7fb5cc8fb2/foto-1-de-lote/terreno-para-alugar-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-aldeota-bairros-fortaleza-aluguel-RS180-id-2614656640/",
-          "amenidades": [
-
-          ],
+          "area": 224,
+          "valor_aluguel": 750,
+          "url_imagem": "../assets/img/properties/ground3.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7327632,
@@ -12210,16 +10315,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Mem de Sá, 383 - Messejana, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 2,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 280,
-          "valor_aluguel": "1.300",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/65c36dfc04458a7112c555668a990605/foto-1-de-imóvel-comercial-para-alugar,-280-em-messejana,-fortaleza.jpg",
-          "url_detalhes": "/imovel/imovel-comercial-messejana-bairros-fortaleza-280m2-aluguel-RS1300-id-2672794095/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3050,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Imóvel Comercial para alugar, 280m² em Messejana, Fortaleza",
           "coords": {
             "lat": -3.8256908,
@@ -12229,19 +10330,16 @@ export class LocationsService {
         {
           "endereco": "Rua Dom Lustosa, 985 - Jangurussu, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 59,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/11428eb921a37924022603baa22d8e4e/foto-1-de-apartamento-com-2-quartos-para-alugar,-59-em-jangurussu,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-jangurussu-bairros-fortaleza-59m2-aluguel-RS700-id-2646362248/",
+          "valor_aluguel": 4000,
+          "url_imagem": "../assets/img/properties/apartament1.jpg",
           "amenidades": [
             "Churrasqueira",
-            "Aceita animais",
             "Garagem",
             "Ar-condicionado",
-            "Playground",
-            "..."
+            "Playground"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 59m² em Jangurussu, Fortaleza",
           "coords": {
@@ -12251,16 +10349,12 @@ export class LocationsService {
         },
         {
           "endereco": "Aldeota, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 30,
-          "valor_aluguel": "1.100",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/12359d26ec2e4ef62ad986f432f4cb32/foto-1-de-sala-comercial-para-alugar,-30-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-aldeota-bairros-fortaleza-30m2-aluguel-RS1100-id-2665091918/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1900,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 30m² em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.740179299999999,
@@ -12269,16 +10363,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Vilebaldo Aguiar, 0 - Manoel Dias Branco, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 29,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/ef5ccf6e45e7af6b622e3bc9e1779863/foto-1-de-ponto-comercial-para-alugar,-29-em-manoel-dias-branco,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-manoel-dias-branco-bairros-fortaleza-29m2-aluguel-RS750-id-2557302088/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1600,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 29m² em Manoel Dias Branco, Fortaleza",
           "coords": {
             "lat": -3.7411057,
@@ -12287,16 +10377,12 @@ export class LocationsService {
         },
         {
           "endereco": "Parangaba, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 15,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/c0959d6f2bc7d763684eb8c77e93abe8/foto-1-de-ponto-comercial-para-alugar,-15-em-parangaba,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-parangaba-bairros-fortaleza-15m2-aluguel-RS800-id-2634053351/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3250,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 15m² em Parangaba, Fortaleza",
           "coords": {
             "lat": -3.7771358,
@@ -12305,16 +10391,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pedro Borges, 20 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 75,
-          "valor_aluguel": "1.434",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/f572c8a97d106d9ba43c24b566cceb0b/foto-1-de-sala-comercial-para-alugar,-75-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-75m2-aluguel-RS1434-id-2547860396/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3650,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 75m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7282492,
@@ -12323,16 +10405,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 42,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/1b29cf6ef91fe4bae9a0785b802300cf/foto-1-de-sala-comercial-para-alugar,-42-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-42m2-aluguel-RS500-id-2680704097/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2700,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7278961,
@@ -12341,16 +10419,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 31,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/e2d5be2b60559bc52816ffc0da84238d/foto-1-de-sala-comercial-para-alugar,-31-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-31m2-aluguel-RS400-id-2476321886/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1550,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.724243,
@@ -12359,16 +10433,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 1235 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 30,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/5799a83fae890b3920b5451ed9fc5383/foto-1-de-kitnet-para-alugar,-30-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/kitnet-centro-bairros-fortaleza-30m2-aluguel-RS250-id-2616558592/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2900,
+          "url_imagem": "",
+          "amenidades": [],
           "descricao": "Kitnet para alugar, 30m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7255337,
@@ -12377,16 +10447,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 42,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/94aa170471ff55c998fe12528cfef104/foto-1-de-sala-comercial-para-alugar,-42-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-42m2-aluguel-RS500-id-2560315097/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3200,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7278961,
@@ -12395,16 +10461,12 @@ export class LocationsService {
         },
         {
           "endereco": "Alto da Balança, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 59,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/1c7d23f37da5414bb360fe5a4cacd6b9/foto-1-de-ponto-comercial-para-alugar,-59-em-alto-da-balança,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-alto-da-balanca-bairros-fortaleza-59m2-aluguel-RS800-id-2644636458/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3750,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 59m² em Alto da Balança, Fortaleza",
           "coords": {
             "lat": -3.7653561,
@@ -12413,16 +10475,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Álvaro de Alencar, 320 - Jacarecanga, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 40,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/12ce9e89726711bc73235e08ec0e4f58/foto-1-de-imóvel-comercial-para-alugar,-40-em-jacarecanga,-fortaleza.jpg",
-          "url_detalhes": "/imovel/imovel-comercial-jacarecanga-bairros-fortaleza-40m2-aluguel-RS500-id-2647764061/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3350,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Imóvel Comercial para alugar, 40m² em Jacarecanga, Fortaleza",
           "coords": {
             "lat": -3.7095402,
@@ -12432,19 +10490,16 @@ export class LocationsService {
         {
           "endereco": "Via Paisagística do Loteamento Itaperussú, 06 - Itaperi, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 1,
           "area": 47,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/434087dfd06480841ecfcf6a9286926d/foto-1-de-apartamento-com-2-quartos-para-alugar,-47-em-itaperi,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-itaperi-bairros-fortaleza-com-garagem-47m2-aluguel-RS700-id-2654857687/",
+          "valor_aluguel": 2500,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
           "amenidades": [
-            "Aceita animais",
             "Garagem",
             "Área de serviço",
             "Playground",
-            "Salão de festas",
-            "..."
+            "Salão de festas"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 47m² em Itaperi, Fortaleza",
           "coords": {
@@ -12454,16 +10509,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 62,
-          "valor_aluguel": "2.477",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/5cd3aa82c9f11daa937bf12695fa8404/foto-1-de-imóvel-comercial-para-alugar,-62-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/imovel-comercial-aldeota-bairros-fortaleza-62m2-aluguel-RS2477-id-2547859018/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4200,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Imóvel Comercial para alugar, 62m² em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7327632,
@@ -12472,16 +10523,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Guilherme Rocha, 381 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 38,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/27741de0394585623c76b9f8be1c661e/foto-1-de-sala-comercial-para-alugar,-38-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-38m2-aluguel-RS250-id-2566170342/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4350,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 38m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7265229,
@@ -12490,16 +10537,10 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Álef de Souza Cavalcante, 1077 - Jangurussu, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
           "area": 790,
-          "valor_aluguel": "1.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/48169f8487fd01eec0bfce6a94322ebb/foto-1-de-lote/terreno-para-alugar,-790-em-jangurussu,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-jangurussu-bairros-fortaleza-790m2-aluguel-RS1000-id-2557312515/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1450,
+          "url_imagem": "../assets/img/properties/ground2.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar, 790m² em Jangurussu, Fortaleza",
           "coords": {
             "lat": -3.8299171,
@@ -12509,19 +10550,16 @@ export class LocationsService {
         {
           "endereco": "Rua Luiza Guimarães, 709 - Lagoa Redonda, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 3,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 83,
-          "valor_aluguel": "2.100",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/b6f62568d2b5e513a98297e0f0c91f6b/foto-1-de-casa-de-condomínio-com-3-quartos-para-alugar,-83-em-lagoa-redonda,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-de-condominio-3-quartos-lagoa-redonda-bairros-fortaleza-83m2-aluguel-RS2100-id-2644580168/",
+          "valor_aluguel": 1150,
+          "url_imagem": "../assets/img/properties/house3.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Varanda",
-            "Quintal",
-            "Aceita animais",
-            "..."
+
           ],
           "descricao": "Casa de Condomínio com 3 Quartos para alugar, 83m² em Lagoa Redonda, Fortaleza",
           "coords": {
@@ -12532,12 +10570,11 @@ export class LocationsService {
         {
           "endereco": "Rua Ana Bilhar, 987 - Meireles, Fortaleza - CE",
           "quartos": 1,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 77,
-          "valor_aluguel": "2.300",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/04691c0e736f8b28f2b29eb523dbda1e/foto-1-de-sala-comercial-com-1-quarto-para-alugar,-77-em-meireles,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-1-quartos-meireles-bairros-fortaleza-77m2-aluguel-RS2300-id-2684555693/",
+          "valor_aluguel": 1450,
+          "url_imagem": "../assets/img/properties/office2.jpg",
           "amenidades": [
             "Vigia",
             "Câmera de segurança"
@@ -12550,16 +10587,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 42,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/25aa8031a7898f123b20b413b53ddfa9/foto-1-de-sala-comercial-para-alugar,-42-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-42m2-aluguel-RS500-id-2510345984/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2300,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7278961,
@@ -12568,13 +10601,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pedro Borges, 30 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 52,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/80f100188d70c26e62131861b4aaf5d2/foto-1-de-sala-comercial-para-alugar,-52-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-52m2-aluguel-RS800-id-2620337549/",
+          "valor_aluguel": 950,
+          "url_imagem": "../assets/img/properties/office1.jpg",
           "amenidades": [
             "Copa",
             "Ar-condicionado"
@@ -12588,18 +10619,17 @@ export class LocationsService {
         {
           "endereco": "Rua Barão de Aratanha, 857 - Fátima, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 5,
-          "vagas": 3,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 187,
-          "valor_aluguel": "2.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/43a318200da8ec893441b9b82098b663/foto-1-de-imóvel-comercial-com-3-quartos-para-alugar,-187-em-fátima,-fortaleza.jpg",
-          "url_detalhes": "/imovel/imovel-comercial-3-quartos-fatima-bairros-fortaleza-com-garagem-187m2-aluguel-RS2000-id-2631812576/",
+          "valor_aluguel": 4550,
+          "url_imagem": "../assets/img/properties/office2.jpg",
           "amenidades": [
             "Cozinha",
             "Piscina",
             "Área de serviço",
-            "Quintal",
-            "Aceita animais"
+            ,
+
           ],
           "descricao": "Imóvel Comercial com 3 Quartos para alugar, 187m² em Fátima, Fortaleza",
           "coords": {
@@ -12610,18 +10640,17 @@ export class LocationsService {
         {
           "endereco": "Rua Francisco Virgílio Filho, 10 - Edson Queiroz, Fortaleza - CE",
           "quartos": 4,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 3,
+          "vagas": 2,
           "area": 244,
-          "valor_aluguel": "2.900",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/01ab52dcbe6237f7e552b4b7130201ce/foto-1-de-casa-com-4-quartos-para-alugar,-244-em-edson-queiroz,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-4-quartos-edson-queiroz-bairros-fortaleza-244m2-aluguel-RS2900-id-2672152436/",
+          "valor_aluguel": 4400,
+          "url_imagem": "../assets/img/properties/house3.jpg",
           "amenidades": [
             "Closet",
             "Varanda gourmet",
             "Área de serviço",
-            "Quintal",
-            "Aceita animais"
+            ,
+
           ],
           "descricao": "Casa com 4 Quartos para alugar, 244m² em Edson Queiroz, Fortaleza",
           "coords": {
@@ -12631,16 +10660,10 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
-          "area": null,
-          "valor_aluguel": null,
-          "url_imagem": null,
-          "url_detalhes": "/imovel/lote-terreno-aldeota-bairros-fortaleza-aluguel-RS180-id-2614653284/",
-          "amenidades": [
-
-          ],
+          "area": 127,
+          "valor_aluguel": 1100,
+          "url_imagem": "../assets/img/properties/ground3.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7327632,
@@ -12649,16 +10672,10 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
-          "area": null,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/4ee84d435f1ab0b1f7dbf70a2a0243db/foto-1-de-lote/terreno-para-alugar-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-aldeota-bairros-fortaleza-aluguel-RS180-id-2547860445/",
-          "amenidades": [
-
-          ],
+          "area": 187,
+          "valor_aluguel": 3350,
+          "url_imagem": "../assets/img/properties/ground3.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7327632,
@@ -12667,16 +10684,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Barão do Rio Branco, 1071 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 33,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/3a8768aade2ca4b5195cc362415fe374/foto-1-de-sala-comercial-para-alugar,-33-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-33m2-aluguel-RS650-id-2599839559/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3850,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 33m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7277511,
@@ -12686,19 +10699,17 @@ export class LocationsService {
         {
           "endereco": "Travessa Contaneide, 12 - Edson Queiroz, Fortaleza - CE",
           "quartos": 1,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 1,
           "area": 30,
-          "valor_aluguel": "2.300",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/d3b0b12744c156cf82bd3a8a8374fcca/foto-1-de-apartamento-com-1-quarto-para-alugar,-30-em-edson-queiroz,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-1-quartos-edson-queiroz-bairros-fortaleza-com-garagem-30m2-aluguel-RS2300-id-2670086300/",
+          "valor_aluguel": 4950,
+          "url_imagem": "../assets/img/properties/apartament3.jpg",
           "amenidades": [
             "Piscina",
             "Churrasqueira",
             "Elevador",
             "Condomínio fechado",
-            "Varanda",
-            "..."
+            "Varanda"
           ],
           "descricao": "Apartamento com 1 Quarto para alugar, 30m² em Edson Queiroz, Fortaleza",
           "coords": {
@@ -12708,16 +10719,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Romeu Aldigueri, 22 - Guararapes, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 3,
-          "vagas": 18,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 216,
-          "valor_aluguel": "12.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/d2612309557ba6c61954b5830e22dba1/foto-1-de-sala-comercial-para-alugar,-216-em-guararapes,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-guararapes-bairros-fortaleza-com-garagem-216m2-aluguel-RS12000-id-2572709205/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1150,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 216m² em Guararapes, Fortaleza",
           "coords": {
             "lat": -3.7655248,
@@ -12726,16 +10733,10 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
-          "area": null,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/a439ee29de0a0dd7c1049121b0bda018/foto-1-de-lote/terreno-para-alugar-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-aldeota-bairros-fortaleza-aluguel-RS180-id-2547859111/",
-          "amenidades": [
-
-          ],
+          "area": 61,
+          "valor_aluguel": 3900,
+          "url_imagem": "../assets/img/properties/ground2.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7327632,
@@ -12744,16 +10745,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Senador Virgílio Távora, 1701 - Meireles, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 2,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 35,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/d26962d6593a940ce0cffefa338c4599/foto-1-de-imóvel-comercial-para-alugar,-35-em-meireles,-fortaleza.jpg",
-          "url_detalhes": "/imovel/imovel-comercial-meireles-bairros-fortaleza-35m2-aluguel-RS795-id-2682677723/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2750,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Imóvel Comercial para alugar, 35m² em Meireles, Fortaleza",
           "coords": {
             "lat": -3.7403814,
@@ -12762,16 +10759,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 5753 - Papicu, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 45,
-          "valor_aluguel": "1.800",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/a8b605018a1dd628ad205242bc9e3567/foto-1-de-sala-comercial-para-alugar,-45-em-papicu,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-papicu-bairros-fortaleza-45m2-aluguel-RS1800-id-2631747761/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1150,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 45m² em Papicu, Fortaleza",
           "coords": {
             "lat": -3.7417295,
@@ -12781,15 +10774,12 @@ export class LocationsService {
         {
           "endereco": "Travessa Ouvidor - Centro, Fortaleza - CE",
           "quartos": 1,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 22,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/b6ad23bf5dc4721d770b0ac1cd338a26/foto-1-de-kitnet-com-1-quarto-para-alugar,-22-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/kitnet-1-quartos-centro-bairros-fortaleza-22m2-aluguel-RS380-id-2588553349/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4800,
+          "url_imagem": "",
+          "amenidades": [],
           "descricao": "Kitnet com 1 Quarto para alugar, 22m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7409446,
@@ -12799,12 +10789,11 @@ export class LocationsService {
         {
           "endereco": "Rua Vilebaldo Aguiar, 1151 - Cocó, Fortaleza - CE",
           "quartos": 3,
-          "banheiros": 3,
-          "vagas": 2,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 71,
-          "valor_aluguel": "2.300",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/37839efbd2286556aebffbce08bc0e16/foto-1-de-apartamento-com-3-quartos-para-alugar,-71-em-cocó,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-3-quartos-coco-bairros-fortaleza-com-garagem-71m2-aluguel-RS2300-id-2684026525/",
+          "valor_aluguel": 3450,
+          "url_imagem": "../assets/img/properties/apartament5.jpg",
           "amenidades": [
             "Área de serviço",
             "Piscina para adulto",
@@ -12819,16 +10808,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Justino Café Neto, 240 - Guararapes, Fortaleza - CE",
-          "quartos": 3,
           "banheiros": 3,
-          "vagas": null,
-          "area": 146,
-          "valor_aluguel": "3.400",
-          "url_imagem": null,
-          "url_detalhes": "/imovel/apartamento-3-quartos-guararapes-bairros-fortaleza-146m2-aluguel-RS3400-id-2684754596/",
-          "amenidades": [
-
-          ],
+          "vagas": 2,
+          "area": 76,
+          "valor_aluguel": 2100,
+          "url_imagem": "../assets/img/properties/apartament2.jpg",
+          "amenidades": [],
           "descricao": null,
           "coords": {
             "lat": -3.7589949,
@@ -12837,16 +10822,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 42,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/83fbc2ef4e754cb541f0a8f0975aec7c/foto-1-de-sala-comercial-para-alugar,-42-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-42m2-aluguel-RS500-id-2476321312/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 650,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7278961,
@@ -12856,15 +10837,12 @@ export class LocationsService {
         {
           "endereco": "Rua Liberato Barroso, 1235 - Centro, Fortaleza - CE",
           "quartos": 1,
-          "banheiros": 1,
-          "vagas": null,
+          "banheiros": 2,
+          "vagas": 2,
           "area": 30,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/c940beea9a94719ef7f4b3c194c2819f/foto-1-de-kitnet-com-1-quarto-para-alugar,-30-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/kitnet-1-quartos-centro-bairros-fortaleza-30m2-aluguel-RS250-id-2631744995/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1400,
+          "url_imagem": "",
+          "amenidades": [],
           "descricao": "Kitnet com 1 Quarto para alugar, 30m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7255337,
@@ -12873,16 +10851,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Pontes Vieira, 2340 - Dionísio Torres, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 57,
-          "valor_aluguel": "3.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/8f34c188ec1b4b3f9f26693c0680e3d8/foto-1-de-sala-comercial-para-alugar,-57-em-dionísio-torres,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-dionisio-torres-bairros-fortaleza-57m2-aluguel-RS3000-id-2634722042/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4000,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 57m² em Dionísio Torres, Fortaleza",
           "coords": {
             "lat": -3.7513729,
@@ -12891,16 +10865,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Bárbara de Alencar, 1837 - Aldeota, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 20,
-          "valor_aluguel": "1.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/8c132c5664cae23ede7eedeff06e2f5c/foto-1-de-imóvel-comercial-para-alugar,-20-em-aldeota,-fortaleza.jpg",
-          "url_detalhes": "/imovel/imovel-comercial-aldeota-bairros-fortaleza-20m2-aluguel-RS1000-id-2651147455/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4000,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Imóvel Comercial para alugar, 20m² em Aldeota, Fortaleza",
           "coords": {
             "lat": -3.7397229,
@@ -12909,16 +10879,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 31,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/1baaa0a3f7f4259294975edd33f91b56/foto-1-de-sala-comercial-para-alugar,-31-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-31m2-aluguel-RS400-id-2476321055/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3200,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.724243,
@@ -12927,13 +10893,11 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Aguanambi, 806 - Fátima, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": 1,
+          "vagas": 2,
           "area": 36,
-          "valor_aluguel": "1.100",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/0b73fbc06efa45fec0a02aa2f38eda38/foto-1-de-ponto-comercial-para-alugar,-36-em-fátima,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-fatima-bairros-fortaleza-com-garagem-36m2-aluguel-RS1100-id-2590947122/",
+          "valor_aluguel": 2550,
+          "url_imagem": "../assets/img/properties/office2.jpg",
           "amenidades": [
             "Garagem",
             "Cozinha"
@@ -12946,16 +10910,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Adélia Feijó, 884 - BOA VISTA, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 312,
-          "valor_aluguel": "4.200",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/61ecd5aa3acf83c9d389f9947b5f2bf6/foto-1-de-ponto-comercial-para-alugar,-312-em-boa-vista,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-boa-vista-bairros-fortaleza-312m2-aluguel-RS4200-id-2674409688/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1850,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 312m² em BOA VISTA, Fortaleza",
           "coords": {
             "lat": -3.8062307,
@@ -12964,16 +10924,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Viena Weyne, 845 - Cambeba, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 23,
-          "valor_aluguel": "1.900",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/063aa3ad14e44cbb7a36441f4fb79ecd/foto-1-de-sala-comercial-para-alugar,-23-em-cambeba,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-cambeba-bairros-fortaleza-23m2-aluguel-RS1900-id-2633452190/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4950,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 23m² em Cambeba, Fortaleza",
           "coords": {
             "lat": -3.8011169,
@@ -12982,16 +10938,10 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Pedro Borges, 20 - Centro, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
           "area": 8,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/e762dfb772dcffe2b0a2f8e910a02e52/foto-1-de-lote/terreno-para-alugar,-8-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-centro-bairros-fortaleza-8m2-aluguel-RS350-id-2614657806/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3400,
+          "url_imagem": "../assets/img/properties/ground2.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar, 8m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7282492,
@@ -13000,16 +10950,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua 1068, 35 - Conjunto Ceara II, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 306,
-          "valor_aluguel": "3.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/9c9b782dd8f72d56a8c1f1464f4717a8/foto-1-de-prédio-comercial-para-alugar,-306-em-conjunto-ceara-ii,-fortaleza.jpg",
-          "url_detalhes": "/imovel/predio-comercial-conjunto-ceara-ii-bairros-fortaleza-306m2-aluguel-RS3500-id-2634447453/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 4500,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Prédio Comercial para alugar, 306m² em Conjunto Ceara II, Fortaleza",
           "coords": {
             "lat": -3.7671569,
@@ -13019,19 +10965,17 @@ export class LocationsService {
         {
           "endereco": "Avenida Juscelino Kubitschek, 4950 - Passaré, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 1,
           "area": 60,
-          "valor_aluguel": "1.209",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/2e8acb96701c9ba08e96765ef07fde16/foto-1-de-apartamento-com-2-quartos-para-alugar,-60-em-passaré,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-passare-bairros-fortaleza-com-garagem-60m2-aluguel-RS1209-id-2663297954/",
+          "valor_aluguel": 3300,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
           "amenidades": [
             "Piscina",
             "Elevador",
             "Condomínio fechado",
             "Área de serviço",
-            "Cozinha",
-            "..."
+            "Cozinha"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 60m² em Passaré, Fortaleza",
           "coords": {
@@ -13041,16 +10985,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Itapagé, 32 - Centro, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 36,
-          "valor_aluguel": "1.100",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/1e774a6650bca48b02582bbb2d48a631/foto-1-de-ponto-comercial-para-alugar,-36-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-centro-bairros-fortaleza-36m2-aluguel-RS1100-id-2670782038/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2900,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 36m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7312728,
@@ -13059,16 +10999,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 39,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/02b3e7d2466135c87dc25a78542fe656/foto-1-de-sala-comercial-para-alugar,-39-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-39m2-aluguel-RS500-id-2476321217/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1200,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 39m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7278961,
@@ -13077,16 +11013,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 1235 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 30,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/465073e95d39a06819e8108b30b63b86/foto-1-de-kitnet-para-alugar,-30-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/kitnet-centro-bairros-fortaleza-30m2-aluguel-RS250-id-2616559248/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2250,
+          "url_imagem": "",
+          "amenidades": [],
           "descricao": "Kitnet para alugar, 30m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7255337,
@@ -13096,15 +11028,12 @@ export class LocationsService {
         {
           "endereco": "Rua Professora Stella Cochrane, 341 - Passaré, Fortaleza - CE",
           "quartos": 2,
-          "banheiros": 1,
+          "banheiros": 2,
           "vagas": 1,
           "area": 45,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/26b581fb76ac96b5f3ecfc8f3ddc3651/foto-1-de-apartamento-com-2-quartos-para-alugar,-45-em-passaré,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-passare-bairros-fortaleza-com-garagem-45m2-aluguel-RS800-id-2616748997/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1250,
+          "url_imagem": "../assets/img/properties/apartament5.jpg",
+          "amenidades": [],
           "descricao": "Apartamento com 2 Quartos para alugar, 45m² em Passaré, Fortaleza",
           "coords": {
             "lat": -3.7957662,
@@ -13113,16 +11042,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Padre Pedro de Alencar, 632 - Messejana, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 42,
-          "valor_aluguel": "1.800",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/f93f0b322534b40c122ec4f41e46651e/foto-1-de-ponto-comercial-para-alugar,-42-em-messejana,-fortaleza.jpg",
-          "url_detalhes": "/imovel/ponto-comercial-messejana-bairros-fortaleza-42m2-aluguel-RS1800-id-2680686195/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 850,
+          "url_imagem": "../assets/img/properties/office1.jpg",
+          "amenidades": [],
           "descricao": "Ponto Comercial para alugar, 42m² em Messejana, Fortaleza",
           "coords": {
             "lat": -3.8333816,
@@ -13135,16 +11060,14 @@ export class LocationsService {
           "banheiros": 2,
           "vagas": 1,
           "area": 57,
-          "valor_aluguel": "2.609",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/39a60c975e90982cb0c5a362dec2fb14/foto-1-de-apartamento-com-2-quartos-para-alugar,-57-em-benfica,-fortaleza.jpg",
-          "url_detalhes": "/imovel/apartamento-2-quartos-benfica-bairros-fortaleza-com-garagem-57m2-aluguel-RS2609-id-2681122804/",
+          "valor_aluguel": 1850,
+          "url_imagem": "../assets/img/properties/apartament4.jpg",
           "amenidades": [
             "Piscina",
             "Elevador",
             "Condomínio fechado",
             "Área de serviço",
-            "Quadra poliesportiva",
-            "..."
+            "Quadra poliesportiva"
           ],
           "descricao": "Apartamento com 2 Quartos para alugar, 57m² em Benfica, Fortaleza",
           "coords": {
@@ -13155,19 +11078,16 @@ export class LocationsService {
         {
           "endereco": "Rua Brigadeiro Haroldo Veloso, 568 - Sapiranga, Fortaleza - CE",
           "quartos": 5,
-          "banheiros": 5,
-          "vagas": 16,
+          "banheiros": 2,
+          "vagas": 1,
           "area": 480,
-          "valor_aluguel": "5.000",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/c0c1ae244e6460cdbae0ca734d19aa59/foto-1-de-casa-com-5-quartos-para-alugar,-480-em-sapiranga,-fortaleza.jpg",
-          "url_detalhes": "/imovel/casa-5-quartos-sapiranga-bairros-fortaleza-com-garagem-480m2-aluguel-RS5000-id-2682203200/",
+          "valor_aluguel": 4750,
+          "url_imagem": "../assets/img/properties/house4.jpg",
           "amenidades": [
             "Churrasqueira",
-            "Quintal",
-            "Aceita animais",
+            ,
             "Área de serviço",
-            "Escritório",
-            "..."
+            "Escritório"
           ],
           "descricao": "Casa com 5 Quartos para alugar, 480m² em Sapiranga, Fortaleza",
           "coords": {
@@ -13177,13 +11097,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Ernesto Pedro dos Santos, 421 - Jóquei Clube, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 397,
-          "valor_aluguel": "8.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/a38cd06eb3b2b038e048e460f34e32e7/foto-1-de-galpão/depósito/armazém-para-alugar,-397-em-jóquei-clube,-fortaleza.jpg",
-          "url_detalhes": "/imovel/galpao-deposito-armazem-joquei-clube-bairros-fortaleza-397m2-aluguel-RS8500-id-2646365180/",
+          "valor_aluguel": 2300,
+          "url_imagem": "../assets/img/properties/storage3.jpg",
           "amenidades": [
             "Escritório"
           ],
@@ -13195,16 +11113,10 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Paulo Firmeza, 1364 - Tauape, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
           "area": 407,
-          "valor_aluguel": "1.500",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/6cbfffe0141b240fd3a3e0c96ce066cb/foto-1-de-lote/terreno-para-alugar,-407-em-tauape,-fortaleza.jpg",
-          "url_detalhes": "/imovel/lote-terreno-tauape-bairros-fortaleza-407m2-aluguel-RS1500-id-2647761910/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 3600,
+          "url_imagem": "../assets/img/properties/ground3.jpg",
+          "amenidades": [],
           "descricao": "Lote/Terreno para alugar, 407m² em Tauape, Fortaleza",
           "coords": {
             "lat": -3.7568462,
@@ -13213,16 +11125,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 1,
           "area": 39,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/483dccc8468f7be4b5b51695d5e24c36/foto-1-de-sala-comercial-para-alugar,-39-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-39m2-aluguel-RS500-id-2476320437/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 2100,
+          "url_imagem": "../assets/img/properties/office3.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 39m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7278961,
@@ -13231,16 +11139,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua do Rosário, 77 - Centro, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": 2,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 2,
           "area": 85,
-          "valor_aluguel": "1.271",
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/486e0d4bab38810a91b8b3c7fd2c3244/foto-1-de-sala-comercial-para-alugar,-85-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-85m2-aluguel-RS1271-id-2547860466/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 650,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 85m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.728418999999999,
@@ -13249,13 +11153,11 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Senador Pompeu, 649 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 23,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/42ff4fead95ea52ed18a3a2e558f1acf/foto-1-de-sala-comercial-para-alugar,-23-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-centro-bairros-fortaleza-23m2-aluguel-RS600-id-2661387056/",
+          "valor_aluguel": 2500,
+          "url_imagem": "../assets/img/properties/office2.jpg",
           "amenidades": [
             "Cozinha",
             "Segurança 24h",
@@ -13270,16 +11172,12 @@ export class LocationsService {
         },
         {
           "endereco": "Rua Liberato Barroso, 1235 - Centro, Fortaleza - CE",
-          "quartos": null,
           "banheiros": 1,
-          "vagas": null,
+          "vagas": 2,
           "area": 30,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/c74b1630c6636ceba33c579b6b77f3a2/foto-1-de-kitnet-para-alugar,-30-em-centro,-fortaleza.jpg",
-          "url_detalhes": "/imovel/kitnet-centro-bairros-fortaleza-30m2-aluguel-RS250-id-2616558582/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 1350,
+          "url_imagem": "",
+          "amenidades": [],
           "descricao": "Kitnet para alugar, 30m² em Centro, Fortaleza",
           "coords": {
             "lat": -3.7255337,
@@ -13288,16 +11186,12 @@ export class LocationsService {
         },
         {
           "endereco": "Avenida Santos Dumont, 5554 - Cocó, Fortaleza - CE",
-          "quartos": null,
-          "banheiros": null,
-          "vagas": null,
+          "banheiros": 1,
+          "vagas": 1,
           "area": 26,
-          "valor_aluguel": null,
-          "url_imagem": "https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/1a642d86d949a9e5ecaa5b6fe3815145/foto-1-de-sala-comercial-para-alugar,-26-em-cocó,-fortaleza.jpg",
-          "url_detalhes": "/imovel/sala-comercial-coco-bairros-fortaleza-26m2-aluguel-RS700-id-2547859129/",
-          "amenidades": [
-
-          ],
+          "valor_aluguel": 950,
+          "url_imagem": "../assets/img/properties/office2.jpg",
+          "amenidades": [],
           "descricao": "Sala Comercial para alugar, 26m² em Cocó, Fortaleza",
           "coords": {
             "lat": -3.7414838,
@@ -13308,6 +11202,6 @@ export class LocationsService {
       "status": "OK"
     };
 
-    return of(dadosMock); ;
+    return of(dadosMock);;
   }
 }

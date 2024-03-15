@@ -22,45 +22,45 @@
       {{ data.descricao }}
     </p>
 
-    <h2>Informações:</h2>
-    <div class="icons-home">
-
-      <div class="name-icon">
-        <span>Quartos</span>
-        <div class="icon">
-          <i class="fas fa-bed"></i>
-          <span>{{ data.quartos }}</span>
-        </div>
-      </div>
-      <div class="name-icon">
-        <span>Banheiros</span>
-        <div class="icon">
-          <i class="fas fa-sink"></i>
-          <span>{{ data.banheiros }}</span>
-        </div>
-      </div>
-      <div class="name-icon">
-        <span>Área total</span>
-        <div class="icon">
-          <i class="fas fa-vector-square"></i>
-          <span>{{ data.area }} m²</span>
-        </div>
-      </div>
-    </div>
-
-    <h2>O imóvel possui:</h2>
-    <!-- Adicione a classe "amenidades" à div que envolve o loop ngFor -->
-    <!-- Adicione a classe "amenidades" à div que envolve o loop ngFor -->
-    <div class="amenidades">
-      <div *ngFor="let amenidade of data.amenidades" class="amenidade">
-        <div class="name-icon">
-          <span>{{ amenidade }}</span>
+    <div *ngIf="data.quartos !== null && data.quartos !== undefined || data.banheiros !== null && data.banheiros !== undefined || data.area !== null && data.area !== undefined">
+      <h2>Informações:</h2>
+      <div class="icons-home">
+        <div class="name-icon" *ngIf="data.quartos !== null && data.quartos !== undefined">
+          <span>Quartos</span>
           <div class="icon">
-            <i [class]="getIconClass(amenidade)"></i>
+            <i class="fas fa-bed"></i>
+            <span>{{ data.quartos }}</span>
+          </div>
+        </div>
+        <div class="name-icon" *ngIf="data.banheiros !== null && data.banheiros !== undefined">
+          <span>Banheiros</span>
+          <div class="icon">
+            <i class="fas fa-sink"></i>
+            <span>{{ data.banheiros }}</span>
+          </div>
+        </div>
+        <div class="name-icon" *ngIf="data.area !== null && data.area !== undefined">
+          <span>Área total</span>
+          <div class="icon">
+            <i class="fas fa-vector-square"></i>
+            <span>{{ data.area }} m²</span>
           </div>
         </div>
       </div>
     </div>
+
+  <h2 *ngIf="data.amenidades && data.amenidades.length > 0">O imóvel possui:</h2>
+  <div *ngIf="data.amenidades && data.amenidades.length > 0" class="amenidades">
+    <div *ngFor="let amenidade of data.amenidades" class="amenidade">
+      <div class="name-icon">
+        <span>{{ amenidade }}</span>
+        <div class="icon">
+          <i [class]="getIconClass(amenidade)"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
 
 

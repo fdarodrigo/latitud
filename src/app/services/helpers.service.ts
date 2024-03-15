@@ -16,17 +16,14 @@ export class HelpersService {
     let count = 0;
 
     for (const imovel of imoveis) {
-      // Verificando se valor_aluguel é null ou vazio
-      if (imovel.valor_aluguel && imovel.valor_aluguel.trim() !== '') {
-        // Convertendo o valor_aluguel para número
-        const valorAluguelNumerico = parseFloat(imovel.valor_aluguel.replace(',', '')) * 1000;
 
-        // Verificando se o valor é um número válido
+        const valorAluguelNumerico = imovel.valor_aluguel;
+
         if (!isNaN(valorAluguelNumerico)) {
           somaValoresAluguel += valorAluguelNumerico;
           count++;
         }
-      }
+
     }
 
     if (count === 0) {
@@ -34,10 +31,9 @@ export class HelpersService {
       return 0; // Ou qualquer valor padrão desejado
     }
 
-    // Calculando a média
     const mediaAluguel = somaValoresAluguel / count;
 
-    const mediaFormatada = parseFloat(mediaAluguel.toFixed(2)); // Limita para 2 casas decimais
+    const mediaFormatada = parseFloat(mediaAluguel.toFixed(2));
 
     return mediaFormatada;
   }

@@ -82,6 +82,12 @@ export class Map1Component implements OnInit {
     this.polygon = new google.maps.Polygon(this.polygonOptions);
     this.polygon.setMap(this.map);
 
+    google.maps.event.addDomListener(document, 'keydown', (event: KeyboardEvent) => {
+      if (event.keyCode === 46 || event.keyCode === 8) {
+        this.polygon.setMap(null);
+      }
+    });
+
     google.maps.event.addListener(this.map, 'click', (event: google.maps.KmlMouseEvent) => {
       const path = this.polygon.getPath();
       path.push(event.latLng!);
