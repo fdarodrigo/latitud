@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { LocationsService } from '../services/locations.service';
 import { LayersService } from '../services/layers.service';
 import { HelpersService } from '../services/helpers.service';
+import {TranslateService} from '@ngx-translate/core';
+
 
 @Component({
   selector: 'app-map1',
@@ -10,6 +12,8 @@ import { HelpersService } from '../services/helpers.service';
 })
 export class Map1Component implements OnInit {
   isLoading: boolean = true;
+
+  param = {value: 'world'};
 
   map!: google.maps.Map;
   polygonOptions: google.maps.PolygonOptions = {
@@ -64,7 +68,13 @@ export class Map1Component implements OnInit {
   constructor(
     private locations: LocationsService,
     private layer: LayersService,
-    private helper: HelpersService) {
+    private helper: HelpersService,
+    private translate: TranslateService) {
+
+      translate.setDefaultLang('pt');
+
+         // the lang to use, if the lang isn't available, it will use the current loader to get them
+        
   }
 
   ngOnInit() {
@@ -120,6 +130,14 @@ export class Map1Component implements OnInit {
       }
 
     });
+  }
+
+  translateLang(lang: string){
+    if (lang === 'pt') {
+      this.translate.use('pt');
+    } else if (lang === 'en') {
+      this.translate.use('en');
+    }
   }
 
   /* visualizarTodas(): void {

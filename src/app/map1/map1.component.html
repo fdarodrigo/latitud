@@ -32,23 +32,31 @@
     </label>
   </div> -->
 
+  <div class="flags">
+    <div class="flag" >
+      <img src="../../assets/img/icons/br.png" (click)="translateLang('pt')">
+    </div>
+    <div class="flag" >
+      <img src="../../assets/img/icons/eua.png" (click)="translateLang('en')">
+    </div>
+  </div>
   <div class="sidebar-section">
-    <h2>Informações da Região:</h2>
+    <h2> {{'info' | translate}}:</h2>
     <div class="info-row">
       <div>
-        <b>Número de casas <i class="fas fa-home"></i></b>
+        <b>{{'houses' | translate}} <i class="fas fa-home"></i></b>
         <span>{{ total_houses }}</span>
       </div>
     </div>
     <div class="info-row">
       <div>
-        <b>Média de preços <i class="fas fa-dollar-sign"></i></b>
+        <b>{{'avg' | translate}} <i class="fas fa-dollar-sign"></i></b>
         <span>R$ {{ average }}</span>
       </div>
     </div>
   </div>
 
-  <h2>Lugares Próximos</h2>
+  <h2>{{'nearby' | translate}}</h2>
 
   <!-- Alteração 1: Adicionando classe para estilizar lugares próximos -->
   <mat-form-field appearance="fill" class="pink-transparent">
@@ -61,26 +69,26 @@
   </mat-form-field>
 
   <!-- Alteração 3: Transformando botões em mat-selects -->
-  <h2>Informações de trânsito</h2>
+  <h2>{{'traffic-info' | translate}}</h2>
   <mat-form-field appearance="fill">
     <mat-select [(value)]="selectedLayer" panelClass="my-select-panel-class">
       <mat-option mat-option value="traffic" (click)="traffLayer()">
         <i class="fa fa-traffic-light fa-2x"></i>
-        Trânsito
+        {{'traffic' | translate}}
       </mat-option>
       <mat-option mat-option value="transit" (click)="transLayer()">
         <i class="fa fa-subway fa-2x"></i>
-        Metrô
+        {{'subway' | translate}}
       </mat-option>
       <mat-option mat-option value="bicycling" (click)="bikeLayer()">
         <i class="fa-solid fa fa-bicycle fa-2x"></i>
-        Ciclofaixas
+        {{'cycle' | translate}}
       </mat-option>
     </mat-select>
   </mat-form-field>
 
   <button class="botao-buscar" (click)="buscarCasasNoPoligono()">
-    Buscar Imóveis
+    {{'search' | translate}}
   </button>
 </div>
 </div>
