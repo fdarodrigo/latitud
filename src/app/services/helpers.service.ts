@@ -38,12 +38,12 @@ export class HelpersService {
     return mediaFormatada;
   }
 
-  openDialog(enterAnimationDuration: string, exitAnimationDuration: string, house: any): void {
+  openDialog(enterAnimationDuration: string, exitAnimationDuration: string, house: AnimationPlaybackEvent): void {
     this.dialog.open(Dialog1Component, {
       width: '500px',
       enterAnimationDuration,
       exitAnimationDuration,
-      data: house
+      data: house,
     });
   }
 

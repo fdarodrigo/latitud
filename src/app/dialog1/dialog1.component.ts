@@ -2,22 +2,35 @@ import { Component, Inject, OnInit } from '@angular/core';
 import { MatDialogModule, MatDialogRef } from '@angular/material/dialog';
 import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { CommonModule } from '@angular/common';
+import {TranslateModule, TranslateService} from '@ngx-translate/core';
 
 @Component({
   selector: 'app-dialog1',
   templateUrl: './dialog1.component.html',
   styleUrls: ['./dialog1.component.scss'],
   standalone: true,
-  imports: [MatDialogModule, CommonModule],
+  imports: [MatDialogModule, CommonModule, TranslateModule],
 })
 export class Dialog1Component implements OnInit {
 
   constructor(public dialogRef: MatDialogRef<Dialog1Component>,
-    @Inject(MAT_DIALOG_DATA) public data: any)
-    {}
+    @Inject(MAT_DIALOG_DATA) public data: any,
+    private translate: TranslateService)
+    {
+      // translate.setDefaultLang('pt');
+
+      // this.translate.use('en')
+    }
 
     ngOnInit() {
     console.log(this.data);
+
+    if(this.data.lang = "pt"){
+      this.translate.use('pt')
+    } 
+    else if (this.data.lang = "en"){
+      this.translate.use('en')
+    }
   }
 
   getIconClass(amenidade: string): string | undefined {

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewChecked, Component, OnInit } from '@angular/core';
 import { LocationsService } from '../services/locations.service';
 import { LayersService } from '../services/layers.service';
 import { HelpersService } from '../services/helpers.service';
@@ -10,7 +10,7 @@ import {TranslateService} from '@ngx-translate/core';
   templateUrl: './map1.component.html',
   styleUrls: ['./map1.component.scss'],
 })
-export class Map1Component implements OnInit {
+export class Map1Component implements OnInit, AfterViewChecked {
   isLoading: boolean = true;
 
   param = {value: 'world'};
@@ -64,17 +64,16 @@ export class Map1Component implements OnInit {
   average: any;
   total_houses: any;
   polygon!: google.maps.Polygon;
+  lang!: string;
 
   constructor(
     private locations: LocationsService,
     private layer: LayersService,
     private helper: HelpersService,
-    private translate: TranslateService) {
-
+    private translate: TranslateService) 
+  {
       translate.setDefaultLang('pt');
-
-         // the lang to use, if the lang isn't available, it will use the current loader to get them
-        
+      this.lang = 'pt'  
   }
 
   ngOnInit() {
@@ -132,11 +131,23 @@ export class Map1Component implements OnInit {
     });
   }
 
+  ngAfterViewChecked (): void {
+    if (this.lang === 'pt') {
+      this.translate.use('pt');
+      this.lang = 'pt'
+    } else if (this.lang === 'en') {
+      this.translate.use('en');
+      this.lang = 'en'
+    }
+  }
+
   translateLang(lang: string){
     if (lang === 'pt') {
       this.translate.use('pt');
+      this.lang = 'pt'
     } else if (lang === 'en') {
       this.translate.use('en');
+      this.lang = 'en'
     }
   }
 
@@ -165,9 +176,9 @@ export class Map1Component implements OnInit {
     if (this.clickedCoordinates.length >= 3) {
       const poly = new google.maps.Polygon({ paths: this.clickedCoordinates });
 
-      const casasNoPoligono = this.houseLocations.filter((casa) => {
+      const casasNoPoligono = this.houseLocations.filter((house) => {
         return google.maps.geometry.poly.containsLocation(
-          new google.maps.LatLng(casa.coords.lat, casa.coords.lng),
+          new google.maps.LatLng(house.coords.lat, house.coords.lng),
           poly
         );
       });
@@ -175,9 +186,9 @@ export class Map1Component implements OnInit {
       this.average = this.helper.avaragePrices(casasNoPoligono)
       this.total_houses = casasNoPoligono.length
 
-      casasNoPoligono.forEach(casa => {
+      casasNoPoligono.forEach(house => {
         const marker = new google.maps.Marker({
-          position: new google.maps.LatLng(casa.coords.lat, casa.coords.lng),
+          position: new google.maps.LatLng(house.coords.lat, house.coords.lng),
           map: this.map,
           icon: {
             url: 'assets/img/icons/home.png',
@@ -185,8 +196,10 @@ export class Map1Component implements OnInit {
           },
         });
 
+        house.lang = this.lang;
+
         marker.addListener('click', () => {
-          this.helper.openDialog('400ms', '1000ms', casa)
+          this.helper.openDialog('400ms', '1000ms', house)
         });
       });
     } else {
