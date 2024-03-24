@@ -10,7 +10,7 @@
   position: absolute;
   width: 50%; /* Define a largura desejada (50%) */
   max-width: 250px; /* Largura máxima para a barra lateral */
-  height: 65%; /* Define a altura desejada (50%) */
+  height: 70%; /* Define a altura desejada (50%) */
   top: 7%; /* Centraliza verticalmente */
   left: 0%; /* Posiciona à esquerda */
   padding: 18px;
@@ -23,6 +23,21 @@
   opacity: 0.8;
   border-radius: 30px;
   font-weight: bold;
+
+  .flags {
+    display: flex;
+  }
+
+  .flag {
+    margin-right: 10px;
+  }
+
+  .flag img {
+    width: 24px; 
+    height: auto; 
+    margin-right: 5px; 
+  }
+  
 
   label {
     display: block;
