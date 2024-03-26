@@ -29,15 +29,15 @@ export class HelpersService {
   ) { }
 
   avaragePrices(imoveis: any[]): number {
-    let somaValoresAluguel = 0;
+    let sumRentValues = 0;
     let count = 0;
 
     for (const imovel of imoveis) {
 
-        const valorAluguelNumerico = imovel.valor_aluguel;
+        const valorAluguelNumerico = imovel.rentValue;
 
         if (!isNaN(valorAluguelNumerico)) {
-          somaValoresAluguel += valorAluguelNumerico;
+          sumRentValues += valorAluguelNumerico;
           count++;
         }
 
@@ -45,10 +45,10 @@ export class HelpersService {
 
     if (count === 0) {
       console.warn('Nenhum valor de aluguel válido encontrado.');
-      return 0; // Ou qualquer valor padrão desejado
+      return 0; 
     }
 
-    const mediaAluguel = somaValoresAluguel / count;
+    const mediaAluguel = sumRentValues / count;
 
     const mediaFormatada = parseFloat(mediaAluguel.toFixed(2));
 
@@ -83,9 +83,7 @@ export class HelpersService {
     const maxLat = bounds.getNorthEast().lat();
     const maxLng = bounds.getNorthEast().lng();
     const latRange = maxLat - minLat;
-    // Note: longitude can span from a positive longitude in the west to a
-    // negative one in the east. e.g. 150lng (150E) <-> -30lng (30W) is a large
-    // span that covers the whole USA.
+
     let lngRange = maxLng - minLng;
 
     if (maxLng < minLng) {
@@ -140,7 +138,7 @@ export class HelpersService {
       title: place.name,
       icon: {
         url: iconUrl,
-        scaledSize: new google.maps.Size(40, 40), // Tamanho personalizado do ícone
+        scaledSize: new google.maps.Size(40, 40),
       },
     });
 

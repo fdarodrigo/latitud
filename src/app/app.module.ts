@@ -29,8 +29,6 @@ export function HttpLoaderFactory(http: HttpClient) {
     Map1Component,
     LoadinglayerComponent,
     DialogLanguageComponent,
-    //Dialog2Component,
-    //DialogInfoComponent
   ],
   imports: [
     BrowserModule,

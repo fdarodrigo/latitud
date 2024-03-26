@@ -13,24 +13,6 @@
 
 <div id="sidebar" class="navbar">
   <div class="sidebar-section">
-    <!-- <h2>Visualização:</h2> -->
-<!--     <label>
-      <input
-        type="radio"
-        name="view-option"
-        (change)="visualizarTodas()"
-      />
-      Visualizar todas
-    </label>
-    <label>
-      <input
-        type="radio"
-        name="view-option"
-        (change)="delimitarRegiao()"
-      />
-      Delimitar região
-    </label>
-  </div> -->
 
   <div class="sidebar-section">
     <h2> {{'info' | translate}}:</h2>
@@ -50,7 +32,6 @@
 
   <h2>{{'nearby' | translate}}</h2>
 
-  <!-- Alteração 1: Adicionando classe para estilizar lugares próximos -->
   <mat-form-field appearance="fill" class="pink-transparent">
     <mat-select (selectionChange)="handleIconSelect($event)">
       <mat-option *ngFor="let icon of icons" [value]="icon.value">
@@ -60,7 +41,6 @@
     </mat-select>
   </mat-form-field>
 
-  <!-- Alteração 3: Transformando botões em mat-selects -->
   <h2>{{'traffic-info' | translate}}</h2>
   <mat-form-field appearance="fill">
     <mat-select [(value)]="selectedLayer" panelClass="my-select-panel-class">
@@ -79,7 +59,7 @@
     </mat-select>
   </mat-form-field>
 
-  <button class="botao-buscar" (click)="buscarCasasNoPoligono()">
+  <button class="botao-buscar" (click)="searchHousesPolyg()">
     {{'search' | translate}}
   </button>
 </div>
