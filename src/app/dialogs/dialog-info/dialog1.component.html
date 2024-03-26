@@ -4,7 +4,7 @@
   <figure>
     <div class="img-overlay">
       <img
-        [src]="data.url_imagem"
+        [src]="data.imageUrl"
         alt="Trulli" />
 
       <div class="overlay"><a href="#">{{'view-prop' | translate}}</a></div>
@@ -15,28 +15,28 @@
         </div>
       </div>
     </div>
-    <figcaption>{{ data.endereco }}</figcaption>
+    <figcaption>{{ data.address }}</figcaption>
   </figure>
   <div class="card-content">
     <p>
-      {{ data.descricao }}
+      {{ data.description }}
     </p>
 
-    <div *ngIf="data.quartos !== null && data.quartos !== undefined || data.banheiros !== null && data.banheiros !== undefined || data.area !== null && data.area !== undefined">
+    <div *ngIf="data.rooms !== null && data.rooms !== undefined || data.bathrrooms !== null && data.bathrrooms !== undefined || data.area !== null && data.area !== undefined">
       <h2>{{'prop-inf' | translate}}:</h2>
       <div class="icons-home">
-        <div class="name-icon" *ngIf="data.quartos !== null && data.quartos !== undefined">
+        <div class="name-icon" *ngIf="data.rooms !== null && data.rooms !== undefined">
           <span>{{'rooms' | translate}}</span>
           <div class="icon">
             <i class="fas fa-bed"></i>
-            <span>{{ data.quartos }}</span>
+            <span>{{ data.rooms }}</span>
           </div>
         </div>
-        <div class="name-icon" *ngIf="data.banheiros !== null && data.banheiros !== undefined">
+        <div class="name-icon" *ngIf="data.bathrrooms !== null && data.bathrrooms !== undefined">
           <span>{{'bathrooms' | translate}}</span>
           <div class="icon">
             <i class="fas fa-sink"></i>
-            <span>{{ data.banheiros }}</span>
+            <span>{{ data.bathrrooms }}</span>
           </div>
         </div>
         <div class="name-icon" *ngIf="data.area !== null && data.area !== undefined">
@@ -49,13 +49,13 @@
       </div>
     </div>
 
-  <h2 *ngIf="data.amenidades && data.amenidades.length > 0">{{'prop-has' | translate}}:</h2>
-  <div *ngIf="data.amenidades && data.amenidades.length > 0" class="amenidades">
-    <div *ngFor="let amenidade of data.amenidades" class="amenidade">
+  <h2 *ngIf="data.amenities && data.amenities.length > 0">{{'prop-has' | translate}}:</h2>
+  <div *ngIf="data.amenities && data.amenities.length > 0" class="amenidades">
+    <div *ngFor="let amenity of data.amenities" class="amenidade">
       <div class="name-icon">
-        <span>{{ amenidade }}</span>
+        <span>{{ amenity }}</span>
         <div class="icon">
-          <i [class]="getIconClass(amenidade)"></i>
+          <i [class]="getIconClass(amenity)"></i>
         </div>
       </div>
     </div>
@@ -63,7 +63,7 @@
 
     <div class="price">
       <span>{{'rent' | translate}}</span>
-      <span class="price-value">${{ data.valor_aluguel }}</span>
+      <span class="price-value">${{ data.rentValue }}</span>
     </div>
   </div>
 </div>

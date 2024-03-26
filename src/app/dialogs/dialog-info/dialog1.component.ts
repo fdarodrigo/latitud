@@ -11,9 +11,9 @@ import {TranslateModule, TranslateService} from '@ngx-translate/core';
   standalone: true,
   imports: [MatDialogModule, CommonModule, TranslateModule],
 })
-export class Dialog1Component implements OnInit {
+export class DialogInfoComponent implements OnInit {
 
-  constructor(public dialogRef: MatDialogRef<Dialog1Component>,
+  constructor(public dialogRef: MatDialogRef<DialogInfoComponent>,
     @Inject(MAT_DIALOG_DATA) public data: any,
     private translate: TranslateService)
     {
@@ -33,14 +33,12 @@ export class Dialog1Component implements OnInit {
     }
   }
 
-  getIconClass(amenidade: string): string | undefined {
-    // Se a amenidade for "...", retorne undefined para não exibir nada
-    if (amenidade === '...') {
+  getIconClass(amenity: string): string | undefined {
+    if (amenity === '...') {
       return undefined;
     }
 
-    // Mapeie as amenidades para as classes de ícones correspondentes
-    const iconMap: { [key: string]: string } = {
+    const iconMapPt: { [key: string]: string } = {
       'Piscina': 'fas fa-swimmer',
       'Churrasqueira': 'fas fa-fire',
       'Elevador': 'fas fa-building',
@@ -83,26 +81,75 @@ export class Dialog1Component implements OnInit {
       'Frente para o sul': 'fas fa-compass',
       'Arenoso': 'fas fa-mountain',
       'Plano': 'fas fa-mountain',
-      'Rua asfaltada': 'fas fa-road',
-      'Desnível para frente (rua)': 'fas fa-road',
       'Circuito de segurança': 'fas fa-shield-alt',
       'Hall de entrada': 'fas fa-door-open',
       'Sala de reunião': 'fas fa-users',
       'Depósito': 'fas fa-box-open',
       'Câmera de segurança': 'fas fa-camera',
       'Closet': 'fas fa-tshirt',
-      'Vestiário': 'fas fa-tshirt',
       'TV a cabo': 'fas fa-tv',
       'Praça': 'fas fa-tree',
-      'Serviços públicos essenciais': 'fas fa-hands-helping',
       'Frente para o oeste': 'fas fa-compass',
-      'Rede de água e esgoto': 'fas fa-tint',
+    };
+
+    const iconMapEn: { [key: string]: string } = {
+      'Pool': 'fas fa-swimmer',
+      'Barbecue grill': 'fas fa-fire',
+      'Elevator': 'fas fa-building',
+      'Gym': 'fas fa-dumbbell',
+      'Laundry area': 'fas fa-wrench',
+      'Party room': 'fas fa-glass-cheers',
+      'Gated community': 'fas fa-shield-alt',
+      'Garden': 'fas fa-tree',
+      'Playground': 'fas fa-child',
+      'Balcony': 'fas fa-door-open',
+      'Gourmet balcony': 'fas fa-utensils',
+      'Garage': 'fas fa-car',
+      'Intercom': 'fas fa-phone-alt',
+      'Ocean view': 'fas fa-water',
+      'Kitchen': 'fas fa-utensils',
+      'Sports court': 'fas fa-basketball-ball',
+      'Built-in cabinet': 'fas fa-box',
+      'Cup': 'fas fa-coffee',
+      'Internet connection': 'fas fa-wifi',
+      'Adult pool': 'fas fa-swimmer',
+      'Air conditioning': 'fas fa-snowflake',
+      'Laundry': 'fas fa-tshirt',
+      'Dining room': 'fas fa-utensils',
+      'Gourmet space': 'fas fa-utensils',
+      'Tennis court': 'fas fa-table-tennis',
+      '24-hour security': 'fas fa-shield-alt',
+      'Electronic gate': 'fas fa-door',
+      '24-hour concierge': 'fas fa-shield-alt',
+      'American kitchen': 'fas fa-utensils',
+      'Blindex box': 'fas fa-box-open',
+      'Kitchen cabinet': 'fas fa-box',
+      'Watchman': 'fas fa-user-shield',
+      'Ramp': 'fas fa-ramp-loading',
+      'Handicap access': 'fas fa-wheelchair',
+      'Parking lot': 'fas fa-parking',
+      'Office': 'fas fa-laptop',
+      'Alarm system': 'fas fa-bell',
+      'Big window': 'fas fa-window-maximize',
+      'East-facing': 'fas fa-compass',
+      'South-facing': 'fas fa-compass',
+      'Sandy': 'fas fa-mountain',
+      'Plain': 'fas fa-mountain',
+      'Security circuit': 'fas fa-shield-alt',
+      'Entrance hall': 'fas fa-door-open',
+      'Meeting room': 'fas fa-users',
+      'Deposit': 'fas fa-box-open',
+      'Security camera': 'fas fa-camera',
+      'Closet': 'fas fa-tshirt',
+      'Cable TV': 'fas fa-tv',
+      'Square': 'fas fa-tree',
+      'West-facing': 'fas fa-compass',
     };
 
 
 
-    // Retorna a classe de ícone correspondente ou undefined se for "..."
-    return iconMap[amenidade];
+    console.log('icon > ',this.data.lang)
+    return this.data.lang === "pt" ? iconMapPt[amenity] : iconMapEn[amenity];
   }
 
 }

@@ -28,13 +28,7 @@ export class Map1Component implements OnInit, AfterViewChecked {
 
   houseLocations: any[] = []
 
-  icons = [
-    { value: 'gym', class: 'fas fa-dumbbell', description: 'Academia' },
-    { value: 'restaurant', class: 'fas fa-utensils', description: 'Restaurante' },
-    { value: 'school', class: 'fas fa-graduation-cap', description: 'Escola' },
-    { value: 'university', class: 'fas fa-university', description: 'Universidade' },
-    { value: 'hospital', class: 'fas fa-hospital', description: 'Hospital' }
-  ];
+  icons: any
 
   selectedLayer: string = '';
 
@@ -72,12 +66,25 @@ export class Map1Component implements OnInit, AfterViewChecked {
     private helper: HelpersService,
     private translate: TranslateService) 
   {
-      translate.setDefaultLang('pt');
-      this.lang = 'pt'  
+      // translate.setDefaultLang('pt');
+      this.translate.use('pt');
+      this.helper.openDialogLang('200ms', '400ms').subscribe(result => {
+        if (result) {
+          this.translate.use('en');
+          this.lang = 'en'
+          this.icons = this.helper.iconsEn
+        } else {
+          this.translate.use('pt');
+          this.lang = 'pt'
+          this.icons = this.helper.iconsPt
+        }
+      })
+
   }
 
   ngOnInit() {
 
+    
     this.mapOptions = {
       center: { lat: -3.7318621211337466, lng: -38.50404330691704 },
       zoom: 13,
@@ -141,16 +148,6 @@ export class Map1Component implements OnInit, AfterViewChecked {
     }
   }
 
-  translateLang(lang: string){
-    if (lang === 'pt') {
-      this.translate.use('pt');
-      this.lang = 'pt'
-    } else if (lang === 'en') {
-      this.translate.use('en');
-      this.lang = 'en'
-    }
-  }
-
   /* visualizarTodas(): void {
 
     this.average = this.avaragePrices(this.houseLocations)
@@ -178,7 +175,7 @@ export class Map1Component implements OnInit, AfterViewChecked {
 
       const casasNoPoligono = this.houseLocations.filter((house) => {
         return google.maps.geometry.poly.containsLocation(
-          new google.maps.LatLng(house.coords.lat, house.coords.lng),
+          new google.maps.LatLng(house.coordinates.lat, house.coordinates.lng),
           poly
         );
       });
@@ -188,7 +185,7 @@ export class Map1Component implements OnInit, AfterViewChecked {
 
       casasNoPoligono.forEach(house => {
         const marker = new google.maps.Marker({
-          position: new google.maps.LatLng(house.coords.lat, house.coords.lng),
+          position: new google.maps.LatLng(house.coordinates.lat, house.coordinates.lng),
           map: this.map,
           icon: {
             url: 'assets/img/icons/home.png',
@@ -197,9 +194,10 @@ export class Map1Component implements OnInit, AfterViewChecked {
         });
 
         house.lang = this.lang;
+        console.log('no buscar ',this.lang)
 
         marker.addListener('click', () => {
-          this.helper.openDialog('400ms', '1000ms', house)
+          this.helper.openDialogInfo('400ms', '1000ms', house)
         });
       });
     } else {
