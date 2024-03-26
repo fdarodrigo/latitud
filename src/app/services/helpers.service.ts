@@ -1,11 +1,28 @@
 import { Injectable } from '@angular/core';
-import { Dialog1Component } from '../dialog1/dialog1.component';
+import { DialogInfoComponent } from '../dialogs/dialog-info/dialog1.component';
 import { MatDialog } from '@angular/material/dialog';
+import { DialogLanguageComponent } from '../dialogs/dialog-language/dialog-language.component';
 
 @Injectable({
   providedIn: 'root'
 })
 export class HelpersService {
+
+  iconsPt = [
+    { value: 'gym', class: 'fas fa-dumbbell', description: 'Academia' },
+    { value: 'restaurant', class: 'fas fa-utensils', description: 'Restaurante' },
+    { value: 'school', class: 'fas fa-graduation-cap', description: 'Escola' },
+    { value: 'university', class: 'fas fa-university', description: 'Universidade' },
+    { value: 'hospital', class: 'fas fa-hospital', description: 'Hospital' }
+  ];
+
+  iconsEn = [
+    { value: 'gym', class: 'fas fa-dumbbell', description: 'Gym' },
+    { value: 'restaurant', class: 'fas fa-utensils', description: 'Restaurant' },
+    { value: 'school', class: 'fas fa-graduation-cap', description: 'School' },
+    { value: 'university', class: 'fas fa-university', description: 'University' },
+    { value: 'hospital', class: 'fas fa-hospital', description: 'Hospital' }
+  ];
 
   constructor(
     public dialog: MatDialog,
@@ -38,14 +55,26 @@ export class HelpersService {
     return mediaFormatada;
   }
 
-  openDialog(enterAnimationDuration: string, exitAnimationDuration: string, house: any): void {
-    this.dialog.open(Dialog1Component, {
+  openDialogLang(enterAnimationDuration: string, exitAnimationDuration: string, ) {
+    const dialogRef = this.dialog.open(DialogLanguageComponent, {
+      width: '600px',
+      enterAnimationDuration,
+      exitAnimationDuration,
+    });
+
+    return dialogRef.afterClosed();
+    
+  }
+
+  openDialogInfo(enterAnimationDuration: string, exitAnimationDuration: string, house: AnimationPlaybackEvent): void {
+    this.dialog.open(DialogInfoComponent, {
       width: '500px',
       enterAnimationDuration,
       exitAnimationDuration,
-      data: house
-    });
+      data: house,
+    })
   }
+  
 
   getRandomPosition(map:any ) {
     const bounds = map.getBounds();

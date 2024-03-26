@@ -1,0 +1,33 @@
+
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(to bottom, #73565A, #D94C61);
+}
+
+button {
+  background: linear-gradient(to bottom, #73565A, #D94C61);
+  border-radius: 0%;
+}
+  
+.centered {
+  text-align: center;
+}
+  
+.flag img {
+  width: 24px; 
+  height: auto; 
+  margin-right: 5px; 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1{
+  color: whitesmoke;
+}
+
+  

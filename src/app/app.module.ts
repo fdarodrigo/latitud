@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { Map1Component } from './map1/map1.component';
 import { GoogleMapsModule } from '@angular/google-maps';
-import { Dialog1Component } from './dialog1/dialog1.component';
+import { DialogInfoComponent } from './dialogs/dialog-info/dialog1.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 
@@ -17,6 +17,7 @@ import { LoadinglayerComponent } from './pages/loadinglayer/loadinglayer.compone
 
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { DialogLanguageComponent } from './dialogs/dialog-language/dialog-language.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -27,8 +28,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     AppComponent,
     Map1Component,
     LoadinglayerComponent,
+    DialogLanguageComponent,
     //Dialog2Component,
-    //Dialog1Component
+    //DialogInfoComponent
   ],
   imports: [
     BrowserModule,
@@ -38,7 +40,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatDialogModule,
     MatSelectModule,
     MatCardModule,
-    Dialog1Component,
+    DialogInfoComponent,
     HttpClientModule,
     TranslateModule.forRoot({
       loader: {
@@ -46,10 +48,10 @@ export function HttpLoaderFactory(http: HttpClient) {
           useFactory: HttpLoaderFactory,
           deps: [HttpClient]
       },
-      defaultLanguage: 'pt'
+      // defaultLanguage: 'pt'
   })
   ],
-  providers: [Dialog1Component],
+  providers: [DialogInfoComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

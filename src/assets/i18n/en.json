@@ -12,6 +12,13 @@
     "restaurant": "Restaurant",
     "school": "School",
     "university": "University",
-    "hospital": "Hospital"
+    "hospital": "Hospital",
+    "view-prop": "View Property",
+    "prop-inf": "Informations",
+    "rooms": "Rooms",
+    "bathrooms": "Bathrooms",
+    "area": "Total area",
+    "prop-has": "The property has",
+    "rent": "Rent"
   }
   

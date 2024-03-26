@@ -1,0 +1,69 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+<div class="card">
+  <figure>
+    <div class="img-overlay">
+      <img
+        [src]="data.imageUrl"
+        alt="Trulli" />
+
+      <div class="overlay"><a href="#">{{'view-prop' | translate}}</a></div>
+      <div class="cont">
+        <div class="icons-img">
+          <button><i class="fas fa-heart"></i></button>
+          <button><i class="fas fa-share"></i></button>
+        </div>
+      </div>
+    </div>
+    <figcaption>{{ data.address }}</figcaption>
+  </figure>
+  <div class="card-content">
+    <p>
+      {{ data.description }}
+    </p>
+
+    <div *ngIf="data.rooms !== null && data.rooms !== undefined || data.bathrrooms !== null && data.bathrrooms !== undefined || data.area !== null && data.area !== undefined">
+      <h2>{{'prop-inf' | translate}}:</h2>
+      <div class="icons-home">
+        <div class="name-icon" *ngIf="data.rooms !== null && data.rooms !== undefined">
+          <span>{{'rooms' | translate}}</span>
+          <div class="icon">
+            <i class="fas fa-bed"></i>
+            <span>{{ data.rooms }}</span>
+          </div>
+        </div>
+        <div class="name-icon" *ngIf="data.bathrrooms !== null && data.bathrrooms !== undefined">
+          <span>{{'bathrooms' | translate}}</span>
+          <div class="icon">
+            <i class="fas fa-sink"></i>
+            <span>{{ data.bathrrooms }}</span>
+          </div>
+        </div>
+        <div class="name-icon" *ngIf="data.area !== null && data.area !== undefined">
+          <span>{{'area' | translate}}</span>
+          <div class="icon">
+            <i class="fas fa-vector-square"></i>
+            <span>{{ data.area }} m²</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <h2 *ngIf="data.amenities && data.amenities.length > 0">{{'prop-has' | translate}}:</h2>
+  <div *ngIf="data.amenities && data.amenities.length > 0" class="amenidades">
+    <div *ngFor="let amenity of data.amenities" class="amenidade">
+      <div class="name-icon">
+        <span>{{ amenity }}</span>
+        <div class="icon">
+          <i [class]="getIconClass(amenity)"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="price">
+      <span>{{'rent' | translate}}</span>
+      <span class="price-value">${{ data.rentValue }}</span>
+    </div>
+  </div>
+</div>

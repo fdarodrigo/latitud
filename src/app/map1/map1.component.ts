@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewChecked, Component, OnInit } from '@angular/core';
 import { LocationsService } from '../services/locations.service';
 import { LayersService } from '../services/layers.service';
 import { HelpersService } from '../services/helpers.service';
@@ -10,7 +10,7 @@ import {TranslateService} from '@ngx-translate/core';
   templateUrl: './map1.component.html',
   styleUrls: ['./map1.component.scss'],
 })
-export class Map1Component implements OnInit {
+export class Map1Component implements OnInit, AfterViewChecked {
   isLoading: boolean = true;
 
   param = {value: 'world'};
@@ -28,13 +28,7 @@ export class Map1Component implements OnInit {
 
   houseLocations: any[] = []
 
-  icons = [
-    { value: 'gym', class: 'fas fa-dumbbell', description: 'Academia' },
-    { value: 'restaurant', class: 'fas fa-utensils', description: 'Restaurante' },
-    { value: 'school', class: 'fas fa-graduation-cap', description: 'Escola' },
-    { value: 'university', class: 'fas fa-university', description: 'Universidade' },
-    { value: 'hospital', class: 'fas fa-hospital', description: 'Hospital' }
-  ];
+  icons: any
 
   selectedLayer: string = '';
 
@@ -64,21 +58,33 @@ export class Map1Component implements OnInit {
   average: any;
   total_houses: any;
   polygon!: google.maps.Polygon;
+  lang!: string;
 
   constructor(
     private locations: LocationsService,
     private layer: LayersService,
     private helper: HelpersService,
-    private translate: TranslateService) {
+    private translate: TranslateService) 
+  {
+      // translate.setDefaultLang('pt');
+      this.translate.use('pt');
+      this.helper.openDialogLang('200ms', '400ms').subscribe(result => {
+        if (result) {
+          this.translate.use('en');
+          this.lang = 'en'
+          this.icons = this.helper.iconsEn
+        } else {
+          this.translate.use('pt');
+          this.lang = 'pt'
+          this.icons = this.helper.iconsPt
+        }
+      })
 
-      translate.setDefaultLang('pt');
-
-         // the lang to use, if the lang isn't available, it will use the current loader to get them
-        
   }
 
   ngOnInit() {
 
+    
     this.mapOptions = {
       center: { lat: -3.7318621211337466, lng: -38.50404330691704 },
       zoom: 13,
@@ -132,11 +138,13 @@ export class Map1Component implements OnInit {
     });
   }
 
-  translateLang(lang: string){
-    if (lang === 'pt') {
+  ngAfterViewChecked (): void {
+    if (this.lang === 'pt') {
       this.translate.use('pt');
-    } else if (lang === 'en') {
+      this.lang = 'pt'
+    } else if (this.lang === 'en') {
       this.translate.use('en');
+      this.lang = 'en'
     }
   }
 
@@ -165,9 +173,9 @@ export class Map1Component implements OnInit {
     if (this.clickedCoordinates.length >= 3) {
       const poly = new google.maps.Polygon({ paths: this.clickedCoordinates });
 
-      const casasNoPoligono = this.houseLocations.filter((casa) => {
+      const casasNoPoligono = this.houseLocations.filter((house) => {
         return google.maps.geometry.poly.containsLocation(
-          new google.maps.LatLng(casa.coords.lat, casa.coords.lng),
+          new google.maps.LatLng(house.coordinates.lat, house.coordinates.lng),
           poly
         );
       });
@@ -175,9 +183,9 @@ export class Map1Component implements OnInit {
       this.average = this.helper.avaragePrices(casasNoPoligono)
       this.total_houses = casasNoPoligono.length
 
-      casasNoPoligono.forEach(casa => {
+      casasNoPoligono.forEach(house => {
         const marker = new google.maps.Marker({
-          position: new google.maps.LatLng(casa.coords.lat, casa.coords.lng),
+          position: new google.maps.LatLng(house.coordinates.lat, house.coordinates.lng),
           map: this.map,
           icon: {
             url: 'assets/img/icons/home.png',
@@ -185,8 +193,11 @@ export class Map1Component implements OnInit {
           },
         });
 
+        house.lang = this.lang;
+        console.log('no buscar ',this.lang)
+
         marker.addListener('click', () => {
-          this.helper.openDialog('400ms', '1000ms', casa)
+          this.helper.openDialogInfo('400ms', '1000ms', house)
         });
       });
     } else {
