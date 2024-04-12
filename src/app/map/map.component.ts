@@ -6,11 +6,11 @@ import {TranslateService} from '@ngx-translate/core';
 
 
 @Component({
-  selector: 'app-map1',
-  templateUrl: './map1.component.html',
-  styleUrls: ['./map1.component.scss'],
+  selector: 'app-map',
+  templateUrl: './map.component.html',
+  styleUrls: ['./map.component.scss'],
 })
-export class Map1Component implements OnInit, AfterViewChecked {
+export class MapComponent implements OnInit, AfterViewChecked {
   isLoading: boolean = true;
 
   param = {value: 'world'};
@@ -38,15 +38,6 @@ export class Map1Component implements OnInit, AfterViewChecked {
   selectedType: any;
   mapOptions: any;
   placesService!: google.maps.places.PlacesService;
-
-   intersectionObserver = new IntersectionObserver((entries) => {
-    for (const entry of entries) {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("drop");
-        this.intersectionObserver.unobserve(entry.target);
-      }
-    }
-  });
 
   buttons: [string, string, number, google.maps.ControlPosition][] = [
     ["Rotate Left", "rotate", 20, google.maps.ControlPosition.LEFT_CENTER],
@@ -148,42 +139,21 @@ export class Map1Component implements OnInit, AfterViewChecked {
     }
   }
 
-  /* visualizarTodas(): void {
-
-    this.average = this.avaragePrices(this.houseLocations)
-    this.total_houses = this.houseLocations.length
-
-    this.houseLocations.forEach((location) => {
-      const marker = new google.maps.Marker({
-        position: new google.maps.LatLng(location.coords.lat, location.coords.lng),
-        map: this.map,
-        icon: {
-          url: 'assets/img/icons/home.png',
-          scaledSize: new google.maps.Size(40, 40),
-        },
-      });
-
-      marker.addListener('click', () => {
-        this.openDialog('1000ms', '500ms', location)
-      });
-    });
-  } */
-
-  buscarCasasNoPoligono(): void {
+  searchHousesPolyg(): void {
     if (this.clickedCoordinates.length >= 3) {
       const poly = new google.maps.Polygon({ paths: this.clickedCoordinates });
 
-      const casasNoPoligono = this.houseLocations.filter((house) => {
+      const housesInOlygon = this.houseLocations.filter((house) => {
         return google.maps.geometry.poly.containsLocation(
           new google.maps.LatLng(house.coordinates.lat, house.coordinates.lng),
           poly
         );
       });
 
-      this.average = this.helper.avaragePrices(casasNoPoligono)
-      this.total_houses = casasNoPoligono.length
+      this.average = this.helper.avaragePrices(housesInOlygon)
+      this.total_houses = housesInOlygon.length
 
-      casasNoPoligono.forEach(house => {
+      housesInOlygon.forEach(house => {
         const marker = new google.maps.Marker({
           position: new google.maps.LatLng(house.coordinates.lat, house.coordinates.lng),
           map: this.map,
@@ -194,7 +164,6 @@ export class Map1Component implements OnInit, AfterViewChecked {
         });
 
         house.lang = this.lang;
-        console.log('no buscar ',this.lang)
 
         marker.addListener('click', () => {
           this.helper.openDialogInfo('400ms', '1000ms', house)
@@ -217,7 +186,6 @@ export class Map1Component implements OnInit, AfterViewChecked {
       this.removeMarkers();
     }
 
-    // Converter as coordenadas do polígono para o formato adequado
     const polygonBounds = new google.maps.LatLngBounds();
     this.clickedCoordinates.forEach((coord: any) => {
       const { lng, lat } = coord;
@@ -244,7 +212,6 @@ export class Map1Component implements OnInit, AfterViewChecked {
           const marker = this.helper.createMarkerPlaces(result, this.map);
           this.markersLoc.push(marker);
         });
-        // Atualizar o estado de exibição dos ícones
         this.isLocationsVisible = true;
       }
     });

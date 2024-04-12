@@ -19,7 +19,9 @@
   </figure>
   <div class="card-content">
     <p>
-      {{ data.description }}
+
+      {{ data.lang === 'en' ? translateDescription(data.description) : data.description}}
+
     </p>
 
     <div *ngIf="data.rooms !== null && data.rooms !== undefined || data.bathrrooms !== null && data.bathrrooms !== undefined || data.area !== null && data.area !== undefined">

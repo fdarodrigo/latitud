@@ -3,9 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { Map1Component } from './map1/map1.component';
+import { MapComponent } from './map/map.component';
 import { GoogleMapsModule } from '@angular/google-maps';
-import { DialogInfoComponent } from './dialogs/dialog-info/dialog1.component';
+import { DialogInfoComponent } from './dialogs/dialog-info/dialog-info.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 
@@ -26,11 +26,9 @@ export function HttpLoaderFactory(http: HttpClient) {
 @NgModule({
   declarations: [
     AppComponent,
-    Map1Component,
+    MapComponent,
     LoadinglayerComponent,
     DialogLanguageComponent,
-    //Dialog2Component,
-    //DialogInfoComponent
   ],
   imports: [
     BrowserModule,

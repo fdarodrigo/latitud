@@ -8,18 +8,18 @@
 
 #sidebar {
   position: absolute;
-  width: 50%; /* Define a largura desejada (50%) */
-  max-width: 250px; /* Largura máxima para a barra lateral */
-  height: 70%; /* Define a altura desejada (50%) */
-  top: 7%; /* Centraliza verticalmente */
-  left: 0%; /* Posiciona à esquerda */
+  width: 50%; 
+  max-width: 250px; 
+  height: 70%; 
+  top: 7%; 
+  left: 0%; 
   padding: 18px;
   background: linear-gradient(to bottom, #73565A, #D94C61);
   color: rgb(216, 208, 208);
   border: 5px;
   overflow-y: auto;
-  box-sizing: border-box; /* Garante que a largura definida seja respeitada */
-  z-index: 1; /* Coloca a barra lateral sobre o mapa */
+  box-sizing: border-box; 
+  z-index: 1; 
   opacity: 0.8;
   border-radius: 30px;
   font-weight: bold;
@@ -45,14 +45,14 @@
       margin-right: 10px;
       cursor: pointer;
       font-weight: bold;
-      transition: background-color 0.3s ease; // Adiciona uma transição suave
+      transition: background-color 0.3s ease; 
 
       &:hover {
         background-color: #3366cc;
       }
 
       &:focus {
-        outline: none; // Remove a borda de foco padrão
+        outline: none; 
       }
     }
   }
@@ -64,11 +64,11 @@
   border: none;
   border-radius: 20px;
   padding: 10px;
-  width: 90%; /* Ajusta a largura */
+  width: 90%;
   display: block;
-  margin-top: 20px; /* Define o espaço entre o conteúdo e o botão */
+  margin-top: 20px;
   cursor: pointer;
-  font-weight: bold; /* Adiciona negrito ao texto */
+  font-weight: bold; 
   justify-content: start;
 }
 
@@ -77,10 +77,6 @@ h2 {
   font-weight: bold;
 }
 
-/* .icon-container {
-  padding-top: 0px;
-  padding-bottom: 0;
-} */
 
 .info-row {
   display: flex;
@@ -108,12 +104,10 @@ b {
 }
 
 i {
-  //width: 100%;
+
   margin-right: 20%;
 }
 
-
-/* Testando icos animados */
 
 :root {
   --delay-time: .5s;
