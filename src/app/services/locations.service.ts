@@ -20,7 +20,7 @@ export class LocationsService {
     const dadosMock = {
       "data": [
         {
-          "address": "Rua 3 - Parque Iracema, Fortaleza - CE",
+          "address": "Rua (St) 3 - Parque Iracema, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -41,7 +41,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Dom Quintino, 1328 - Pirambú, Fortaleza - CE",
+          "address": "Rua (St) Dom Quintino, 1328 - Pirambú, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -56,7 +56,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Murará, 101 - Paupina, Fortaleza - CE",
+          "address": "Rua (St) Murará, 101 - Paupina, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -76,7 +76,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Eduardo Garcia - Aldeota, Fortaleza - CE",
+          "address": "Rua (St) Eduardo Garcia - Aldeota, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -91,7 +91,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Evaristo da Veiga, 140 - Parque Iracema, Fortaleza - CE",
+          "address": "Rua (St) Evaristo da Veiga, 140 - Parque Iracema, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 2,
@@ -106,7 +106,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Eunice Weaver, 1425 - Sapiranga / Coité, Fortaleza - CE",
+          "address": "Rua (St) Eunice Weaver, 1425 - Sapiranga / Coité, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -126,21 +126,21 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Professor Otávio Lobo, 681 - Cocó, Fortaleza - CE",
+          "address": "Rua (St) Professor Otávio Lobo, 681 - Cocó, Fortaleza - CE",
           "bathrooms": 2,
           "parkingSpaces": 2,
           "area": 105,
           "rentValue": 3000,
           "imageUrl": "../assets/img/properties/apartament4.jpg",
           "amenities": [],
-          "description": null,
+          "description": "",
           "coordinates": {
             "lat": -3.7455114,
             "lng": -38.4793844
           }
         },
         {
-          "address": "Rua A do Loteamento Residencial Célio Gurgel, 227 - Barroso, Fortaleza - CE",
+          "address": "Rua (St) A do Loteamento Residencial Célio Gurgel, 227 - Barroso, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -160,7 +160,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Barão de Aracati, 160 - Meireles, Fortaleza - CE",
+          "address": "Rua (St) Barão de Aracati, 160 - Meireles, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -180,7 +180,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Melo César, 358 - Cidade dos Funcionários, Fortaleza - CE",
+          "address": "Rua (St) Melo César, 358 - Cidade dos Funcionários, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -199,7 +199,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Crisanto Arruda - Passaré, Fortaleza - CE",
+          "address": "Rua (St) Crisanto Arruda - Passaré, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -219,7 +219,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Antônio Candeia, 30 - Guajiru, Fortaleza - CE",
+          "address": "Rua (St) Antônio Candeia, 30 - Guajiru, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -239,7 +239,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Desembargador Moreira, 2120 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Desembargador Moreira, 2120 - Aldeota, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 49,
@@ -253,7 +253,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Coronel Chico Alves, 21 - Passaré, Fortaleza - CE",
+          "address": "Rua (St) Coronel Chico Alves, 21 - Passaré, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -273,7 +273,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Afonso Celso, 423 - Aldeota, Fortaleza - CE",
+          "address": "Rua (St) Afonso Celso, 423 - Aldeota, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -314,7 +314,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Amâncio Valente, 1555 - Cambeba, Fortaleza - CE",
+          "address": "Rua (St) Amâncio Valente, 1555 - Cambeba, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 1,
@@ -334,7 +334,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Joaquim Torres, 654 - Joaquim Tavora, Fortaleza - CE",
+          "address": "Rua (St) Joaquim Torres, 654 - Joaquim Tavora, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 302,
@@ -348,7 +348,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Padre Constantino, 19 - Jacarecanga, Fortaleza - CE",
+          "address": "Rua (St) Padre Constantino, 19 - Jacarecanga, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -368,7 +368,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Tenente Roma, 5405 - Montese, Fortaleza - CE",
+          "address": "Rua (St) Tenente Roma, 5405 - Montese, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -387,7 +387,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Doutor Rodrigo Codes Sandoval, 250 - Mondubim, Fortaleza - CE",
+          "address": "Rua (St) Doutor Rodrigo Codes Sandoval, 250 - Mondubim, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 1,
@@ -407,7 +407,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua André Dall'Olio, 530 - Papicu, Fortaleza - CE",
+          "address": "Rua (St) André Dall'Olio, 530 - Papicu, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -427,7 +427,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida da Abolição, 4792 - Mucuripe, Fortaleza - CE",
+          "address": "Avenida (Ave) da Abolição, 4792 - Mucuripe, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -448,7 +448,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Solon Pinheiro, 683 - José Bonifácio, Fortaleza - CE",
+          "address": "Rua (St) Solon Pinheiro, 683 - José Bonifácio, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -484,7 +484,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Henriqueta Galeno, 1040 - Cocó, Fortaleza - CE",
+          "address": "Rua (St) Henriqueta Galeno, 1040 - Cocó, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -499,7 +499,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua José Mário Mamede, 159 - Edson Queiroz, Fortaleza - CE",
+          "address": "Rua (St) José Mário Mamede, 159 - Edson Queiroz, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -520,7 +520,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Paulo Firmeza, 1608 - Tauape, Fortaleza - CE",
+          "address": "Rua (St) Paulo Firmeza, 1608 - Tauape, Fortaleza - CE",
           "area": 407,
           "rentValue": 2450,
           "imageUrl": "../assets/img/properties/ground3.jpg",
@@ -532,7 +532,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Desembargador Moreira, 2800 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Desembargador Moreira, 2800 - Aldeota, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 30,
@@ -548,7 +548,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Mister Hull, 4148 - Padre Andrade, Fortaleza - CE",
+          "address": "Avenida (Ave) Mister Hull, 4148 - Padre Andrade, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 35,
@@ -562,7 +562,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Eduardo Novaes, 250 - Sapiranga, Fortaleza - CE",
+          "address": "Rua (St) Eduardo Novaes, 250 - Sapiranga, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -583,7 +583,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Vicente Linhares, 521 - Aldeota, Fortaleza - CE",
+          "address": "Rua (St) Vicente Linhares, 521 - Aldeota, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 34,
@@ -634,7 +634,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Rui Barbosa, 595 - Meireles, Fortaleza - CE",
+          "address": "Avenida (Ave) Rui Barbosa, 595 - Meireles, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 372,
@@ -651,7 +651,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Coronel Honório Vieira, 735 - Parque Manibura, Fortaleza - CE",
+          "address": "Rua (St) Coronel Honório Vieira, 735 - Parque Manibura, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -666,7 +666,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Vicente Linhares, 521 - Aldeota, Fortaleza - CE",
+          "address": "Rua (St) Vicente Linhares, 521 - Aldeota, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 33,
@@ -680,7 +680,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Antonina do Norte, 194 - Sao Gerardo, Fortaleza - CE",
+          "address": "Rua (St) Antonina do Norte, 194 - Sao Gerardo, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -697,7 +697,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Viena Weyne, 510 - Cambeba, Fortaleza - CE",
+          "address": "Avenida (Ave) Viena Weyne, 510 - Cambeba, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 216,
@@ -711,7 +711,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pereira de Miranda - Papicu, Fortaleza - CE",
+          "address": "Rua (St) Pereira de Miranda - Papicu, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 1,
@@ -732,7 +732,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Júlio Alcides, 320 - Maraponga, Fortaleza - CE",
+          "address": "Rua (St) Júlio Alcides, 320 - Maraponga, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -753,7 +753,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Equador, 1198 - Parangaba, Fortaleza - CE",
+          "address": "Rua (St) Equador, 1198 - Parangaba, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -773,7 +773,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Desembargador Lauro Nogueira, 1267 - Papicu, Fortaleza - CE",
+          "address": "Rua (St) Desembargador Lauro Nogueira, 1267 - Papicu, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -790,7 +790,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua das Laranjeiras, 455 - Lagoa Redonda, Fortaleza - CE",
+          "address": "Rua (St) das Laranjeiras, 455 - Lagoa Redonda, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 2,
@@ -809,7 +809,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua José Cavalcante Sobrinho, 120 - Messejana, Fortaleza - CE",
+          "address": "Rua (St) José Cavalcante Sobrinho, 120 - Messejana, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -830,7 +830,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua A Lot Messejana, 25 - Paupina, Fortaleza - CE",
+          "address": "Rua (St) A Lot Messejana, 25 - Paupina, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -845,7 +845,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua das Laranjeiras, 455 - Lagoa Redonda, Fortaleza - CE",
+          "address": "Rua (St) das Laranjeiras, 455 - Lagoa Redonda, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -884,7 +884,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Taquatiara, 100 - Messejana, Fortaleza - CE",
+          "address": "Rua (St) Taquatiara, 100 - Messejana, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -905,7 +905,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Estrela do Norte, 208 - Álvaro Weyne, Fortaleza - CE",
+          "address": "Rua (St) Estrela do Norte, 208 - Álvaro Weyne, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -923,7 +923,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Guilherme Rocha, 381 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Guilherme Rocha, 381 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 38,
@@ -937,7 +937,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Farias Lemos, 800 - Parque Iracema, Fortaleza - CE",
+          "address": "Rua (St) Farias Lemos, 800 - Parque Iracema, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -957,7 +957,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Senador Pompeu, 649 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Senador Pompeu, 649 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 2296,
@@ -971,7 +971,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Raul Uchôa, 608 - Bom Futuro, Fortaleza - CE",
+          "address": "Rua (St) Raul Uchôa, 608 - Bom Futuro, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -1009,7 +1009,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Ministro José Américo, 150 - Parque Iracema, Fortaleza - CE",
+          "address": "Avenida (Ave) Ministro José Américo, 150 - Parque Iracema, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 1,
@@ -1029,7 +1029,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Dom Sebastião Leme, 477 - Fátima, Fortaleza - CE",
+          "address": "Rua (St) Dom Sebastião Leme, 477 - Fátima, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -1044,7 +1044,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Barbosa de Freitas, 229 - Meireles, Fortaleza - CE",
+          "address": "Rua (St) Barbosa de Freitas, 229 - Meireles, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -1061,7 +1061,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Alcântara Bilhar, 4174 - Padre Andrade, Fortaleza - CE",
+          "address": "Rua (St) Alcântara Bilhar, 4174 - Padre Andrade, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 35,
@@ -1075,7 +1075,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua João Sales, 1665 - Planalto Ayrton Senna, Fortaleza - CE",
+          "address": "Rua (St) João Sales, 1665 - Planalto Ayrton Senna, Fortaleza - CE",
           "area": 1241,
           "rentValue": 1800,
           "imageUrl": "../assets/img/properties/ground2.jpg",
@@ -1087,7 +1087,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua A do Loteamento Residencial Célio Gurgel, 227 - Barroso, Fortaleza - CE",
+          "address": "Rua (St) A do Loteamento Residencial Célio Gurgel, 227 - Barroso, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -1108,7 +1108,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Antônio Sales, 1317 - Joaquim Tavora, Fortaleza - CE",
+          "address": "Avenida (Ave) Antônio Sales, 1317 - Joaquim Tavora, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 35,
@@ -1122,7 +1122,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Senador Pompeu, 2610 - José Bonifácio, Fortaleza - CE",
+          "address": "Rua (St) Senador Pompeu, 2610 - José Bonifácio, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -1143,7 +1143,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Antônio Augusto, 2070 - Aldeota, Fortaleza - CE",
+          "address": "Rua (St) Antônio Augusto, 2070 - Aldeota, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 1,
@@ -1158,7 +1158,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Alfredo Mamede - Mondubim, Fortaleza - CE",
+          "address": "Rua (St) Alfredo Mamede - Mondubim, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -1177,7 +1177,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Capitão Clóvis Maia, 177 - Alto da Balança, Fortaleza - CE",
+          "address": "Rua (St) Capitão Clóvis Maia, 177 - Alto da Balança, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -1194,7 +1194,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Chico Lemos, 689 - Cidade dos Funcionários, Fortaleza - CE",
+          "address": "Rua (St) Chico Lemos, 689 - Cidade dos Funcionários, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -1209,7 +1209,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua I, 207 - Itaperi, Fortaleza - CE",
+          "address": "Rua (St) I, 207 - Itaperi, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -1224,7 +1224,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Nunes Valente, 1880 - Meireles, Fortaleza - CE",
+          "address": "Rua (St) Nunes Valente, 1880 - Meireles, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 2,
@@ -1245,7 +1245,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Frei Teobaldo, 701 - Álvaro Weyne, Fortaleza - CE",
+          "address": "Rua (St) Frei Teobaldo, 701 - Álvaro Weyne, Fortaleza - CE",
           "bedrooms": 1,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -1263,7 +1263,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Gonçalves Ledo, 30 - Praia de Iracema, Fortaleza - CE",
+          "address": "Rua (St) Gonçalves Ledo, 30 - Praia de Iracema, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 36,
@@ -1277,7 +1277,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Gomes Brasil, 340 - Parangaba, Fortaleza - CE",
+          "address": "Rua (St) Gomes Brasil, 340 - Parangaba, Fortaleza - CE",
           "area": 260,
           "rentValue": 4050,
           "imageUrl": "../assets/img/properties/ground3.jpg",
@@ -1289,7 +1289,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Doutor José Frota, 29 - Mucuripe, Fortaleza - CE",
+          "address": "Rua (St) Doutor José Frota, 29 - Mucuripe, Fortaleza - CE",
           "area": 80,
           "rentValue": 4550,
           "imageUrl": "../assets/img/properties/ground2.jpg",
@@ -1301,7 +1301,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Crisanto Arruda, 0 - Passaré, Fortaleza - CE",
+          "address": "Rua (St) Crisanto Arruda, 0 - Passaré, Fortaleza - CE",
           "area": 2000,
           "rentValue": 5000,
           "imageUrl": "../assets/img/properties/ground3.jpg",
@@ -1313,7 +1313,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Senador Pompeu, 2420 - Benfica, Fortaleza - CE",
+          "address": "Rua (St) Senador Pompeu, 2420 - Benfica, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -1334,7 +1334,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Ary Barroso, 70 - Papicu, Fortaleza - CE",
+          "address": "Rua (St) Ary Barroso, 70 - Papicu, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 30,
@@ -1348,7 +1348,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Crisanto Arruda, 752 - Passaré, Fortaleza - CE",
+          "address": "Rua (St) Crisanto Arruda, 752 - Passaré, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -1368,7 +1368,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Senador Carlos Jereissati - Dias Macedo, Fortaleza - CE",
+          "address": "Avenida (Ave) Senador Carlos Jereissati - Dias Macedo, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 200,
@@ -1377,14 +1377,14 @@ export class LocationsService {
           "amenities": [
             "Gated community"
           ],
-          "description": "Galpão/Depósito/Armazém para alugar, 200m² em Dias Macedo, Fortaleza",
+          "description": "Galpão para alugar, 200m² em Dias Macedo, Fortaleza",
           "coordinates": {
             "lat": -3.7832708,
             "lng": -38.5242645
           }
         },
         {
-          "address": "Rua Tomás Pompeu, 550 - Meireles, Fortaleza - CE",
+          "address": "Rua (St) Tomás Pompeu, 550 - Meireles, Fortaleza - CE",
           "bedrooms": 1,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -1403,7 +1403,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Vicente Leite, 1960 - Aldeota, Fortaleza - CE",
+          "address": "Rua (St) Vicente Leite, 1960 - Aldeota, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 400,
@@ -1420,7 +1420,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Bernardo Manuel, 8600 - Itaperi, Fortaleza - CE",
+          "address": "Avenida (Ave) Bernardo Manuel, 8600 - Itaperi, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -1440,7 +1440,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua França, 1151 - Maraponga, Fortaleza - CE",
+          "address": "Rua (St) França, 1151 - Maraponga, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 2,
@@ -1460,7 +1460,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 6740 - Cocó, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 6740 - Cocó, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 28,
@@ -1480,7 +1480,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Osvaldo Cruz, 2133 - Dionísio Torres, Fortaleza - CE",
+          "address": "Rua (St) Osvaldo Cruz, 2133 - Dionísio Torres, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 300,
@@ -1494,7 +1494,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Luiza Miranda Coelho, 1355 - Engenheiro Luciano Cavalcante, Fortaleza - CE",
+          "address": "Rua (St) Luiza Miranda Coelho, 1355 - Engenheiro Luciano Cavalcante, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -1515,7 +1515,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Manuel Teixeira, 131 - JOSE DE ALENCAR, Fortaleza - CE",
+          "address": "Rua (St) Manuel Teixeira, 131 - JOSE DE ALENCAR, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -1549,7 +1549,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Pintor Antônio Bandeira, 4250 - Praia do Futuro II, Fortaleza - CE",
+          "address": "Avenida (Ave) Pintor Antônio Bandeira, 4250 - Praia do Futuro II, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -1567,7 +1567,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro Borges, 33 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pedro Borges, 33 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 38,
@@ -1581,7 +1581,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Zózimo Barroso, 53 - Fátima, Fortaleza - CE",
+          "address": "Rua (St) Zózimo Barroso, 53 - Fátima, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -1616,7 +1616,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Engenheiro Leal Lima Verde, 1401 - JOSE DE ALENCAR, Fortaleza - CE",
+          "address": "Avenida (Ave) Engenheiro Leal Lima Verde, 1401 - JOSE DE ALENCAR, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 55,
@@ -1630,7 +1630,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Coronel Jucá, 960 - Aldeota, Fortaleza - CE",
+          "address": "Rua (St) Coronel Jucá, 960 - Aldeota, Fortaleza - CE",
           "bedrooms": 4,
           "bathrooms": 3,
           "parkingSpaces": 1,
@@ -1651,7 +1651,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Beatriz Segal, 0 - Barroso, Fortaleza - CE",
+          "address": "Rua (St) Beatriz Segal, 0 - Barroso, Fortaleza - CE",
           "area": 396,
           "rentValue": 3950,
           "imageUrl": "../assets/img/properties/ground2.jpg",
@@ -1663,7 +1663,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Engenheiro Alberto Sá, 705 - Papicu, Fortaleza - CE",
+          "address": "Avenida (Ave) Engenheiro Alberto Sá, 705 - Papicu, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -1678,7 +1678,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua das Carnaúbas, 371 - Passaré, Fortaleza - CE",
+          "address": "Rua (St) das Carnaúbas, 371 - Passaré, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -1699,7 +1699,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Suíça, 320 - Maraponga, Fortaleza - CE",
+          "address": "Rua (St) Suíça, 320 - Maraponga, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 2,
@@ -1719,7 +1719,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Princesa Isabel, 27 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Princesa Isabel, 27 - Centro, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -1739,7 +1739,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Rogaciano Leite, 900 - Salinas, Fortaleza - CE",
+          "address": "Avenida (Ave) Rogaciano Leite, 900 - Salinas, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -1759,7 +1759,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua General Sampaio, 1746 - Centro, Fortaleza - CE",
+          "address": "Rua (St) General Sampaio, 1746 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 5493,
@@ -1775,7 +1775,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Paulo Faustino, 181 - Engenheiro Luciano Cavalcante, Fortaleza - CE",
+          "address": "Rua (St) Paulo Faustino, 181 - Engenheiro Luciano Cavalcante, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 1,
@@ -1792,7 +1792,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Washington Soares, 3663 - Edson Queiroz, Fortaleza - CE",
+          "address": "Avenida (Ave) Washington Soares, 3663 - Edson Queiroz, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 30,
@@ -1810,7 +1810,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Monsenhor Liberato, 1815 - Fátima, Fortaleza - CE",
+          "address": "Rua (St) Monsenhor Liberato, 1815 - Fátima, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -1829,7 +1829,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Oliveira Filho, 1300 - Vicente Pinzon, Fortaleza - CE",
+          "address": "Rua (St) Oliveira Filho, 1300 - Vicente Pinzon, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -1850,7 +1850,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Juscelino Kubitschek, 4950 - Passaré, Fortaleza - CE",
+          "address": "Avenida (Ave) Juscelino Kubitschek, 4950 - Passaré, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -1891,7 +1891,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Barão do Rio Branco, 1071 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Barão do Rio Branco, 1071 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 40,
@@ -1909,7 +1909,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 304 - Centro, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 304 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 30,
@@ -1923,7 +1923,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro Borges, 33 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pedro Borges, 33 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 34,
@@ -1937,7 +1937,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 6997 - Papicu, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 6997 - Papicu, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -1957,7 +1957,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Visconde de Mauá, 530 - Meireles, Fortaleza - CE",
+          "address": "Rua (St) Visconde de Mauá, 530 - Meireles, Fortaleza - CE",
           "area": 8,
           "rentValue": 2950,
           "imageUrl": "../assets/img/properties/ground1.jpg",
@@ -1969,7 +1969,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Waldery Uchôa - Benfica, Fortaleza - CE",
+          "address": "Rua (St) Waldery Uchôa - Benfica, Fortaleza - CE",
           "bedrooms": 4,
           "bathrooms": 3,
           "parkingSpaces": 2,
@@ -1987,7 +1987,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Alberto Craveiro, 1240 - Dias Macedo, Fortaleza - CE",
+          "address": "Avenida (Ave) Alberto Craveiro, 1240 - Dias Macedo, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -2008,7 +2008,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida da Abolição, 2950 - Meireles, Fortaleza - CE",
+          "address": "Avenida (Ave) da Abolição, 2950 - Meireles, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 45,
@@ -2036,7 +2036,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Murará, 100 - Paupina, Fortaleza - CE",
+          "address": "Rua (St) Murará, 100 - Paupina, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 2,
@@ -2056,7 +2056,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua República do Líbano, 1200 - Varjota, Fortaleza - CE",
+          "address": "Rua (St) República do Líbano, 1200 - Varjota, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 400,
@@ -2072,7 +2072,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Luciano Carneiro, 869 - Fátima, Fortaleza - CE",
+          "address": "Avenida (Ave) Luciano Carneiro, 869 - Fátima, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -2092,7 +2092,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Professor Jacinto Botelho, 75 - Guararapes, Fortaleza - CE",
+          "address": "Rua (St) Professor Jacinto Botelho, 75 - Guararapes, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 50,
@@ -2106,7 +2106,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Carlos Vasconcelos, 617 - Meireles, Fortaleza - CE",
+          "address": "Rua (St) Carlos Vasconcelos, 617 - Meireles, Fortaleza - CE",
           "bedrooms": 4,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -2121,7 +2121,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua da Assunção, 944 - Centro, Fortaleza - CE",
+          "address": "Rua (St) da Assunção, 944 - Centro, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -2136,7 +2136,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Paulo Mendes, 155 - Praia do Futuro, Fortaleza - CE",
+          "address": "Rua (St) Paulo Mendes, 155 - Praia do Futuro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 98,
@@ -2150,7 +2150,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Álvaro Bomilcar, 3873 - Tauape, Fortaleza - CE",
+          "address": "Rua (St) Álvaro Bomilcar, 3873 - Tauape, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -2171,7 +2171,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua H, 0 - Parque Dois Irmãos, Fortaleza - CE",
+          "address": "Rua (St) H, 0 - Parque Dois Irmãos, Fortaleza - CE",
           "area": 438,
           "rentValue": 1250,
           "imageUrl": "../assets/img/properties/ground3.jpg",
@@ -2183,7 +2183,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Américo Barreira, 909 - Demócrito Rocha, Fortaleza - CE",
+          "address": "Avenida (Ave) Américo Barreira, 909 - Demócrito Rocha, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 360,
@@ -2195,14 +2195,14 @@ export class LocationsService {
             "Parking lot",
             "Office"
           ],
-          "description": "Galpão/Depósito/Armazém para alugar, 360m² em Demócrito Rocha, Fortaleza",
+          "description": "Galpão para alugar, 360m² em Demócrito Rocha, Fortaleza",
           "coordinates": {
             "lat": -3.763959,
             "lng": -38.56628200000001
           }
         },
         {
-          "address": "Rua Pereira Filgueiras, 149 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pereira Filgueiras, 149 - Centro, Fortaleza - CE",
           "bedrooms": 1,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -2217,7 +2217,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida da Abolição, 2021 - Meireles, Fortaleza - CE",
+          "address": "Avenida (Ave) da Abolição, 2021 - Meireles, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 1,
@@ -2237,7 +2237,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Azevedo Bolão, 1290 - Parquelândia, Fortaleza - CE",
+          "address": "Rua (St) Azevedo Bolão, 1290 - Parquelândia, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 50,
@@ -2251,7 +2251,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Andrade Furtado, 1179 - Cocó, Fortaleza - CE",
+          "address": "Rua (St) Andrade Furtado, 1179 - Cocó, Fortaleza - CE",
           "bedrooms": 4,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -2272,7 +2272,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro Borges, 30 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pedro Borges, 30 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 40,
@@ -2286,7 +2286,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua 101 - Novo Mondubim, Fortaleza - CE",
+          "address": "Rua (St) 101 - Novo Mondubim, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -2305,7 +2305,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua das Oiticicas, 111 - Passaré, Fortaleza - CE",
+          "address": "Rua (St) das Oiticicas, 111 - Passaré, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -2323,7 +2323,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Doutor Salustio de Pinho, 1 - Praia do Futuro II, Fortaleza - CE",
+          "address": "Rua (St) Doutor Salustio de Pinho, 1 - Praia do Futuro II, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 1,
@@ -2343,7 +2343,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Senador Pompeu, 649 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Senador Pompeu, 649 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 23,
@@ -2362,7 +2362,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua do Parque, 333 - Cambeba, Fortaleza - CE",
+          "address": "Rua (St) do Parque, 333 - Cambeba, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 2,
@@ -2401,7 +2401,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Dom Manuel, 259 - Centro, Fortaleza - CE",
+          "address": "Avenida (Ave) Dom Manuel, 259 - Centro, Fortaleza - CE",
           "bedrooms": 1,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -2416,7 +2416,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro Borges, 20 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pedro Borges, 20 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 75,
@@ -2430,7 +2430,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua A do Loteamento Residencial Célio Gurgel, 227 - Barroso, Fortaleza - CE",
+          "address": "Rua (St) A do Loteamento Residencial Célio Gurgel, 227 - Barroso, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -2450,7 +2450,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Mucambinho - Barroso, Fortaleza - CE",
+          "address": "Rua (St) Mucambinho - Barroso, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -2467,7 +2467,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua C, 105 - Parque Dois Irmãos, Fortaleza - CE",
+          "address": "Rua (St) C, 105 - Parque Dois Irmãos, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -2487,7 +2487,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Bento Albuquerque, 1555 - Cocó, Fortaleza - CE",
+          "address": "Rua (St) Bento Albuquerque, 1555 - Cocó, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 2,
@@ -2525,7 +2525,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Guilherme Rocha, 459 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Guilherme Rocha, 459 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 44,
@@ -2539,7 +2539,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Justiniano de Serpa, 268 - Farias Brito, Fortaleza - CE",
+          "address": "Rua (St) Justiniano de Serpa, 268 - Farias Brito, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -2554,7 +2554,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida da Saudade, 95 - Passaré, Fortaleza - CE",
+          "address": "Avenida (Ave) da Saudade, 95 - Passaré, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 2,
@@ -2575,7 +2575,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Padre Pedro de Alencar, 1662 - Messejana, Fortaleza - CE",
+          "address": "Rua (St) Padre Pedro de Alencar, 1662 - Messejana, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -2594,7 +2594,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Doutor Salustio de Pinho, 1 - Praia do Futuro II, Fortaleza - CE",
+          "address": "Rua (St) Doutor Salustio de Pinho, 1 - Praia do Futuro II, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -2615,7 +2615,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Hil de Moraes, 12 - Guararapes, Fortaleza - CE",
+          "address": "Rua (St) Hil de Moraes, 12 - Guararapes, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 2,
@@ -2636,7 +2636,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Guilherme Rocha, 381 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Guilherme Rocha, 381 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 76,
@@ -2650,7 +2650,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pereira Filgueiras, 778 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pereira Filgueiras, 778 - Centro, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -2665,7 +2665,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Alcântara Bilhar, 4174 Altos - Padre Andrade, Fortaleza - CE",
+          "address": "Rua (St) Alcântara Bilhar, 4174 Altos - Padre Andrade, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 35,
@@ -2679,7 +2679,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro Borges, 20 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pedro Borges, 20 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 75,
@@ -2693,7 +2693,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Zacarias Gondim, 54 - Montese, Fortaleza - CE",
+          "address": "Rua (St) Zacarias Gondim, 54 - Montese, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -2711,7 +2711,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida João Pessoa, 4693 - Damas, Fortaleza - CE",
+          "address": "Avenida (Ave) João Pessoa, 4693 - Damas, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -2730,7 +2730,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua José Vilar, 267 - Meireles, Fortaleza - CE",
+          "address": "Rua (St) José Vilar, 267 - Meireles, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -2745,7 +2745,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua 101 - Mondubim, Fortaleza - CE",
+          "address": "Rua (St) 101 - Mondubim, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -2764,7 +2764,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida da Saudade, 95 - Passaré, Fortaleza - CE",
+          "address": "Avenida (Ave) da Saudade, 95 - Passaré, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -2785,7 +2785,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Senador Alencar, 632 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Senador Alencar, 632 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 40,
@@ -2801,7 +2801,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 307 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 42,
@@ -2815,7 +2815,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Geógrafo Antônio Ribeiro Zaranza, 2598 - Cajazeiras, Fortaleza - CE",
+          "address": "Avenida (Ave) Geógrafo Antônio Ribeiro Zaranza, 2598 - Cajazeiras, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -2835,7 +2835,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Edmundo Falcão, 1 - Antônio Diogo, Fortaleza - CE",
+          "address": "Rua (St) Edmundo Falcão, 1 - Antônio Diogo, Fortaleza - CE",
           "area": 825,
           "rentValue": 4600,
           "imageUrl": "../assets/img/properties/ground1.jpg",
@@ -2847,7 +2847,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro I, 233 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pedro I, 233 - Centro, Fortaleza - CE",
           "bedrooms": 1,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -2868,7 +2868,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Manoel Monteiro, 685 - Cidade dos Funcionários, Fortaleza - CE",
+          "address": "Rua (St) Manoel Monteiro, 685 - Cidade dos Funcionários, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -2888,7 +2888,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Senador Pompeu, 649 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Senador Pompeu, 649 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 23,
@@ -2907,7 +2907,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Senador Alencar, 1649 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Senador Alencar, 1649 - Centro, Fortaleza - CE",
           "bedrooms": 1,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -2926,7 +2926,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Hil de Moraes, 12 - Edson Queiroz, Fortaleza - CE",
+          "address": "Rua (St) Hil de Moraes, 12 - Edson Queiroz, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -2947,7 +2947,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Padre Guerra, 178 - Pici, Fortaleza - CE",
+          "address": "Rua (St) Padre Guerra, 178 - Pici, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -2965,7 +2965,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Floriano Peixoto, 187 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 31,
@@ -2979,7 +2979,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Guilherme Rocha, 381 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Guilherme Rocha, 381 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 34,
@@ -2993,7 +2993,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Pedro Lazar, 830 - Cambeba, Fortaleza - CE",
+          "address": "Avenida (Ave) Pedro Lazar, 830 - Cambeba, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -3014,7 +3014,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua do Pocinho, 33 - Centro, Fortaleza - CE",
+          "address": "Rua (St) do Pocinho, 33 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 34,
@@ -3028,7 +3028,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Vicente de Castro Filho, 1460 - Engenheiro Luciano Cavalcante, Fortaleza - CE",
+          "address": "Rua (St) Vicente de Castro Filho, 1460 - Engenheiro Luciano Cavalcante, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 2,
@@ -3048,7 +3048,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Emílio Sá, 560 - Jardim Cearense, Fortaleza - CE",
+          "address": "Rua (St) Emílio Sá, 560 - Jardim Cearense, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -3069,7 +3069,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pereira Filgueiras, 2020 - Aldeota, Fortaleza - CE",
+          "address": "Rua (St) Pereira Filgueiras, 2020 - Aldeota, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 36,
@@ -3083,7 +3083,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Guilherme Rocha, 381 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Guilherme Rocha, 381 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 32,
@@ -3097,7 +3097,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Mozart Pinheiro de Lucena, 3106 - Quintino Cunha, Fortaleza - CE",
+          "address": "Avenida (Ave) Mozart Pinheiro de Lucena, 3106 - Quintino Cunha, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -3112,7 +3112,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Doutor Edmilson Barros de Oliveira - Cocó, Fortaleza - CE",
+          "address": "Rua (St) Doutor Edmilson Barros de Oliveira - Cocó, Fortaleza - CE",
           "area": 440,
           "rentValue": 600,
           "imageUrl": "../assets/img/properties/ground2.jpg",
@@ -3124,7 +3124,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 307 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 42,
@@ -3138,7 +3138,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro Borges, 20 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pedro Borges, 20 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 75,
@@ -3152,7 +3152,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Desembargador Moreira, 1701 - Meireles, Fortaleza - CE",
+          "address": "Avenida (Ave) Desembargador Moreira, 1701 - Meireles, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 28,
@@ -3166,7 +3166,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro Dantas, 415 - Dias Macedo, Fortaleza - CE",
+          "address": "Rua (St) Pedro Dantas, 415 - Dias Macedo, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 176,
@@ -3180,7 +3180,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua C, 91 - Passaré, Fortaleza - CE",
+          "address": "Rua (St) C, 91 - Passaré, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -3200,7 +3200,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 307 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 42,
@@ -3214,7 +3214,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Carlos Vasconcelos, 889 - Aldeota, Fortaleza - CE",
+          "address": "Rua (St) Carlos Vasconcelos, 889 - Aldeota, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 35,
@@ -3230,7 +3230,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Bento Albuquerque, 1555 - Cocó, Fortaleza - CE",
+          "address": "Rua (St) Bento Albuquerque, 1555 - Cocó, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -3250,7 +3250,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Monsenhor Catão, 200 - Aldeota, Fortaleza - CE",
+          "address": "Rua (St) Monsenhor Catão, 200 - Aldeota, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 2,
@@ -3270,7 +3270,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Dom Sebastião Leme, 477 - Fátima, Fortaleza - CE",
+          "address": "Rua (St) Dom Sebastião Leme, 477 - Fátima, Fortaleza - CE",
           "bedrooms": 4,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -3290,7 +3290,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua João Gentil, 2964 - Granja Lisboa, Fortaleza - CE",
+          "address": "Rua (St) João Gentil, 2964 - Granja Lisboa, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 85,
@@ -3306,7 +3306,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida da Saudade, 95 - Passaré, Fortaleza - CE",
+          "address": "Avenida (Ave) da Saudade, 95 - Passaré, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -3327,7 +3327,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Guilherme Rocha, 381 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Guilherme Rocha, 381 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 38,
@@ -3341,7 +3341,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Padre Severiano, 90 - Messejana, Fortaleza - CE",
+          "address": "Rua (St) Padre Severiano, 90 - Messejana, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -3361,7 +3361,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Barão do Rio Branco, 1071 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Barão do Rio Branco, 1071 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 27,
@@ -3378,7 +3378,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Washington Soares, 1400 - Edson Queiroz, Fortaleza - CE",
+          "address": "Avenida (Ave) Washington Soares, 1400 - Edson Queiroz, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 48,
@@ -3392,7 +3392,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 307 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 42,
@@ -3406,7 +3406,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 307 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 42,
@@ -3420,7 +3420,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Guilherme Rocha, 381 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Guilherme Rocha, 381 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 38,
@@ -3434,7 +3434,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Bento Albuquerque, 1555 - Cocó, Fortaleza - CE",
+          "address": "Rua (St) Bento Albuquerque, 1555 - Cocó, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -3454,7 +3454,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua do Rosário, 77 - Centro, Fortaleza - CE",
+          "address": "Rua (St) do Rosário, 77 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 60,
@@ -3468,7 +3468,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Professor Solon Farias, Lt-07 - Sapiranga, Fortaleza - CE",
+          "address": "Rua (St) Professor Solon Farias, Lt-07 - Sapiranga, Fortaleza - CE",
           "area": 1720,
           "rentValue": 2150,
           "imageUrl": "../assets/img/properties/ground3.jpg",
@@ -3480,7 +3480,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro Borges, 20 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pedro Borges, 20 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 60,
@@ -3494,7 +3494,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Floriano Peixoto, 187 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 31,
@@ -3508,7 +3508,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro Borges, 20 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pedro Borges, 20 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 74,
@@ -3522,7 +3522,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Senador Virgílio Távora, 1701 - Meireles, Fortaleza - CE",
+          "address": "Avenida (Ave) Senador Virgílio Távora, 1701 - Meireles, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 35,
@@ -3536,7 +3536,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Floriano Peixoto, 402 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Floriano Peixoto, 402 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 578,
@@ -3552,7 +3552,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Maria Maia, 75 - Siqueira, Fortaleza - CE",
+          "address": "Rua (St) Maria Maia, 75 - Siqueira, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -3572,7 +3572,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Senador Alencar - Centro, Fortaleza - CE",
+          "address": "Rua (St) Senador Alencar - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 26,
@@ -3586,7 +3586,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Guilherme Rocha, 381 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Guilherme Rocha, 381 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 34,
@@ -3600,7 +3600,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro Borges, 20 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pedro Borges, 20 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 75,
@@ -3614,7 +3614,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua A do Loteamento Residencial Célio Gurgel, 1697 - Barroso, Fortaleza - CE",
+          "address": "Rua (St) A do Loteamento Residencial Célio Gurgel, 1697 - Barroso, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -3634,7 +3634,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Dom Luís, 1233 - Meireles, Fortaleza - CE",
+          "address": "Avenida (Ave) Dom Luís, 1233 - Meireles, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 31,
@@ -3650,7 +3650,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro Borges, 33 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pedro Borges, 33 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 35,
@@ -3664,7 +3664,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro Borges, 30 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pedro Borges, 30 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 52,
@@ -3680,7 +3680,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Afrânio Peixoto, 288 - Parangaba, Fortaleza - CE",
+          "address": "Rua (St) Afrânio Peixoto, 288 - Parangaba, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -3695,7 +3695,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Três de Maio, 1140 - Bela Vista, Fortaleza - CE",
+          "address": "Rua (St) Três de Maio, 1140 - Bela Vista, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -3712,7 +3712,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Floriano Peixoto, 187 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 31,
@@ -3726,7 +3726,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Senador Virgílio Távora, 1701 - Meireles, Fortaleza - CE",
+          "address": "Avenida (Ave) Senador Virgílio Távora, 1701 - Meireles, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 35,
@@ -3740,7 +3740,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 307 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 42,
@@ -3754,7 +3754,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro Borges, 20 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pedro Borges, 20 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 89,
@@ -3768,7 +3768,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Senador Pompeu, 649 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Senador Pompeu, 649 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 23,
@@ -3787,7 +3787,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro Borges, 20 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pedro Borges, 20 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 89,
@@ -3801,7 +3801,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 6740 - Papicu, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 6740 - Papicu, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 28,
@@ -3829,7 +3829,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida da Saudade, 95 - Passaré, Fortaleza - CE",
+          "address": "Avenida (Ave) da Saudade, 95 - Passaré, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -3850,7 +3850,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Beatriz Segal, 0 - Barroso, Fortaleza - CE",
+          "address": "Rua (St) Beatriz Segal, 0 - Barroso, Fortaleza - CE",
           "area": 495,
           "rentValue": 1700,
           "imageUrl": "../assets/img/properties/ground1.jpg",
@@ -3862,7 +3862,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Nunes Valente, 2025 - Aldeota, Fortaleza - CE",
+          "address": "Rua (St) Nunes Valente, 2025 - Aldeota, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 134,
@@ -3876,7 +3876,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 5335 - Papicu, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 5335 - Papicu, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 30,
@@ -3902,7 +3902,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro Dantas, 413 - Dias Macedo, Fortaleza - CE",
+          "address": "Rua (St) Pedro Dantas, 413 - Dias Macedo, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 80,
@@ -3916,7 +3916,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Dragão do Mar, 345 - Praia de Iracema, Fortaleza - CE",
+          "address": "Rua (St) Dragão do Mar, 345 - Praia de Iracema, Fortaleza - CE",
           "bedrooms": 1,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -3937,7 +3937,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Barão do Rio Branco, 1071 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Barão do Rio Branco, 1071 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 27,
@@ -3954,7 +3954,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 307 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 42,
@@ -3968,7 +3968,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Floriano Peixoto, 187 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 31,
@@ -3982,7 +3982,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Perboyre e Silva, 114 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Perboyre e Silva, 114 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 47,
@@ -3996,7 +3996,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Paulo de Almeida Sanford, 145 - Edson Queiroz, Fortaleza - CE",
+          "address": "Rua (St) Paulo de Almeida Sanford, 145 - Edson Queiroz, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -4014,21 +4014,21 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Dom Luís, 500 - Meireles, Fortaleza - CE",
+          "address": "Avenida (Ave) Dom Luís, 500 - Meireles, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 76,
           "rentValue": 1400,
           "imageUrl": "../assets/img/properties/office1.jpg",
           "amenities": [],
-          "description": null,
+          "description": "",
           "coordinates": {
             "lat": -3.7356097,
             "lng": -38.4909979
           }
         },
         {
-          "address": "Rua Alberto Magno, 1374 - Montese, Fortaleza - CE",
+          "address": "Rua (St) Alberto Magno, 1374 - Montese, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 30,
@@ -4042,7 +4042,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Major Facundo, 1680 - Fátima, Fortaleza - CE",
+          "address": "Rua (St) Major Facundo, 1680 - Fátima, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 80,
@@ -4056,7 +4056,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pascoal de Castro Alves, 500 - Papicu, Fortaleza - CE",
+          "address": "Rua (St) Pascoal de Castro Alves, 500 - Papicu, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 1,
@@ -4071,7 +4071,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Brigadeiro Haroldo Veloso, 568 - Sapiranga, Fortaleza - CE",
+          "address": "Rua (St) Brigadeiro Haroldo Veloso, 568 - Sapiranga, Fortaleza - CE",
           "bedrooms": 5,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -4104,7 +4104,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Vilebaldo Aguiar, 1151 - Cocó, Fortaleza - CE",
+          "address": "Rua (St) Vilebaldo Aguiar, 1151 - Cocó, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 1,
@@ -4124,7 +4124,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Presidente Artur Bernardes, 3470 - JOSE DE ALENCAR, Fortaleza - CE",
+          "address": "Avenida (Ave) Presidente Artur Bernardes, 3470 - JOSE DE ALENCAR, Fortaleza - CE",
           "bathrooms": 3,
           "parkingSpaces": 2,
           "area": 4066,
@@ -4138,7 +4138,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Senador Virgílio Távora, 1701 - Meireles, Fortaleza - CE",
+          "address": "Avenida (Ave) Senador Virgílio Távora, 1701 - Meireles, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 35,
@@ -4166,7 +4166,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Ministro Albuquerque Lima, 894 - Conjunto Ceará, Fortaleza - CE",
+          "address": "Avenida (Ave) Ministro Albuquerque Lima, 894 - Conjunto Ceará, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 30,
@@ -4180,7 +4180,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Benjamim Brasil, 626 - Jardim Cearense, Fortaleza - CE",
+          "address": "Rua (St) Benjamim Brasil, 626 - Jardim Cearense, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 100,
@@ -4196,7 +4196,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 5335 - Papicu, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 5335 - Papicu, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 30,
@@ -4210,7 +4210,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pereira Filgueiras - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pereira Filgueiras - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 36,
@@ -4227,7 +4227,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Guilherme Rocha, 381 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Guilherme Rocha, 381 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 76,
@@ -4241,7 +4241,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Senador Pompeu, 649 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Senador Pompeu, 649 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 23,
@@ -4272,7 +4272,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "area": 203,
           "rentValue": 4650,
           "imageUrl": "../assets/img/properties/ground2.jpg",
@@ -4284,7 +4284,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Doutor Atualpa Barbosa Lima, 145 - Praia de Iracema, Fortaleza - CE",
+          "address": "Rua (St) Doutor Atualpa Barbosa Lima, 145 - Praia de Iracema, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -4304,7 +4304,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Genipo Fernandes, 15 - Quintino Cunha, Fortaleza - CE",
+          "address": "Rua (St) Genipo Fernandes, 15 - Quintino Cunha, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -4319,7 +4319,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Afonso Celso, 423 - Aldeota, Fortaleza - CE",
+          "address": "Rua (St) Afonso Celso, 423 - Aldeota, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -4340,7 +4340,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro Borges, 30 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pedro Borges, 30 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 52,
@@ -4374,7 +4374,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Raimundo Oliveira Filho, 659 - Papicu, Fortaleza - CE",
+          "address": "Rua (St) Raimundo Oliveira Filho, 659 - Papicu, Fortaleza - CE",
           "area": 1100,
           "rentValue": 2900,
           "imageUrl": "../assets/img/properties/ground3.jpg",
@@ -4383,7 +4383,7 @@ export class LocationsService {
             "South-facing",
             "Sandy",
             "Plain",
-            "Rua asfaltada"
+            "Rua (St) asfaltada"
           ],
           "description": "Lote/Terreno para alugar, 1100m² em Papicu, Fortaleza",
           "coordinates": {
@@ -4392,7 +4392,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Gurgel do Amaral, 1250 - Coaçu, Fortaleza - CE",
+          "address": "Avenida (Ave) Gurgel do Amaral, 1250 - Coaçu, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 21,
@@ -4406,14 +4406,14 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Maria Alice, SN - Engenheiro Luciano Cavalcante, Fortaleza - CE",
+          "address": "Rua (St) Maria Alice, SN - Engenheiro Luciano Cavalcante, Fortaleza - CE",
           "area": 841,
           "rentValue": 2950,
           "imageUrl": "../assets/img/properties/ground2.jpg",
           "amenities": [
-            "Desnível para frente (rua)",
+            "Desnível para frente (Rua (St))",
             "Plain",
-            "Rua asfaltada"
+            "Rua (St) asfaltada"
           ],
           "description": "Lote/Terreno para alugar, 841m² em Engenheiro Luciano Cavalcante, Fortaleza",
           "coordinates": {
@@ -4422,7 +4422,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida da Saudade, 95 - Passaré, Fortaleza - CE",
+          "address": "Avenida (Ave) da Saudade, 95 - Passaré, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 2,
@@ -4443,7 +4443,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 307 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 39,
@@ -4457,7 +4457,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 307 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 42,
@@ -4471,7 +4471,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 307 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 42,
@@ -4485,7 +4485,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Duque de Caxias, 823 - Centro, Fortaleza - CE",
+          "address": "Avenida (Ave) Duque de Caxias, 823 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 36,
@@ -4502,7 +4502,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua José Napoleão, 200 - Meireles, Fortaleza - CE",
+          "address": "Rua (St) José Napoleão, 200 - Meireles, Fortaleza - CE",
           "bedrooms": 1,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -4521,7 +4521,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 307 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 42,
@@ -4535,7 +4535,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Mister Hull, 3522 - Presidente Kennedy, Fortaleza - CE",
+          "address": "Avenida (Ave) Mister Hull, 3522 - Presidente Kennedy, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 55,
@@ -4549,7 +4549,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Maximino, 237 - JOSE DE ALENCAR, Fortaleza - CE",
+          "address": "Rua (St) Maximino, 237 - JOSE DE ALENCAR, Fortaleza - CE",
           "area": 720,
           "rentValue": 3550,
           "imageUrl": "../assets/img/properties/ground2.jpg",
@@ -4561,7 +4561,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro Borges, 20 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pedro Borges, 20 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 60,
@@ -4575,7 +4575,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua do Pocinho, 20 - Centro, Fortaleza - CE",
+          "address": "Rua (St) do Pocinho, 20 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 74,
@@ -4605,7 +4605,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 1267 - Centro, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 1267 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 25,
@@ -4621,7 +4621,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Guilherme Rocha, 381 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Guilherme Rocha, 381 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 38,
@@ -4635,7 +4635,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Barão de Aracati, 145 - Meireles, Fortaleza - CE",
+          "address": "Rua (St) Barão de Aracati, 145 - Meireles, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -4656,7 +4656,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 5335 - Papicu, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 5335 - Papicu, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 30,
@@ -4670,7 +4670,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua A do Loteamento Residencial Célio Gurgel, 227 - Barroso, Fortaleza - CE",
+          "address": "Rua (St) A do Loteamento Residencial Célio Gurgel, 227 - Barroso, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -4691,7 +4691,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Leonardo Mota, 400 - Meireles, Fortaleza - CE",
+          "address": "Rua (St) Leonardo Mota, 400 - Meireles, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -4706,7 +4706,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro Borges, 33 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pedro Borges, 33 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 30,
@@ -4720,7 +4720,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Barão de Aracati, 160 - Meireles, Fortaleza - CE",
+          "address": "Rua (St) Barão de Aracati, 160 - Meireles, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -4740,7 +4740,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Padre Antônio Tomás, 2420 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Padre Antônio Tomás, 2420 - Aldeota, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 30,
@@ -4754,7 +4754,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Humberto Monte, 2929 - Pici, Fortaleza - CE",
+          "address": "Avenida (Ave) Humberto Monte, 2929 - Pici, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 64,
@@ -4772,7 +4772,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Embaúba - Eusebio, Eusébio - CE",
+          "address": "Rua (St) Embaúba - Eusebio, Eusébio - CE",
           "bedrooms": 4,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -4789,7 +4789,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 307 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 39,
@@ -4803,7 +4803,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Fiuza de Pontes, 48 - Aldeota, Fortaleza - CE",
+          "address": "Rua (St) Fiuza de Pontes, 48 - Aldeota, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 1,
@@ -4820,7 +4820,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Isac Meyer, 50 - Aldeota, Fortaleza - CE",
+          "address": "Rua (St) Isac Meyer, 50 - Aldeota, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 1,
@@ -4835,7 +4835,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Bulevar III, 318 - Jangurussu, Fortaleza - CE",
+          "address": "Avenida (Ave) Bulevar III, 318 - Jangurussu, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -4872,7 +4872,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua General Bernardo Figueiredo, 415 - Amadeu Furtado, Fortaleza - CE",
+          "address": "Rua (St) General Bernardo Figueiredo, 415 - Amadeu Furtado, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 45,
@@ -4886,7 +4886,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Recanto Verde, 1479 - Jangurussu, Fortaleza - CE",
+          "address": "Rua (St) Recanto Verde, 1479 - Jangurussu, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -4905,7 +4905,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Pontes Vieira, 2340 - Dionísio Torres, Fortaleza - CE",
+          "address": "Avenida (Ave) Pontes Vieira, 2340 - Dionísio Torres, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 49,
@@ -4919,7 +4919,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Senador Pompeu, 649 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Senador Pompeu, 649 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 23,
@@ -4938,7 +4938,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 307 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 39,
@@ -4966,7 +4966,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro Borges, 33 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pedro Borges, 33 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 38,
@@ -4980,7 +4980,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Senador Alencar - Centro, Fortaleza - CE",
+          "address": "Rua (St) Senador Alencar - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 26,
@@ -5008,7 +5008,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua H, 0 - Parque Dois Irmãos, Fortaleza - CE",
+          "address": "Rua (St) H, 0 - Parque Dois Irmãos, Fortaleza - CE",
           "area": 438,
           "rentValue": 4050,
           "imageUrl": "../assets/img/properties/ground1.jpg",
@@ -5020,7 +5020,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua General Bernardo Figueiredo, 2020 - Parquelândia, Fortaleza - CE",
+          "address": "Rua (St) General Bernardo Figueiredo, 2020 - Parquelândia, Fortaleza - CE",
           "bedrooms": 5,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -5035,7 +5035,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua da Assunção, 443 - José Bonifácio, Fortaleza - CE",
+          "address": "Rua (St) da Assunção, 443 - José Bonifácio, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -5050,7 +5050,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Presidente Artur Bernardes, 3470 - JOSE DE ALENCAR, Fortaleza - CE",
+          "address": "Avenida (Ave) Presidente Artur Bernardes, 3470 - JOSE DE ALENCAR, Fortaleza - CE",
           "bathrooms": 2,
           "parkingSpaces": 1,
           "area": 4066,
@@ -5064,7 +5064,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro Borges, 30 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pedro Borges, 30 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 40,
@@ -5080,7 +5080,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Dona Leopoldina, 388 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Dona Leopoldina, 388 - Centro, Fortaleza - CE",
           "bedrooms": 1,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -5097,7 +5097,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Maestro Lisboa, 401 - JOSE DE ALENCAR, Fortaleza - CE",
+          "address": "Avenida (Ave) Maestro Lisboa, 401 - JOSE DE ALENCAR, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 17,
@@ -5111,7 +5111,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua França, 1061 - Maraponga, Fortaleza - CE",
+          "address": "Rua (St) França, 1061 - Maraponga, Fortaleza - CE",
           "bedrooms": 4,
           "bathrooms": 3,
           "parkingSpaces": 2,
@@ -5131,7 +5131,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua 101 - Novo Mondubim, Fortaleza - CE",
+          "address": "Rua (St) 101 - Novo Mondubim, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -5166,7 +5166,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Professor Jacinto Botelho, 60 - Guararapes, Fortaleza - CE",
+          "address": "Rua (St) Professor Jacinto Botelho, 60 - Guararapes, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -5181,7 +5181,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Rafael Tobias, 2800 - JOSE DE ALENCAR, Fortaleza - CE",
+          "address": "Rua (St) Rafael Tobias, 2800 - JOSE DE ALENCAR, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 2,
@@ -5200,7 +5200,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Capitão Melo, 3358 - Joaquim Tavora, Fortaleza - CE",
+          "address": "Rua (St) Capitão Melo, 3358 - Joaquim Tavora, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 25,
@@ -5216,7 +5216,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Daura, 151 - Barroso, Fortaleza - CE",
+          "address": "Rua (St) Daura, 151 - Barroso, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -5236,7 +5236,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Tomás Acioli, 840 - Joaquim Tavora, Fortaleza - CE",
+          "address": "Rua (St) Tomás Acioli, 840 - Joaquim Tavora, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 59,
@@ -5253,7 +5253,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua José Hipólito, 120 - Messejana, Fortaleza - CE",
+          "address": "Rua (St) José Hipólito, 120 - Messejana, Fortaleza - CE",
           "bedrooms": 4,
           "bathrooms": 3,
           "parkingSpaces": 1,
@@ -5274,21 +5274,21 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pereira Filgueiras, 2392 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pereira Filgueiras, 2392 - Centro, Fortaleza - CE",
           "bathrooms": 2,
           "parkingSpaces": 2,
           "area": 167,
           "rentValue": 3900,
           "imageUrl": "../assets/img/properties/apartament5.jpg",
           "amenities": [],
-          "description": null,
+          "description": "",
           "coordinates": {
             "lat": -3.7320987,
             "lng": -38.5019141
           }
         },
         {
-          "address": "Avenida Antônio Sales, 1516 - Joaquim Tavora, Fortaleza - CE",
+          "address": "Avenida (Ave) Antônio Sales, 1516 - Joaquim Tavora, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 43,
@@ -5302,7 +5302,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Barão de Aracati, 145 - Meireles, Fortaleza - CE",
+          "address": "Rua (St) Barão de Aracati, 145 - Meireles, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -5323,7 +5323,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Dolor Barreira, 1000 - De Lourdes, Fortaleza - CE",
+          "address": "Avenida (Ave) Dolor Barreira, 1000 - De Lourdes, Fortaleza - CE",
           "bedrooms": 1,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -5341,7 +5341,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Hil de Moraes, 12 - Guararapes, Fortaleza - CE",
+          "address": "Rua (St) Hil de Moraes, 12 - Guararapes, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -5378,7 +5378,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua General Clarindo de Queiroz, 800 - Centro, Fortaleza - CE",
+          "address": "Rua (St) General Clarindo de Queiroz, 800 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 30,
@@ -5397,7 +5397,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pinto Madeira, 1075 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pinto Madeira, 1075 - Centro, Fortaleza - CE",
           "bedrooms": 1,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -5416,7 +5416,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua João Gentil, 2964 - Granja Lisboa, Fortaleza - CE",
+          "address": "Rua (St) João Gentil, 2964 - Granja Lisboa, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 85,
@@ -5432,7 +5432,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Senador Virgílio Távora, 1701 - Meireles, Fortaleza - CE",
+          "address": "Avenida (Ave) Senador Virgílio Távora, 1701 - Meireles, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 35,
@@ -5446,7 +5446,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Doutor Manuel Teófilo, 995 - Itaperi, Fortaleza - CE",
+          "address": "Rua (St) Doutor Manuel Teófilo, 995 - Itaperi, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -5467,7 +5467,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida da Saudade - Passaré, Fortaleza - CE",
+          "address": "Avenida (Ave) da Saudade - Passaré, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -5484,7 +5484,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro Borges, 33 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pedro Borges, 33 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 34,
@@ -5498,7 +5498,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua do Pocinho, 33 - Centro, Fortaleza - CE",
+          "address": "Rua (St) do Pocinho, 33 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 34,
@@ -5512,7 +5512,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Alagoas, 2910 - Pici, Fortaleza - CE",
+          "address": "Rua (St) Alagoas, 2910 - Pici, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 55,
@@ -5526,7 +5526,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Dom Luís, 500 - Meireles, Fortaleza - CE",
+          "address": "Avenida (Ave) Dom Luís, 500 - Meireles, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 32,
@@ -5556,7 +5556,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Floriano Peixoto, 187 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 31,
@@ -5570,7 +5570,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Maria Pinheiro Campelo, 673 - Lagoa Redonda, Fortaleza - CE",
+          "address": "Rua (St) Maria Pinheiro Campelo, 673 - Lagoa Redonda, Fortaleza - CE",
           "bedrooms": 1,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -5588,7 +5588,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Waldery Uchôa - Benfica, Fortaleza - CE",
+          "address": "Rua (St) Waldery Uchôa - Benfica, Fortaleza - CE",
           "bedrooms": 4,
           "bathrooms": 3,
           "parkingSpaces": 1,
@@ -5606,7 +5606,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 5335 - Papicu, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 5335 - Papicu, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 30,
@@ -5620,7 +5620,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Dom Luís, 500 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Dom Luís, 500 - Aldeota, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 62,
@@ -5637,7 +5637,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Bento Albuquerque, 3300 - Manoel Dias Branco, Fortaleza - CE",
+          "address": "Rua (St) Bento Albuquerque, 3300 - Manoel Dias Branco, Fortaleza - CE",
           "bedrooms": 4,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -5657,7 +5657,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 307 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 42,
@@ -5700,7 +5700,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Andrade Furtado, 0 - Cocó, Fortaleza - CE",
+          "address": "Rua (St) Andrade Furtado, 0 - Cocó, Fortaleza - CE",
           "area": 498,
           "rentValue": 2800,
           "imageUrl": "../assets/img/properties/ground1.jpg",
@@ -5712,7 +5712,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Floriano Peixoto, 187 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 31,
@@ -5726,7 +5726,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pereira Filgueiras, 2020 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pereira Filgueiras, 2020 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 36,
@@ -5740,7 +5740,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Roberto Gradvohl, 1 - JOSE DE ALENCAR, Fortaleza - CE",
+          "address": "Rua (St) Roberto Gradvohl, 1 - JOSE DE ALENCAR, Fortaleza - CE",
           "area": 1000,
           "rentValue": 4550,
           "imageUrl": "../assets/img/properties/ground1.jpg",
@@ -5752,7 +5752,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro Borges, 20 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pedro Borges, 20 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 72,
@@ -5766,7 +5766,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro Borges, 20 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pedro Borges, 20 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 75,
@@ -5780,7 +5780,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Senador Virgílio Távora, 1901 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Senador Virgílio Távora, 1901 - Aldeota, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 28,
@@ -5794,7 +5794,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Porto Velho, 9 - João XXIII, Fortaleza - CE",
+          "address": "Rua (St) Porto Velho, 9 - João XXIII, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -5812,14 +5812,14 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Maria Alice, SN - Engenheiro Luciano Cavalcante, Fortaleza - CE",
+          "address": "Rua (St) Maria Alice, SN - Engenheiro Luciano Cavalcante, Fortaleza - CE",
           "area": 841,
           "rentValue": 4400,
           "imageUrl": "../assets/img/properties/ground1.jpg",
           "amenities": [
-            "Desnível para frente (rua)",
+            "Desnível para frente (Rua (St))",
             "Plain",
-            "Rua asfaltada"
+            "Rua (St) asfaltada"
           ],
           "description": "Lote/Terreno para alugar, 841m² em Engenheiro Luciano Cavalcante, Fortaleza",
           "coordinates": {
@@ -5828,7 +5828,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Nogueira Acioli, 1365 - Aldeota, Fortaleza - CE",
+          "address": "Rua (St) Nogueira Acioli, 1365 - Aldeota, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -5845,7 +5845,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Raimundo Oliveira Filho, 720 - Papicu, Fortaleza - CE",
+          "address": "Rua (St) Raimundo Oliveira Filho, 720 - Papicu, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 1,
@@ -5865,7 +5865,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua 5, 350 - Parque Iracema, Fortaleza - CE",
+          "address": "Rua (St) 5, 350 - Parque Iracema, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -5880,7 +5880,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Floriano Peixoto, 187 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 31,
@@ -5894,7 +5894,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Floriano Peixoto, 187 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 31,
@@ -5908,7 +5908,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Duque de Caxias, 823 - Centro, Fortaleza - CE",
+          "address": "Avenida (Ave) Duque de Caxias, 823 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 36,
@@ -5925,7 +5925,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida da Abolição, 3089 - Beira Mar, Fortaleza - CE",
+          "address": "Avenida (Ave) da Abolição, 3089 - Beira Mar, Fortaleza - CE",
           "bedrooms": 1,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -5946,7 +5946,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 1267 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 1267 - Aldeota, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 23,
@@ -5963,7 +5963,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "area": 128,
           "rentValue": 3550,
           "imageUrl": "../assets/img/properties/ground2.jpg",
@@ -5975,7 +5975,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Vereador Ademar Arruda, 95 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Vereador Ademar Arruda, 95 - Centro, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -5994,7 +5994,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Antônio Augusto, 120 - Meireles, Fortaleza - CE",
+          "address": "Rua (St) Antônio Augusto, 120 - Meireles, Fortaleza - CE",
           "area": 54,
           "rentValue": 1150,
           "imageUrl": "../assets/img/properties/ground2.jpg",
@@ -6006,7 +6006,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 307 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 42,
@@ -6020,7 +6020,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro Borges, 30 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pedro Borges, 30 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 50,
@@ -6036,7 +6036,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Pontes Vieira, 2340 - Dionísio Torres, Fortaleza - CE",
+          "address": "Avenida (Ave) Pontes Vieira, 2340 - Dionísio Torres, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 34,
@@ -6064,7 +6064,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Araripe Júnior, 0 - Cambeba, Fortaleza - CE",
+          "address": "Rua (St) Araripe Júnior, 0 - Cambeba, Fortaleza - CE",
           "area": 1000,
           "rentValue": 1550,
           "imageUrl": "../assets/img/properties/ground1.jpg",
@@ -6076,7 +6076,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 307 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 42,
@@ -6090,7 +6090,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro I, 663 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pedro I, 663 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 20,
@@ -6104,7 +6104,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua José Alves Cavalcante, 211 - Cidade dos Funcionários, Fortaleza - CE",
+          "address": "Rua (St) José Alves Cavalcante, 211 - Cidade dos Funcionários, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -6119,7 +6119,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro Aristides Albuquerque, 550 - Joaquim Tavora, Fortaleza - CE",
+          "address": "Rua (St) Pedro Aristides Albuquerque, 550 - Joaquim Tavora, Fortaleza - CE",
           "bedrooms": 4,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -6137,7 +6137,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Antônio Sales, 1950 - Dionísio Torres, Fortaleza - CE",
+          "address": "Avenida (Ave) Antônio Sales, 1950 - Dionísio Torres, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 28,
@@ -6151,7 +6151,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 1343 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 1343 - Aldeota, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 32,
@@ -6170,7 +6170,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Monsenhor Bruno, 289 - Meireles, Fortaleza - CE",
+          "address": "Rua (St) Monsenhor Bruno, 289 - Meireles, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -6190,7 +6190,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Peru, 279 - Itaperi, Fortaleza - CE",
+          "address": "Rua (St) Peru, 279 - Itaperi, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 110,
@@ -6204,7 +6204,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Barão do Rio Branco, 1071 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Barão do Rio Branco, 1071 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 27,
@@ -6221,7 +6221,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida da Saudade, 95 - Passaré, Fortaleza - CE",
+          "address": "Avenida (Ave) da Saudade, 95 - Passaré, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 2,
@@ -6242,7 +6242,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Pedro Lazar, 830 - Cambeba, Fortaleza - CE",
+          "address": "Avenida (Ave) Pedro Lazar, 830 - Cambeba, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -6263,7 +6263,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro Borges, 20 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pedro Borges, 20 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 89,
@@ -6277,7 +6277,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Guilherme Rocha, 381 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Guilherme Rocha, 381 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 76,
@@ -6291,7 +6291,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Visconde do Rio Branco, 2125 - Joaquim Tavora, Fortaleza - CE",
+          "address": "Avenida (Ave) Visconde do Rio Branco, 2125 - Joaquim Tavora, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 1,
@@ -6306,7 +6306,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Floriano Peixoto, 187 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 31,
@@ -6320,7 +6320,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Floriano Peixoto, 187 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 31,
@@ -6334,7 +6334,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "area": 156,
           "rentValue": 1800,
           "imageUrl": "../assets/img/properties/ground3.jpg",
@@ -6379,7 +6379,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Floriano Peixoto, 187 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 23,
@@ -6393,7 +6393,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua do Rosário, 77 - Centro, Fortaleza - CE",
+          "address": "Rua (St) do Rosário, 77 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 56,
@@ -6426,7 +6426,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Floriano Peixoto, 187 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 31,
@@ -6440,7 +6440,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Bento Albuquerque, 1633 - Cocó, Fortaleza - CE",
+          "address": "Rua (St) Bento Albuquerque, 1633 - Cocó, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -6457,7 +6457,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pereira Filgueiras, 149 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pereira Filgueiras, 149 - Centro, Fortaleza - CE",
           "bedrooms": 1,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -6472,7 +6472,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua José Vilar, 3333 - Dionísio Torres, Fortaleza - CE",
+          "address": "Rua (St) José Vilar, 3333 - Dionísio Torres, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -6493,7 +6493,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Artur de Carvalho, 187 - Vila União, Fortaleza - CE",
+          "address": "Rua (St) Artur de Carvalho, 187 - Vila União, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 1,
@@ -6508,7 +6508,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Doutor Edmilson Barros de Oliveira - Cocó, Fortaleza - CE",
+          "address": "Rua (St) Doutor Edmilson Barros de Oliveira - Cocó, Fortaleza - CE",
           "area": 440,
           "rentValue": 1700,
           "imageUrl": "../assets/img/properties/ground3.jpg",
@@ -6520,7 +6520,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 6870 - Papicu, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 6870 - Papicu, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 45,
@@ -6534,7 +6534,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Doutor Gilberto Studart, 55 - Cocó, Fortaleza - CE",
+          "address": "Rua (St) Doutor Gilberto Studart, 55 - Cocó, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 40,
@@ -6548,7 +6548,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Senador Pompeu, 649 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Senador Pompeu, 649 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 23,
@@ -6567,7 +6567,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Doutor Salustio de Pinho, 1 - Praia do Futuro II, Fortaleza - CE",
+          "address": "Rua (St) Doutor Salustio de Pinho, 1 - Praia do Futuro II, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -6588,7 +6588,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Guilherme Rocha, 381 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Guilherme Rocha, 381 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 38,
@@ -6602,7 +6602,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Duque de Caxias, 641 - Centro, Fortaleza - CE",
+          "address": "Avenida (Ave) Duque de Caxias, 641 - Centro, Fortaleza - CE",
           "bedrooms": 8,
           "bathrooms": 3,
           "parkingSpaces": 2,
@@ -6617,7 +6617,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Geógrafo Antônio Ribeiro Zaranza, 2598 - Cajazeiras, Fortaleza - CE",
+          "address": "Avenida (Ave) Geógrafo Antônio Ribeiro Zaranza, 2598 - Cajazeiras, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -6637,7 +6637,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Floriano Peixoto, 187 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 31,
@@ -6651,7 +6651,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua João Cordeiro, 688 - Aldeota, Fortaleza - CE",
+          "address": "Rua (St) João Cordeiro, 688 - Aldeota, Fortaleza - CE",
           "bedrooms": 1,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -6672,7 +6672,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Francisco Nogueira, 340 - Cajazeiras, Fortaleza - CE",
+          "address": "Rua (St) Francisco Nogueira, 340 - Cajazeiras, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -6692,7 +6692,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 307 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 39,
@@ -6706,7 +6706,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Engenheiro Alberto Sá, 705 - Papicu, Fortaleza - CE",
+          "address": "Avenida (Ave) Engenheiro Alberto Sá, 705 - Papicu, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 54,
@@ -6722,7 +6722,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua A do Loteamento Residencial Célio Gurgel, 1697 - Barroso, Fortaleza - CE",
+          "address": "Rua (St) A do Loteamento Residencial Célio Gurgel, 1697 - Barroso, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -6742,7 +6742,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Cruzeiro do Sul, 669 - Álvaro Weyne, Fortaleza - CE",
+          "address": "Rua (St) Cruzeiro do Sul, 669 - Álvaro Weyne, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -6760,7 +6760,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Alencar Oliveira - Passaré, Fortaleza - CE",
+          "address": "Rua (St) Alencar Oliveira - Passaré, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -6779,7 +6779,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Paulo de Almeida Sanford, 145 - Edson Queiroz, Fortaleza - CE",
+          "address": "Rua (St) Paulo de Almeida Sanford, 145 - Edson Queiroz, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 1,
@@ -6797,7 +6797,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Trajano de Medeiros, 2150 - Vicente Pinzon, Fortaleza - CE",
+          "address": "Avenida (Ave) Trajano de Medeiros, 2150 - Vicente Pinzon, Fortaleza - CE",
           "bedrooms": 5,
           "bathrooms": 3,
           "parkingSpaces": 1,
@@ -6812,7 +6812,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Rafael Tobias, 2800 - JOSE DE ALENCAR, Fortaleza - CE",
+          "address": "Rua (St) Rafael Tobias, 2800 - JOSE DE ALENCAR, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 2,
@@ -6831,7 +6831,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Hil de Moraes, 12 - Edson Queiroz, Fortaleza - CE",
+          "address": "Rua (St) Hil de Moraes, 12 - Edson Queiroz, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -6871,7 +6871,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua B, 120 - Messejana, Fortaleza - CE",
+          "address": "Rua (St) B, 120 - Messejana, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -6892,7 +6892,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 3870 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 3870 - Aldeota, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 8,
@@ -6906,7 +6906,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Guilherme Rocha, 381 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Guilherme Rocha, 381 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 38,
@@ -6920,7 +6920,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont - Aldeota, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 58,
@@ -6950,7 +6950,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "area": 159,
           "rentValue": 2900,
           "imageUrl": "../assets/img/properties/ground1.jpg",
@@ -6962,7 +6962,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Firmino Rocha Aguiar, 1033 - Guararapes, Fortaleza - CE",
+          "address": "Rua (St) Firmino Rocha Aguiar, 1033 - Guararapes, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -6977,7 +6977,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua do Parque, 333 - Cambeba, Fortaleza - CE",
+          "address": "Rua (St) do Parque, 333 - Cambeba, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -6997,7 +6997,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Floriano Peixoto, 187 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 31,
@@ -7011,7 +7011,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Bento Albuquerque, 1555 - Cocó, Fortaleza - CE",
+          "address": "Rua (St) Bento Albuquerque, 1555 - Cocó, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 1,
@@ -7031,7 +7031,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Afrânio Peixoto, 288 - Parangaba, Fortaleza - CE",
+          "address": "Rua (St) Afrânio Peixoto, 288 - Parangaba, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -7046,7 +7046,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Marcondes Pereira, 537 - Joaquim Tavora, Fortaleza - CE",
+          "address": "Rua (St) Marcondes Pereira, 537 - Joaquim Tavora, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -7064,7 +7064,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro Borges, 33 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pedro Borges, 33 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 34,
@@ -7082,7 +7082,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Vilebaldo Aguiar, 2246 - Cocó, Fortaleza - CE",
+          "address": "Rua (St) Vilebaldo Aguiar, 2246 - Cocó, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -7102,7 +7102,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Gonçalves Ledo, 177 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Gonçalves Ledo, 177 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 35,
@@ -7118,7 +7118,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Ministro Albuquerque Lima, 894 - Conjunto Ceará, Fortaleza - CE",
+          "address": "Avenida (Ave) Ministro Albuquerque Lima, 894 - Conjunto Ceará, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 30,
@@ -7132,7 +7132,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Vinícios de Morais, 1064 - Maraponga, Fortaleza - CE",
+          "address": "Rua (St) Vinícios de Morais, 1064 - Maraponga, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 1,
@@ -7149,7 +7149,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua João Cordeiro, 1377 - Aldeota, Fortaleza - CE",
+          "address": "Rua (St) João Cordeiro, 1377 - Aldeota, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -7169,7 +7169,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 30,
@@ -7183,7 +7183,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 307 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 42,
@@ -7197,7 +7197,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro Borges, 20 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pedro Borges, 20 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 72,
@@ -7211,7 +7211,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Major Facundo, 1344 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Major Facundo, 1344 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 140,
@@ -7225,7 +7225,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Miguel Calmont, 350 - Vicente Pinzon, Fortaleza - CE",
+          "address": "Rua (St) Miguel Calmont, 350 - Vicente Pinzon, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 30,
@@ -7239,7 +7239,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 5335 - Papicu, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 5335 - Papicu, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 30,
@@ -7267,7 +7267,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Visconde do Rio Branco, 1728 - Centro, Fortaleza - CE",
+          "address": "Avenida (Ave) Visconde do Rio Branco, 1728 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 463,
@@ -7276,14 +7276,14 @@ export class LocationsService {
           "amenities": [
             "Office"
           ],
-          "description": "Galpão/Depósito/Armazém para alugar, 463m² em Centro, Fortaleza",
+          "description": "Galpão para alugar, 463m² em Centro, Fortaleza",
           "coordinates": {
             "lat": -3.7361,
             "lng": -38.5241708
           }
         },
         {
-          "address": "Rua Amazonas, 201 - Bela Vista, Fortaleza - CE",
+          "address": "Rua (St) Amazonas, 201 - Bela Vista, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -7304,7 +7304,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Gustavo Braga, 128 - Rodolfo Teófilo, Fortaleza - CE",
+          "address": "Rua (St) Gustavo Braga, 128 - Rodolfo Teófilo, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 1,
@@ -7324,7 +7324,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Alberto Craveiro, 1240 - Dias Macedo, Fortaleza - CE",
+          "address": "Avenida (Ave) Alberto Craveiro, 1240 - Dias Macedo, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -7344,7 +7344,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pereira Filgueiras, 2249 - Aldeota, Fortaleza - CE",
+          "address": "Rua (St) Pereira Filgueiras, 2249 - Aldeota, Fortaleza - CE",
           "bedrooms": 1,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -7361,7 +7361,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 307 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 42,
@@ -7375,7 +7375,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Tibúrcio Cavalcanti, 155 - Meireles, Fortaleza - CE",
+          "address": "Rua (St) Tibúrcio Cavalcanti, 155 - Meireles, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -7390,7 +7390,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua B - Itaperi, Fortaleza - CE",
+          "address": "Rua (St) B - Itaperi, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 2,
@@ -7409,7 +7409,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Barão do Rio Branco - Centro, Fortaleza - CE",
+          "address": "Rua (St) Barão do Rio Branco - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 36,
@@ -7423,7 +7423,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "area": 140,
           "rentValue": 4150,
           "imageUrl": "../assets/img/properties/ground3.jpg",
@@ -7435,7 +7435,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Guilherme Moreira, 345 - Fátima, Fortaleza - CE",
+          "address": "Rua (St) Guilherme Moreira, 345 - Fátima, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 28,
@@ -7449,7 +7449,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro Borges, 33 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pedro Borges, 33 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 34,
@@ -7463,7 +7463,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua José Napoleão, 355 - Meireles, Fortaleza - CE",
+          "address": "Rua (St) José Napoleão, 355 - Meireles, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -7478,7 +7478,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro Borges, 20 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pedro Borges, 20 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 69,
@@ -7492,7 +7492,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Fiscal Vieira, 3575 - Joaquim Tavora, Fortaleza - CE",
+          "address": "Rua (St) Fiscal Vieira, 3575 - Joaquim Tavora, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 314,
@@ -7506,7 +7506,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Xavier de Oliveira, 338 - Amadeu Furtado, Fortaleza - CE",
+          "address": "Rua (St) Xavier de Oliveira, 338 - Amadeu Furtado, Fortaleza - CE",
           "bedrooms": 4,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -7537,7 +7537,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Tomás Lopes, 113 - Praia de Iracema, Fortaleza - CE",
+          "address": "Rua (St) Tomás Lopes, 113 - Praia de Iracema, Fortaleza - CE",
           "bedrooms": 1,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -7552,7 +7552,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 619 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 619 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 40,
@@ -7566,7 +7566,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Crispina de Freitas, 100 - Edson Queiroz, Fortaleza - CE",
+          "address": "Rua (St) Crispina de Freitas, 100 - Edson Queiroz, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 43,
@@ -7580,7 +7580,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Bezerra de Menezes, 1966 - Sao Gerardo, Fortaleza - CE",
+          "address": "Avenida (Ave) Bezerra de Menezes, 1966 - Sao Gerardo, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 2,
@@ -7601,7 +7601,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua do Rosário, 94 - Centro, Fortaleza - CE",
+          "address": "Rua (St) do Rosário, 94 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 52,
@@ -7615,7 +7615,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 307 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 42,
@@ -7646,7 +7646,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Mário Alencar Araripe, 1565 - JOSE DE ALENCAR, Fortaleza - CE",
+          "address": "Rua (St) Mário Alencar Araripe, 1565 - JOSE DE ALENCAR, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 26,
@@ -7662,7 +7662,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Coronel Manuel Albano, 656 - Maraponga, Fortaleza - CE",
+          "address": "Rua (St) Coronel Manuel Albano, 656 - Maraponga, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 2,
@@ -7680,7 +7680,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Rafael Tobias, 2800 - JOSE DE ALENCAR, Fortaleza - CE",
+          "address": "Rua (St) Rafael Tobias, 2800 - JOSE DE ALENCAR, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -7699,7 +7699,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Capitão Clóvis Maia, 47 - Alto da Balança, Fortaleza - CE",
+          "address": "Rua (St) Capitão Clóvis Maia, 47 - Alto da Balança, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -7731,7 +7731,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Doutor João Amora, 504 - Manuel Sátiro, Fortaleza - CE",
+          "address": "Rua (St) Doutor João Amora, 504 - Manuel Sátiro, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 2,
@@ -7746,7 +7746,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Leonardo Mota, 400 - Meireles, Fortaleza - CE",
+          "address": "Rua (St) Leonardo Mota, 400 - Meireles, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -7761,7 +7761,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Monsenhor Bruno, 1590 - Aldeota, Fortaleza - CE",
+          "address": "Rua (St) Monsenhor Bruno, 1590 - Aldeota, Fortaleza - CE",
           "bedrooms": 1,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -7778,7 +7778,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Geógrafo Antônio Ribeiro Zaranza, 2598 - Cajazeiras, Fortaleza - CE",
+          "address": "Avenida (Ave) Geógrafo Antônio Ribeiro Zaranza, 2598 - Cajazeiras, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -7798,7 +7798,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Marechal Deodoro, 535 - Benfica, Fortaleza - CE",
+          "address": "Rua (St) Marechal Deodoro, 535 - Benfica, Fortaleza - CE",
           "bedrooms": 5,
           "bathrooms": 3,
           "parkingSpaces": 1,
@@ -7817,7 +7817,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Tibúrcio Cavalcanti, 2111 - Dionísio Torres, Fortaleza - CE",
+          "address": "Rua (St) Tibúrcio Cavalcanti, 2111 - Dionísio Torres, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -7836,7 +7836,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Dom Luís, 500 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Dom Luís, 500 - Aldeota, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 39,
@@ -7850,7 +7850,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Desembargador Moreira, 1701 - Meireles, Fortaleza - CE",
+          "address": "Avenida (Ave) Desembargador Moreira, 1701 - Meireles, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 28,
@@ -7864,7 +7864,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Dioguinho, 4200 - Praia do Futuro, Fortaleza - CE",
+          "address": "Avenida (Ave) Dioguinho, 4200 - Praia do Futuro, Fortaleza - CE",
           "bedrooms": 1,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -7879,7 +7879,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua José Vilar - Dionísio Torres, Fortaleza - CE",
+          "address": "Rua (St) José Vilar - Dionísio Torres, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 31,
@@ -7897,7 +7897,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Tomás Lopes, 113 - Praia de Iracema, Fortaleza - CE",
+          "address": "Rua (St) Tomás Lopes, 113 - Praia de Iracema, Fortaleza - CE",
           "bedrooms": 1,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -7912,7 +7912,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Ministro Eduardo Ellery Barreira, 60 - Guararapes, Fortaleza - CE",
+          "address": "Rua (St) Ministro Eduardo Ellery Barreira, 60 - Guararapes, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 1,
@@ -7927,7 +7927,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Benjamim Brasil, 2150 - Mondubim, Fortaleza - CE",
+          "address": "Rua (St) Benjamim Brasil, 2150 - Mondubim, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 420,
@@ -7939,14 +7939,14 @@ export class LocationsService {
             "Vestiário",
             "Kitchen"
           ],
-          "description": "Galpão/Depósito/Armazém para alugar, 420m² em Mondubim, Fortaleza",
+          "description": "Galpão para alugar, 420m² em Mondubim, Fortaleza",
           "coordinates": {
             "lat": -3.808796799999999,
             "lng": -38.5577412
           }
         },
         {
-          "address": "Rua Guilherme Rocha, 381 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Guilherme Rocha, 381 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 76,
@@ -7960,7 +7960,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Visconde do Rio Branco, 1725 - Centro, Fortaleza - CE",
+          "address": "Avenida (Ave) Visconde do Rio Branco, 1725 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 58,
@@ -7974,7 +7974,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 307 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 42,
@@ -7988,7 +7988,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Luiza Miranda Coelho, 1130 - Engenheiro Luciano Cavalcante, Fortaleza - CE",
+          "address": "Rua (St) Luiza Miranda Coelho, 1130 - Engenheiro Luciano Cavalcante, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 1,
@@ -8009,7 +8009,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida José Bastos, 4140 - Rodolfo Teófilo, Fortaleza - CE",
+          "address": "Avenida (Ave) José Bastos, 4140 - Rodolfo Teófilo, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 32,
@@ -8037,7 +8037,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 307 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 42,
@@ -8051,7 +8051,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Padre Valdevino, 1777 - Aldeota, Fortaleza - CE",
+          "address": "Rua (St) Padre Valdevino, 1777 - Aldeota, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 58,
@@ -8065,7 +8065,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Joaquim Manuel de Macêdo, 1768 - Henrique Jorge, Fortaleza - CE",
+          "address": "Rua (St) Joaquim Manuel de Macêdo, 1768 - Henrique Jorge, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -8084,7 +8084,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Francisco Nogueira, 340 - Cajazeiras, Fortaleza - CE",
+          "address": "Rua (St) Francisco Nogueira, 340 - Cajazeiras, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -8104,7 +8104,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 30,
@@ -8118,7 +8118,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Antônio Atualpa Rodrigues, 100 - Praia do Futuro II, Fortaleza - CE",
+          "address": "Rua (St) Antônio Atualpa Rodrigues, 100 - Praia do Futuro II, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -8139,7 +8139,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 1235 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 1235 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 30,
@@ -8153,21 +8153,21 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Dom Luís, 500 - Meireles, Fortaleza - CE",
+          "address": "Avenida (Ave) Dom Luís, 500 - Meireles, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 84,
           "rentValue": 1900,
           "imageUrl": "../assets/img/properties/office2.jpg",
           "amenities": [],
-          "description": null,
+          "description": "",
           "coordinates": {
             "lat": -3.7356097,
             "lng": -38.4909979
           }
         },
         {
-          "address": "Rua Barão Aquiraz, 120 - Messejana, Fortaleza - CE",
+          "address": "Rua (St) Barão Aquiraz, 120 - Messejana, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -8182,21 +8182,21 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Delmiro de Farias, 1741 - Rodolfo Teófilo, Fortaleza - CE",
+          "address": "Rua (St) Delmiro de Farias, 1741 - Rodolfo Teófilo, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 425,
           "rentValue": 4500,
           "imageUrl": "../assets/img/properties/storage2.jpg",
           "amenities": [],
-          "description": "Galpão/Depósito/Armazém para alugar, 425m² em Rodolfo Teófilo, Fortaleza",
+          "description": "Galpão para alugar, 425m² em Rodolfo Teófilo, Fortaleza",
           "coordinates": {
             "lat": -3.7455877,
             "lng": -38.5529949
           }
         },
         {
-          "address": "Rua Tenente Moacir Matos, 55 - Montese, Fortaleza - CE",
+          "address": "Rua (St) Tenente Moacir Matos, 55 - Montese, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -8217,7 +8217,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Doutor Theberge, 1859 - Presidente Kennedy, Fortaleza - CE",
+          "address": "Avenida (Ave) Doutor Theberge, 1859 - Presidente Kennedy, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -8237,7 +8237,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Anário Braga, 100 - Antônio Bezerra, Fortaleza - CE",
+          "address": "Rua (St) Anário Braga, 100 - Antônio Bezerra, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -8255,7 +8255,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Desembargador Moreira, 2020 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Desembargador Moreira, 2020 - Aldeota, Fortaleza - CE",
           "bedrooms": 1,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -8273,7 +8273,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua do Rosário, 77 - Centro, Fortaleza - CE",
+          "address": "Rua (St) do Rosário, 77 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 60,
@@ -8287,7 +8287,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "area": 26,
           "rentValue": 1300,
           "imageUrl": "../assets/img/properties/ground3.jpg",
@@ -8299,7 +8299,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Beira Mar, 4444 - Mucuripe, Fortaleza - CE",
+          "address": "Avenida (Ave) Beira Mar, 4444 - Mucuripe, Fortaleza - CE",
           "bedrooms": 1,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -8319,7 +8319,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Guilherme Rocha, 381 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Guilherme Rocha, 381 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 38,
@@ -8333,7 +8333,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "area": 253,
           "rentValue": 1150,
           "imageUrl": "../assets/img/properties/ground3.jpg",
@@ -8345,7 +8345,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro Borges, 20 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pedro Borges, 20 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 60,
@@ -8359,7 +8359,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Barão de Studart, 2358 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Barão de Studart, 2358 - Aldeota, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 33,
@@ -8373,7 +8373,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Manuel Teixeira, 131 - Cambeba, Fortaleza - CE",
+          "address": "Rua (St) Manuel Teixeira, 131 - Cambeba, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -8388,7 +8388,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 1235 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 1235 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 30,
@@ -8402,7 +8402,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Luiza Guimarães, 709 - Lagoa Redonda, Fortaleza - CE",
+          "address": "Rua (St) Luiza Guimarães, 709 - Lagoa Redonda, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -8421,7 +8421,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Bento Albuquerque, 1210 - Cocó, Fortaleza - CE",
+          "address": "Rua (St) Bento Albuquerque, 1210 - Cocó, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 2,
@@ -8441,7 +8441,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua José Cavalcante Sobrinho, 120 - Messejana, Fortaleza - CE",
+          "address": "Rua (St) José Cavalcante Sobrinho, 120 - Messejana, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -8462,7 +8462,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Rui Barbosa, 2694 - Joaquim Tavora, Fortaleza - CE",
+          "address": "Avenida (Ave) Rui Barbosa, 2694 - Joaquim Tavora, Fortaleza - CE",
           "bedrooms": 1,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -8480,7 +8480,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "area": 128,
           "rentValue": 2950,
           "imageUrl": "../assets/img/properties/ground1.jpg",
@@ -8492,7 +8492,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Trajano de Medeiros, 1970 - De Lourdes, Fortaleza - CE",
+          "address": "Avenida (Ave) Trajano de Medeiros, 1970 - De Lourdes, Fortaleza - CE",
           "bedrooms": 5,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -8512,7 +8512,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua A do Loteamento Residencial Célio Gurgel, 1697 - Barroso, Fortaleza - CE",
+          "address": "Rua (St) A do Loteamento Residencial Célio Gurgel, 1697 - Barroso, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -8532,7 +8532,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua João Cordeiro, 688 - Praia de Iracema, Fortaleza - CE",
+          "address": "Rua (St) João Cordeiro, 688 - Praia de Iracema, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 1,
@@ -8552,7 +8552,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Bernardo Manuel, 8600 - Itaperi, Fortaleza - CE",
+          "address": "Avenida (Ave) Bernardo Manuel, 8600 - Itaperi, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -8570,7 +8570,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 30,
@@ -8584,7 +8584,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Dom Manuel, 277 - Centro, Fortaleza - CE",
+          "address": "Avenida (Ave) Dom Manuel, 277 - Centro, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -8599,21 +8599,21 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua do Rosário, 119 - Centro, Fortaleza - CE",
+          "address": "Rua (St) do Rosário, 119 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 70,
           "rentValue": 2800,
           "imageUrl": "../assets/img/properties/storage3.jpg",
           "amenities": [],
-          "description": "Galpão/Depósito/Armazém para alugar, 70m² em Centro, Fortaleza",
+          "description": "Galpão para alugar, 70m² em Centro, Fortaleza",
           "coordinates": {
             "lat": -3.728648,
             "lng": -38.5262544
           }
         },
         {
-          "address": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Floriano Peixoto, 187 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 31,
@@ -8627,7 +8627,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 5335 - Papicu, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 5335 - Papicu, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 30,
@@ -8641,7 +8641,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Monsenhor Bruno, 1153 - Aldeota, Fortaleza - CE",
+          "address": "Rua (St) Monsenhor Bruno, 1153 - Aldeota, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 35,
@@ -8655,7 +8655,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Floriano Peixoto, 187 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 31,
@@ -8669,7 +8669,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Bento Albuquerque, 2158 - Cocó, Fortaleza - CE",
+          "address": "Rua (St) Bento Albuquerque, 2158 - Cocó, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -8690,7 +8690,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Recreio, 1870 - Lagoa Redonda, Fortaleza - CE",
+          "address": "Avenida (Ave) Recreio, 1870 - Lagoa Redonda, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -8710,7 +8710,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "area": 128,
           "rentValue": 1800,
           "imageUrl": "../assets/img/properties/ground2.jpg",
@@ -8722,7 +8722,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Engenheiro Alberto Sá - Papicu, Fortaleza - CE",
+          "address": "Avenida (Ave) Engenheiro Alberto Sá - Papicu, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 25,
@@ -8736,7 +8736,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Zuca Accioly, 1101 - Manoel Dias Branco, Fortaleza - CE",
+          "address": "Rua (St) Zuca Accioly, 1101 - Manoel Dias Branco, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -8756,7 +8756,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 307 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 42,
@@ -8770,7 +8770,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 30,
@@ -8784,7 +8784,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Doutor Gilberto Studart, 2155 - Papicu, Fortaleza - CE",
+          "address": "Rua (St) Doutor Gilberto Studart, 2155 - Papicu, Fortaleza - CE",
           "bedrooms": 4,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -8804,7 +8804,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Monsenhor Dantas, 100 - Jacarecanga, Fortaleza - CE",
+          "address": "Rua (St) Monsenhor Dantas, 100 - Jacarecanga, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -8825,7 +8825,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua República do Líbano, 1330 - Varjota, Fortaleza - CE",
+          "address": "Rua (St) República do Líbano, 1330 - Varjota, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -8845,7 +8845,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "area": 268,
           "rentValue": 3750,
           "imageUrl": "../assets/img/properties/ground1.jpg",
@@ -8857,7 +8857,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua José Cavalcante Sobrinho, 120 - Messejana, Fortaleza - CE",
+          "address": "Rua (St) José Cavalcante Sobrinho, 120 - Messejana, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -8872,7 +8872,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Professor Gomes de Matos, 661 B - Parreão, Fortaleza - CE",
+          "address": "Avenida (Ave) Professor Gomes de Matos, 661 B - Parreão, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 100,
@@ -8889,7 +8889,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Francisco Glicério, 742 - Maraponga, Fortaleza - CE",
+          "address": "Rua (St) Francisco Glicério, 742 - Maraponga, Fortaleza - CE",
           "bedrooms": 1,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -8918,7 +8918,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Floriano Peixoto, 2100 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Floriano Peixoto, 2100 - Centro, Fortaleza - CE",
           "bedrooms": 1,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -8935,7 +8935,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 6740 - Cocó, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 6740 - Cocó, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 55,
@@ -8970,7 +8970,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Silva Jatahy, 600 - Meireles, Fortaleza - CE",
+          "address": "Rua (St) Silva Jatahy, 600 - Meireles, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -8991,7 +8991,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Franco Rocha, 477 - Henrique Jorge, Fortaleza - CE",
+          "address": "Rua (St) Franco Rocha, 477 - Henrique Jorge, Fortaleza - CE",
           "bedrooms": 1,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -9010,7 +9010,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Guilherme Rocha, 1299 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Guilherme Rocha, 1299 - Centro, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -9025,7 +9025,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Padre Antônio Tomás, 2420 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Padre Antônio Tomás, 2420 - Aldeota, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 30,
@@ -9041,7 +9041,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua José Vilar, 2350 - Dionísio Torres, Fortaleza - CE",
+          "address": "Rua (St) José Vilar, 2350 - Dionísio Torres, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -9070,7 +9070,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Fiscal Vieira, 3575 - Joaquim Tavora, Fortaleza - CE",
+          "address": "Rua (St) Fiscal Vieira, 3575 - Joaquim Tavora, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 90,
@@ -9084,7 +9084,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Paulo Firmeza, 685 - Tauape, Fortaleza - CE",
+          "address": "Rua (St) Paulo Firmeza, 685 - Tauape, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 180,
@@ -9098,7 +9098,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Padre Valdevino, 1138 - Joaquim Tavora, Fortaleza - CE",
+          "address": "Rua (St) Padre Valdevino, 1138 - Joaquim Tavora, Fortaleza - CE",
           "bedrooms": 1,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -9115,7 +9115,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pastor Samuel Munguba, 1424 - Rodolfo Teófilo, Fortaleza - CE",
+          "address": "Rua (St) Pastor Samuel Munguba, 1424 - Rodolfo Teófilo, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 120,
@@ -9143,7 +9143,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 1267 - Centro, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 1267 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 25,
@@ -9157,7 +9157,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Farias Brito, 160 - Varjota, Fortaleza - CE",
+          "address": "Avenida (Ave) Farias Brito, 160 - Varjota, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 36,
@@ -9171,7 +9171,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "area": 300,
           "rentValue": 3300,
           "imageUrl": "../assets/img/properties/ground3.jpg",
@@ -9183,7 +9183,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Gustavo Braga, 425 - Rodolfo Teófilo, Fortaleza - CE",
+          "address": "Rua (St) Gustavo Braga, 425 - Rodolfo Teófilo, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 52,
@@ -9197,7 +9197,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 5335 - Papicu, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 5335 - Papicu, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 30,
@@ -9211,7 +9211,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Antônio Sales, 1950 - Dionísio Torres, Fortaleza - CE",
+          "address": "Avenida (Ave) Antônio Sales, 1950 - Dionísio Torres, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 28,
@@ -9225,7 +9225,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Senador Virgílio Távora, 1701 - Meireles, Fortaleza - CE",
+          "address": "Avenida (Ave) Senador Virgílio Távora, 1701 - Meireles, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 35,
@@ -9239,7 +9239,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Crisanto Arruda, 752 - Passaré, Fortaleza - CE",
+          "address": "Rua (St) Crisanto Arruda, 752 - Passaré, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -9260,7 +9260,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pereira Filgueiras, 555 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pereira Filgueiras, 555 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 45,
@@ -9274,7 +9274,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro Borges, 20 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pedro Borges, 20 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 60,
@@ -9288,7 +9288,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua João Cordeiro, 1306 - Aldeota, Fortaleza - CE",
+          "address": "Rua (St) João Cordeiro, 1306 - Aldeota, Fortaleza - CE",
           "bedrooms": 7,
           "bathrooms": 3,
           "parkingSpaces": 1,
@@ -9308,7 +9308,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Professor Gomes de Matos, 625 - Montese, Fortaleza - CE",
+          "address": "Avenida (Ave) Professor Gomes de Matos, 625 - Montese, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 540,
@@ -9322,7 +9322,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Alberto Magno, 243 - Montese, Fortaleza - CE",
+          "address": "Rua (St) Alberto Magno, 243 - Montese, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 120,
@@ -9352,7 +9352,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Mário Alencar Araripe, 1545 - Agua Fria, Fortaleza - CE",
+          "address": "Rua (St) Mário Alencar Araripe, 1545 - Agua Fria, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -9369,7 +9369,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Floriano Peixoto, 187 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 31,
@@ -9383,7 +9383,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 30,
@@ -9397,7 +9397,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Washington Soares, 1400 - Engenheiro Luciano Cavalcante, Fortaleza - CE",
+          "address": "Avenida (Ave) Washington Soares, 1400 - Engenheiro Luciano Cavalcante, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 76,
@@ -9416,7 +9416,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 30,
@@ -9430,7 +9430,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Bezerra de Menezes, 1351 - Sao Gerardo, Fortaleza - CE",
+          "address": "Avenida (Ave) Bezerra de Menezes, 1351 - Sao Gerardo, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 29,
@@ -9447,7 +9447,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Visconde de Mauá, 1661 - Aldeota, Fortaleza - CE",
+          "address": "Rua (St) Visconde de Mauá, 1661 - Aldeota, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 3,
           "parkingSpaces": 2,
@@ -9483,7 +9483,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Gonçalves Ledo, 177 - Praia de Iracema, Fortaleza - CE",
+          "address": "Rua (St) Gonçalves Ledo, 177 - Praia de Iracema, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 27,
@@ -9499,7 +9499,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Independência, 1546 - Vila Velha, Fortaleza - CE",
+          "address": "Avenida (Ave) Independência, 1546 - Vila Velha, Fortaleza - CE",
           "area": 412,
           "rentValue": 4950,
           "imageUrl": "../assets/img/properties/ground1.jpg",
@@ -9511,7 +9511,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Senador Pompeu, 649 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Senador Pompeu, 649 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 23,
@@ -9530,7 +9530,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Capitão Olavo, 1093 - Aerolândia, Fortaleza - CE",
+          "address": "Rua (St) Capitão Olavo, 1093 - Aerolândia, Fortaleza - CE",
           "bedrooms": 1,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -9548,7 +9548,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 307 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 42,
@@ -9562,7 +9562,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 30,
@@ -9576,7 +9576,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Equador, 1198 - Parangaba, Fortaleza - CE",
+          "address": "Rua (St) Equador, 1198 - Parangaba, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -9597,7 +9597,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Capitão Américo Menezes, 277 - Parangaba, Fortaleza - CE",
+          "address": "Rua (St) Capitão Américo Menezes, 277 - Parangaba, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -9616,7 +9616,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Doutor Joaquim Bento, 207 - Messejana, Fortaleza - CE",
+          "address": "Rua (St) Doutor Joaquim Bento, 207 - Messejana, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 840,
@@ -9630,7 +9630,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Guilherme Rocha, 381 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Guilherme Rocha, 381 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 38,
@@ -9644,7 +9644,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 307 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 39,
@@ -9658,7 +9658,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Desembargador Faustino de Albuquerque, 781 - Cidade dos Funcionários, Fortaleza - CE",
+          "address": "Rua (St) Desembargador Faustino de Albuquerque, 781 - Cidade dos Funcionários, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 65,
@@ -9672,7 +9672,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Floriano Peixoto, 187 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 31,
@@ -9686,7 +9686,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Dom Manuel, 277 - Centro, Fortaleza - CE",
+          "address": "Avenida (Ave) Dom Manuel, 277 - Centro, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -9701,7 +9701,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Costa Sousa, 146 - Benfica, Fortaleza - CE",
+          "address": "Rua (St) Costa Sousa, 146 - Benfica, Fortaleza - CE",
           "area": 19,
           "rentValue": 4000,
           "imageUrl": "../assets/img/properties/ground1.jpg",
@@ -9713,7 +9713,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Monsenhor Bruno, 1153 - Aldeota, Fortaleza - CE",
+          "address": "Rua (St) Monsenhor Bruno, 1153 - Aldeota, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 35,
@@ -9727,7 +9727,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Engenheiro Antônio Ferreira Antero, 160 - Parque Manibura, Fortaleza - CE",
+          "address": "Rua (St) Engenheiro Antônio Ferreira Antero, 160 - Parque Manibura, Fortaleza - CE",
           "bedrooms": 4,
           "bathrooms": 3,
           "parkingSpaces": 1,
@@ -9742,7 +9742,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 307 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 42,
@@ -9756,7 +9756,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "area": 61,
           "rentValue": 1950,
           "imageUrl": "../assets/img/properties/ground1.jpg",
@@ -9768,7 +9768,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 30,
@@ -9782,7 +9782,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Vilebaldo Aguiar, 0 - Manoel Dias Branco, Fortaleza - CE",
+          "address": "Rua (St) Vilebaldo Aguiar, 0 - Manoel Dias Branco, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 29,
@@ -9796,7 +9796,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Senador Virgílio Távora, 1701 - Meireles, Fortaleza - CE",
+          "address": "Avenida (Ave) Senador Virgílio Távora, 1701 - Meireles, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 35,
@@ -9810,7 +9810,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Juscelino Kubitschek, 4950 - Passaré, Fortaleza - CE",
+          "address": "Avenida (Ave) Juscelino Kubitschek, 4950 - Passaré, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -9831,7 +9831,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Senador Alencar, 1649 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Senador Alencar, 1649 - Centro, Fortaleza - CE",
           "bedrooms": 1,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -9864,7 +9864,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida João Pessoa, 0 - Damas, Fortaleza - CE",
+          "address": "Avenida (Ave) João Pessoa, 0 - Damas, Fortaleza - CE",
           "area": 2077,
           "rentValue": 950,
           "imageUrl": "../assets/img/properties/ground3.jpg",
@@ -9876,7 +9876,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua A do Loteamento Residencial Célio Gurgel, 1697 - Barroso, Fortaleza - CE",
+          "address": "Rua (St) A do Loteamento Residencial Célio Gurgel, 1697 - Barroso, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -9896,7 +9896,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Afonso Pena, 99 - Edson Queiroz, Fortaleza - CE",
+          "address": "Rua (St) Afonso Pena, 99 - Edson Queiroz, Fortaleza - CE",
           "area": 1040,
           "rentValue": 3250,
           "imageUrl": "../assets/img/properties/ground3.jpg",
@@ -9908,7 +9908,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua do Pocinho, 30 - Centro, Fortaleza - CE",
+          "address": "Rua (St) do Pocinho, 30 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 37,
@@ -9922,7 +9922,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua 08H, 201 - Prefeito José Walter, Fortaleza - CE",
+          "address": "Rua (St) 08H, 201 - Prefeito José Walter, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -9943,7 +9943,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Fiuza de Pontes, 191 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Fiuza de Pontes, 191 - Centro, Fortaleza - CE",
           "bedrooms": 4,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -9964,7 +9964,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Professor Gomes de Matos, 648 - Bom Futuro, Fortaleza - CE",
+          "address": "Avenida (Ave) Professor Gomes de Matos, 648 - Bom Futuro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 25,
@@ -9978,7 +9978,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Martinho Rodrigues, 510 - Fátima, Fortaleza - CE",
+          "address": "Rua (St) Martinho Rodrigues, 510 - Fátima, Fortaleza - CE",
           "area": 547,
           "rentValue": 1850,
           "imageUrl": "../assets/img/properties/ground1.jpg",
@@ -9990,7 +9990,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua 1010, 56 - Conjunto Ceará, Fortaleza - CE",
+          "address": "Rua (St) 1010, 56 - Conjunto Ceará, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -10008,7 +10008,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Mário Mamede, 1214 - Fátima, Fortaleza - CE",
+          "address": "Rua (St) Mário Mamede, 1214 - Fátima, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -10026,7 +10026,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Doutor Silas Munguba, 728 - Itaperi, Fortaleza - CE",
+          "address": "Avenida (Ave) Doutor Silas Munguba, 728 - Itaperi, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -10041,7 +10041,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida da Saudade, 3251 - Passaré, Fortaleza - CE",
+          "address": "Avenida (Ave) da Saudade, 3251 - Passaré, Fortaleza - CE",
           "area": 5454,
           "rentValue": 4500,
           "imageUrl": "../assets/img/properties/ground2.jpg",
@@ -10053,7 +10053,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Sabino Borges, 66 - Aerolândia, Fortaleza - CE",
+          "address": "Rua (St) Sabino Borges, 66 - Aerolândia, Fortaleza - CE",
           "bedrooms": 1,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -10068,7 +10068,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida João Pessoa, 5233 - Damas, Fortaleza - CE",
+          "address": "Avenida (Ave) João Pessoa, 5233 - Damas, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 734,
@@ -10082,7 +10082,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Amaro Cavalcante, 104 - Monte Castelo, Fortaleza - CE",
+          "address": "Rua (St) Amaro Cavalcante, 104 - Monte Castelo, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 100,
@@ -10096,7 +10096,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Dom Luís, 1233 - Meireles, Fortaleza - CE",
+          "address": "Avenida (Ave) Dom Luís, 1233 - Meireles, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 31,
@@ -10112,7 +10112,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Napoleão Quezado, 201 - Parangaba, Fortaleza - CE",
+          "address": "Rua (St) Napoleão Quezado, 201 - Parangaba, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 4094,
@@ -10130,7 +10130,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "area": 134,
           "rentValue": 1300,
           "imageUrl": "../assets/img/properties/ground1.jpg",
@@ -10142,7 +10142,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua da Assunção, 950 - Centro, Fortaleza - CE",
+          "address": "Rua (St) da Assunção, 950 - Centro, Fortaleza - CE",
           "bedrooms": 1,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -10157,7 +10157,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Eduardo Barros Leal, 80 - Sao Gerardo, Fortaleza - CE",
+          "address": "Rua (St) Eduardo Barros Leal, 80 - Sao Gerardo, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -10177,7 +10177,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "area": 241,
           "rentValue": 700,
           "imageUrl": "../assets/img/properties/ground3.jpg",
@@ -10189,7 +10189,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Pontes Vieira, 2340 - Dionísio Torres, Fortaleza - CE",
+          "address": "Avenida (Ave) Pontes Vieira, 2340 - Dionísio Torres, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 68,
@@ -10203,14 +10203,14 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Domingos Olímpio, 96 - José Bonifácio, Fortaleza - CE",
+          "address": "Rua (St) Domingos Olímpio, 96 - José Bonifácio, Fortaleza - CE",
           "area": 80,
           "rentValue": 2900,
           "imageUrl": "../assets/img/properties/ground2.jpg",
           "amenities": [
             "West-facing",
             "Rede de água e esgoto",
-            "Rua asfaltada",
+            "Rua (St) asfaltada",
             "Plain",
             "Sandy"
           ],
@@ -10221,7 +10221,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Tomás Lopes, 113 - Praia de Iracema, Fortaleza - CE",
+          "address": "Rua (St) Tomás Lopes, 113 - Praia de Iracema, Fortaleza - CE",
           "bedrooms": 1,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -10236,7 +10236,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "area": 224,
           "rentValue": 750,
           "imageUrl": "../assets/img/properties/ground3.jpg",
@@ -10248,7 +10248,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Mem de Sá, 383 - Messejana, Fortaleza - CE",
+          "address": "Avenida (Ave) Mem de Sá, 383 - Messejana, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 280,
@@ -10262,7 +10262,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Dom Lustosa, 985 - Jangurussu, Fortaleza - CE",
+          "address": "Rua (St) Dom Lustosa, 985 - Jangurussu, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -10296,7 +10296,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Vilebaldo Aguiar, 0 - Manoel Dias Branco, Fortaleza - CE",
+          "address": "Rua (St) Vilebaldo Aguiar, 0 - Manoel Dias Branco, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 29,
@@ -10324,7 +10324,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro Borges, 20 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pedro Borges, 20 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 75,
@@ -10338,7 +10338,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 307 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 42,
@@ -10352,7 +10352,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Floriano Peixoto, 187 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 31,
@@ -10366,7 +10366,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 1235 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 1235 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 30,
@@ -10380,7 +10380,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 307 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 42,
@@ -10408,7 +10408,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Álvaro de Alencar, 320 - Jacarecanga, Fortaleza - CE",
+          "address": "Rua (St) Álvaro de Alencar, 320 - Jacarecanga, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 40,
@@ -10442,7 +10442,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 62,
@@ -10456,7 +10456,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Guilherme Rocha, 381 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Guilherme Rocha, 381 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 38,
@@ -10470,7 +10470,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Álef de Souza Cavalcante, 1077 - Jangurussu, Fortaleza - CE",
+          "address": "Rua (St) Álef de Souza Cavalcante, 1077 - Jangurussu, Fortaleza - CE",
           "area": 790,
           "rentValue": 1450,
           "imageUrl": "../assets/img/properties/ground2.jpg",
@@ -10482,7 +10482,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Luiza Guimarães, 709 - Lagoa Redonda, Fortaleza - CE",
+          "address": "Rua (St) Luiza Guimarães, 709 - Lagoa Redonda, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -10501,7 +10501,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Ana Bilhar, 987 - Meireles, Fortaleza - CE",
+          "address": "Rua (St) Ana Bilhar, 987 - Meireles, Fortaleza - CE",
           "bedrooms": 1,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -10519,7 +10519,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 307 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 42,
@@ -10533,7 +10533,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro Borges, 30 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pedro Borges, 30 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 52,
@@ -10550,7 +10550,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Barão de Aratanha, 857 - Fátima, Fortaleza - CE",
+          "address": "Rua (St) Barão de Aratanha, 857 - Fátima, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -10569,7 +10569,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Francisco Virgílio Filho, 10 - Edson Queiroz, Fortaleza - CE",
+          "address": "Rua (St) Francisco Virgílio Filho, 10 - Edson Queiroz, Fortaleza - CE",
           "bedrooms": 4,
           "bathrooms": 3,
           "parkingSpaces": 2,
@@ -10588,7 +10588,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "area": 127,
           "rentValue": 1100,
           "imageUrl": "../assets/img/properties/ground3.jpg",
@@ -10600,7 +10600,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "area": 187,
           "rentValue": 3350,
           "imageUrl": "../assets/img/properties/ground3.jpg",
@@ -10612,7 +10612,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Barão do Rio Branco, 1071 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Barão do Rio Branco, 1071 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 33,
@@ -10647,7 +10647,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Romeu Aldigueri, 22 - Guararapes, Fortaleza - CE",
+          "address": "Rua (St) Romeu Aldigueri, 22 - Guararapes, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 216,
@@ -10661,7 +10661,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "area": 61,
           "rentValue": 3900,
           "imageUrl": "../assets/img/properties/ground2.jpg",
@@ -10673,7 +10673,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Senador Virgílio Távora, 1701 - Meireles, Fortaleza - CE",
+          "address": "Avenida (Ave) Senador Virgílio Távora, 1701 - Meireles, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 35,
@@ -10687,7 +10687,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 5753 - Papicu, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 5753 - Papicu, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 45,
@@ -10716,7 +10716,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Vilebaldo Aguiar, 1151 - Cocó, Fortaleza - CE",
+          "address": "Rua (St) Vilebaldo Aguiar, 1151 - Cocó, Fortaleza - CE",
           "bedrooms": 3,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -10736,21 +10736,21 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Justino Café Neto, 240 - Guararapes, Fortaleza - CE",
+          "address": "Rua (St) Justino Café Neto, 240 - Guararapes, Fortaleza - CE",
           "bathrooms": 3,
           "parkingSpaces": 2,
           "area": 76,
           "rentValue": 2100,
           "imageUrl": "../assets/img/properties/apartament2.jpg",
           "amenities": [],
-          "description": null,
+          "description": "",
           "coordinates": {
             "lat": -3.7589949,
             "lng": -38.4893554
           }
         },
         {
-          "address": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 307 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 42,
@@ -10764,7 +10764,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 1235 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 1235 - Centro, Fortaleza - CE",
           "bedrooms": 1,
           "bathrooms": 2,
           "parkingSpaces": 2,
@@ -10779,7 +10779,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Pontes Vieira, 2340 - Dionísio Torres, Fortaleza - CE",
+          "address": "Avenida (Ave) Pontes Vieira, 2340 - Dionísio Torres, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 57,
@@ -10793,7 +10793,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Bárbara de Alencar, 1837 - Aldeota, Fortaleza - CE",
+          "address": "Rua (St) Bárbara de Alencar, 1837 - Aldeota, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 20,
@@ -10807,7 +10807,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Floriano Peixoto, 187 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Floriano Peixoto, 187 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 31,
@@ -10821,7 +10821,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Aguanambi, 806 - Fátima, Fortaleza - CE",
+          "address": "Avenida (Ave) Aguanambi, 806 - Fátima, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 36,
@@ -10838,7 +10838,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Adélia Feijó, 884 - BOA VISTA, Fortaleza - CE",
+          "address": "Rua (St) Adélia Feijó, 884 - BOA VISTA, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 312,
@@ -10852,7 +10852,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Viena Weyne, 845 - Cambeba, Fortaleza - CE",
+          "address": "Avenida (Ave) Viena Weyne, 845 - Cambeba, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 23,
@@ -10866,7 +10866,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Pedro Borges, 20 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Pedro Borges, 20 - Centro, Fortaleza - CE",
           "area": 8,
           "rentValue": 3400,
           "imageUrl": "../assets/img/properties/ground2.jpg",
@@ -10878,7 +10878,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua 1068, 35 - Conjunto Ceara II, Fortaleza - CE",
+          "address": "Rua (St) 1068, 35 - Conjunto Ceara II, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 306,
@@ -10892,7 +10892,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Juscelino Kubitschek, 4950 - Passaré, Fortaleza - CE",
+          "address": "Avenida (Ave) Juscelino Kubitschek, 4950 - Passaré, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -10913,7 +10913,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Itapagé, 32 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Itapagé, 32 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 36,
@@ -10927,7 +10927,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 307 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 39,
@@ -10941,7 +10941,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 1235 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 1235 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 30,
@@ -10955,7 +10955,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Professora Stella Cochrane, 341 - Passaré, Fortaleza - CE",
+          "address": "Rua (St) Professora Stella Cochrane, 341 - Passaré, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -10970,7 +10970,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Padre Pedro de Alencar, 632 - Messejana, Fortaleza - CE",
+          "address": "Rua (St) Padre Pedro de Alencar, 632 - Messejana, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 42,
@@ -10984,7 +10984,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida da Universidade, 3056 - Benfica, Fortaleza - CE",
+          "address": "Avenida (Ave) da Universidade, 3056 - Benfica, Fortaleza - CE",
           "bedrooms": 2,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -11005,7 +11005,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Brigadeiro Haroldo Veloso, 568 - Sapiranga, Fortaleza - CE",
+          "address": "Rua (St) Brigadeiro Haroldo Veloso, 568 - Sapiranga, Fortaleza - CE",
           "bedrooms": 5,
           "bathrooms": 2,
           "parkingSpaces": 1,
@@ -11024,7 +11024,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Ernesto Pedro dos Santos, 421 - Jóquei Clube, Fortaleza - CE",
+          "address": "Rua (St) Ernesto Pedro dos Santos, 421 - Jóquei Clube, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 397,
@@ -11033,14 +11033,14 @@ export class LocationsService {
           "amenities": [
             "Office"
           ],
-          "description": "Galpão/Depósito/Armazém para alugar, 397m² em Jóquei Clube, Fortaleza",
+          "description": "Galpão para alugar, 397m² em Jóquei Clube, Fortaleza",
           "coordinates": {
             "lat": -3.763381899999999,
             "lng": -38.5764956
           }
         },
         {
-          "address": "Rua Paulo Firmeza, 1364 - Tauape, Fortaleza - CE",
+          "address": "Rua (St) Paulo Firmeza, 1364 - Tauape, Fortaleza - CE",
           "area": 407,
           "rentValue": 3600,
           "imageUrl": "../assets/img/properties/ground3.jpg",
@@ -11052,7 +11052,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 307 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 307 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 39,
@@ -11066,7 +11066,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua do Rosário, 77 - Centro, Fortaleza - CE",
+          "address": "Rua (St) do Rosário, 77 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 85,
@@ -11080,7 +11080,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Senador Pompeu, 649 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Senador Pompeu, 649 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 23,
@@ -11099,7 +11099,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Rua Liberato Barroso, 1235 - Centro, Fortaleza - CE",
+          "address": "Rua (St) Liberato Barroso, 1235 - Centro, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 2,
           "area": 30,
@@ -11113,7 +11113,7 @@ export class LocationsService {
           }
         },
         {
-          "address": "Avenida Santos Dumont, 5554 - Cocó, Fortaleza - CE",
+          "address": "Avenida (Ave) Santos Dumont, 5554 - Cocó, Fortaleza - CE",
           "bathrooms": 1,
           "parkingSpaces": 1,
           "area": 26,

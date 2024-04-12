@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DialogInfoComponent } from './dialog1.component';
+import { DialogInfoComponent } from './dialog-info.component';
 
 describe('DialogInfoComponent', () => {
   let component: DialogInfoComponent;

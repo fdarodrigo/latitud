@@ -6,11 +6,11 @@ import {TranslateService} from '@ngx-translate/core';
 
 
 @Component({
-  selector: 'app-map1',
-  templateUrl: './map1.component.html',
-  styleUrls: ['./map1.component.scss'],
+  selector: 'app-map',
+  templateUrl: './map.component.html',
+  styleUrls: ['./map.component.scss'],
 })
-export class Map1Component implements OnInit, AfterViewChecked {
+export class MapComponent implements OnInit, AfterViewChecked {
   isLoading: boolean = true;
 
   param = {value: 'world'};
@@ -151,7 +151,6 @@ export class Map1Component implements OnInit, AfterViewChecked {
       });
 
       this.average = this.helper.avaragePrices(housesInOlygon)
-      console.log(this.average)
       this.total_houses = housesInOlygon.length
 
       housesInOlygon.forEach(house => {
@@ -165,7 +164,6 @@ export class Map1Component implements OnInit, AfterViewChecked {
         });
 
         house.lang = this.lang;
-        console.log('no buscar ',this.lang)
 
         marker.addListener('click', () => {
           this.helper.openDialogInfo('400ms', '1000ms', house)
