@@ -170,7 +170,7 @@ export class MapComponent implements OnInit, AfterViewChecked {
         });
       });
     } else {
-      console.log('Por favor, desenhe um polígono com pelo menos 3 pontos.');
+      console.log(this.lang === 'pt' ? 'Por favor, desenhe um polígono com pelo menos 3 pontos.' : "Please, draw a polygon with at least 3 points.");
     }
   }
 
