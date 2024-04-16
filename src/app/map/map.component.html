@@ -32,7 +32,7 @@
 
   <h2>{{'nearby' | translate}}</h2>
 
-  <mat-form-field appearance="fill" class="pink-transparent">
+  <mat-form-field appearance="fill" class="mat-select">
     <mat-select (selectionChange)="handleIconSelect($event)">
       <mat-option *ngFor="let icon of icons" [value]="icon.value">
         <i class="{{ icon.class }} fa-2x"></i>
@@ -42,7 +42,7 @@
   </mat-form-field>
 
   <h2>{{'traffic-info' | translate}}</h2>
-  <mat-form-field appearance="fill">
+  <mat-form-field appearance="fill" class="mat-select">
     <mat-select [(value)]="selectedLayer" panelClass="my-select-panel-class">
       <mat-option mat-option value="traffic" (click)="traffLayer()">
         <i class="fa fa-traffic-light fa-2x"></i>

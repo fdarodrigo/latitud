@@ -6,8 +6,14 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD4-3Bwj1uGRs3ukl2pfEQOkjiXi75GRCo&libraries=places&callback=initMap" async defer></script>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD4-3Bwj1uGRs3ukl2pfEQOkjiXi75GRCo&libraries=places&callback=initMap" async defer
+  onerror="handleError()"></script>  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <script>
+    function handleError() {
+        // Trate o erro de carregamento do Google Maps aqui
+        console.log("Erro ao carregar o Google Maps.");
+    }
+</script>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
