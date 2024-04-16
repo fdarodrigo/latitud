@@ -275,19 +275,19 @@ export class HelpersService {
 
     switch (place.types[0]) {
       case 'gym':
-        iconUrl = '../assets/img/icons/workout.gif';
+        iconUrl = 'assets/img/icons/workout.gif';
         break;
       case 'school':
-        iconUrl = '../assets/img/icons/school.gif';
+        iconUrl = 'assets/img/icons/school.gif';
         break;
       case 'university':
-        iconUrl = '../assets/img/icons/university.gif';
+        iconUrl = 'assets/img/icons/university.gif';
         break;
       case 'restaurant':
-        iconUrl = '../assets/img/icons/restaurant.gif';
+        iconUrl = 'assets/img/icons/restaurant.gif';
         break;
       case 'hospital':
-        iconUrl = '../assets/img/icons/medical-symbol.gif';
+        iconUrl = 'assets/img/icons/medical-symbol.gif';
         break;
       default:
         iconUrl = '';

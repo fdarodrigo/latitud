@@ -26,7 +26,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 106,
           "rentValue": 1100,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Elevator",
             "Balcony",
@@ -47,7 +47,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 70,
           "rentValue": 4200,
-          "imageUrl": "../assets/img/properties/apartament5.jpg",
+          "imageUrl": "assets/img/properties/apartament5.jpg",
           "amenities": [],
           "description": "Apartamento com 2 Quartos para alugar, 70m² em Pirambú, Fortaleza",
           "coordinates": {
@@ -62,7 +62,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 57,
           "rentValue": 800,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -82,7 +82,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 65,
           "rentValue": 1050,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [],
           "description": "Apartamento com 2 Quartos para alugar, 65m² em Aldeota, Fortaleza",
           "coordinates": {
@@ -97,7 +97,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 116,
           "rentValue": 1300,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [],
           "description": "Apartamento com 3 Quartos para alugar, 116m² em Parque Iracema, Fortaleza",
           "coordinates": {
@@ -112,7 +112,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 66,
           "rentValue": 1550,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Balcony",
             "Pool",
@@ -131,7 +131,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 105,
           "rentValue": 3000,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [],
           "description": "",
           "coordinates": {
@@ -146,7 +146,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 42,
           "rentValue": 1100,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -166,7 +166,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 71,
           "rentValue": 1750,
-          "imageUrl": "../assets/img/properties/apartament5.jpg",
+          "imageUrl": "assets/img/properties/apartament5.jpg",
           "amenities": [
             "Elevator",
             "Intercom",
@@ -186,7 +186,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 180,
           "rentValue": 2250,
-          "imageUrl": "../assets/img/properties/house3.jpg",
+          "imageUrl": "assets/img/properties/house3.jpg",
           "amenities": [
             "Balcony",
             "Garage",
@@ -205,7 +205,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 47,
           "rentValue": 4350,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -225,7 +225,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 50,
           "rentValue": 2050,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Balcony",
             "Garage",
@@ -244,7 +244,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 49,
           "rentValue": 1200,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Imóvel Comercial para alugar, 49m² em Aldeota, Fortaleza",
           "coordinates": {
@@ -259,7 +259,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 45,
           "rentValue": 3250,
-          "imageUrl": "../assets/img/properties/apartament5.jpg",
+          "imageUrl": "assets/img/properties/apartament5.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -279,7 +279,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 75,
           "rentValue": 2200,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Pool",
             "Mobiliado",
@@ -300,7 +300,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 53,
           "rentValue": 1850,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -320,7 +320,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 63,
           "rentValue": 4950,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -339,7 +339,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 302,
           "rentValue": 4350,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 302m² em Joaquim Tavora, Fortaleza",
           "coordinates": {
@@ -354,7 +354,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 48,
           "rentValue": 4850,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [
             "Pool",
             "Balcony",
@@ -374,7 +374,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 88,
           "rentValue": 1500,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Playground",
             "Sports court",
@@ -393,7 +393,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 89,
           "rentValue": 3500,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -413,7 +413,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 63,
           "rentValue": 2000,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [
             "Gated community",
             "Elevator",
@@ -433,7 +433,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 63,
           "rentValue": 2200,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [
             "Mobiliado",
             "Elevator",
@@ -454,7 +454,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 11111,
           "rentValue": 3350,
-          "imageUrl": "../assets/img/properties/house2.jpg",
+          "imageUrl": "assets/img/properties/house2.jpg",
           "amenities": [],
           "description": "Casa com 3 Quartos para alugar, 11111m² em José Bonifácio, Fortaleza",
           "coordinates": {
@@ -469,7 +469,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 160,
           "rentValue": 4000,
-          "imageUrl": "../assets/img/properties/house5.jpg",
+          "imageUrl": "assets/img/properties/house5.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -490,7 +490,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 98,
           "rentValue": 2800,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [],
           "description": "Apartamento com 3 Quartos para alugar, 98m² em Cocó, Fortaleza",
           "coordinates": {
@@ -505,7 +505,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 68,
           "rentValue": 3050,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -523,7 +523,7 @@ export class LocationsService {
           "address": "Rua (St) Paulo Firmeza, 1608 - Tauape, Fortaleza - CE",
           "area": 407,
           "rentValue": 2450,
-          "imageUrl": "../assets/img/properties/ground3.jpg",
+          "imageUrl": "assets/img/properties/ground3.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar, 407m² em Tauape, Fortaleza",
           "coordinates": {
@@ -537,7 +537,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 30,
           "rentValue": 2900,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [
             "Gourmet balcony"
           ],
@@ -553,7 +553,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 35,
           "rentValue": 1850,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 35m² em Padre Andrade, Fortaleza",
           "coordinates": {
@@ -568,7 +568,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 125,
           "rentValue": 950,
-          "imageUrl": "../assets/img/properties/house5.jpg",
+          "imageUrl": "assets/img/properties/house5.jpg",
           "amenities": [
             "Barbecue grill",
             "Gated community",
@@ -588,7 +588,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 34,
           "rentValue": 2650,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 34m² em Aldeota, Fortaleza",
           "coordinates": {
@@ -603,7 +603,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 95,
           "rentValue": 4400,
-          "imageUrl": "../assets/img/properties/house5.jpg",
+          "imageUrl": "assets/img/properties/house5.jpg",
           "amenities": [
             "Laundry area",
             "Built-in cabinet",
@@ -622,7 +622,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 200,
           "rentValue": 1450,
-          "imageUrl": "../assets/img/properties/house1.jpg",
+          "imageUrl": "assets/img/properties/house1.jpg",
           "amenities": [
             "Kitchen",
             "Laundry area"
@@ -639,7 +639,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 372,
           "rentValue": 2150,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [
             "Cup",
             "Laundry area"
@@ -657,7 +657,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 67,
           "rentValue": 2350,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [],
           "description": "Apartamento com 2 Quartos para alugar, 67m² em Parque Manibura, Fortaleza",
           "coordinates": {
@@ -671,7 +671,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 33,
           "rentValue": 2350,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 33m² em Aldeota, Fortaleza",
           "coordinates": {
@@ -686,7 +686,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 80,
           "rentValue": 800,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Internet connection"
           ],
@@ -702,7 +702,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 216,
           "rentValue": 3400,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Imóvel Comercial para alugar, 216m² em Cambeba, Fortaleza",
           "coordinates": {
@@ -717,7 +717,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 70,
           "rentValue": 1650,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -738,7 +738,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 43,
           "rentValue": 1000,
-          "imageUrl": "../assets/img/properties/apartament5.jpg",
+          "imageUrl": "assets/img/properties/apartament5.jpg",
           "amenities": [
             "Playground",
             "Laundry area",
@@ -759,7 +759,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 60,
           "rentValue": 1450,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -779,7 +779,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 157,
           "rentValue": 3050,
-          "imageUrl": "../assets/img/properties/house4.jpg",
+          "imageUrl": "assets/img/properties/house4.jpg",
           "amenities": [
             "Kitchen"
           ],
@@ -796,7 +796,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 83,
           "rentValue": 750,
-          "imageUrl": "../assets/img/properties/house1.jpg",
+          "imageUrl": "assets/img/properties/house1.jpg",
           "amenities": [
             "Barbecue grill",
             "Gated community",
@@ -815,7 +815,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 63,
           "rentValue": 3900,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -836,7 +836,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 46,
           "rentValue": 1200,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [],
           "description": "Apartamento com 2 Quartos para alugar, 46m² em Paupina, Fortaleza",
           "coordinates": {
@@ -851,7 +851,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 83,
           "rentValue": 2350,
-          "imageUrl": "../assets/img/properties/house4.jpg",
+          "imageUrl": "assets/img/properties/house4.jpg",
           "amenities": [
             "Barbecue grill",
             "Gated community",
@@ -870,7 +870,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 45,
           "rentValue": 2750,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -890,7 +890,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 55,
           "rentValue": 4850,
-          "imageUrl": "../assets/img/properties/apartament5.jpg",
+          "imageUrl": "assets/img/properties/apartament5.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -911,7 +911,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 100,
           "rentValue": 2350,
-          "imageUrl": "../assets/img/properties/house3.jpg",
+          "imageUrl": "assets/img/properties/house3.jpg",
           "amenities": [
             "Kitchen",
             "Laundry area"
@@ -928,7 +928,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 38,
           "rentValue": 4700,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 38m² em Centro, Fortaleza",
           "coordinates": {
@@ -943,7 +943,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 47,
           "rentValue": 750,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Barbecue grill",
             "Laundry area",
@@ -962,7 +962,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 2296,
           "rentValue": 650,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Imóvel Comercial para alugar, 2296m² em Centro, Fortaleza",
           "coordinates": {
@@ -977,7 +977,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 156,
           "rentValue": 4600,
-          "imageUrl": "../assets/img/properties/house1.jpg",
+          "imageUrl": "assets/img/properties/house1.jpg",
           "amenities": [
             "Cup",
             "Gourmet balcony"
@@ -995,7 +995,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 40,
           "rentValue": 1050,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [
             "Laundry",
             "Dining room",
@@ -1015,7 +1015,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 60,
           "rentValue": 3550,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Elevator",
             "Gated community",
@@ -1035,7 +1035,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 90,
           "rentValue": 1600,
-          "imageUrl": "../assets/img/properties/apartament5.jpg",
+          "imageUrl": "assets/img/properties/apartament5.jpg",
           "amenities": [],
           "description": "Apartamento com 3 Quartos para alugar, 90m² em Fátima, Fortaleza",
           "coordinates": {
@@ -1050,7 +1050,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 62,
           "rentValue": 4850,
-          "imageUrl": "../assets/img/properties/apartament5.jpg",
+          "imageUrl": "assets/img/properties/apartament5.jpg",
           "amenities": [
             "Laundry area"
           ],
@@ -1066,7 +1066,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 35,
           "rentValue": 1800,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 35m² em Padre Andrade, Fortaleza",
           "coordinates": {
@@ -1078,7 +1078,7 @@ export class LocationsService {
           "address": "Rua (St) João Sales, 1665 - Planalto Ayrton Senna, Fortaleza - CE",
           "area": 1241,
           "rentValue": 1800,
-          "imageUrl": "../assets/img/properties/ground2.jpg",
+          "imageUrl": "assets/img/properties/ground2.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar, 1241m² em Planalto Ayrton Senna, Fortaleza",
           "coordinates": {
@@ -1093,7 +1093,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 46,
           "rentValue": 4150,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Playground",
             "Laundry area",
@@ -1113,7 +1113,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 35,
           "rentValue": 4150,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 35m² em Joaquim Tavora, Fortaleza",
           "coordinates": {
@@ -1128,7 +1128,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 50,
           "rentValue": 2650,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [
             "Pool",
             "Mobiliado",
@@ -1149,7 +1149,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 111,
           "rentValue": 4450,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [],
           "description": "Apartamento com 3 Quartos para alugar, 111m² em Aldeota, Fortaleza",
           "coordinates": {
@@ -1164,7 +1164,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 60,
           "rentValue": 1150,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [
             "Air conditioning",
             "Kitchen",
@@ -1183,7 +1183,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 94,
           "rentValue": 600,
-          "imageUrl": "../assets/img/properties/house2.jpg",
+          "imageUrl": "assets/img/properties/house2.jpg",
           "amenities": [
             "Internet connection"
           ],
@@ -1200,7 +1200,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 150,
           "rentValue": 3700,
-          "imageUrl": "../assets/img/properties/house3.jpg",
+          "imageUrl": "assets/img/properties/house3.jpg",
           "amenities": [],
           "description": "Casa com 2 Quartos para alugar, 150m² em Cidade dos Funcionários, Fortaleza",
           "coordinates": {
@@ -1215,7 +1215,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 70,
           "rentValue": 2650,
-          "imageUrl": "../assets/img/properties/apartament5.jpg",
+          "imageUrl": "assets/img/properties/apartament5.jpg",
           "amenities": [],
           "description": "Apartamento com 2 Quartos para alugar, 70m² em Itaperi, Fortaleza",
           "coordinates": {
@@ -1230,7 +1230,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 95,
           "rentValue": 3800,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -1251,7 +1251,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 50,
           "rentValue": 4850,
-          "imageUrl": "../assets/img/properties/house5.jpg",
+          "imageUrl": "assets/img/properties/house5.jpg",
           "amenities": [
             "Kitchen",
             "Balcony"
@@ -1268,7 +1268,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 36,
           "rentValue": 750,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 36m² em Praia de Iracema, Fortaleza",
           "coordinates": {
@@ -1280,7 +1280,7 @@ export class LocationsService {
           "address": "Rua (St) Gomes Brasil, 340 - Parangaba, Fortaleza - CE",
           "area": 260,
           "rentValue": 4050,
-          "imageUrl": "../assets/img/properties/ground3.jpg",
+          "imageUrl": "assets/img/properties/ground3.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar, 260m² em Parangaba, Fortaleza",
           "coordinates": {
@@ -1292,7 +1292,7 @@ export class LocationsService {
           "address": "Rua (St) Doutor José Frota, 29 - Mucuripe, Fortaleza - CE",
           "area": 80,
           "rentValue": 4550,
-          "imageUrl": "../assets/img/properties/ground2.jpg",
+          "imageUrl": "assets/img/properties/ground2.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar, 80m² em Mucuripe, Fortaleza",
           "coordinates": {
@@ -1304,7 +1304,7 @@ export class LocationsService {
           "address": "Rua (St) Crisanto Arruda, 0 - Passaré, Fortaleza - CE",
           "area": 2000,
           "rentValue": 5000,
-          "imageUrl": "../assets/img/properties/ground3.jpg",
+          "imageUrl": "assets/img/properties/ground3.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar, 2000m² em Passaré, Fortaleza",
           "coordinates": {
@@ -1319,7 +1319,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 53,
           "rentValue": 1200,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Barbecue grill",
             "Elevator",
@@ -1339,7 +1339,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 30,
           "rentValue": 650,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 30m² em Papicu, Fortaleza",
           "coordinates": {
@@ -1354,7 +1354,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 47,
           "rentValue": 1900,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Barbecue grill",
             "Pool",
@@ -1373,7 +1373,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 200,
           "rentValue": 4950,
-          "imageUrl": "../assets/img/properties/storage1.jpg",
+          "imageUrl": "assets/img/properties/storage1.jpg",
           "amenities": [
             "Gated community"
           ],
@@ -1390,7 +1390,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 50,
           "rentValue": 4200,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [
             "Elevator",
             "Intercom",
@@ -1408,7 +1408,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 400,
           "rentValue": 3700,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [
             "Cup",
             "Laundry area"
@@ -1426,7 +1426,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 50,
           "rentValue": 1700,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Gated community",
             "Kitchen",
@@ -1446,7 +1446,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 100,
           "rentValue": 2100,
-          "imageUrl": "../assets/img/properties/house5.jpg",
+          "imageUrl": "assets/img/properties/house5.jpg",
           "amenities": [
             "Balcony",
             "Garage",
@@ -1465,7 +1465,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 28,
           "rentValue": 3400,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [
             "Gourmet space",
             "Elevator",
@@ -1485,7 +1485,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 300,
           "rentValue": 600,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 300m² em Dionísio Torres, Fortaleza",
           "coordinates": {
@@ -1500,7 +1500,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 70,
           "rentValue": 3050,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -1521,7 +1521,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 51,
           "rentValue": 3200,
-          "imageUrl": "../assets/img/properties/apartament5.jpg",
+          "imageUrl": "assets/img/properties/apartament5.jpg",
           "amenities": [
             "Kitchen",
             "Laundry area"
@@ -1538,7 +1538,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 25,
           "rentValue": 1550,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [
             "Kitchen"
           ],
@@ -1555,7 +1555,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 80,
           "rentValue": 3100,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Party room",
             "24-hour security"
@@ -1572,7 +1572,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 38,
           "rentValue": 2900,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 38m² em Centro, Fortaleza",
           "coordinates": {
@@ -1587,7 +1587,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 56,
           "rentValue": 2150,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [],
           "description": "Apartamento com 2 Quartos para alugar, 56m² em Fátima, Fortaleza",
           "coordinates": {
@@ -1602,7 +1602,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 43,
           "rentValue": 2350,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -1621,7 +1621,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 55,
           "rentValue": 1350,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 55m² em JOSE DE ALENCAR, Fortaleza",
           "coordinates": {
@@ -1636,7 +1636,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 200,
           "rentValue": 4150,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [
             "Pool",
             "Mobiliado",
@@ -1654,7 +1654,7 @@ export class LocationsService {
           "address": "Rua (St) Beatriz Segal, 0 - Barroso, Fortaleza - CE",
           "area": 396,
           "rentValue": 3950,
-          "imageUrl": "../assets/img/properties/ground2.jpg",
+          "imageUrl": "assets/img/properties/ground2.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar, 396m² em Barroso, Fortaleza",
           "coordinates": {
@@ -1669,7 +1669,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 53,
           "rentValue": 4900,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Ponto Comercial com 2 Quartos para alugar, 53m² em Papicu, Fortaleza",
           "coordinates": {
@@ -1684,7 +1684,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 55,
           "rentValue": 2150,
-          "imageUrl": "../assets/img/properties/apartament5.jpg",
+          "imageUrl": "assets/img/properties/apartament5.jpg",
           "amenities": [
             "Pool",
             "Mobiliado",
@@ -1705,7 +1705,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 60,
           "rentValue": 2750,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Elevator",
             "Gated community",
@@ -1725,7 +1725,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 60,
           "rentValue": 2300,
-          "imageUrl": "../assets/img/properties/apartament5.jpg",
+          "imageUrl": "assets/img/properties/apartament5.jpg",
           "amenities": [
             "Gated community",
             "Electronic gate",
@@ -1745,7 +1745,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 112,
           "rentValue": 1050,
-          "imageUrl": "../assets/img/properties/apartament5.jpg",
+          "imageUrl": "assets/img/properties/apartament5.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -1764,7 +1764,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 5493,
           "rentValue": 4200,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [
             "Cup"
           ],
@@ -1781,7 +1781,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 75,
           "rentValue": 3350,
-          "imageUrl": "../assets/img/properties/apartament5.jpg",
+          "imageUrl": "assets/img/properties/apartament5.jpg",
           "amenities": [
             "Laundry area"
           ],
@@ -1797,7 +1797,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 30,
           "rentValue": 3250,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [
             "Garage",
             "Kitchen",
@@ -1816,7 +1816,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 60,
           "rentValue": 3650,
-          "imageUrl": "../assets/img/properties/house1.jpg",
+          "imageUrl": "assets/img/properties/house1.jpg",
           "amenities": [
             "Laundry area",
             "Blindex box",
@@ -1835,7 +1835,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 53,
           "rentValue": 1850,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Elevator",
             "Pool",
@@ -1856,7 +1856,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 50,
           "rentValue": 2750,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Pool",
             "Gated community",
@@ -1876,7 +1876,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 50,
           "rentValue": 3350,
-          "imageUrl": "../assets/img/properties/apartament5.jpg",
+          "imageUrl": "assets/img/properties/apartament5.jpg",
           "amenities": [
             "Balcony",
             "Laundry area",
@@ -1896,7 +1896,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 40,
           "rentValue": 3100,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [
             "Kitchen",
             "24-hour security",
@@ -1914,7 +1914,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 30,
           "rentValue": 1350,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Imóvel Comercial para alugar, 30m² em Centro, Fortaleza",
           "coordinates": {
@@ -1928,7 +1928,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 34,
           "rentValue": 2650,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para venda ou aluguel, 34m² em Centro, Fortaleza",
           "coordinates": {
@@ -1943,7 +1943,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 100,
           "rentValue": 750,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Elevator",
             "Gated community",
@@ -1960,7 +1960,7 @@ export class LocationsService {
           "address": "Rua (St) Visconde de Mauá, 530 - Meireles, Fortaleza - CE",
           "area": 8,
           "rentValue": 2950,
-          "imageUrl": "../assets/img/properties/ground1.jpg",
+          "imageUrl": "assets/img/properties/ground1.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar, 8m² em Meireles, Fortaleza",
           "coordinates": {
@@ -1975,7 +1975,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 120,
           "rentValue": 1000,
-          "imageUrl": "../assets/img/properties/house5.jpg",
+          "imageUrl": "assets/img/properties/house5.jpg",
           "amenities": [
             "Garage",
             "Kitchen"
@@ -1993,7 +1993,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 55,
           "rentValue": 1350,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [
             "Pool",
             "Party room",
@@ -2013,7 +2013,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 45,
           "rentValue": 3600,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [
             "Gated community"
           ],
@@ -2027,7 +2027,7 @@ export class LocationsService {
           "address": "Estrada de Ferro, 0 - Maraponga, Fortaleza - CE",
           "area": 1300,
           "rentValue": 3250,
-          "imageUrl": "../assets/img/properties/ground3.jpg",
+          "imageUrl": "assets/img/properties/ground3.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar, 1300m² em Maraponga, Fortaleza",
           "coordinates": {
@@ -2042,7 +2042,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 120,
           "rentValue": 4850,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -2061,7 +2061,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 400,
           "rentValue": 2350,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [
             "Laundry area"
           ],
@@ -2078,7 +2078,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 110,
           "rentValue": 4300,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [
             "Gated community",
             "Balcony",
@@ -2097,7 +2097,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 50,
           "rentValue": 950,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 50m² em Guararapes, Fortaleza",
           "coordinates": {
@@ -2112,7 +2112,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 225,
           "rentValue": 1600,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [],
           "description": "Apartamento com 4 Quartos para alugar, 225m² em Meireles, Fortaleza",
           "coordinates": {
@@ -2127,7 +2127,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 41,
           "rentValue": 4400,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [],
           "description": "Apartamento com 2 Quartos para alugar, 41m² em Centro, Fortaleza",
           "coordinates": {
@@ -2141,7 +2141,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 98,
           "rentValue": 950,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 98m² em Praia do Futuro, Fortaleza",
           "coordinates": {
@@ -2156,7 +2156,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 80,
           "rentValue": 3350,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Balcony",
             "Garage",
@@ -2174,7 +2174,7 @@ export class LocationsService {
           "address": "Rua (St) H, 0 - Parque Dois Irmãos, Fortaleza - CE",
           "area": 438,
           "rentValue": 1250,
-          "imageUrl": "../assets/img/properties/ground3.jpg",
+          "imageUrl": "assets/img/properties/ground3.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar, 438m² em Parque Dois Irmãos, Fortaleza",
           "coordinates": {
@@ -2188,7 +2188,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 360,
           "rentValue": 2900,
-          "imageUrl": "../assets/img/properties/storage1.jpg",
+          "imageUrl": "assets/img/properties/storage1.jpg",
           "amenities": [
             "Ramp",
             "Handicap access",
@@ -2208,7 +2208,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 55,
           "rentValue": 2550,
-          "imageUrl": "../assets/img/properties/house5.jpg",
+          "imageUrl": "assets/img/properties/house5.jpg",
           "amenities": [],
           "description": "Casa com 1 Quarto para alugar, 55m² em Centro, Fortaleza",
           "coordinates": {
@@ -2223,7 +2223,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 144,
           "rentValue": 3500,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Air conditioning",
             "Laundry area",
@@ -2242,7 +2242,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 50,
           "rentValue": 900,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 50m² em Parquelândia, Fortaleza",
           "coordinates": {
@@ -2257,7 +2257,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 178,
           "rentValue": 850,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -2277,7 +2277,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 40,
           "rentValue": 2400,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 40m² em Centro, Fortaleza",
           "coordinates": {
@@ -2292,7 +2292,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 41,
           "rentValue": 1050,
-          "imageUrl": "../assets/img/properties/apartament5.jpg",
+          "imageUrl": "assets/img/properties/apartament5.jpg",
           "amenities": [
             "Barbecue grill",
             "Intercom",
@@ -2311,7 +2311,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 47,
           "rentValue": 800,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [
             "Barbecue grill",
             "Pool"
@@ -2329,7 +2329,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 200,
           "rentValue": 3000,
-          "imageUrl": "../assets/img/properties/house4.jpg",
+          "imageUrl": "assets/img/properties/house4.jpg",
           "amenities": [
             "Pool",
             "Gated community",
@@ -2348,7 +2348,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 23,
           "rentValue": 3700,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [
             "Kitchen",
             "24-hour security",
@@ -2368,7 +2368,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 70,
           "rentValue": 2400,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -2388,7 +2388,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 40,
           "rentValue": 4750,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Laundry",
             "Dining room",
@@ -2421,7 +2421,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 75,
           "rentValue": 4750,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 75m² em Centro, Fortaleza",
           "coordinates": {
@@ -2436,7 +2436,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 42,
           "rentValue": 1200,
-          "imageUrl": "../assets/img/properties/apartament5.jpg",
+          "imageUrl": "assets/img/properties/apartament5.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -2456,7 +2456,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 45,
           "rentValue": 3100,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [
             "Intercom"
           ],
@@ -2473,7 +2473,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 44,
           "rentValue": 1000,
-          "imageUrl": "../assets/img/properties/apartament5.jpg",
+          "imageUrl": "assets/img/properties/apartament5.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -2493,7 +2493,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 118,
           "rentValue": 1200,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [
             "Elevator",
             "Gated community",
@@ -2513,7 +2513,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 54,
           "rentValue": 3050,
-          "imageUrl": "../assets/img/properties/house5.jpg",
+          "imageUrl": "assets/img/properties/house5.jpg",
           "amenities": [
             "Cup",
             "Laundry area"
@@ -2530,7 +2530,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 44,
           "rentValue": 1350,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 44m² em Centro, Fortaleza",
           "coordinates": {
@@ -2545,7 +2545,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 60,
           "rentValue": 4500,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [],
           "description": "Apartamento com 2 Quartos para alugar, 60m² em Farias Brito, Fortaleza",
           "coordinates": {
@@ -2560,7 +2560,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 60,
           "rentValue": 1300,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -2581,7 +2581,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 60,
           "rentValue": 3750,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -2600,7 +2600,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 160,
           "rentValue": 4150,
-          "imageUrl": "../assets/img/properties/house3.jpg",
+          "imageUrl": "assets/img/properties/house3.jpg",
           "amenities": [
             "Pool",
             "Gated community",
@@ -2621,7 +2621,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 70,
           "rentValue": 4800,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -2641,7 +2641,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 76,
           "rentValue": 4100,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 76m² em Centro, Fortaleza",
           "coordinates": {
@@ -2656,7 +2656,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 142,
           "rentValue": 1050,
-          "imageUrl": "../assets/img/properties/house5.jpg",
+          "imageUrl": "assets/img/properties/house5.jpg",
           "amenities": [],
           "description": "Casa com 2 Quartos para alugar, 142m² em Centro, Fortaleza",
           "coordinates": {
@@ -2670,7 +2670,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 35,
           "rentValue": 2850,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 35m² em Padre Andrade, Fortaleza",
           "coordinates": {
@@ -2684,7 +2684,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 75,
           "rentValue": 4900,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 75m² em Centro, Fortaleza",
           "coordinates": {
@@ -2699,7 +2699,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 40,
           "rentValue": 3050,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [
             "Kitchen",
             "Gated community"
@@ -2717,7 +2717,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 100,
           "rentValue": 1450,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Garage",
             "Kitchen",
@@ -2736,7 +2736,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 65,
           "rentValue": 4800,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [],
           "description": "Apartamento com 2 Quartos para alugar, 65m² em Meireles, Fortaleza",
           "coordinates": {
@@ -2751,7 +2751,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 43,
           "rentValue": 1700,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [
             "Intercom",
             "Sports court",
@@ -2770,7 +2770,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 60,
           "rentValue": 4100,
-          "imageUrl": "../assets/img/properties/apartament5.jpg",
+          "imageUrl": "assets/img/properties/apartament5.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -2790,7 +2790,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 40,
           "rentValue": 2600,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [
             "Kitchen"
           ],
@@ -2806,7 +2806,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 42,
           "rentValue": 1550,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coordinates": {
@@ -2821,7 +2821,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 45,
           "rentValue": 3800,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Barbecue grill",
             "Playground",
@@ -2838,7 +2838,7 @@ export class LocationsService {
           "address": "Rua (St) Edmundo Falcão, 1 - Antônio Diogo, Fortaleza - CE",
           "area": 825,
           "rentValue": 4600,
-          "imageUrl": "../assets/img/properties/ground1.jpg",
+          "imageUrl": "assets/img/properties/ground1.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar, 825m² em Antônio Diogo, Fortaleza",
           "coordinates": {
@@ -2853,7 +2853,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 40,
           "rentValue": 1350,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [
             "Gated community",
             "24-hour concierge",
@@ -2874,7 +2874,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 55,
           "rentValue": 2500,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [
             "Elevator",
             "Gated community",
@@ -2893,7 +2893,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 23,
           "rentValue": 4250,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [
             "Kitchen",
             "24-hour security",
@@ -2932,7 +2932,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 55,
           "rentValue": 1350,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -2953,7 +2953,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 150,
           "rentValue": 3600,
-          "imageUrl": "../assets/img/properties/house4.jpg",
+          "imageUrl": "assets/img/properties/house4.jpg",
           "amenities": [
             "Laundry area",
             "Intercom"
@@ -2970,7 +2970,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 31,
           "rentValue": 2850,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coordinates": {
@@ -2984,7 +2984,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 34,
           "rentValue": 1350,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 34m² em Centro, Fortaleza",
           "coordinates": {
@@ -2999,7 +2999,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 52,
           "rentValue": 700,
-          "imageUrl": "../assets/img/properties/apartament5.jpg",
+          "imageUrl": "assets/img/properties/apartament5.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -3019,7 +3019,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 34,
           "rentValue": 1100,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para venda ou aluguel, 34m² em Centro, Fortaleza",
           "coordinates": {
@@ -3034,7 +3034,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 70,
           "rentValue": 700,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [
             "Elevator",
             "Gated community",
@@ -3054,7 +3054,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 65,
           "rentValue": 850,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -3074,7 +3074,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 36,
           "rentValue": 3500,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 36m² em Aldeota, Fortaleza",
           "coordinates": {
@@ -3088,7 +3088,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 32,
           "rentValue": 4450,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 32m² em Centro, Fortaleza",
           "coordinates": {
@@ -3103,7 +3103,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 60,
           "rentValue": 3650,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [],
           "description": "Apartamento com 2 Quartos para alugar, 60m² em Quintino Cunha, Fortaleza",
           "coordinates": {
@@ -3115,7 +3115,7 @@ export class LocationsService {
           "address": "Rua (St) Doutor Edmilson Barros de Oliveira - Cocó, Fortaleza - CE",
           "area": 440,
           "rentValue": 600,
-          "imageUrl": "../assets/img/properties/ground2.jpg",
+          "imageUrl": "assets/img/properties/ground2.jpg",
           "amenities": [],
           "description": "Lote/Terreno para venda ou aluguel, 440m² em Cocó, Fortaleza",
           "coordinates": {
@@ -3129,7 +3129,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 42,
           "rentValue": 1550,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coordinates": {
@@ -3143,7 +3143,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 75,
           "rentValue": 2150,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 75m² em Centro, Fortaleza",
           "coordinates": {
@@ -3157,7 +3157,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 28,
           "rentValue": 1250,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Prédio Comercial para alugar, 28m² em Meireles, Fortaleza",
           "coordinates": {
@@ -3171,7 +3171,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 176,
           "rentValue": 2400,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 176m² em Dias Macedo, Fortaleza",
           "coordinates": {
@@ -3186,7 +3186,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 45,
           "rentValue": 3700,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -3205,7 +3205,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 42,
           "rentValue": 3900,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coordinates": {
@@ -3219,7 +3219,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 35,
           "rentValue": 1900,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [
             "Kitchen"
           ],
@@ -3236,7 +3236,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 120,
           "rentValue": 2400,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Elevator",
             "Gated community",
@@ -3256,7 +3256,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 96,
           "rentValue": 4350,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Elevator",
             "Gated community",
@@ -3276,7 +3276,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 90,
           "rentValue": 2000,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Balcony",
             "Garage",
@@ -3295,7 +3295,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 85,
           "rentValue": 4950,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [
             "Internet connection"
           ],
@@ -3312,7 +3312,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 60,
           "rentValue": 1000,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -3332,7 +3332,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 38,
           "rentValue": 4450,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 38m² em Centro, Fortaleza",
           "coordinates": {
@@ -3347,7 +3347,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 62,
           "rentValue": 700,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Playground",
             "Air conditioning",
@@ -3366,7 +3366,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 27,
           "rentValue": 3000,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [
             "Elevator",
             "Intercom"
@@ -3383,7 +3383,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 48,
           "rentValue": 1150,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 48m² em Edson Queiroz, Fortaleza",
           "coordinates": {
@@ -3397,7 +3397,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 42,
           "rentValue": 2150,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coordinates": {
@@ -3411,7 +3411,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 42,
           "rentValue": 1650,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coordinates": {
@@ -3425,7 +3425,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 38,
           "rentValue": 2750,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 38m² em Centro, Fortaleza",
           "coordinates": {
@@ -3440,7 +3440,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 120,
           "rentValue": 3150,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Elevator",
             "Gated community",
@@ -3459,7 +3459,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 60,
           "rentValue": 800,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 60m² em Centro, Fortaleza",
           "coordinates": {
@@ -3471,7 +3471,7 @@ export class LocationsService {
           "address": "Rua (St) Professor Solon Farias, Lt-07 - Sapiranga, Fortaleza - CE",
           "area": 1720,
           "rentValue": 2150,
-          "imageUrl": "../assets/img/properties/ground3.jpg",
+          "imageUrl": "assets/img/properties/ground3.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar, 1720m² em Sapiranga, Fortaleza",
           "coordinates": {
@@ -3485,7 +3485,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 60,
           "rentValue": 2100,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 60m² em Centro, Fortaleza",
           "coordinates": {
@@ -3499,7 +3499,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 31,
           "rentValue": 1700,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coordinates": {
@@ -3513,7 +3513,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 74,
           "rentValue": 2800,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 74m² em Centro, Fortaleza",
           "coordinates": {
@@ -3527,7 +3527,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 35,
           "rentValue": 1300,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Imóvel Comercial para alugar, 35m² em Meireles, Fortaleza",
           "coordinates": {
@@ -3541,7 +3541,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 578,
           "rentValue": 4500,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [
             "Cup"
           ],
@@ -3558,7 +3558,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 45,
           "rentValue": 2000,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -3577,7 +3577,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 26,
           "rentValue": 3450,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 26m² em Centro, Fortaleza",
           "coordinates": {
@@ -3591,7 +3591,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 34,
           "rentValue": 2600,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 34m² em Centro, Fortaleza",
           "coordinates": {
@@ -3605,7 +3605,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 75,
           "rentValue": 1800,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 75m² em Centro, Fortaleza",
           "coordinates": {
@@ -3620,7 +3620,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 42,
           "rentValue": 1650,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -3639,7 +3639,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 31,
           "rentValue": 4950,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [
             "Balcony"
           ],
@@ -3655,7 +3655,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 35,
           "rentValue": 2300,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Imóvel Comercial para alugar, 35m² em Centro, Fortaleza",
           "coordinates": {
@@ -3669,7 +3669,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 52,
           "rentValue": 3550,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [
             "Kitchen"
           ],
@@ -3686,7 +3686,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 60,
           "rentValue": 1400,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [],
           "description": "Apartamento com 2 Quartos para alugar, 60m² em Parangaba, Fortaleza",
           "coordinates": {
@@ -3701,7 +3701,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 75,
           "rentValue": 1550,
-          "imageUrl": "../assets/img/properties/house2.jpg",
+          "imageUrl": "assets/img/properties/house2.jpg",
           "amenities": [
             "Gourmet balcony"
           ],
@@ -3717,7 +3717,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 31,
           "rentValue": 4750,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coordinates": {
@@ -3731,7 +3731,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 35,
           "rentValue": 2450,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Imóvel Comercial para alugar, 35m² em Meireles, Fortaleza",
           "coordinates": {
@@ -3745,7 +3745,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 42,
           "rentValue": 1950,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coordinates": {
@@ -3759,7 +3759,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 89,
           "rentValue": 3400,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 89m² em Centro, Fortaleza",
           "coordinates": {
@@ -3773,7 +3773,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 23,
           "rentValue": 4800,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [
             "Kitchen",
             "24-hour security",
@@ -3792,7 +3792,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 89,
           "rentValue": 2100,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 89m² em Centro, Fortaleza",
           "coordinates": {
@@ -3806,7 +3806,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 28,
           "rentValue": 2850,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 28m² em Papicu, Fortaleza",
           "coordinates": {
@@ -3820,7 +3820,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 30,
           "rentValue": 2300,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 30m² em Cajazeiras, Fortaleza",
           "coordinates": {
@@ -3835,7 +3835,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 60,
           "rentValue": 1900,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -3853,7 +3853,7 @@ export class LocationsService {
           "address": "Rua (St) Beatriz Segal, 0 - Barroso, Fortaleza - CE",
           "area": 495,
           "rentValue": 1700,
-          "imageUrl": "../assets/img/properties/ground1.jpg",
+          "imageUrl": "assets/img/properties/ground1.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar, 495m² em Barroso, Fortaleza",
           "coordinates": {
@@ -3867,7 +3867,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 134,
           "rentValue": 4750,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Imóvel Comercial para alugar, 134m² em Aldeota, Fortaleza",
           "coordinates": {
@@ -3881,7 +3881,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 30,
           "rentValue": 2550,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 30m² em Papicu, Fortaleza",
           "coordinates": {
@@ -3893,7 +3893,7 @@ export class LocationsService {
           "address": "Cidade dos Funcionários, Fortaleza - CE",
           "area": 225,
           "rentValue": 1950,
-          "imageUrl": "../assets/img/properties/ground2.jpg",
+          "imageUrl": "assets/img/properties/ground2.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar, 225m² em Cidade dos Funcionários, Fortaleza",
           "coordinates": {
@@ -3907,7 +3907,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 80,
           "rentValue": 3350,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 80m² em Dias Macedo, Fortaleza",
           "coordinates": {
@@ -3922,7 +3922,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 41,
           "rentValue": 3650,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -3942,7 +3942,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 27,
           "rentValue": 2550,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [
             "Elevator",
             "24-hour concierge"
@@ -3959,7 +3959,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 42,
           "rentValue": 2550,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coordinates": {
@@ -3973,7 +3973,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 31,
           "rentValue": 2800,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coordinates": {
@@ -3987,7 +3987,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 47,
           "rentValue": 3400,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 47m² em Centro, Fortaleza",
           "coordinates": {
@@ -4002,7 +4002,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 171,
           "rentValue": 1100,
-          "imageUrl": "../assets/img/properties/house1.jpg",
+          "imageUrl": "assets/img/properties/house1.jpg",
           "amenities": [
             "Kitchen",
             "Laundry area"
@@ -4019,7 +4019,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 76,
           "rentValue": 1400,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "",
           "coordinates": {
@@ -4033,7 +4033,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 30,
           "rentValue": 3850,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 30m² em Montese, Fortaleza",
           "coordinates": {
@@ -4047,7 +4047,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 80,
           "rentValue": 4400,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 80m² em Fátima, Fortaleza",
           "coordinates": {
@@ -4062,7 +4062,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 230,
           "rentValue": 4100,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Imóvel Comercial com 3 Quartos para alugar, 230m² em Papicu, Fortaleza",
           "coordinates": {
@@ -4077,7 +4077,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 480,
           "rentValue": 2350,
-          "imageUrl": "../assets/img/properties/house5.jpg",
+          "imageUrl": "assets/img/properties/house5.jpg",
           "amenities": [
             "Barbecue grill",
             "Laundry area",
@@ -4095,7 +4095,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 30,
           "rentValue": 2250,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 30m² em Cajazeiras, Fortaleza",
           "coordinates": {
@@ -4110,7 +4110,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 71,
           "rentValue": 2700,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Laundry area",
             "Adult pool",
@@ -4129,7 +4129,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 4066,
           "rentValue": 2050,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Prédio Comercial com 40 Quartos para alugar, 4066m² em JOSE DE ALENCAR, Fortaleza",
           "coordinates": {
@@ -4143,7 +4143,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 35,
           "rentValue": 1200,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Imóvel Comercial para alugar, 35m² em Meireles, Fortaleza",
           "coordinates": {
@@ -4157,7 +4157,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 27,
           "rentValue": 4950,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para venda ou aluguel, 27m² em Centro, Fortaleza",
           "coordinates": {
@@ -4171,7 +4171,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 30,
           "rentValue": 600,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Imóvel Comercial para alugar, 30m² em Conjunto Ceará, Fortaleza",
           "coordinates": {
@@ -4185,7 +4185,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 100,
           "rentValue": 4450,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [
             "Cup"
           ],
@@ -4201,7 +4201,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 30,
           "rentValue": 3550,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 30m² em Papicu, Fortaleza",
           "coordinates": {
@@ -4215,7 +4215,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 36,
           "rentValue": 4250,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [
             "Elevator",
             "Alarm system"
@@ -4232,7 +4232,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 76,
           "rentValue": 3750,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 76m² em Centro, Fortaleza",
           "coordinates": {
@@ -4246,7 +4246,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 23,
           "rentValue": 4850,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [
             "Kitchen",
             "24-hour security",
@@ -4263,7 +4263,7 @@ export class LocationsService {
           "address": "Edson Queiroz, Fortaleza - CE",
           "area": 1440,
           "rentValue": 4150,
-          "imageUrl": "../assets/img/properties/ground2.jpg",
+          "imageUrl": "assets/img/properties/ground2.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar, 1440m² em Edson Queiroz, Fortaleza",
           "coordinates": {
@@ -4275,7 +4275,7 @@ export class LocationsService {
           "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "area": 203,
           "rentValue": 4650,
-          "imageUrl": "../assets/img/properties/ground2.jpg",
+          "imageUrl": "assets/img/properties/ground2.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar em Aldeota, Fortaleza",
           "coordinates": {
@@ -4290,7 +4290,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 100,
           "rentValue": 4400,
-          "imageUrl": "../assets/img/properties/apartament5.jpg",
+          "imageUrl": "assets/img/properties/apartament5.jpg",
           "amenities": [
             "Elevator",
             "Balcony",
@@ -4310,7 +4310,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 60,
           "rentValue": 1100,
-          "imageUrl": "../assets/img/properties/house3.jpg",
+          "imageUrl": "assets/img/properties/house3.jpg",
           "amenities": [],
           "description": "Casa com 2 Quartos para alugar, 60m² em Quintino Cunha, Fortaleza",
           "coordinates": {
@@ -4325,7 +4325,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 80,
           "rentValue": 3500,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -4345,7 +4345,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 52,
           "rentValue": 4950,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [
             "Kitchen"
           ],
@@ -4362,7 +4362,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 40,
           "rentValue": 1100,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [
             "Kitchen",
             "Laundry area"
@@ -4377,7 +4377,7 @@ export class LocationsService {
           "address": "Rua (St) Raimundo Oliveira Filho, 659 - Papicu, Fortaleza - CE",
           "area": 1100,
           "rentValue": 2900,
-          "imageUrl": "../assets/img/properties/ground3.jpg",
+          "imageUrl": "assets/img/properties/ground3.jpg",
           "amenities": [
             "East-facing",
             "South-facing",
@@ -4397,7 +4397,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 21,
           "rentValue": 4750,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 21m² em Coaçu, Fortaleza",
           "coordinates": {
@@ -4409,7 +4409,7 @@ export class LocationsService {
           "address": "Rua (St) Maria Alice, SN - Engenheiro Luciano Cavalcante, Fortaleza - CE",
           "area": 841,
           "rentValue": 2950,
-          "imageUrl": "../assets/img/properties/ground2.jpg",
+          "imageUrl": "assets/img/properties/ground2.jpg",
           "amenities": [
             "Desnível para frente (Rua (St))",
             "Plain",
@@ -4428,7 +4428,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 60,
           "rentValue": 3700,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -4448,7 +4448,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 39,
           "rentValue": 2200,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 39m² em Centro, Fortaleza",
           "coordinates": {
@@ -4462,7 +4462,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 42,
           "rentValue": 2500,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coordinates": {
@@ -4476,7 +4476,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 42,
           "rentValue": 2900,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coordinates": {
@@ -4490,7 +4490,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 36,
           "rentValue": 3100,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [
             "Security circuit",
             "Elevator"
@@ -4508,7 +4508,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 61,
           "rentValue": 1700,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [
             "Air conditioning",
             "Laundry area",
@@ -4526,7 +4526,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 42,
           "rentValue": 2650,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coordinates": {
@@ -4540,7 +4540,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 55,
           "rentValue": 600,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 55m² em Presidente Kennedy, Fortaleza",
           "coordinates": {
@@ -4552,7 +4552,7 @@ export class LocationsService {
           "address": "Rua (St) Maximino, 237 - JOSE DE ALENCAR, Fortaleza - CE",
           "area": 720,
           "rentValue": 3550,
-          "imageUrl": "../assets/img/properties/ground2.jpg",
+          "imageUrl": "assets/img/properties/ground2.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar, 720m² em JOSE DE ALENCAR, Fortaleza",
           "coordinates": {
@@ -4566,7 +4566,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 60,
           "rentValue": 4050,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 60m² em Centro, Fortaleza",
           "coordinates": {
@@ -4580,7 +4580,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 74,
           "rentValue": 750,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 74m² em Centro, Fortaleza",
           "coordinates": {
@@ -4594,7 +4594,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 15,
           "rentValue": 3450,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [
             "Kitchen"
           ],
@@ -4610,7 +4610,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 25,
           "rentValue": 1050,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [
             "Mobiliado"
           ],
@@ -4626,7 +4626,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 38,
           "rentValue": 850,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 38m² em Centro, Fortaleza",
           "coordinates": {
@@ -4641,7 +4641,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 56,
           "rentValue": 4750,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Pool",
             "Mobiliado",
@@ -4661,7 +4661,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 30,
           "rentValue": 3150,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 30m² em Papicu, Fortaleza",
           "coordinates": {
@@ -4676,7 +4676,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 45,
           "rentValue": 900,
-          "imageUrl": "../assets/img/properties/apartament5.jpg",
+          "imageUrl": "assets/img/properties/apartament5.jpg",
           "amenities": [
             "Playground",
             "Laundry area",
@@ -4697,7 +4697,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 167,
           "rentValue": 3950,
-          "imageUrl": "../assets/img/properties/apartament5.jpg",
+          "imageUrl": "assets/img/properties/apartament5.jpg",
           "amenities": [],
           "description": "Apartamento com 3 Quartos para alugar, 167m² em Meireles, Fortaleza",
           "coordinates": {
@@ -4711,7 +4711,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 30,
           "rentValue": 2850,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 30m² em Centro, Fortaleza",
           "coordinates": {
@@ -4726,7 +4726,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 64,
           "rentValue": 1650,
-          "imageUrl": "../assets/img/properties/apartament5.jpg",
+          "imageUrl": "assets/img/properties/apartament5.jpg",
           "amenities": [
             "Elevator",
             "Gated community",
@@ -4745,7 +4745,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 30,
           "rentValue": 3850,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 30m² em Aldeota, Fortaleza",
           "coordinates": {
@@ -4759,7 +4759,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 64,
           "rentValue": 4050,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [
             "Elevator",
             "Gated community",
@@ -4778,7 +4778,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 142,
           "rentValue": 2600,
-          "imageUrl": "../assets/img/properties/house2.jpg",
+          "imageUrl": "assets/img/properties/house2.jpg",
           "amenities": [
             "Gourmet balcony"
           ],
@@ -4794,7 +4794,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 39,
           "rentValue": 1600,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 39m² em Centro, Fortaleza",
           "coordinates": {
@@ -4809,7 +4809,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 200,
           "rentValue": 3150,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [
             "Electronic gate"
           ],
@@ -4826,7 +4826,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 358,
           "rentValue": 4150,
-          "imageUrl": "../assets/img/properties/house1.jpg",
+          "imageUrl": "assets/img/properties/house1.jpg",
           "amenities": [],
           "description": "Casa com 3 Quartos para alugar, 358m² em Aldeota, Fortaleza",
           "coordinates": {
@@ -4841,7 +4841,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 33,
           "rentValue": 2400,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [
             "Kitchen",
             "Alarm system",
@@ -4860,7 +4860,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 40,
           "rentValue": 3400,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Kitchen",
             "Laundry area"
@@ -4877,7 +4877,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 45,
           "rentValue": 4550,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 45m² em Amadeu Furtado, Fortaleza",
           "coordinates": {
@@ -4892,7 +4892,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 90,
           "rentValue": 1850,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [
             "Laundry area",
             "Kitchen",
@@ -4910,7 +4910,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 49,
           "rentValue": 2500,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 49m² em Dionísio Torres, Fortaleza",
           "coordinates": {
@@ -4924,7 +4924,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 23,
           "rentValue": 900,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [
             "Kitchen",
             "24-hour security",
@@ -4943,7 +4943,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 39,
           "rentValue": 4150,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 39m² em Centro, Fortaleza",
           "coordinates": {
@@ -4957,7 +4957,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 16,
           "rentValue": 1650,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 16m² em Cidade dos Funcionários, Fortaleza",
           "coordinates": {
@@ -4971,7 +4971,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 38,
           "rentValue": 750,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 38m² em Centro, Fortaleza",
           "coordinates": {
@@ -4985,7 +4985,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 26,
           "rentValue": 1300,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 26m² em Centro, Fortaleza",
           "coordinates": {
@@ -4999,7 +4999,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 22,
           "rentValue": 750,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 22m² em Parque Dois Irmãos, Fortaleza",
           "coordinates": {
@@ -5011,7 +5011,7 @@ export class LocationsService {
           "address": "Rua (St) H, 0 - Parque Dois Irmãos, Fortaleza - CE",
           "area": 438,
           "rentValue": 4050,
-          "imageUrl": "../assets/img/properties/ground1.jpg",
+          "imageUrl": "assets/img/properties/ground1.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar, 438m² em Parque Dois Irmãos, Fortaleza",
           "coordinates": {
@@ -5026,7 +5026,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 440,
           "rentValue": 1100,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Imóvel Comercial com 5 Quartos para alugar, 440m² em Parquelândia, Fortaleza",
           "coordinates": {
@@ -5041,7 +5041,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 35,
           "rentValue": 2550,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Ponto Comercial com 2 Quartos para alugar, 35m² em José Bonifácio, Fortaleza",
           "coordinates": {
@@ -5055,7 +5055,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 4066,
           "rentValue": 2650,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Prédio Comercial com 40 Quartos para alugar, 4066m² em JOSE DE ALENCAR, Fortaleza",
           "coordinates": {
@@ -5069,7 +5069,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 40,
           "rentValue": 2750,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [
             "Kitchen"
           ],
@@ -5102,7 +5102,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 17,
           "rentValue": 1600,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 17m² em JOSE DE ALENCAR, Fortaleza",
           "coordinates": {
@@ -5117,7 +5117,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 253,
           "rentValue": 3950,
-          "imageUrl": "../assets/img/properties/house4.jpg",
+          "imageUrl": "assets/img/properties/house4.jpg",
           "amenities": [
             "Balcony",
             "Garage",
@@ -5137,7 +5137,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 41,
           "rentValue": 3400,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [
             "Barbecue grill",
             "Intercom",
@@ -5155,7 +5155,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 300,
           "rentValue": 3550,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [
             "Kitchen"
           ],
@@ -5172,7 +5172,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 100,
           "rentValue": 4150,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [],
           "description": "Apartamento com 3 Quartos para alugar, 100m² em Guararapes, Fortaleza",
           "coordinates": {
@@ -5187,7 +5187,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 126,
           "rentValue": 1200,
-          "imageUrl": "../assets/img/properties/house2.jpg",
+          "imageUrl": "assets/img/properties/house2.jpg",
           "amenities": [
             "Kitchen",
             "Intercom",
@@ -5205,7 +5205,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 25,
           "rentValue": 1050,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [
             "Kitchen"
           ],
@@ -5222,7 +5222,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 41,
           "rentValue": 800,
-          "imageUrl": "../assets/img/properties/apartament5.jpg",
+          "imageUrl": "assets/img/properties/apartament5.jpg",
           "amenities": [
             "Playground",
             "Laundry area",
@@ -5241,7 +5241,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 59,
           "rentValue": 3650,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [
             "Kitchen",
             "Elevator"
@@ -5259,7 +5259,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 125,
           "rentValue": 3300,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -5279,7 +5279,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 167,
           "rentValue": 3900,
-          "imageUrl": "../assets/img/properties/apartament5.jpg",
+          "imageUrl": "assets/img/properties/apartament5.jpg",
           "amenities": [],
           "description": "",
           "coordinates": {
@@ -5293,7 +5293,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 43,
           "rentValue": 3900,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 43m² em Joaquim Tavora, Fortaleza",
           "coordinates": {
@@ -5308,7 +5308,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 56,
           "rentValue": 3150,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Pool",
             "Mobiliado",
@@ -5329,7 +5329,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 21,
           "rentValue": 2950,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [
             "Entrance hall",
             "Meeting room"
@@ -5347,7 +5347,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 70,
           "rentValue": 3550,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -5367,7 +5367,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 35,
           "rentValue": 2350,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [
             "Intercom"
           ],
@@ -5383,7 +5383,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 30,
           "rentValue": 1800,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [
             "Kitchen",
             "Elevator",
@@ -5403,7 +5403,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 30,
           "rentValue": 4850,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [
             "Laundry",
             "Kitchen",
@@ -5421,7 +5421,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 85,
           "rentValue": 1000,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [
             "Internet connection"
           ],
@@ -5437,7 +5437,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 35,
           "rentValue": 4600,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Imóvel Comercial para alugar, 35m² em Meireles, Fortaleza",
           "coordinates": {
@@ -5452,7 +5452,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 60,
           "rentValue": 3450,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -5473,7 +5473,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 48,
           "rentValue": 1650,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [
             "Intercom"
           ],
@@ -5489,7 +5489,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 34,
           "rentValue": 3250,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para venda ou aluguel, 34m² em Centro, Fortaleza",
           "coordinates": {
@@ -5503,7 +5503,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 34,
           "rentValue": 4800,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para venda ou aluguel, 34m² em Centro, Fortaleza",
           "coordinates": {
@@ -5517,7 +5517,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 55,
           "rentValue": 4350,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 55m² em Pici, Fortaleza",
           "coordinates": {
@@ -5531,7 +5531,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 32,
           "rentValue": 850,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 32m² em Meireles, Fortaleza",
           "coordinates": {
@@ -5545,7 +5545,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 550,
           "rentValue": 4300,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [
             "Deposit"
           ],
@@ -5561,7 +5561,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 31,
           "rentValue": 3650,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coordinates": {
@@ -5576,7 +5576,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 45,
           "rentValue": 2850,
-          "imageUrl": "../assets/img/properties/apartament5.jpg",
+          "imageUrl": "assets/img/properties/apartament5.jpg",
           "amenities": [
             "Kitchen",
             "Laundry area"
@@ -5594,7 +5594,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 120,
           "rentValue": 5000,
-          "imageUrl": "../assets/img/properties/house1.jpg",
+          "imageUrl": "assets/img/properties/house1.jpg",
           "amenities": [
             "Garage",
             "Kitchen"
@@ -5611,7 +5611,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 30,
           "rentValue": 700,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 30m² em Papicu, Fortaleza",
           "coordinates": {
@@ -5625,7 +5625,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 62,
           "rentValue": 2150,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [
             "Office",
             "Ocean view"
@@ -5643,7 +5643,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 163,
           "rentValue": 1100,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -5662,7 +5662,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 42,
           "rentValue": 1650,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coordinates": {
@@ -5676,7 +5676,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 50,
           "rentValue": 1600,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 50m² em Parque Manibura, Fortaleza",
           "coordinates": {
@@ -5691,7 +5691,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 250,
           "rentValue": 3300,
-          "imageUrl": "../assets/img/properties/house3.jpg",
+          "imageUrl": "assets/img/properties/house3.jpg",
           "amenities": [],
           "description": "Casa com 6 Quartos para alugar, 250m² em Fátima, Fortaleza",
           "coordinates": {
@@ -5703,7 +5703,7 @@ export class LocationsService {
           "address": "Rua (St) Andrade Furtado, 0 - Cocó, Fortaleza - CE",
           "area": 498,
           "rentValue": 2800,
-          "imageUrl": "../assets/img/properties/ground1.jpg",
+          "imageUrl": "assets/img/properties/ground1.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar, 498m² em Cocó, Fortaleza",
           "coordinates": {
@@ -5717,7 +5717,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 31,
           "rentValue": 1150,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coordinates": {
@@ -5731,7 +5731,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 36,
           "rentValue": 3600,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 36m² em Centro, Fortaleza",
           "coordinates": {
@@ -5743,7 +5743,7 @@ export class LocationsService {
           "address": "Rua (St) Roberto Gradvohl, 1 - JOSE DE ALENCAR, Fortaleza - CE",
           "area": 1000,
           "rentValue": 4550,
-          "imageUrl": "../assets/img/properties/ground1.jpg",
+          "imageUrl": "assets/img/properties/ground1.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar, 1000m² em JOSE DE ALENCAR, Fortaleza",
           "coordinates": {
@@ -5757,7 +5757,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 72,
           "rentValue": 1650,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 72m² em Centro, Fortaleza",
           "coordinates": {
@@ -5771,7 +5771,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 75,
           "rentValue": 4650,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 75m² em Centro, Fortaleza",
           "coordinates": {
@@ -5785,7 +5785,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 28,
           "rentValue": 1450,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 28m² em Aldeota, Fortaleza",
           "coordinates": {
@@ -5800,7 +5800,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 50,
           "rentValue": 4800,
-          "imageUrl": "../assets/img/properties/house4.jpg",
+          "imageUrl": "assets/img/properties/house4.jpg",
           "amenities": [
             "Balcony",
             "Kitchen"
@@ -5815,7 +5815,7 @@ export class LocationsService {
           "address": "Rua (St) Maria Alice, SN - Engenheiro Luciano Cavalcante, Fortaleza - CE",
           "area": 841,
           "rentValue": 4400,
-          "imageUrl": "../assets/img/properties/ground1.jpg",
+          "imageUrl": "assets/img/properties/ground1.jpg",
           "amenities": [
             "Desnível para frente (Rua (St))",
             "Plain",
@@ -5834,7 +5834,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 89,
           "rentValue": 600,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Laundry area"
           ],
@@ -5851,7 +5851,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 100,
           "rentValue": 4650,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [
             "Elevator",
             "Gated community",
@@ -5871,7 +5871,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 70,
           "rentValue": 2550,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [],
           "description": "Apartamento com 2 Quartos para alugar, 70m² em Parque Iracema, Fortaleza",
           "coordinates": {
@@ -5885,7 +5885,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 31,
           "rentValue": 950,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coordinates": {
@@ -5899,7 +5899,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 31,
           "rentValue": 4950,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coordinates": {
@@ -5913,7 +5913,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 36,
           "rentValue": 2050,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [
             "Security circuit",
             "Elevator"
@@ -5931,7 +5931,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 30,
           "rentValue": 1850,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [
             "Security camera",
             "Garden",
@@ -5951,7 +5951,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 23,
           "rentValue": 750,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [
             "Elevator",
             "Office"
@@ -5966,7 +5966,7 @@ export class LocationsService {
           "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "area": 128,
           "rentValue": 3550,
-          "imageUrl": "../assets/img/properties/ground2.jpg",
+          "imageUrl": "assets/img/properties/ground2.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar em Aldeota, Fortaleza",
           "coordinates": {
@@ -5981,7 +5981,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 85,
           "rentValue": 2650,
-          "imageUrl": "../assets/img/properties/house5.jpg",
+          "imageUrl": "assets/img/properties/house5.jpg",
           "amenities": [
             "Balcony",
             "Kitchen",
@@ -5997,7 +5997,7 @@ export class LocationsService {
           "address": "Rua (St) Antônio Augusto, 120 - Meireles, Fortaleza - CE",
           "area": 54,
           "rentValue": 1150,
-          "imageUrl": "../assets/img/properties/ground2.jpg",
+          "imageUrl": "assets/img/properties/ground2.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar em Meireles, Fortaleza",
           "coordinates": {
@@ -6011,7 +6011,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 42,
           "rentValue": 1350,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coordinates": {
@@ -6025,7 +6025,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 50,
           "rentValue": 3850,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [
             "Kitchen"
           ],
@@ -6041,7 +6041,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 34,
           "rentValue": 1750,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 34m² em Dionísio Torres, Fortaleza",
           "coordinates": {
@@ -6055,7 +6055,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 35,
           "rentValue": 1500,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 35m² em Parangaba, Fortaleza",
           "coordinates": {
@@ -6067,7 +6067,7 @@ export class LocationsService {
           "address": "Rua (St) Araripe Júnior, 0 - Cambeba, Fortaleza - CE",
           "area": 1000,
           "rentValue": 1550,
-          "imageUrl": "../assets/img/properties/ground1.jpg",
+          "imageUrl": "assets/img/properties/ground1.jpg",
           "amenities": [],
           "description": "Lote/Terreno para venda ou aluguel, 1000m² em Cambeba, Fortaleza",
           "coordinates": {
@@ -6081,7 +6081,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 42,
           "rentValue": 3350,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coordinates": {
@@ -6095,7 +6095,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 20,
           "rentValue": 4000,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 20m² em Centro, Fortaleza",
           "coordinates": {
@@ -6110,7 +6110,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 130,
           "rentValue": 1200,
-          "imageUrl": "../assets/img/properties/house5.jpg",
+          "imageUrl": "assets/img/properties/house5.jpg",
           "amenities": [],
           "description": "Casa com 3 Quartos para alugar, 130m² em Cidade dos Funcionários, Fortaleza",
           "coordinates": {
@@ -6125,7 +6125,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 250,
           "rentValue": 1900,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [
             "Electronic gate",
             "American kitchen"
@@ -6142,7 +6142,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 28,
           "rentValue": 2100,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 28m² em Dionísio Torres, Fortaleza",
           "coordinates": {
@@ -6156,7 +6156,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 32,
           "rentValue": 3550,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [
             "Kitchen",
             "Security circuit",
@@ -6176,7 +6176,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 85,
           "rentValue": 1750,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Elevator",
             "Balcony",
@@ -6195,7 +6195,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 110,
           "rentValue": 4400,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Imóvel Comercial para alugar, 110m² em Itaperi, Fortaleza",
           "coordinates": {
@@ -6209,7 +6209,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 27,
           "rentValue": 3900,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [
             "Elevator",
             "Intercom"
@@ -6227,7 +6227,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 60,
           "rentValue": 1000,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -6248,7 +6248,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 52,
           "rentValue": 1250,
-          "imageUrl": "../assets/img/properties/apartament5.jpg",
+          "imageUrl": "assets/img/properties/apartament5.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -6268,7 +6268,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 89,
           "rentValue": 4850,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 89m² em Centro, Fortaleza",
           "coordinates": {
@@ -6282,7 +6282,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 76,
           "rentValue": 4050,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 76m² em Centro, Fortaleza",
           "coordinates": {
@@ -6297,7 +6297,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 100,
           "rentValue": 3400,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [],
           "description": "Apartamento com 3 Quartos para alugar, 100m² em Joaquim Tavora, Fortaleza",
           "coordinates": {
@@ -6311,7 +6311,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 31,
           "rentValue": 4800,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coordinates": {
@@ -6325,7 +6325,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 31,
           "rentValue": 2600,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coordinates": {
@@ -6337,7 +6337,7 @@ export class LocationsService {
           "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "area": 156,
           "rentValue": 1800,
-          "imageUrl": "../assets/img/properties/ground3.jpg",
+          "imageUrl": "assets/img/properties/ground3.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar em Aldeota, Fortaleza",
           "coordinates": {
@@ -6351,7 +6351,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 256,
           "rentValue": 2700,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 256m² em Aerolândia, Fortaleza",
           "coordinates": {
@@ -6366,7 +6366,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 53,
           "rentValue": 1700,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -6384,7 +6384,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 23,
           "rentValue": 950,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 23m² em Centro, Fortaleza",
           "coordinates": {
@@ -6398,7 +6398,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 56,
           "rentValue": 2500,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 56m² em Centro, Fortaleza",
           "coordinates": {
@@ -6413,7 +6413,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 40,
           "rentValue": 3300,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [
             "Laundry",
             "Dining room",
@@ -6431,7 +6431,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 31,
           "rentValue": 1450,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coordinates": {
@@ -6446,7 +6446,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 74,
           "rentValue": 2400,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Laundry area"
           ],
@@ -6463,7 +6463,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 55,
           "rentValue": 1150,
-          "imageUrl": "../assets/img/properties/house2.jpg",
+          "imageUrl": "assets/img/properties/house2.jpg",
           "amenities": [],
           "description": "Casa com 1 Quarto para alugar, 55m² em Centro, Fortaleza",
           "coordinates": {
@@ -6478,7 +6478,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 65,
           "rentValue": 2500,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Security circuit",
             "Elevator",
@@ -6499,7 +6499,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 19,
           "rentValue": 4150,
-          "imageUrl": "../assets/img/properties/house4.jpg",
+          "imageUrl": "assets/img/properties/house4.jpg",
           "amenities": [],
           "description": "Casa com 3 Quartos para alugar, 19m² em Vila União, Fortaleza",
           "coordinates": {
@@ -6511,7 +6511,7 @@ export class LocationsService {
           "address": "Rua (St) Doutor Edmilson Barros de Oliveira - Cocó, Fortaleza - CE",
           "area": 440,
           "rentValue": 1700,
-          "imageUrl": "../assets/img/properties/ground3.jpg",
+          "imageUrl": "assets/img/properties/ground3.jpg",
           "amenities": [],
           "description": "Lote/Terreno para venda ou aluguel, 440m² em Cocó, Fortaleza",
           "coordinates": {
@@ -6525,7 +6525,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 45,
           "rentValue": 4750,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 45m² em Papicu, Fortaleza",
           "coordinates": {
@@ -6539,7 +6539,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 40,
           "rentValue": 3650,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Imóvel Comercial para alugar, 40m² em Cocó, Fortaleza",
           "coordinates": {
@@ -6553,7 +6553,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 23,
           "rentValue": 1450,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [
             "Kitchen",
             "24-hour security",
@@ -6573,7 +6573,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 160,
           "rentValue": 2650,
-          "imageUrl": "../assets/img/properties/house4.jpg",
+          "imageUrl": "assets/img/properties/house4.jpg",
           "amenities": [
             "Pool",
             "Gated community",
@@ -6593,7 +6593,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 38,
           "rentValue": 3800,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 38m² em Centro, Fortaleza",
           "coordinates": {
@@ -6608,7 +6608,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 600,
           "rentValue": 850,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Imóvel Comercial com 8 Quartos para alugar, 600m² em Centro, Fortaleza",
           "coordinates": {
@@ -6623,7 +6623,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 45,
           "rentValue": 1050,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Barbecue grill",
             "Playground",
@@ -6642,7 +6642,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 31,
           "rentValue": 3450,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coordinates": {
@@ -6657,7 +6657,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 44,
           "rentValue": 3150,
-          "imageUrl": "../assets/img/properties/apartament5.jpg",
+          "imageUrl": "assets/img/properties/apartament5.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -6678,7 +6678,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 70,
           "rentValue": 4800,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Mobiliado",
             "Playground",
@@ -6697,7 +6697,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 39,
           "rentValue": 3050,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 39m² em Centro, Fortaleza",
           "coordinates": {
@@ -6711,7 +6711,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 54,
           "rentValue": 1050,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [
             "Deposit"
           ],
@@ -6728,7 +6728,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 42,
           "rentValue": 3600,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -6748,7 +6748,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 75,
           "rentValue": 5000,
-          "imageUrl": "../assets/img/properties/house1.jpg",
+          "imageUrl": "assets/img/properties/house1.jpg",
           "amenities": [
             "Kitchen",
             "Laundry area"
@@ -6766,7 +6766,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 44,
           "rentValue": 3050,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Intercom",
             "Sports court",
@@ -6785,7 +6785,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 171,
           "rentValue": 2500,
-          "imageUrl": "../assets/img/properties/house4.jpg",
+          "imageUrl": "assets/img/properties/house4.jpg",
           "amenities": [
             "Kitchen",
             "Laundry area"
@@ -6803,7 +6803,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 500,
           "rentValue": 2600,
-          "imageUrl": "../assets/img/properties/house2.jpg",
+          "imageUrl": "assets/img/properties/house2.jpg",
           "amenities": [],
           "description": "Casa com 5 Quartos para alugar, 500m² em Vicente Pinzon, Fortaleza",
           "coordinates": {
@@ -6818,7 +6818,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 126,
           "rentValue": 2550,
-          "imageUrl": "../assets/img/properties/house2.jpg",
+          "imageUrl": "assets/img/properties/house2.jpg",
           "amenities": [
             "Kitchen",
             "Intercom",
@@ -6837,7 +6837,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 55,
           "rentValue": 2850,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -6858,7 +6858,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 269,
           "rentValue": 3100,
-          "imageUrl": "../assets/img/properties/house2.jpg",
+          "imageUrl": "assets/img/properties/house2.jpg",
           "amenities": [
             "Barbecue grill",
             "Kitchen",
@@ -6877,7 +6877,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 48,
           "rentValue": 2900,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -6897,7 +6897,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 8,
           "rentValue": 3950,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 8m² em Aldeota, Fortaleza",
           "coordinates": {
@@ -6911,7 +6911,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 38,
           "rentValue": 4000,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 38m² em Centro, Fortaleza",
           "coordinates": {
@@ -6925,7 +6925,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 58,
           "rentValue": 3400,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 58m² em Aldeota, Fortaleza",
           "coordinates": {
@@ -6939,7 +6939,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 27,
           "rentValue": 2650,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [
             "Elevator"
           ],
@@ -6953,7 +6953,7 @@ export class LocationsService {
           "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "area": 159,
           "rentValue": 2900,
-          "imageUrl": "../assets/img/properties/ground1.jpg",
+          "imageUrl": "assets/img/properties/ground1.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar em Aldeota, Fortaleza",
           "coordinates": {
@@ -6968,7 +6968,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 72,
           "rentValue": 2350,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [],
           "description": "Apartamento com 2 Quartos para alugar, 72m² em Guararapes, Fortaleza",
           "coordinates": {
@@ -6983,7 +6983,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 70,
           "rentValue": 1250,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -7002,7 +7002,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 31,
           "rentValue": 1950,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coordinates": {
@@ -7017,7 +7017,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 120,
           "rentValue": 4700,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [
             "Elevator",
             "Gated community",
@@ -7037,7 +7037,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 60,
           "rentValue": 3950,
-          "imageUrl": "../assets/img/properties/apartament5.jpg",
+          "imageUrl": "assets/img/properties/apartament5.jpg",
           "amenities": [],
           "description": "Apartamento com 2 Quartos para alugar, 60m² em Parangaba, Fortaleza",
           "coordinates": {
@@ -7052,7 +7052,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 134,
           "rentValue": 4950,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [
             "Deposit",
             "Party room"
@@ -7069,7 +7069,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 34,
           "rentValue": 4900,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [
             "Elevator",
             "24-hour concierge",
@@ -7088,7 +7088,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 68,
           "rentValue": 1000,
-          "imageUrl": "../assets/img/properties/apartament5.jpg",
+          "imageUrl": "assets/img/properties/apartament5.jpg",
           "amenities": [
             "Elevator",
             "Gated community",
@@ -7107,7 +7107,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 35,
           "rentValue": 2800,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [
             "Kitchen"
           ],
@@ -7123,7 +7123,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 30,
           "rentValue": 3950,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Imóvel Comercial para alugar, 30m² em Conjunto Ceará, Fortaleza",
           "coordinates": {
@@ -7138,7 +7138,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 95,
           "rentValue": 3350,
-          "imageUrl": "../assets/img/properties/house4.jpg",
+          "imageUrl": "assets/img/properties/house4.jpg",
           "amenities": [
             "Laundry area"
           ],
@@ -7155,7 +7155,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 30,
           "rentValue": 1500,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [
             "Elevator",
             "Gated community",
@@ -7174,7 +7174,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 30,
           "rentValue": 1000,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 30m² em Aldeota, Fortaleza",
           "coordinates": {
@@ -7188,7 +7188,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 42,
           "rentValue": 1650,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coordinates": {
@@ -7202,7 +7202,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 72,
           "rentValue": 1400,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 72m² em Centro, Fortaleza",
           "coordinates": {
@@ -7216,7 +7216,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 140,
           "rentValue": 2450,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Imóvel Comercial para alugar, 140m² em Centro, Fortaleza",
           "coordinates": {
@@ -7230,7 +7230,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 30,
           "rentValue": 1500,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 30m² em Vicente Pinzon, Fortaleza",
           "coordinates": {
@@ -7244,7 +7244,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 30,
           "rentValue": 2050,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 30m² em Papicu, Fortaleza",
           "coordinates": {
@@ -7258,7 +7258,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 73,
           "rentValue": 3550,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 73m² em Aerolândia, Fortaleza",
           "coordinates": {
@@ -7272,7 +7272,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 463,
           "rentValue": 3050,
-          "imageUrl": "../assets/img/properties/storage3.jpg",
+          "imageUrl": "assets/img/properties/storage3.jpg",
           "amenities": [
             "Office"
           ],
@@ -7289,7 +7289,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 90,
           "rentValue": 4050,
-          "imageUrl": "../assets/img/properties/apartament5.jpg",
+          "imageUrl": "assets/img/properties/apartament5.jpg",
           "amenities": [
             "Balcony",
             "Garage",
@@ -7310,7 +7310,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 112,
           "rentValue": 3850,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Balcony",
             "Garage",
@@ -7330,7 +7330,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 45,
           "rentValue": 4200,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -7350,7 +7350,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 45,
           "rentValue": 950,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [
             "Kitchen"
           ],
@@ -7366,7 +7366,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 42,
           "rentValue": 2450,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coordinates": {
@@ -7381,7 +7381,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 80,
           "rentValue": 4750,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [],
           "description": "Apartamento com 2 Quartos para alugar, 80m² em Meireles, Fortaleza",
           "coordinates": {
@@ -7396,7 +7396,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 120,
           "rentValue": 1050,
-          "imageUrl": "../assets/img/properties/house1.jpg",
+          "imageUrl": "assets/img/properties/house1.jpg",
           "amenities": [
             "Kitchen",
             "Laundry",
@@ -7414,7 +7414,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 36,
           "rentValue": 2400,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 36m² em Centro, Fortaleza",
           "coordinates": {
@@ -7426,7 +7426,7 @@ export class LocationsService {
           "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "area": 140,
           "rentValue": 4150,
-          "imageUrl": "../assets/img/properties/ground3.jpg",
+          "imageUrl": "assets/img/properties/ground3.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar em Aldeota, Fortaleza",
           "coordinates": {
@@ -7440,7 +7440,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 28,
           "rentValue": 2050,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 28m² em Fátima, Fortaleza",
           "coordinates": {
@@ -7454,7 +7454,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 34,
           "rentValue": 3300,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Imóvel Comercial para alugar, 34m² em Centro, Fortaleza",
           "coordinates": {
@@ -7469,7 +7469,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 130,
           "rentValue": 4350,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [],
           "description": "Apartamento com 3 Quartos para alugar, 130m² em Meireles, Fortaleza",
           "coordinates": {
@@ -7483,7 +7483,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 69,
           "rentValue": 3450,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 69m² em Centro, Fortaleza",
           "coordinates": {
@@ -7497,7 +7497,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 314,
           "rentValue": 4800,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Prédio Comercial para alugar, 314m² em Joaquim Tavora, Fortaleza",
           "coordinates": {
@@ -7512,7 +7512,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 160,
           "rentValue": 1600,
-          "imageUrl": "../assets/img/properties/house3.jpg",
+          "imageUrl": "assets/img/properties/house3.jpg",
           "amenities": [],
           "description": "Casa com 4 Quartos para alugar, 160m² em Amadeu Furtado, Fortaleza",
           "coordinates": {
@@ -7526,7 +7526,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 80,
           "rentValue": 2450,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [
             "Kitchen"
           ],
@@ -7557,7 +7557,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 40,
           "rentValue": 3400,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 40m² em Centro, Fortaleza",
           "coordinates": {
@@ -7571,7 +7571,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 43,
           "rentValue": 4700,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 43m² em Edson Queiroz, Fortaleza",
           "coordinates": {
@@ -7586,7 +7586,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 121,
           "rentValue": 700,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Pool",
             "Mobiliado",
@@ -7606,7 +7606,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 52,
           "rentValue": 2900,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Imóvel Comercial para alugar, 52m² em Centro, Fortaleza",
           "coordinates": {
@@ -7620,7 +7620,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 42,
           "rentValue": 4750,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coordinates": {
@@ -7651,7 +7651,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 26,
           "rentValue": 2300,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [
             "Office"
           ],
@@ -7668,7 +7668,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 60,
           "rentValue": 2300,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Playground",
             "Party room"
@@ -7686,7 +7686,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 126,
           "rentValue": 3950,
-          "imageUrl": "../assets/img/properties/house2.jpg",
+          "imageUrl": "assets/img/properties/house2.jpg",
           "amenities": [
             "Kitchen",
             "Intercom",
@@ -7705,7 +7705,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 41,
           "rentValue": 1750,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [
             "Kitchen",
             "Laundry area"
@@ -7722,7 +7722,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 8,
           "rentValue": 2550,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 8m² em Lagoa Sapiranga Coité, Fortaleza",
           "coordinates": {
@@ -7737,7 +7737,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 90,
           "rentValue": 3150,
-          "imageUrl": "../assets/img/properties/house2.jpg",
+          "imageUrl": "assets/img/properties/house2.jpg",
           "amenities": [],
           "description": "Casa com 3 Quartos para alugar, 90m² em Manuel Sátiro, Fortaleza",
           "coordinates": {
@@ -7752,7 +7752,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 167,
           "rentValue": 4300,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [],
           "description": "Apartamento com 3 Quartos para alugar, 167m² em Meireles, Fortaleza",
           "coordinates": {
@@ -7784,7 +7784,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 44,
           "rentValue": 4950,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [
             "Barbecue grill",
             "Garage",
@@ -7804,7 +7804,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 153,
           "rentValue": 3800,
-          "imageUrl": "../assets/img/properties/house1.jpg",
+          "imageUrl": "assets/img/properties/house1.jpg",
           "amenities": [
             "Balcony",
             "Garage",
@@ -7823,7 +7823,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 100,
           "rentValue": 1300,
-          "imageUrl": "../assets/img/properties/house4.jpg",
+          "imageUrl": "assets/img/properties/house4.jpg",
           "amenities": [
             "Laundry area",
             "Blindex box",
@@ -7841,7 +7841,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 39,
           "rentValue": 4300,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 39m² em Aldeota, Fortaleza",
           "coordinates": {
@@ -7855,7 +7855,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 28,
           "rentValue": 2700,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Prédio Comercial para alugar, 28m² em Meireles, Fortaleza",
           "coordinates": {
@@ -7870,7 +7870,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 61,
           "rentValue": 1300,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [],
           "description": "Apartamento com 1 Quarto para alugar, 61m² em Praia do Futuro, Fortaleza",
           "coordinates": {
@@ -7884,7 +7884,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 31,
           "rentValue": 4000,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [
             "Garage",
             "Laundry area",
@@ -7918,7 +7918,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 110,
           "rentValue": 3650,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [],
           "description": "Apartamento com 3 Quartos para alugar, 110m² em Guararapes, Fortaleza",
           "coordinates": {
@@ -7932,7 +7932,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 420,
           "rentValue": 700,
-          "imageUrl": "../assets/img/properties/storage2.jpg",
+          "imageUrl": "assets/img/properties/storage2.jpg",
           "amenities": [
             "Parking lot",
             "Ramp",
@@ -7951,7 +7951,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 76,
           "rentValue": 650,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 76m² em Centro, Fortaleza",
           "coordinates": {
@@ -7965,7 +7965,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 58,
           "rentValue": 1850,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 58m² em Centro, Fortaleza",
           "coordinates": {
@@ -7979,7 +7979,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 42,
           "rentValue": 4950,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coordinates": {
@@ -7994,7 +7994,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 75,
           "rentValue": 1550,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Pool",
             "Mobiliado",
@@ -8014,7 +8014,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 32,
           "rentValue": 3750,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 32m² em Rodolfo Teófilo, Fortaleza",
           "coordinates": {
@@ -8028,7 +8028,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 179,
           "rentValue": 2850,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 179m² em Montese, Fortaleza",
           "coordinates": {
@@ -8042,7 +8042,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 42,
           "rentValue": 4350,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coordinates": {
@@ -8056,7 +8056,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 58,
           "rentValue": 4300,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 58m² em Aldeota, Fortaleza",
           "coordinates": {
@@ -8071,7 +8071,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 50,
           "rentValue": 2550,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Gated community",
             "Laundry area",
@@ -8090,7 +8090,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 70,
           "rentValue": 1700,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [
             "Garage",
             "Air conditioning",
@@ -8109,7 +8109,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 30,
           "rentValue": 1100,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 30m² em Aldeota, Fortaleza",
           "coordinates": {
@@ -8124,7 +8124,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 90,
           "rentValue": 1950,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Pool",
             "Mobiliado",
@@ -8158,7 +8158,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 84,
           "rentValue": 1900,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "",
           "coordinates": {
@@ -8173,7 +8173,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 45,
           "rentValue": 2550,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [],
           "description": "Apartamento com 2 Quartos para alugar, 45m² em Messejana, Fortaleza",
           "coordinates": {
@@ -8187,7 +8187,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 425,
           "rentValue": 4500,
-          "imageUrl": "../assets/img/properties/storage2.jpg",
+          "imageUrl": "assets/img/properties/storage2.jpg",
           "amenities": [],
           "description": "Galpão para alugar, 425m² em Rodolfo Teófilo, Fortaleza",
           "coordinates": {
@@ -8202,7 +8202,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 72,
           "rentValue": 2550,
-          "imageUrl": "../assets/img/properties/apartament5.jpg",
+          "imageUrl": "assets/img/properties/apartament5.jpg",
           "amenities": [
             "Gated community",
             "Kitchen",
@@ -8223,7 +8223,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 108,
           "rentValue": 4550,
-          "imageUrl": "../assets/img/properties/house1.jpg",
+          "imageUrl": "assets/img/properties/house1.jpg",
           "amenities": [
             "Air conditioning",
             "Kitchen",
@@ -8243,7 +8243,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 71,
           "rentValue": 3900,
-          "imageUrl": "../assets/img/properties/apartament5.jpg",
+          "imageUrl": "assets/img/properties/apartament5.jpg",
           "amenities": [
             "Garage",
             "Kitchen"
@@ -8261,7 +8261,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 29,
           "rentValue": 3400,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [
             "Elevator",
             "24-hour security"
@@ -8278,7 +8278,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 60,
           "rentValue": 2000,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 60m² em Centro, Fortaleza",
           "coordinates": {
@@ -8290,7 +8290,7 @@ export class LocationsService {
           "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "area": 26,
           "rentValue": 1300,
-          "imageUrl": "../assets/img/properties/ground3.jpg",
+          "imageUrl": "assets/img/properties/ground3.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar em Aldeota, Fortaleza",
           "coordinates": {
@@ -8305,7 +8305,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 40,
           "rentValue": 4550,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Elevator",
             "Laundry area",
@@ -8324,7 +8324,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 38,
           "rentValue": 2800,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 38m² em Centro, Fortaleza",
           "coordinates": {
@@ -8336,7 +8336,7 @@ export class LocationsService {
           "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "area": 253,
           "rentValue": 1150,
-          "imageUrl": "../assets/img/properties/ground3.jpg",
+          "imageUrl": "assets/img/properties/ground3.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar em Aldeota, Fortaleza",
           "coordinates": {
@@ -8350,7 +8350,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 60,
           "rentValue": 2600,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 60m² em Centro, Fortaleza",
           "coordinates": {
@@ -8364,7 +8364,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 33,
           "rentValue": 1900,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 33m² em Aldeota, Fortaleza",
           "coordinates": {
@@ -8379,7 +8379,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 51,
           "rentValue": 1600,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [],
           "description": "Apartamento com 2 Quartos para alugar, 51m² em Cambeba, Fortaleza",
           "coordinates": {
@@ -8408,7 +8408,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 83,
           "rentValue": 1700,
-          "imageUrl": "../assets/img/properties/house4.jpg",
+          "imageUrl": "assets/img/properties/house4.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -8427,7 +8427,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 127,
           "rentValue": 4950,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [
             "Elevator",
             "Gated community",
@@ -8447,7 +8447,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 48,
           "rentValue": 3900,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -8483,7 +8483,7 @@ export class LocationsService {
           "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "area": 128,
           "rentValue": 2950,
-          "imageUrl": "../assets/img/properties/ground1.jpg",
+          "imageUrl": "assets/img/properties/ground1.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar em Aldeota, Fortaleza",
           "coordinates": {
@@ -8498,7 +8498,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 880,
           "rentValue": 3050,
-          "imageUrl": "../assets/img/properties/house3.jpg",
+          "imageUrl": "assets/img/properties/house3.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -8518,7 +8518,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 42,
           "rentValue": 2350,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -8538,7 +8538,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 80,
           "rentValue": 1050,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -8558,7 +8558,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 47,
           "rentValue": 2300,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [
             "Gated community",
             "Kitchen"
@@ -8575,7 +8575,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 30,
           "rentValue": 2400,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 30m² em Aldeota, Fortaleza",
           "coordinates": {
@@ -8590,7 +8590,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 60,
           "rentValue": 3950,
-          "imageUrl": "../assets/img/properties/house4.jpg",
+          "imageUrl": "assets/img/properties/house4.jpg",
           "amenities": [],
           "description": "Casa com 2 Quartos para alugar, 60m² em Centro, Fortaleza",
           "coordinates": {
@@ -8604,7 +8604,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 70,
           "rentValue": 2800,
-          "imageUrl": "../assets/img/properties/storage3.jpg",
+          "imageUrl": "assets/img/properties/storage3.jpg",
           "amenities": [],
           "description": "Galpão para alugar, 70m² em Centro, Fortaleza",
           "coordinates": {
@@ -8618,7 +8618,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 31,
           "rentValue": 800,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coordinates": {
@@ -8632,7 +8632,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 30,
           "rentValue": 2350,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 30m² em Papicu, Fortaleza",
           "coordinates": {
@@ -8646,7 +8646,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 35,
           "rentValue": 2700,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 35m² em Aldeota, Fortaleza",
           "coordinates": {
@@ -8660,7 +8660,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 31,
           "rentValue": 4150,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coordinates": {
@@ -8675,7 +8675,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 126,
           "rentValue": 4900,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -8696,7 +8696,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 69,
           "rentValue": 3550,
-          "imageUrl": "../assets/img/properties/house1.jpg",
+          "imageUrl": "assets/img/properties/house1.jpg",
           "amenities": [
             "Barbecue grill",
             "Gated community",
@@ -8713,7 +8713,7 @@ export class LocationsService {
           "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "area": 128,
           "rentValue": 1800,
-          "imageUrl": "../assets/img/properties/ground2.jpg",
+          "imageUrl": "assets/img/properties/ground2.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar em Aldeota, Fortaleza",
           "coordinates": {
@@ -8727,7 +8727,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 25,
           "rentValue": 2500,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 25m² em Papicu, Fortaleza",
           "coordinates": {
@@ -8742,7 +8742,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 120,
           "rentValue": 1950,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -8761,7 +8761,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 42,
           "rentValue": 1350,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coordinates": {
@@ -8775,7 +8775,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 30,
           "rentValue": 1450,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 30m² em Aldeota, Fortaleza",
           "coordinates": {
@@ -8790,7 +8790,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 210,
           "rentValue": 3700,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [
             "Balcony",
             "Kitchen",
@@ -8810,7 +8810,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 65,
           "rentValue": 5000,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [
             "Barbecue grill",
             "Elevator",
@@ -8831,7 +8831,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 107,
           "rentValue": 2250,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [
             "Mobiliado",
             "Playground",
@@ -8848,7 +8848,7 @@ export class LocationsService {
           "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "area": 268,
           "rentValue": 3750,
-          "imageUrl": "../assets/img/properties/ground1.jpg",
+          "imageUrl": "assets/img/properties/ground1.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar em Aldeota, Fortaleza",
           "coordinates": {
@@ -8863,7 +8863,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 52,
           "rentValue": 3150,
-          "imageUrl": "../assets/img/properties/apartament5.jpg",
+          "imageUrl": "assets/img/properties/apartament5.jpg",
           "amenities": [],
           "description": "Apartamento com 2 Quartos para alugar, 52m² em Messejana, Fortaleza",
           "coordinates": {
@@ -8877,7 +8877,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 100,
           "rentValue": 2500,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [
             "Cup",
             "Laundry area"
@@ -8895,7 +8895,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 30,
           "rentValue": 1100,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [],
           "description": "Apartamento com 1 Quarto para alugar, 30m² em Maraponga, Fortaleza",
           "coordinates": {
@@ -8909,7 +8909,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 95,
           "rentValue": 1450,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 95m² em Dionísio Torres, Fortaleza",
           "coordinates": {
@@ -8940,7 +8940,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 55,
           "rentValue": 2350,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [
             "Gated community",
             "Elevator"
@@ -8958,7 +8958,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 134,
           "rentValue": 3050,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Kitchen",
             "Laundry area"
@@ -8976,7 +8976,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 58,
           "rentValue": 2200,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -8997,7 +8997,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 45,
           "rentValue": 2200,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [
             "Gated community",
             "Electronic gate",
@@ -9016,7 +9016,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 53,
           "rentValue": 4900,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [],
           "description": "Apartamento com 2 Quartos para alugar, 53m² em Centro, Fortaleza",
           "coordinates": {
@@ -9030,7 +9030,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 30,
           "rentValue": 1250,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [
             "Elevator"
           ],
@@ -9047,7 +9047,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 306,
           "rentValue": 1300,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [],
           "description": "Apartamento com 3 Quartos para alugar, 306m² em Dionísio Torres, Fortaleza",
           "coordinates": {
@@ -9061,7 +9061,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 30,
           "rentValue": 750,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 30m² em Cajazeiras, Fortaleza",
           "coordinates": {
@@ -9075,7 +9075,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 90,
           "rentValue": 4500,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 90m² em Joaquim Tavora, Fortaleza",
           "coordinates": {
@@ -9089,7 +9089,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 180,
           "rentValue": 3950,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Imóvel Comercial para alugar, 180m² em Tauape, Fortaleza",
           "coordinates": {
@@ -9104,7 +9104,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 30,
           "rentValue": 1550,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [
             "Alarm system"
           ],
@@ -9120,7 +9120,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 120,
           "rentValue": 3800,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 120m² em Rodolfo Teófilo, Fortaleza",
           "coordinates": {
@@ -9134,7 +9134,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 27,
           "rentValue": 3900,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para venda ou aluguel, 27m² em Centro, Fortaleza",
           "coordinates": {
@@ -9148,7 +9148,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 25,
           "rentValue": 4000,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 25m² em Centro, Fortaleza",
           "coordinates": {
@@ -9162,7 +9162,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 36,
           "rentValue": 800,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Imóvel Comercial para alugar, 36m² em Varjota, Fortaleza",
           "coordinates": {
@@ -9174,7 +9174,7 @@ export class LocationsService {
           "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "area": 300,
           "rentValue": 3300,
-          "imageUrl": "../assets/img/properties/ground3.jpg",
+          "imageUrl": "assets/img/properties/ground3.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar em Aldeota, Fortaleza",
           "coordinates": {
@@ -9188,7 +9188,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 52,
           "rentValue": 1900,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 52m² em Rodolfo Teófilo, Fortaleza",
           "coordinates": {
@@ -9202,7 +9202,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 30,
           "rentValue": 3900,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 30m² em Papicu, Fortaleza",
           "coordinates": {
@@ -9216,7 +9216,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 28,
           "rentValue": 2550,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 28m² em Dionísio Torres, Fortaleza",
           "coordinates": {
@@ -9230,7 +9230,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 35,
           "rentValue": 3650,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Imóvel Comercial para alugar, 35m² em Meireles, Fortaleza",
           "coordinates": {
@@ -9245,7 +9245,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 48,
           "rentValue": 1450,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Pool",
             "Mobiliado",
@@ -9265,7 +9265,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 45,
           "rentValue": 1900,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 45m² em Centro, Fortaleza",
           "coordinates": {
@@ -9279,7 +9279,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 60,
           "rentValue": 3850,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 60m² em Centro, Fortaleza",
           "coordinates": {
@@ -9294,7 +9294,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 350,
           "rentValue": 1950,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [
             "Laundry area",
             "Parking lot",
@@ -9313,7 +9313,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 540,
           "rentValue": 1400,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Imóvel Comercial para alugar, 540m² em Montese, Fortaleza",
           "coordinates": {
@@ -9327,7 +9327,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 120,
           "rentValue": 2200,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Imóvel Comercial para alugar, 120m² em Montese, Fortaleza",
           "coordinates": {
@@ -9341,7 +9341,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 9,
           "rentValue": 4100,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [
             "Air conditioning"
           ],
@@ -9358,7 +9358,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 201,
           "rentValue": 3350,
-          "imageUrl": "../assets/img/properties/house1.jpg",
+          "imageUrl": "assets/img/properties/house1.jpg",
           "amenities": [
             "Laundry area"
           ],
@@ -9374,7 +9374,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 31,
           "rentValue": 1500,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coordinates": {
@@ -9388,7 +9388,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 30,
           "rentValue": 1400,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 30m² em Aldeota, Fortaleza",
           "coordinates": {
@@ -9402,7 +9402,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 76,
           "rentValue": 3550,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [
             "Kitchen",
             "24-hour security",
@@ -9421,7 +9421,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 30,
           "rentValue": 1450,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 30m² em Aldeota, Fortaleza",
           "coordinates": {
@@ -9435,7 +9435,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 29,
           "rentValue": 2950,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [
             "Serviços públicos essenciais",
             "Gated community"
@@ -9453,7 +9453,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 95,
           "rentValue": 700,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Elevator",
             "Gated community",
@@ -9472,7 +9472,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 400,
           "rentValue": 4800,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [
             "Intercom"
           ],
@@ -9488,7 +9488,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 27,
           "rentValue": 950,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [
             "Kitchen"
           ],
@@ -9502,7 +9502,7 @@ export class LocationsService {
           "address": "Avenida (Ave) Independência, 1546 - Vila Velha, Fortaleza - CE",
           "area": 412,
           "rentValue": 4950,
-          "imageUrl": "../assets/img/properties/ground1.jpg",
+          "imageUrl": "assets/img/properties/ground1.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar, 412m² em Vila Velha, Fortaleza",
           "coordinates": {
@@ -9516,7 +9516,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 23,
           "rentValue": 2800,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [
             "Kitchen",
             "24-hour security",
@@ -9536,7 +9536,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 48,
           "rentValue": 3150,
-          "imageUrl": "../assets/img/properties/house3.jpg",
+          "imageUrl": "assets/img/properties/house3.jpg",
           "amenities": [
             "Kitchen",
             "Laundry area"
@@ -9553,7 +9553,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 42,
           "rentValue": 3800,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coordinates": {
@@ -9567,7 +9567,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 30,
           "rentValue": 1750,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 30m² em Aldeota, Fortaleza",
           "coordinates": {
@@ -9582,7 +9582,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 58,
           "rentValue": 2100,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -9603,7 +9603,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 83,
           "rentValue": 1150,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [
             "Balcony",
             "Garage",
@@ -9621,7 +9621,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 840,
           "rentValue": 2800,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 840m² em Messejana, Fortaleza",
           "coordinates": {
@@ -9635,7 +9635,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 38,
           "rentValue": 4650,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 38m² em Centro, Fortaleza",
           "coordinates": {
@@ -9649,7 +9649,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 39,
           "rentValue": 2800,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 39m² em Centro, Fortaleza",
           "coordinates": {
@@ -9663,7 +9663,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 65,
           "rentValue": 3400,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 65m² em Cidade dos Funcionários, Fortaleza",
           "coordinates": {
@@ -9677,7 +9677,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 31,
           "rentValue": 3100,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coordinates": {
@@ -9692,7 +9692,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 51,
           "rentValue": 3250,
-          "imageUrl": "../assets/img/properties/house4.jpg",
+          "imageUrl": "assets/img/properties/house4.jpg",
           "amenities": [],
           "description": "Casa com 2 Quartos para alugar, 51m² em Centro, Fortaleza",
           "coordinates": {
@@ -9704,7 +9704,7 @@ export class LocationsService {
           "address": "Rua (St) Costa Sousa, 146 - Benfica, Fortaleza - CE",
           "area": 19,
           "rentValue": 4000,
-          "imageUrl": "../assets/img/properties/ground1.jpg",
+          "imageUrl": "assets/img/properties/ground1.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar, 19m² em Benfica, Fortaleza",
           "coordinates": {
@@ -9718,7 +9718,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 35,
           "rentValue": 1600,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 35m² em Aldeota, Fortaleza",
           "coordinates": {
@@ -9733,7 +9733,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 220,
           "rentValue": 2200,
-          "imageUrl": "../assets/img/properties/house3.jpg",
+          "imageUrl": "assets/img/properties/house3.jpg",
           "amenities": [],
           "description": "Casa com 4 Quartos para alugar, 220m² em Parque Manibura, Fortaleza",
           "coordinates": {
@@ -9747,7 +9747,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 42,
           "rentValue": 2400,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coordinates": {
@@ -9759,7 +9759,7 @@ export class LocationsService {
           "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "area": 61,
           "rentValue": 1950,
-          "imageUrl": "../assets/img/properties/ground1.jpg",
+          "imageUrl": "assets/img/properties/ground1.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar em Aldeota, Fortaleza",
           "coordinates": {
@@ -9773,7 +9773,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 30,
           "rentValue": 900,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 30m² em Aldeota, Fortaleza",
           "coordinates": {
@@ -9787,7 +9787,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 29,
           "rentValue": 4400,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 29m² em Manoel Dias Branco, Fortaleza",
           "coordinates": {
@@ -9801,7 +9801,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 35,
           "rentValue": 1250,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Imóvel Comercial para alugar, 35m² em Meireles, Fortaleza",
           "coordinates": {
@@ -9816,7 +9816,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 48,
           "rentValue": 2450,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Playground",
             "Laundry area",
@@ -9855,7 +9855,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 13,
           "rentValue": 900,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 13m² em Parangaba, Fortaleza",
           "coordinates": {
@@ -9867,7 +9867,7 @@ export class LocationsService {
           "address": "Avenida (Ave) João Pessoa, 0 - Damas, Fortaleza - CE",
           "area": 2077,
           "rentValue": 950,
-          "imageUrl": "../assets/img/properties/ground3.jpg",
+          "imageUrl": "assets/img/properties/ground3.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar, 2077m² em Damas, Fortaleza",
           "coordinates": {
@@ -9882,7 +9882,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 42,
           "rentValue": 650,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -9899,7 +9899,7 @@ export class LocationsService {
           "address": "Rua (St) Afonso Pena, 99 - Edson Queiroz, Fortaleza - CE",
           "area": 1040,
           "rentValue": 3250,
-          "imageUrl": "../assets/img/properties/ground3.jpg",
+          "imageUrl": "assets/img/properties/ground3.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar, 1040m² em Edson Queiroz, Fortaleza",
           "coordinates": {
@@ -9913,7 +9913,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 37,
           "rentValue": 1250,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 37m² em Centro, Fortaleza",
           "coordinates": {
@@ -9928,7 +9928,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 60,
           "rentValue": 2450,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -9949,7 +9949,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 284,
           "rentValue": 1250,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -9969,7 +9969,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 25,
           "rentValue": 2450,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 25m² em Bom Futuro, Fortaleza",
           "coordinates": {
@@ -9981,7 +9981,7 @@ export class LocationsService {
           "address": "Rua (St) Martinho Rodrigues, 510 - Fátima, Fortaleza - CE",
           "area": 547,
           "rentValue": 1850,
-          "imageUrl": "../assets/img/properties/ground1.jpg",
+          "imageUrl": "assets/img/properties/ground1.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar, 547m² em Fátima, Fortaleza",
           "coordinates": {
@@ -9996,7 +9996,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 80,
           "rentValue": 2400,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Kitchen",
             "Laundry area"
@@ -10014,7 +10014,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 100,
           "rentValue": 3950,
-          "imageUrl": "../assets/img/properties/house4.jpg",
+          "imageUrl": "assets/img/properties/house4.jpg",
           "amenities": [
             "Garage",
             "Perto de vias de acesso"
@@ -10032,7 +10032,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 60,
           "rentValue": 2850,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [],
           "description": "Apartamento com 2 Quartos para alugar, 60m² em Itaperi, Fortaleza",
           "coordinates": {
@@ -10044,7 +10044,7 @@ export class LocationsService {
           "address": "Avenida (Ave) da Saudade, 3251 - Passaré, Fortaleza - CE",
           "area": 5454,
           "rentValue": 4500,
-          "imageUrl": "../assets/img/properties/ground2.jpg",
+          "imageUrl": "assets/img/properties/ground2.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar, 5454m² em Passaré, Fortaleza",
           "coordinates": {
@@ -10073,7 +10073,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 734,
           "rentValue": 4300,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 734m² em Damas, Fortaleza",
           "coordinates": {
@@ -10087,7 +10087,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 100,
           "rentValue": 5000,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 100m² em Monte Castelo, Fortaleza",
           "coordinates": {
@@ -10101,7 +10101,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 31,
           "rentValue": 3000,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [
             "Balcony"
           ],
@@ -10117,7 +10117,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 4094,
           "rentValue": 2950,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [
             "Cup",
             "Air conditioning",
@@ -10133,7 +10133,7 @@ export class LocationsService {
           "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "area": 134,
           "rentValue": 1300,
-          "imageUrl": "../assets/img/properties/ground1.jpg",
+          "imageUrl": "assets/img/properties/ground1.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar em Aldeota, Fortaleza",
           "coordinates": {
@@ -10148,7 +10148,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 53,
           "rentValue": 1450,
-          "imageUrl": "../assets/img/properties/house5.jpg",
+          "imageUrl": "assets/img/properties/house5.jpg",
           "amenities": [],
           "description": "Casa com 1 Quarto para alugar, 53m² em Centro, Fortaleza",
           "coordinates": {
@@ -10163,7 +10163,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 113,
           "rentValue": 4850,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Barbecue grill",
             "Elevator",
@@ -10180,7 +10180,7 @@ export class LocationsService {
           "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "area": 241,
           "rentValue": 700,
-          "imageUrl": "../assets/img/properties/ground3.jpg",
+          "imageUrl": "assets/img/properties/ground3.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar em Aldeota, Fortaleza",
           "coordinates": {
@@ -10194,7 +10194,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 68,
           "rentValue": 650,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 68m² em Dionísio Torres, Fortaleza",
           "coordinates": {
@@ -10206,7 +10206,7 @@ export class LocationsService {
           "address": "Rua (St) Domingos Olímpio, 96 - José Bonifácio, Fortaleza - CE",
           "area": 80,
           "rentValue": 2900,
-          "imageUrl": "../assets/img/properties/ground2.jpg",
+          "imageUrl": "assets/img/properties/ground2.jpg",
           "amenities": [
             "West-facing",
             "Rede de água e esgoto",
@@ -10239,7 +10239,7 @@ export class LocationsService {
           "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "area": 224,
           "rentValue": 750,
-          "imageUrl": "../assets/img/properties/ground3.jpg",
+          "imageUrl": "assets/img/properties/ground3.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar em Aldeota, Fortaleza",
           "coordinates": {
@@ -10253,7 +10253,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 280,
           "rentValue": 3050,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Imóvel Comercial para alugar, 280m² em Messejana, Fortaleza",
           "coordinates": {
@@ -10268,7 +10268,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 59,
           "rentValue": 4000,
-          "imageUrl": "../assets/img/properties/apartament1.jpg",
+          "imageUrl": "assets/img/properties/apartament1.jpg",
           "amenities": [
             "Barbecue grill",
             "Garage",
@@ -10287,7 +10287,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 30,
           "rentValue": 1900,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 30m² em Aldeota, Fortaleza",
           "coordinates": {
@@ -10301,7 +10301,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 29,
           "rentValue": 1600,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 29m² em Manoel Dias Branco, Fortaleza",
           "coordinates": {
@@ -10315,7 +10315,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 15,
           "rentValue": 3250,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 15m² em Parangaba, Fortaleza",
           "coordinates": {
@@ -10329,7 +10329,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 75,
           "rentValue": 3650,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 75m² em Centro, Fortaleza",
           "coordinates": {
@@ -10343,7 +10343,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 42,
           "rentValue": 2700,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coordinates": {
@@ -10357,7 +10357,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 31,
           "rentValue": 1550,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coordinates": {
@@ -10385,7 +10385,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 42,
           "rentValue": 3200,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coordinates": {
@@ -10399,7 +10399,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 59,
           "rentValue": 3750,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 59m² em Alto da Balança, Fortaleza",
           "coordinates": {
@@ -10413,7 +10413,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 40,
           "rentValue": 3350,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Imóvel Comercial para alugar, 40m² em Jacarecanga, Fortaleza",
           "coordinates": {
@@ -10428,7 +10428,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 47,
           "rentValue": 2500,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [
             "Garage",
             "Laundry area",
@@ -10447,7 +10447,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 62,
           "rentValue": 4200,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Imóvel Comercial para alugar, 62m² em Aldeota, Fortaleza",
           "coordinates": {
@@ -10461,7 +10461,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 38,
           "rentValue": 4350,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 38m² em Centro, Fortaleza",
           "coordinates": {
@@ -10473,7 +10473,7 @@ export class LocationsService {
           "address": "Rua (St) Álef de Souza Cavalcante, 1077 - Jangurussu, Fortaleza - CE",
           "area": 790,
           "rentValue": 1450,
-          "imageUrl": "../assets/img/properties/ground2.jpg",
+          "imageUrl": "assets/img/properties/ground2.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar, 790m² em Jangurussu, Fortaleza",
           "coordinates": {
@@ -10488,7 +10488,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 83,
           "rentValue": 1150,
-          "imageUrl": "../assets/img/properties/house3.jpg",
+          "imageUrl": "assets/img/properties/house3.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -10507,7 +10507,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 77,
           "rentValue": 1450,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [
             "Watchman",
             "Security camera"
@@ -10524,7 +10524,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 42,
           "rentValue": 2300,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coordinates": {
@@ -10538,7 +10538,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 52,
           "rentValue": 950,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [
             "Cup",
             "Air conditioning"
@@ -10556,7 +10556,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 187,
           "rentValue": 4550,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [
             "Kitchen",
             "Pool",
@@ -10575,7 +10575,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 244,
           "rentValue": 4400,
-          "imageUrl": "../assets/img/properties/house3.jpg",
+          "imageUrl": "assets/img/properties/house3.jpg",
           "amenities": [
             "Closet",
             "Gourmet balcony",
@@ -10591,7 +10591,7 @@ export class LocationsService {
           "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "area": 127,
           "rentValue": 1100,
-          "imageUrl": "../assets/img/properties/ground3.jpg",
+          "imageUrl": "assets/img/properties/ground3.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar em Aldeota, Fortaleza",
           "coordinates": {
@@ -10603,7 +10603,7 @@ export class LocationsService {
           "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "area": 187,
           "rentValue": 3350,
-          "imageUrl": "../assets/img/properties/ground3.jpg",
+          "imageUrl": "assets/img/properties/ground3.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar em Aldeota, Fortaleza",
           "coordinates": {
@@ -10617,7 +10617,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 33,
           "rentValue": 3850,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 33m² em Centro, Fortaleza",
           "coordinates": {
@@ -10632,7 +10632,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 30,
           "rentValue": 4950,
-          "imageUrl": "../assets/img/properties/apartament3.jpg",
+          "imageUrl": "assets/img/properties/apartament3.jpg",
           "amenities": [
             "Pool",
             "Barbecue grill",
@@ -10652,7 +10652,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 216,
           "rentValue": 1150,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 216m² em Guararapes, Fortaleza",
           "coordinates": {
@@ -10664,7 +10664,7 @@ export class LocationsService {
           "address": "Avenida (Ave) Santos Dumont, 1789 - Aldeota, Fortaleza - CE",
           "area": 61,
           "rentValue": 3900,
-          "imageUrl": "../assets/img/properties/ground2.jpg",
+          "imageUrl": "assets/img/properties/ground2.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar em Aldeota, Fortaleza",
           "coordinates": {
@@ -10678,7 +10678,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 35,
           "rentValue": 2750,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Imóvel Comercial para alugar, 35m² em Meireles, Fortaleza",
           "coordinates": {
@@ -10692,7 +10692,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 45,
           "rentValue": 1150,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 45m² em Papicu, Fortaleza",
           "coordinates": {
@@ -10722,7 +10722,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 71,
           "rentValue": 3450,
-          "imageUrl": "../assets/img/properties/apartament5.jpg",
+          "imageUrl": "assets/img/properties/apartament5.jpg",
           "amenities": [
             "Laundry area",
             "Adult pool",
@@ -10741,7 +10741,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 76,
           "rentValue": 2100,
-          "imageUrl": "../assets/img/properties/apartament2.jpg",
+          "imageUrl": "assets/img/properties/apartament2.jpg",
           "amenities": [],
           "description": "",
           "coordinates": {
@@ -10755,7 +10755,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 42,
           "rentValue": 650,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 42m² em Centro, Fortaleza",
           "coordinates": {
@@ -10784,7 +10784,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 57,
           "rentValue": 4000,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 57m² em Dionísio Torres, Fortaleza",
           "coordinates": {
@@ -10798,7 +10798,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 20,
           "rentValue": 4000,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Imóvel Comercial para alugar, 20m² em Aldeota, Fortaleza",
           "coordinates": {
@@ -10812,7 +10812,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 31,
           "rentValue": 3200,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 31m² em Centro, Fortaleza",
           "coordinates": {
@@ -10826,7 +10826,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 36,
           "rentValue": 2550,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [
             "Garage",
             "Kitchen"
@@ -10843,7 +10843,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 312,
           "rentValue": 1850,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 312m² em BOA VISTA, Fortaleza",
           "coordinates": {
@@ -10857,7 +10857,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 23,
           "rentValue": 4950,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 23m² em Cambeba, Fortaleza",
           "coordinates": {
@@ -10869,7 +10869,7 @@ export class LocationsService {
           "address": "Rua (St) Pedro Borges, 20 - Centro, Fortaleza - CE",
           "area": 8,
           "rentValue": 3400,
-          "imageUrl": "../assets/img/properties/ground2.jpg",
+          "imageUrl": "assets/img/properties/ground2.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar, 8m² em Centro, Fortaleza",
           "coordinates": {
@@ -10883,7 +10883,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 306,
           "rentValue": 4500,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Prédio Comercial para alugar, 306m² em Conjunto Ceara II, Fortaleza",
           "coordinates": {
@@ -10898,7 +10898,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 60,
           "rentValue": 3300,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [
             "Pool",
             "Elevator",
@@ -10918,7 +10918,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 36,
           "rentValue": 2900,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 36m² em Centro, Fortaleza",
           "coordinates": {
@@ -10932,7 +10932,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 39,
           "rentValue": 1200,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 39m² em Centro, Fortaleza",
           "coordinates": {
@@ -10961,7 +10961,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 45,
           "rentValue": 1250,
-          "imageUrl": "../assets/img/properties/apartament5.jpg",
+          "imageUrl": "assets/img/properties/apartament5.jpg",
           "amenities": [],
           "description": "Apartamento com 2 Quartos para alugar, 45m² em Passaré, Fortaleza",
           "coordinates": {
@@ -10975,7 +10975,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 42,
           "rentValue": 850,
-          "imageUrl": "../assets/img/properties/office1.jpg",
+          "imageUrl": "assets/img/properties/office1.jpg",
           "amenities": [],
           "description": "Ponto Comercial para alugar, 42m² em Messejana, Fortaleza",
           "coordinates": {
@@ -10990,7 +10990,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 57,
           "rentValue": 1850,
-          "imageUrl": "../assets/img/properties/apartament4.jpg",
+          "imageUrl": "assets/img/properties/apartament4.jpg",
           "amenities": [
             "Pool",
             "Elevator",
@@ -11011,7 +11011,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 480,
           "rentValue": 4750,
-          "imageUrl": "../assets/img/properties/house4.jpg",
+          "imageUrl": "assets/img/properties/house4.jpg",
           "amenities": [
             "Barbecue grill",
             "Laundry area",
@@ -11029,7 +11029,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 397,
           "rentValue": 2300,
-          "imageUrl": "../assets/img/properties/storage3.jpg",
+          "imageUrl": "assets/img/properties/storage3.jpg",
           "amenities": [
             "Office"
           ],
@@ -11043,7 +11043,7 @@ export class LocationsService {
           "address": "Rua (St) Paulo Firmeza, 1364 - Tauape, Fortaleza - CE",
           "area": 407,
           "rentValue": 3600,
-          "imageUrl": "../assets/img/properties/ground3.jpg",
+          "imageUrl": "assets/img/properties/ground3.jpg",
           "amenities": [],
           "description": "Lote/Terreno para alugar, 407m² em Tauape, Fortaleza",
           "coordinates": {
@@ -11057,7 +11057,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 39,
           "rentValue": 2100,
-          "imageUrl": "../assets/img/properties/office3.jpg",
+          "imageUrl": "assets/img/properties/office3.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 39m² em Centro, Fortaleza",
           "coordinates": {
@@ -11071,7 +11071,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 85,
           "rentValue": 650,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 85m² em Centro, Fortaleza",
           "coordinates": {
@@ -11085,7 +11085,7 @@ export class LocationsService {
           "parkingSpaces": 2,
           "area": 23,
           "rentValue": 2500,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [
             "Kitchen",
             "24-hour security",
@@ -11118,7 +11118,7 @@ export class LocationsService {
           "parkingSpaces": 1,
           "area": 26,
           "rentValue": 950,
-          "imageUrl": "../assets/img/properties/office2.jpg",
+          "imageUrl": "assets/img/properties/office2.jpg",
           "amenities": [],
           "description": "Sala Comercial para alugar, 26m² em Cocó, Fortaleza",
           "coordinates": {
