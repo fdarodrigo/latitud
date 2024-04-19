@@ -1,31 +1,14 @@
-<<<<<<< HEAD
-# Latitud
+Latitud is an innovative application born out of a personal need, providing a completely new approach to finding available rental properties. Unlike traditional methods where you start by typing in neighborhoods or regions, Latitud flips this trajectory, allowing you to explore properties on an interactive map.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
+You can draw a polygon by clicking to outline a specific area on the map and search for properties within that defined region. Much better than searching by neighborhood, you can search by regions that encompass multiple neighborhoods or areas.
 
-## Development server
+Additionally, within the delimited region, you can search for nearby places (gyms, schools, hospitals, restaurants, and universities) and general city information about traffic, subway, and bike lanes.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<img src="https://github.com/fdarodrigo/latitud/assets/69090086/f30c41ad-2d78-416d-8c2b-e2b0ed161ab7" width="200" height="200">
+<img src="https://github.com/fdarodrigo/latitud/assets/69090086/dba610c8-338b-4fe7-8b4c-60e96fa96353" width="200" height="200">
+<img src="https://github.com/fdarodrigo/latitud/assets/69090086/6f907f58-4fa9-485e-9744-966773b1e5c2" width="200" height="200">
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-=======
-# latitud
->>>>>>> 31f96afdb7b27f54af132ff2a7dec42ede68650b
+Access the live demo [here](https://fdarodrigo.github.io/latitud/).
