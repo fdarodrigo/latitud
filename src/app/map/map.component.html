@@ -9,9 +9,16 @@
   <loadinglayer></loadinglayer>
 </div>
 
-<div *ngIf="!isLoading">
+<div>
+
+  
 
 <div id="sidebar" class="navbar">
+
+  <button class="button-draw" (click)="toggleDrawing()">
+    {{ "start-drawing" | translate }}
+  </button>
+
   <div class="sidebar-section">
 
   <div class="sidebar-section">
@@ -58,10 +65,6 @@
       </mat-option>
     </mat-select>
   </mat-form-field>
-
-  <button class="botao-buscar" (click)="searchHousesPolyg()">
-    {{'search' | translate}}
-  </button>
 </div>
 </div>
 

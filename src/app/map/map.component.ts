@@ -2,7 +2,8 @@ import { AfterViewChecked, Component, OnInit } from '@angular/core';
 import { LocationsService } from '../services/locations.service';
 import { LayersService } from '../services/layers.service';
 import { HelpersService } from '../services/helpers.service';
-import {TranslateService} from '@ngx-translate/core';
+import { TranslateService } from '@ngx-translate/core';
+import { } from '@angular/google-maps';
 
 
 @Component({
@@ -13,7 +14,7 @@ import {TranslateService} from '@ngx-translate/core';
 export class MapComponent implements OnInit, AfterViewChecked {
   isLoading: boolean = true;
 
-  param = {value: 'world'};
+  param = { value: 'world' };
 
   map!: google.maps.Map;
   polygonOptions: google.maps.PolygonOptions = {
@@ -22,8 +23,6 @@ export class MapComponent implements OnInit, AfterViewChecked {
     strokeWeight: 2,
     fillColor: '#FF0000',
     fillOpacity: 0.35,
-    editable: true,
-    draggable: true
   };
 
   houseLocations: any[] = []
@@ -50,32 +49,38 @@ export class MapComponent implements OnInit, AfterViewChecked {
   total_houses: any;
   polygon!: google.maps.Polygon;
   lang!: string;
+  drawingManager!: google.maps.drawing.DrawingManager;
+
+  isDrawing = false;
+  _polygon: google.maps.Polygon | null = null;
+  freehandPolygon: google.maps.Polyline | null = null;
+  firstClickOccurred: any;
+  poly!: google.maps.Polyline;
 
   constructor(
     private locations: LocationsService,
     private layer: LayersService,
     private helper: HelpersService,
-    private translate: TranslateService) 
-  {
-      // translate.setDefaultLang('pt');
-      this.translate.use('pt');
-      this.helper.openDialogLang('200ms', '400ms').subscribe(result => {
-        if (result) {
-          this.translate.use('en');
-          this.lang = 'en'
-          this.icons = this.helper.iconsEn
-        } else {
-          this.translate.use('pt');
-          this.lang = 'pt'
-          this.icons = this.helper.iconsPt
-        }
-      })
+    private translate: TranslateService) {
+    // translate.setDefaultLang('pt');
+    this.translate.use('pt');
+    this.helper.openDialogLang('200ms', '400ms').subscribe(result => {
+      if (result) {
+        this.translate.use('en');
+        this.lang = 'en'
+        this.icons = this.helper.iconsEn
+      } else {
+        this.translate.use('pt');
+        this.lang = 'pt'
+        this.icons = this.helper.iconsPt
+      }
+    })
 
   }
 
   ngOnInit() {
 
-    
+
     this.mapOptions = {
       center: { lat: -3.7318621211337466, lng: -38.50404330691704 },
       zoom: 13,
@@ -86,21 +91,25 @@ export class MapComponent implements OnInit, AfterViewChecked {
 
     this.map = new google.maps.Map(document.getElementById("map")!, this.mapOptions);
 
-    this.polygon = new google.maps.Polygon(this.polygonOptions);
-    this.polygon.setMap(this.map);
+    // this.polygon = new google.maps.Polygon(this.polygonOptions);
+    // this.polygon.setMap(this.map);
 
-    google.maps.event.addDomListener(document, 'keydown', (event: KeyboardEvent) => {
-      if (event.keyCode === 46 || event.keyCode === 8) {
-        this.polygon.setMap(null);
-      }
-    });
+    // google.maps.event.addDomListener(document, 'keydown', (event: KeyboardEvent) => {
+    //   if (event.keyCode === 46 || event.keyCode === 8) {
+    //     this.polygon.setMap(null);
+    //   }
+    // });
 
-    google.maps.event.addListener(this.map, 'click', (event: google.maps.KmlMouseEvent) => {
-      const path = this.polygon.getPath();
-      path.push(event.latLng!);
+    // google.maps.event.addListener(this.map, 'click', (event: google.maps.KmlMouseEvent) => {
+    //   const path = this.polygon.getPath();
+    //   path.push(event.latLng!);
 
-      this.clickedCoordinates.push(event.latLng!.toJSON());
-    });
+    //   this.clickedCoordinates.push(event.latLng!.toJSON());
+    // });
+
+
+
+
 
     this.isLoading = true;
     this.locations.getDadosMock().subscribe(res => {
@@ -117,7 +126,7 @@ export class MapComponent implements OnInit, AfterViewChecked {
           controlUI.classList.add("ui-button");
           controlUI.innerText = `${text}`;
           controlUI.addEventListener("click", () => {
-            this.helper.adjustMap(mode, amount,this.map);
+            this.helper.adjustMap(mode, amount, this.map);
           });
           controlDiv.appendChild(controlUI);
           this.map.controls[position].push(controlDiv);
@@ -129,7 +138,73 @@ export class MapComponent implements OnInit, AfterViewChecked {
     });
   }
 
-  ngAfterViewChecked (): void {
+  toggleDrawing() {
+
+      this.disable();
+      google.maps.event.addDomListener(this.map.getDiv(),'mousedown',() =>{
+        this.drawFreeHand()
+    });
+    
+  }
+
+  drawFreeHand() {
+
+    this.poly = new google.maps.Polyline({ 
+      map: this.map, 
+      clickable: false,
+      strokeColor: '#FF0000',
+      strokeOpacity: 0.8,
+      strokeWeight: 2,
+    });
+
+    var move = google.maps.event.addListener(this.map, 'mousemove',  (e: { latLng: google.maps.LatLng; }) => {
+      this.poly.getPath().push(e.latLng);
+
+      this.clickedCoordinates.push(e.latLng!.toJSON());
+    });
+
+    google.maps.event.addListenerOnce(this.map, 'mouseup',  (e: any) => {
+      google.maps.event.removeListener(move);
+      var path = this.poly.getPath();
+      this.poly.setMap(null);
+      this.poly = new google.maps.Polygon({ 
+        map: this.map, 
+        paths: path,
+        strokeColor: '#FF0000',
+        strokeOpacity: 0.8,
+        strokeWeight: 2,
+        fillColor: '#FF0000',
+        fillOpacity: 0.35,
+       });
+
+
+      google.maps.event.clearListeners(this.map.getDiv(), 'mousedown');
+
+      this.enable()
+
+      this.searchHousesPolyg()
+    });
+  }
+
+  disable() {
+    this.map.setOptions({
+      draggable: false,
+      zoomControl: false,
+      scrollwheel: false,
+      disableDoubleClickZoom: false
+    });
+  }
+
+  enable() {
+    this.map.setOptions({
+      draggable: true,
+      zoomControl: true,
+      scrollwheel: true,
+      disableDoubleClickZoom: true
+    });
+  }
+
+  ngAfterViewChecked(): void {
     if (this.lang === 'pt') {
       this.translate.use('pt');
       this.lang = 'pt'
@@ -250,4 +325,3 @@ export class MapComponent implements OnInit, AfterViewChecked {
   }
 
 }
-
