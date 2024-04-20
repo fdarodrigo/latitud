@@ -4,11 +4,8 @@ You can draw a polygon by clicking to outline a specific area on the map and sea
 
 Additionally, within the delimited region, you can search for nearby places (gyms, schools, hospitals, restaurants, and universities) and general city information about traffic, subway, and bike lanes.
 
-<img src="https://github.com/fdarodrigo/latitud/assets/69090086/f30c41ad-2d78-416d-8c2b-e2b0ed161ab7" width="200" height="200">
-<img src="https://github.com/fdarodrigo/latitud/assets/69090086/dba610c8-338b-4fe7-8b4c-60e96fa96353" width="200" height="200">
-<img src="https://github.com/fdarodrigo/latitud/assets/69090086/6f907f58-4fa9-485e-9744-966773b1e5c2" width="200" height="200">
-
-
-
+<img src="https://github.com/fdarodrigo/latitud/assets/69090086/a6c7c935-7e58-493c-ad3c-3a31f9d3cfcd" width="200" height="200">
+<img src="https://github.com/fdarodrigo/latitud/assets/69090086/f0bd2541-dc2b-4bba-b84f-85ef9aa88567" width="200" height="200">
+<img src="https://github.com/fdarodrigo/latitud/assets/69090086/1ed580b5-23f3-4c6a-a238-8a9d56982909" width="200" height="200">
 
 Access the live demo [here](https://fdarodrigo.github.io/latitud/).
