@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Latitud"
+version = "1.0.0"
+id = "artifacts/latitud"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25539
+
+[services.development]
+run = "pnpm --filter @workspace/latitud run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/latitud", "run", "build" ]
+publicDir = "artifacts/latitud/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25539"
+BASE_PATH = "/"

@@ -1,0 +1,15 @@
+Makes sense, the agent responds better when the prompt language matches the expected output language. Here it is:
+
+
+Create a Next.js 14 project with App Router, TypeScript, Tailwind CSS and shadcn/ui with the following specification:
+Context: A real estate search product called "Latitud". The main feature is an interactive map displaying properties for rent or sale.
+Stack: Next.js 14 (App Router), TypeScript, Tailwind CSS, shadcn/ui, @vis.gl/react-google-maps, zustand, @tanstack/react-query, lucide-react, embla-carousel-react.
+Folder structure: Follow a domain-driven architecture: src/domains/listings/, src/domains/map/, src/domains/search/, src/shared/, src/lib/.
+Mock data at src/domains/listings/mocks/listings.mock.ts: 12 properties in Fortaleza, Brazil, with real and varied coordinates, including the following fields: id, title, type (apartment | house | commercial | office), transactionType (rent | sale), price, area (m²), bedrooms, bathrooms, parkingSpots, hasElevator, hasGrill, hasPool, hasGym, photos (array of 4 Unsplash URLs of interior/real estate images), coordinates: { lat, lng }, address.
+Page /map: Layout split into a fixed left sidebar (380px wide) and the map occupying the remaining screen space.
+Map (src/domains/map/components/MapContainer.tsx): Use @vis.gl/react-google-maps. Center on Fortaleza (lat: -3.7318, lng: -38.5040), zoom 13. Each property renders a custom marker displaying the formatted price inside a chip (white background, border, bold text — turns colored on hover). Clicking a marker opens the ListingModal.
+Sidebar (src/domains/map/components/MapSidebar.tsx): Show the "Latitud" logo at the top. Below it, a toggle for Aluguel/Venda (Rent/Sale). Then a "Filtros" section with: property type select (all, apartment, house, commercial), price range slider, minimum bedrooms select, "Com garagem" checkbox. The sidebar should have a modern, dark look (slate-900 or similar) with well-separated sections.
+Zustand store at src/domains/map/store/map.store.ts: state fields allListings, filteredListings, activeFilters, selectedListing | null.
+useListings hook: Uses react-query to fetch mock data (simulate with Promise.resolve(mockData)). On success, populates the Zustand store.
+Google Maps API key: Read from environment variable NEXT_PUBLIC_GOOGLE_MAPS_KEY. Load the places and geometry libraries in the loader config.
+General visual: Modern and clean, inspired by Airbnb and Quinto Andar. Price chips on markers with white background and subtle shadow. Sidebar with sections separated by soft dividers.
