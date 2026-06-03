@@ -1,6 +1,8 @@
 import { SlidersHorizontal, Car, BedDouble } from "lucide-react";
 import { useMapStore } from "@/domains/map/store/map.store";
 import type { PropertyType } from "@/domains/listings/mocks/listings.mock";
+import { DrawingTool } from "./DrawingTool";
+import { RegionStats } from "./RegionStats";
 
 const PROPERTY_TYPES: { value: PropertyType | "all"; label: string }[] = [
   { value: "all", label: "Todos" },
@@ -221,6 +223,15 @@ export function MapSidebar() {
             </span>
           </button>
         </div>
+
+        {/* Drawing tool divider */}
+        <div className="h-px" style={{ background: "#1e293b" }} />
+
+        {/* Drawing tool */}
+        <DrawingTool />
+
+        {/* Region stats (visible only when polygon is active) */}
+        <RegionStats />
       </div>
 
       {/* Footer */}

@@ -1,8 +1,10 @@
+import { useCallback } from "react";
 import { APIProvider, Map } from "@vis.gl/react-google-maps";
 import { useMapStore } from "@/domains/map/store/map.store";
 import { PriceMarker } from "./PriceMarker";
-import { ListingModal } from "./ListingModal";
 import { useListings } from "@/domains/listings/hooks/useListings";
+import { useDrawing } from "@/domains/map/hooks/useDrawing";
+import { ListingModal } from "@/domains/listings/components/ListingModal";
 import type { Listing } from "@/domains/listings/mocks/listings.mock";
 
 const FORTALEZA = { lat: -3.7318, lng: -38.504 };
@@ -30,8 +32,34 @@ const MAP_STYLES = [
 ];
 
 function MapInner() {
-  const { filteredListings, selectedListing, setSelectedListing } = useMapStore();
+  const { filteredListings, selectedListing, setSelectedListing, setPolygonFilter, allListings, activeFilters } =
+    useMapStore();
   const { isLoading } = useListings();
+
+  const handlePolygonComplete = useCallback(
+    (polygon: google.maps.Polygon) => {
+      // Filter allListings by those inside the polygon, then also apply active filters
+      const inPolygon = allListings.filter((l) => {
+        const latLng = new google.maps.LatLng(l.coordinates.lat, l.coordinates.lng);
+        return google.maps.geometry.poly.containsLocation(latLng, polygon);
+      });
+
+      // Apply sidebar filters on top of polygon filter
+      const filtered = inPolygon.filter((l) => {
+        if (l.transactionType !== activeFilters.transactionType) return false;
+        if (activeFilters.propertyType !== "all" && l.type !== activeFilters.propertyType) return false;
+        if (l.price < activeFilters.minPrice || l.price > activeFilters.maxPrice) return false;
+        if (l.bedrooms < activeFilters.minBedrooms) return false;
+        if (activeFilters.hasParking && l.parkingSpots === 0) return false;
+        return true;
+      });
+
+      setPolygonFilter(filtered);
+    },
+    [allListings, activeFilters, setPolygonFilter]
+  );
+
+  useDrawing({ onPolygonComplete: handlePolygonComplete });
 
   const handleMarkerClick = (listing: Listing) => {
     setSelectedListing(listing);

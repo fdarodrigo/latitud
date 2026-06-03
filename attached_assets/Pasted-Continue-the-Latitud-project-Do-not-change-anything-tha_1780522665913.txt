@@ -1,0 +1,29 @@
+Continue the Latitud project. Do not change anything that already exists. Add the following features:
+1. Freehand Drawing Tool
+Create src/domains/map/hooks/useDrawing.ts. When drawing mode is active, disable map drag and scroll. Track mousemove events to build a google.maps.Polyline in real time. On mouseup, close the path and convert it into a google.maps.Polygon with the following style: strokeColor: #6366f1, strokeWeight: 2, fillColor: #6366f1, fillOpacity: 0.15. Re-enable map interaction after drawing is complete. Only one polygon can exist at a time — drawing a new one removes the previous. Add a "Clear drawing" button that removes the polygon and resets filtered listings to all listings.
+Create src/domains/map/components/DrawingTool.tsx: a button in the sidebar labeled "Desenhar no mapa" with a pencil icon. When active, the button changes style to indicate drawing mode is on. Drawing only starts after this button is clicked.
+2. Polygon Filtering
+After drawing is complete, use google.maps.geometry.poly.containsLocation to filter allListings from the Zustand store, keeping only properties whose coordinates fall inside the drawn polygon. Update filteredListings in the store. The map should only show markers for filteredListings while a polygon is active.
+3. Region Stats
+Create src/domains/map/components/RegionStats.tsx. This component reads filteredListings from the Zustand store and displays, inside the sidebar (below the drawing button), the following information — only visible when a polygon has been drawn:
+
+Total number of properties found
+Breakdown by type (apartments, houses, commercial, offices) — show only types with count > 0
+Average price (formatted as BRL)
+Lowest price found (formatted as BRL)
+Highest price found (formatted as BRL)
+
+Create src/shared/utils/price.utils.ts with helper functions: formatBRL(value: number), calculateAverage(prices: number[]), calculateMin(prices: number[]), calculateMax(prices: number[]).
+4. Listing Modal
+Create src/domains/listings/components/ListingModal.tsx. It opens when a marker is clicked (selectedListing in the Zustand store is not null). It should be a bottom sheet on mobile and a centered modal on desktop, using shadcn Dialog. It contains:
+
+Photo carousel (src/domains/listings/components/ListingCarousel.tsx) using embla-carousel-react. Show the photos array from the listing. Include previous/next arrow buttons and a dot indicator.
+Header: property title, address, a close button (X), and the FavoriteButton.
+Price: large and prominent, with the transaction type badge (Aluguel / Venda).
+Details grid: display the following with icons (lucide-react): bedrooms (BedDouble), bathrooms (Bath), parking spots (Car), area in m² (Maximize2).
+Amenities: show as small badges only the amenities that are true: Elevador, Churrasqueira, Piscina, Academia.
+CTA button: full-width button at the bottom labeled "Ver detalhes do imóvel" — for now it just logs the listing id to the console.
+
+5. Favorites
+Create src/domains/listings/hooks/useFavorites.ts. Store favorite listing ids in localStorage under the key latitud_favorites. Expose toggleFavorite(id), isFavorite(id), and favorites (array of ids).
+Create src/domains/listings/components/FavoriteButton.tsx: a heart icon button. When the listing is favorited, the heart is filled with a red color. On click, call toggleFavorite. Add a smooth scale animation on click.
