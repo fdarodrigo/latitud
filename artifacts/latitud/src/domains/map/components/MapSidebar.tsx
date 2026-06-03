@@ -3,6 +3,9 @@ import { useMapStore } from "@/domains/map/store/map.store";
 import type { PropertyType } from "@/domains/listings/mocks/listings.mock";
 import { DrawingTool } from "./DrawingTool";
 import { RegionStats } from "./RegionStats";
+import { LayersControl } from "./LayersControl";
+import { NearbyPlaces } from "./NearbyPlaces";
+import { useFilters } from "@/domains/search/hooks/useFilters";
 
 const PROPERTY_TYPES: { value: PropertyType | "all"; label: string }[] = [
   { value: "all", label: "Todos" },
@@ -73,8 +76,14 @@ function PriceRangeSlider() {
   );
 }
 
+function Divider() {
+  return <div className="h-px" style={{ background: "#1e293b" }} />;
+}
+
 export function MapSidebar() {
   const { activeFilters, filteredListings, updateFilters } = useMapStore();
+  // activeFilterCount is safe to call here — useFilters just reads from store when outside map context
+  const { activeFilterCount } = useFilters();
 
   return (
     <aside
@@ -100,23 +109,16 @@ export function MapSidebar() {
 
       {/* Transaction toggle */}
       <div className="px-6 py-5 border-b border-slate-700/60">
-        <div
-          className="flex rounded-xl p-1"
-          style={{ background: "#1e293b" }}
-        >
+        <div className="flex rounded-xl p-1" style={{ background: "#1e293b" }}>
           {(["rent", "sale"] as const).map((t) => (
             <button
               key={t}
-              onClick={() =>
-                updateFilters({ transactionType: t, minPrice: 0, maxPrice: 99999999 })
-              }
+              onClick={() => updateFilters({ transactionType: t, minPrice: 0, maxPrice: 99999999 })}
               data-testid={`toggle-${t}`}
               className="flex-1 py-2 text-sm font-semibold rounded-lg transition-all duration-150"
               style={{
-                background:
-                  activeFilters.transactionType === t ? "#0ea5e9" : "transparent",
-                color:
-                  activeFilters.transactionType === t ? "#fff" : "#94a3b8",
+                background: activeFilters.transactionType === t ? "#0ea5e9" : "transparent",
+                color: activeFilters.transactionType === t ? "#fff" : "#94a3b8",
               }}
             >
               {t === "rent" ? "Aluguel" : "Venda"}
@@ -125,23 +127,30 @@ export function MapSidebar() {
         </div>
       </div>
 
-      {/* Filters */}
+      {/* Scrollable content */}
       <div className="px-6 py-5 flex-1 space-y-6">
-        <div className="flex items-center gap-2 text-slate-400 text-xs font-semibold uppercase tracking-widest">
-          <SlidersHorizontal className="w-3.5 h-3.5" />
-          <span>Filtros</span>
+
+        {/* Filters header with badge */}
+        <div className="flex items-center gap-2">
+          <SlidersHorizontal className="w-3.5 h-3.5 text-slate-400" />
+          <span className="text-slate-400 text-xs font-semibold uppercase tracking-widest">Filtros</span>
+          {activeFilterCount > 0 && (
+            <span
+              className="ml-1 px-1.5 py-0.5 rounded-full text-[10px] font-bold text-white"
+              style={{ background: "#0ea5e9" }}
+              data-testid="badge-filter-count"
+            >
+              {activeFilterCount}
+            </span>
+          )}
         </div>
 
         {/* Property type */}
         <div>
-          <label className="block text-xs font-medium text-slate-400 mb-2">
-            Tipo de imóvel
-          </label>
+          <label className="block text-xs font-medium text-slate-400 mb-2">Tipo de imóvel</label>
           <select
             value={activeFilters.propertyType}
-            onChange={(e) =>
-              updateFilters({ propertyType: e.target.value as PropertyType | "all" })
-            }
+            onChange={(e) => updateFilters({ propertyType: e.target.value as PropertyType | "all" })}
             data-testid="select-property-type"
             className="w-full rounded-lg px-3 py-2.5 text-sm text-slate-200 border border-slate-700 focus:outline-none focus:ring-1 focus:ring-sky-500 cursor-pointer"
             style={{ background: "#1e293b" }}
@@ -156,9 +165,7 @@ export function MapSidebar() {
 
         {/* Price range */}
         <div>
-          <label className="block text-xs font-medium text-slate-400 mb-3">
-            Preço máximo
-          </label>
+          <label className="block text-xs font-medium text-slate-400 mb-3">Preço máximo</label>
           <PriceRangeSlider />
         </div>
 
@@ -178,14 +185,9 @@ export function MapSidebar() {
                 data-testid={`button-bedrooms-${opt.value}`}
                 className="flex-1 py-1.5 rounded-lg text-xs font-semibold transition-all duration-150"
                 style={{
-                  background:
-                    activeFilters.minBedrooms === opt.value ? "#0ea5e9" : "#1e293b",
-                  color:
-                    activeFilters.minBedrooms === opt.value ? "#fff" : "#94a3b8",
-                  border:
-                    activeFilters.minBedrooms === opt.value
-                      ? "1px solid #0ea5e9"
-                      : "1px solid #334155",
+                  background: activeFilters.minBedrooms === opt.value ? "#0ea5e9" : "#1e293b",
+                  color: activeFilters.minBedrooms === opt.value ? "#fff" : "#94a3b8",
+                  border: activeFilters.minBedrooms === opt.value ? "1px solid #0ea5e9" : "1px solid #334155",
                 }}
               >
                 {opt.label}
@@ -204,17 +206,11 @@ export function MapSidebar() {
             <div className="relative w-10 h-5">
               <div
                 className="w-10 h-5 rounded-full transition-colors duration-200"
-                style={{
-                  background: activeFilters.hasParking ? "#0ea5e9" : "#334155",
-                }}
+                style={{ background: activeFilters.hasParking ? "#0ea5e9" : "#334155" }}
               />
               <div
                 className="absolute top-0.5 w-4 h-4 rounded-full bg-white shadow transition-transform duration-200"
-                style={{
-                  transform: activeFilters.hasParking
-                    ? "translateX(21px)"
-                    : "translateX(2px)",
-                }}
+                style={{ transform: activeFilters.hasParking ? "translateX(21px)" : "translateX(2px)" }}
               />
             </div>
             <span className="flex items-center gap-1.5 text-sm text-slate-300">
@@ -224,21 +220,28 @@ export function MapSidebar() {
           </button>
         </div>
 
-        {/* Drawing tool divider */}
-        <div className="h-px" style={{ background: "#1e293b" }} />
+        <Divider />
 
         {/* Drawing tool */}
         <DrawingTool />
 
-        {/* Region stats (visible only when polygon is active) */}
+        {/* Region stats */}
         <RegionStats />
+
+        <Divider />
+
+        {/* Layers control */}
+        <LayersControl />
+
+        <Divider />
+
+        {/* Nearby places */}
+        <NearbyPlaces />
       </div>
 
       {/* Footer */}
       <div className="px-6 py-4 border-t border-slate-700/60">
-        <p className="text-slate-500 text-xs text-center">
-          Fortaleza · Ceará · Brasil
-        </p>
+        <p className="text-slate-500 text-xs text-center">Fortaleza · Ceará · Brasil</p>
       </div>
     </aside>
   );

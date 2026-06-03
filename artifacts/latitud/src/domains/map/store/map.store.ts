@@ -4,6 +4,7 @@ import {
   type PropertyType,
   type TransactionType,
 } from "@/domains/listings/mocks/listings.mock";
+import type { LayerType } from "@/domains/map/hooks/useMapLayers";
 
 export interface ActiveFilters {
   transactionType: TransactionType;
@@ -19,17 +20,26 @@ interface MapState {
   filteredListings: Listing[];
   activeFilters: ActiveFilters;
   selectedListing: Listing | null;
+
+  // Drawing
   isDrawingMode: boolean;
   hasActivePolygon: boolean;
-  clearPolygonFn: (() => void) | null;
+  activePolygon: google.maps.Polygon | null;
+
+  // Layers
+  activeLayer: LayerType | null;
+
+  // Nearby places
+  activePlaceType: string | null;
 
   setAllListings: (listings: Listing[]) => void;
   setSelectedListing: (listing: Listing | null) => void;
+  setFilteredListings: (listings: Listing[]) => void;
   updateFilters: (filters: Partial<ActiveFilters>) => void;
   setDrawingMode: (active: boolean) => void;
-  setPolygonFilter: (listings: Listing[]) => void;
-  clearPolygonFilter: () => void;
-  setClearPolygon: (fn: () => void) => void;
+  setActivePolygon: (polygon: google.maps.Polygon | null) => void;
+  setActiveLayer: (layer: LayerType | null) => void;
+  setActivePlaceType: (type: string | null) => void;
 }
 
 const DEFAULT_FILTERS: ActiveFilters = {
@@ -41,17 +51,6 @@ const DEFAULT_FILTERS: ActiveFilters = {
   hasParking: false,
 };
 
-function applyFilters(listings: Listing[], filters: ActiveFilters): Listing[] {
-  return listings.filter((l) => {
-    if (l.transactionType !== filters.transactionType) return false;
-    if (filters.propertyType !== "all" && l.type !== filters.propertyType) return false;
-    if (l.price < filters.minPrice || l.price > filters.maxPrice) return false;
-    if (l.bedrooms < filters.minBedrooms) return false;
-    if (filters.hasParking && l.parkingSpots === 0) return false;
-    return true;
-  });
-}
-
 export const useMapStore = create<MapState>((set, get) => ({
   allListings: [],
   filteredListings: [],
@@ -59,35 +58,33 @@ export const useMapStore = create<MapState>((set, get) => ({
   selectedListing: null,
   isDrawingMode: false,
   hasActivePolygon: false,
-  clearPolygonFn: null,
+  activePolygon: null,
+  activeLayer: null,
+  activePlaceType: null,
 
   setAllListings: (listings) => {
-    const filtered = applyFilters(listings, get().activeFilters);
-    set({ allListings: listings, filteredListings: filtered });
+    set({ allListings: listings });
+    // filteredListings will be recomputed by useFilters hook
   },
 
   setSelectedListing: (listing) => set({ selectedListing: listing }),
 
+  setFilteredListings: (listings) => set({ filteredListings: listings }),
+
   updateFilters: (partial) => {
     const filters = { ...get().activeFilters, ...partial };
-    // If a polygon is active, don't override filteredListings with filter logic
-    if (get().hasActivePolygon) {
-      set({ activeFilters: filters });
-    } else {
-      const filtered = applyFilters(get().allListings, filters);
-      set({ activeFilters: filters, filteredListings: filtered });
-    }
+    set({ activeFilters: filters });
+    // useFilters hook reacts to activeFilters change and recomputes filteredListings
   },
 
   setDrawingMode: (active) => set({ isDrawingMode: active }),
 
-  setPolygonFilter: (listings) =>
-    set({ filteredListings: listings, hasActivePolygon: true }),
-
-  clearPolygonFilter: () => {
-    const filtered = applyFilters(get().allListings, get().activeFilters);
-    set({ filteredListings: filtered, hasActivePolygon: false });
+  setActivePolygon: (polygon) => {
+    set({ activePolygon: polygon, hasActivePolygon: polygon !== null });
+    // useFilters hook reacts to activePolygon change and recomputes filteredListings
   },
 
-  setClearPolygon: (fn) => set({ clearPolygonFn: fn }),
+  setActiveLayer: (layer) => set({ activeLayer: layer }),
+
+  setActivePlaceType: (type) => set({ activePlaceType: type }),
 }));

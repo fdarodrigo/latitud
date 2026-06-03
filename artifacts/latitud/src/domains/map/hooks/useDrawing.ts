@@ -2,32 +2,28 @@ import { useEffect, useRef } from "react";
 import { useMap } from "@vis.gl/react-google-maps";
 import { useMapStore } from "@/domains/map/store/map.store";
 
-interface UseDrawingOptions {
-  onPolygonComplete: (polygon: google.maps.Polygon) => void;
-}
-
-export function useDrawing({ onPolygonComplete }: UseDrawingOptions) {
+export function useDrawing() {
   const map = useMap();
   const isDrawingMode = useMapStore((s) => s.isDrawingMode);
+  const activePolygon = useMapStore((s) => s.activePolygon);
   const setDrawingMode = useMapStore((s) => s.setDrawingMode);
+  const setActivePolygon = useMapStore((s) => s.setActivePolygon);
+
   const polygonRef = useRef<google.maps.Polygon | null>(null);
   const polylineRef = useRef<google.maps.Polyline | null>(null);
 
-  // Expose clearPolygon so the store/toolbar can call it
-  const clearPolygon = () => {
-    polygonRef.current?.setMap(null);
-    polygonRef.current = null;
-  };
-
-  // Store clearPolygon on the store so DrawingTool can access it
+  // When activePolygon is cleared externally (e.g. DrawingTool clear button),
+  // remove the visual polygon from the map
   useEffect(() => {
-    useMapStore.getState().setClearPolygon(clearPolygon);
-  }, []);
+    if (!activePolygon && polygonRef.current) {
+      polygonRef.current.setMap(null);
+      polygonRef.current = null;
+    }
+  }, [activePolygon]);
 
   useEffect(() => {
     if (!map || !isDrawingMode) return;
 
-    // Disable map interaction while drawing
     map.setOptions({ draggable: false, scrollwheel: false, gestureHandling: "none" });
 
     const path: google.maps.LatLng[] = [];
@@ -41,57 +37,44 @@ export function useDrawing({ onPolygonComplete }: UseDrawingOptions) {
     });
     polylineRef.current = polyline;
 
-    const downListener = google.maps.event.addListenerOnce(
-      map,
-      "mousedown",
-      () => {
-        moveListener = google.maps.event.addListener(
-          map,
-          "mousemove",
-          (e: google.maps.MapMouseEvent) => {
-            if (!e.latLng) return;
-            path.push(e.latLng);
-            polyline.setPath(path);
-          }
-        );
-      }
-    );
+    const downListener = google.maps.event.addListenerOnce(map, "mousedown", () => {
+      moveListener = google.maps.event.addListener(
+        map,
+        "mousemove",
+        (e: google.maps.MapMouseEvent) => {
+          if (!e.latLng) return;
+          path.push(e.latLng);
+          polyline.setPath(path);
+        }
+      );
+    });
 
-    const upListener = google.maps.event.addListenerOnce(
-      map,
-      "mouseup",
-      () => {
-        // Clean up listeners and polyline
-        if (moveListener) google.maps.event.removeListener(moveListener);
-        polyline.setMap(null);
-        polylineRef.current = null;
+    const upListener = google.maps.event.addListenerOnce(map, "mouseup", () => {
+      if (moveListener) google.maps.event.removeListener(moveListener);
+      polyline.setMap(null);
+      polylineRef.current = null;
 
-        // Re-enable map interaction
-        map.setOptions({ draggable: true, scrollwheel: true, gestureHandling: "greedy" });
+      map.setOptions({ draggable: true, scrollwheel: true, gestureHandling: "greedy" });
+      setDrawingMode(false);
 
-        // Exit drawing mode
-        setDrawingMode(false);
+      if (path.length < 3) return;
 
-        if (path.length < 3) return;
+      // Remove previous polygon
+      polygonRef.current?.setMap(null);
 
-        // Remove previous polygon
-        polygonRef.current?.setMap(null);
+      const polygon = new google.maps.Polygon({
+        map,
+        paths: path,
+        strokeColor: "#6366f1",
+        strokeWeight: 2,
+        fillColor: "#6366f1",
+        fillOpacity: 0.15,
+        zIndex: 1,
+      });
 
-        // Create new polygon
-        const polygon = new google.maps.Polygon({
-          map,
-          paths: path,
-          strokeColor: "#6366f1",
-          strokeWeight: 2,
-          fillColor: "#6366f1",
-          fillOpacity: 0.15,
-          zIndex: 1,
-        });
-
-        polygonRef.current = polygon;
-        onPolygonComplete(polygon);
-      }
-    );
+      polygonRef.current = polygon;
+      setActivePolygon(polygon);
+    });
 
     return () => {
       google.maps.event.removeListener(downListener);
@@ -102,6 +85,4 @@ export function useDrawing({ onPolygonComplete }: UseDrawingOptions) {
       map.setOptions({ draggable: true, scrollwheel: true, gestureHandling: "greedy" });
     };
   }, [map, isDrawingMode]);
-
-  return { clearPolygon };
 }

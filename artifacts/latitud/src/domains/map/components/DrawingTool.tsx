@@ -5,17 +5,14 @@ export function DrawingTool() {
   const isDrawingMode = useMapStore((s) => s.isDrawingMode);
   const hasActivePolygon = useMapStore((s) => s.hasActivePolygon);
   const setDrawingMode = useMapStore((s) => s.setDrawingMode);
-  const clearPolygonFilter = useMapStore((s) => s.clearPolygonFilter);
-  const clearPolygonFn = useMapStore((s) => s.clearPolygonFn);
+  const setActivePolygon = useMapStore((s) => s.setActivePolygon);
 
   const handleDraw = () => {
     if (isDrawingMode) {
       setDrawingMode(false);
     } else {
-      // Clear any existing polygon first
       if (hasActivePolygon) {
-        clearPolygonFn?.();
-        clearPolygonFilter();
+        setActivePolygon(null);
       }
       setDrawingMode(true);
     }
@@ -23,8 +20,7 @@ export function DrawingTool() {
 
   const handleClear = (e: React.MouseEvent) => {
     e.stopPropagation();
-    clearPolygonFn?.();
-    clearPolygonFilter();
+    setActivePolygon(null);
   };
 
   return (

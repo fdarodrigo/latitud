@@ -1,0 +1,34 @@
+Continue the Latitud project. Do not change anything that already exists. Add the following features:
+1. Map Layers Control
+Create src/domains/map/hooks/useMapLayers.ts. Manage three Google Maps layers: google.maps.TrafficLayer, google.maps.TransitLayer, google.maps.BicyclingLayer. Only one layer can be active at a time. Expose activeLayer, setLayer(layer: 'traffic' | 'transit' | 'bicycling' | null). When a layer is selected again, it toggles off.
+Create src/domains/map/components/LayersControl.tsx. Render a styled select/dropdown inside the sidebar under a section titled "Informações de Trânsito". Options: "Nenhuma", "Tráfego", "Transporte Público", "Ciclovias". Each option has a matching lucide icon: Car, Train, Bike. When an option is selected, activate the corresponding layer on the map and deactivate the others.
+2. Nearby Places
+Create src/domains/map/hooks/useNearbySearch.ts. Use google.maps.places.PlacesService with nearbySearch. Accept a type string and the current map center or polygon centroid as the search location, with a radius of 1500m. Return the results array. Skip places with business_status === 'CLOSED_TEMPORARILY'.
+Create src/domains/map/components/NearbyPlaces.tsx. Render inside the sidebar under a section titled "Locais Próximos". Show a grid of icon buttons for the following place types, each with a label and a lucide icon:
+
+restaurant → UtensilsCrossed → "Restaurantes"
+school → GraduationCap → "Escolas"
+hospital → Hospital → "Hospitais"
+supermarket → ShoppingCart → "Mercados"
+gym → Dumbbell → "Academias"
+bank → Landmark → "Bancos"
+
+When a type is selected, call nearbySearch and render small secondary markers on the map (different color/icon from listing markers). Selecting the same type again removes the markers. Only one type can be active at a time.
+3. Active Filter Logic
+Wire up the filters already rendered in the sidebar to actually filter filteredListings in the Zustand store. Create src/domains/search/hooks/useFilters.ts. Filtering logic must combine all active filters AND the drawn polygon simultaneously. Filter rules:
+
+transactionType: match selected toggle (rent/sale)
+type: if not "all", match property type
+price: within selected min/max range
+bedrooms: greater than or equal to selected minimum
+parkingSpots: if "Com garagem" is checked, parkingSpots >= 1
+polygon: if a polygon is drawn, apply containsLocation on top of the other filters
+
+Every time any filter changes or the polygon changes, recompute filteredListings. Show the active filter count as a small badge on a "Filtros" label in the sidebar.
+4. Landing Page
+Create src/app/page.tsx. Full-screen landing page with the following sections:
+
+Hero: Dark background. Animated Google Map in the background (low opacity, no controls, auto-panning slowly across Fortaleza — achieved by incrementally updating the map center with setInterval). On top: "Latitud" logo large, tagline "Encontre seu imóvel no mapa.", and a CTA button "Explorar o mapa" that navigates to /map. Add a subtle fade-in animation on load for the text elements.
+Features section (below the hero, white background): Three feature cards with icon, title and short description — "Desenhe sua área", "Analise a região", "Explore o entorno". Clean, minimal layout.
+
+The page must be fully responsive. The map background in the hero should be disabled on mobile to avoid performance issues — show a static gradient instead.

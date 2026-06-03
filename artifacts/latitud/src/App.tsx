@@ -1,13 +1,14 @@
 import { Switch, Route, Router as WouterRouter } from "wouter";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import MapPage from "@/pages/MapPage";
+import LandingPage from "@/pages/LandingPage";
 
 const queryClient = new QueryClient();
 
 function Router() {
   return (
     <Switch>
-      <Route path="/" component={MapPage} />
+      <Route path="/" component={LandingPage} />
       <Route path="/map" component={MapPage} />
     </Switch>
   );
