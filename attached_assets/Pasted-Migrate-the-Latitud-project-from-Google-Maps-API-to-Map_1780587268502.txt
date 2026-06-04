@@ -1,0 +1,49 @@
+Migrate the Latitud project from Google Maps API to Mapbox + Overpass API + Turf.js. Do not change anything unrelated to the mapping services. Follow the steps below precisely.
+1. Dependencies
+Remove: @vis.gl/react-google-maps
+Install: react-map-gl, mapbox-gl, @mapbox/mapbox-gl-draw, @turf/turf
+Update the environment variable from NEXT_PUBLIC_GOOGLE_MAPS_KEY to NEXT_PUBLIC_MAPBOX_TOKEN.
+2. Map Component
+Replace the Google Maps implementation in MapContainer.tsx with react-map-gl. Use the <Map> component from react-map-gl with mapboxAccessToken reading from process.env.NEXT_PUBLIC_MAPBOX_TOKEN. Initial settings: longitude: -38.5040, latitude: -3.7318, zoom: 13. Use the style mapbox://styles/mapbox/streets-v12. Add import 'mapbox-gl/dist/mapbox-gl.css' to the component.
+3. Property Markers
+Replace Google Maps markers with <Marker> components from react-map-gl. Each marker renders the same price chip as before. Keep the click behavior to set selectedListing in the Zustand store.
+4. Freehand Drawing
+Rewrite useDrawing.ts without any Google Maps references. The new implementation must:
+
+Store the drawn coordinates as a GeoJSON Feature<Polygon>
+On drawing mode active: set a crosshair cursor on the map container, capture onMouseDown to start collecting points, onMouseMove to push coordinates into a ref array, onMouseUp to close the polygon (connect last point to first) and save to Zustand store
+While drawing, render the in-progress path as a GeoJSON <Source> + <Layer type="line"> in real time
+When complete, render the final polygon as a <Source type="geojson"> with two layers: a fill layer (color: #6366f1, opacity: 0.15) and a line layer (color: #6366f1, width: 2)
+Disable map interaction (drag, scroll zoom) while drawing; re-enable when done
+
+5. Polygon Filtering
+Replace google.maps.geometry.poly.containsLocation with turf.booleanPointInPolygon from @turf/turf in useFilters.ts. The polygon stored in Zustand is now a GeoJSON Feature<Polygon>. For each listing, check containment with:
+tsturf.booleanPointInPolygon(
+  turf.point([listing.coordinates.lng, listing.coordinates.lat]),
+  drawnPolygon
+)
+6. Nearby Places
+Rewrite useNearbySearch.ts to query the Overpass API instead of Google Places. No API key required. Use the endpoint https://overpass-api.de/api/interpreter. Build the query dynamically based on the place type and the current map center coordinates:
+[out:json];
+node["amenity"="${amenityType}"](around:1500,${lat},${lng});
+out 20;
+Map the existing UI place types to Overpass amenity tags:
+
+restaurant → restaurant
+school → school
+hospital → hospital
+supermarket → supermarket
+gym → gym
+bank → bank
+
+Parse the response elements array (each has lat, lon, and tags.name). Render the results as <Marker> components with a distinct small icon (different from listing markers). If tags.name is available, show it in a <Popup> on hover.
+7. Map Layers
+Rewrite useMapLayers.ts and LayersControl.tsx without Google Maps layer classes. Use Mapbox GL's native layer system via react-map-gl:
+
+Traffic: Add a <Source> with url: "mapbox://mapbox.mapbox-traffic-v1" and a <Layer type="line"> with source-layer: "traffic". Toggle visibility via the layer's layout property visibility: 'visible' | 'none'.
+Cycling: Toggle the visibility of the existing Mapbox Streets layer id "road-path" and "road-pedestrian" using <Layer> visibility.
+Transit: Add a <Source> with Mapbox transit data and render transit lines. If Mapbox transit data is limited, render a visible note in the UI: "Dados de transporte público podem ser limitados para esta região."
+
+All three layers default to visibility: 'none' and toggle on/off when selected in the LayersControl dropdown.
+8. Lib Config
+Update src/lib/google-maps.ts → rename to src/lib/mapbox.ts. Export the token and any shared Mapbox config from there.

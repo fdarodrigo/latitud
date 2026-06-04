@@ -46,6 +46,12 @@ export function LayersControl() {
           );
         })}
       </div>
+
+      {activeLayer === "transit" && (
+        <p className="text-xs text-amber-400 mt-2 leading-relaxed">
+          Dados de transporte público podem ser limitados para esta região.
+        </p>
+      )}
     </div>
   );
 }

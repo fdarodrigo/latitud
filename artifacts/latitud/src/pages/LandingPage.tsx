@@ -1,42 +1,31 @@
 import { useEffect, useRef } from "react";
 import { useLocation } from "wouter";
-import { APIProvider, Map } from "@vis.gl/react-google-maps";
-import { useMap } from "@vis.gl/react-google-maps";
+import { Map, useMap } from "react-map-gl/mapbox";
+import "mapbox-gl/dist/mapbox-gl.css";
 import { MapPin, PencilLine, BarChart3, Compass, ArrowRight } from "lucide-react";
+import { MAPBOX_TOKEN, HERO_MAP_STYLE } from "@/lib/mapbox";
 
-const GOOGLE_MAPS_KEY = import.meta.env.VITE_GOOGLE_MAPS_KEY as string;
-const FORTALEZA = { lat: -3.7318, lng: -38.504 };
-
-const PAN_TARGETS = [
-  { lat: -3.720, lng: -38.496 },
-  { lat: -3.740, lng: -38.515 },
-  { lat: -3.728, lng: -38.490 },
-  { lat: -3.715, lng: -38.510 },
-];
-
-const HERO_MAP_STYLES = [
-  { elementType: "geometry", stylers: [{ color: "#1e293b" }] },
-  { elementType: "labels.icon", stylers: [{ visibility: "off" }] },
-  { elementType: "labels.text.fill", stylers: [{ color: "#475569" }] },
-  { elementType: "labels.text.stroke", stylers: [{ color: "#0f172a" }] },
-  { featureType: "road", elementType: "geometry", stylers: [{ color: "#334155" }] },
-  { featureType: "road.highway", elementType: "geometry", stylers: [{ color: "#475569" }] },
-  { featureType: "water", elementType: "geometry", stylers: [{ color: "#0ea5e9" }, { lightness: -60 }] },
-  { featureType: "poi.park", elementType: "geometry", stylers: [{ color: "#1a3a2a" }] },
+const PAN_TARGETS: [number, number][] = [
+  [-38.496, -3.720],
+  [-38.515, -3.740],
+  [-38.490, -3.728],
+  [-38.510, -3.715],
 ];
 
 function AutoPanMap() {
-  const map = useMap();
+  const maps = useMap();
+  const mapRef = maps["hero"];
   const idxRef = useRef(0);
 
   useEffect(() => {
-    if (!map) return;
+    if (!mapRef) return;
     const interval = setInterval(() => {
       idxRef.current = (idxRef.current + 1) % PAN_TARGETS.length;
-      map.panTo(PAN_TARGETS[idxRef.current]);
+      const [lng, lat] = PAN_TARGETS[idxRef.current];
+      mapRef.flyTo({ center: [lng, lat], duration: 4000, essential: false });
     }, 5000);
     return () => clearInterval(interval);
-  }, [map]);
+  }, [mapRef]);
 
   return null;
 }
@@ -71,19 +60,18 @@ export default function LandingPage() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden bg-slate-900">
         {/* Map background — desktop only */}
         <div className="absolute inset-0 hidden md:block opacity-30">
-          {GOOGLE_MAPS_KEY ? (
-            <APIProvider apiKey={GOOGLE_MAPS_KEY} libraries={["places", "geometry"]}>
-              <Map
-                defaultCenter={FORTALEZA}
-                defaultZoom={13}
-                styles={HERO_MAP_STYLES}
-                disableDefaultUI
-                gestureHandling="none"
-                style={{ width: "100%", height: "100%" }}
-              >
-                <AutoPanMap />
-              </Map>
-            </APIProvider>
+          {MAPBOX_TOKEN ? (
+            <Map
+              id="hero"
+              initialViewState={{ longitude: -38.504, latitude: -3.7318, zoom: 13 }}
+              mapStyle={HERO_MAP_STYLE}
+              mapboxAccessToken={MAPBOX_TOKEN}
+              interactive={false}
+              style={{ width: "100%", height: "100%" }}
+              attributionControl={false}
+            >
+              <AutoPanMap />
+            </Map>
           ) : (
             <div
               className="w-full h-full"
@@ -95,7 +83,7 @@ export default function LandingPage() {
           )}
         </div>
 
-        {/* Mobile gradient background */}
+        {/* Mobile gradient */}
         <div
           className="absolute inset-0 md:hidden"
           style={{
@@ -104,7 +92,7 @@ export default function LandingPage() {
           }}
         />
 
-        {/* Gradient overlay for readability */}
+        {/* Overlay for readability */}
         <div
           className="absolute inset-0"
           style={{
@@ -118,7 +106,6 @@ export default function LandingPage() {
           className="relative z-10 text-center px-6 max-w-2xl mx-auto"
           style={{ animation: "fadeInUp 0.8s ease both" }}
         >
-          {/* Logo */}
           <div className="flex items-center justify-center gap-3 mb-8">
             <div
               className="w-10 h-10 rounded-xl flex items-center justify-center shadow-lg"
@@ -152,7 +139,10 @@ export default function LandingPage() {
               onClick={() => setLocation("/map")}
               data-testid="button-cta-explore"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-2xl text-white font-bold text-lg transition-all duration-200 hover:scale-105 hover:shadow-xl"
-              style={{ background: "#0ea5e9", boxShadow: "0 8px 32px rgba(14,165,233,0.40)" }}
+              style={{
+                background: "#0ea5e9",
+                boxShadow: "0 8px 32px rgba(14,165,233,0.40)",
+              }}
             >
               Explorar o mapa
               <ArrowRight className="w-5 h-5" />
@@ -165,7 +155,10 @@ export default function LandingPage() {
           className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-40"
           style={{ animation: "fadeInUp 0.8s ease 0.6s both" }}
         >
-          <div className="w-px h-10 bg-white/50" style={{ animation: "scrollPulse 2s ease-in-out infinite" }} />
+          <div
+            className="w-px h-10 bg-white/50"
+            style={{ animation: "scrollPulse 2s ease-in-out infinite" }}
+          />
         </div>
       </section>
 
@@ -177,7 +170,8 @@ export default function LandingPage() {
               Uma nova forma de buscar
             </h2>
             <p className="text-lg text-slate-500 max-w-xl mx-auto">
-              Chega de listas infinitas. Com o Latitud, você vê e sente a cidade antes de escolher.
+              Chega de listas infinitas. Com o Latitud, você vê e sente a cidade antes
+              de escolher.
             </p>
           </div>
 

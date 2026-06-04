@@ -1,0 +1,2 @@
+- [Mapbox migration](mapbox-migration.md) — migrated from @vis.gl/react-google-maps to react-map-gl v8 + mapbox-gl v3 + @turf/turf v7; key import and architecture decisions.
+- [JSX in hook files](jsx-in-hook-files.md) — hooks that return JSX must be .tsx files; re-export pattern used to keep original import paths stable.

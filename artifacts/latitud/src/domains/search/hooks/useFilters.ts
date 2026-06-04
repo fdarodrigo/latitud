@@ -1,6 +1,7 @@
 import { useEffect } from "react";
+import * as turf from "@turf/turf";
 import { useMapStore } from "@/domains/map/store/map.store";
-import type { ActiveFilters } from "@/domains/map/store/map.store";
+import type { ActiveFilters, DrawnPolygon } from "@/domains/map/store/map.store";
 import type { Listing } from "@/domains/listings/mocks/listings.mock";
 
 function applyFilters(listings: Listing[], filters: ActiveFilters): Listing[] {
@@ -14,7 +15,17 @@ function applyFilters(listings: Listing[], filters: ActiveFilters): Listing[] {
   });
 }
 
-function countActiveFilters(filters: ActiveFilters): number {
+function applyPolygonFilter(listings: Listing[], polygon: DrawnPolygon): Listing[] {
+  return listings.filter((l) =>
+    turf.booleanPointInPolygon(
+      turf.point([l.coordinates.lng, l.coordinates.lat]),
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      polygon as any
+    )
+  );
+}
+
+export function countActiveFilters(filters: ActiveFilters): number {
   let count = 0;
   if (filters.propertyType !== "all") count++;
   if (filters.maxPrice < 99999999) count++;
@@ -24,9 +35,8 @@ function countActiveFilters(filters: ActiveFilters): number {
 }
 
 /**
- * Runs inside MapInner (inside APIProvider context).
- * Recomputes filteredListings whenever activeFilters or activePolygon change,
- * combining both simultaneously.
+ * Recomputes filteredListings whenever activeFilters or activePolygon change.
+ * Safe to call both inside and outside the Map context.
  */
 export function useFilters() {
   const allListings = useMapStore((s) => s.allListings);
@@ -36,14 +46,9 @@ export function useFilters() {
 
   useEffect(() => {
     let result = applyFilters(allListings, activeFilters);
-
-    if (activePolygon && typeof google !== "undefined") {
-      result = result.filter((l) => {
-        const latLng = new google.maps.LatLng(l.coordinates.lat, l.coordinates.lng);
-        return google.maps.geometry.poly.containsLocation(latLng, activePolygon);
-      });
+    if (activePolygon) {
+      result = applyPolygonFilter(result, activePolygon);
     }
-
     setFilteredListings(result);
   }, [allListings, activeFilters, activePolygon]);
 

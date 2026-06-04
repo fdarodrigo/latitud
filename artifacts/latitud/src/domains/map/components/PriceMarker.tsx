@@ -1,5 +1,5 @@
-import { useState, useEffect, useRef } from "react";
-import { useMap } from "@vis.gl/react-google-maps";
+import { useState } from "react";
+import { Marker } from "react-map-gl/mapbox";
 import type { Listing } from "@/domains/listings/mocks/listings.mock";
 
 function formatPrice(price: number, transactionType: string): string {
@@ -19,87 +19,77 @@ interface PriceMarkerProps {
 }
 
 export function PriceMarker({ listing, isSelected, onClick }: PriceMarkerProps) {
-  const map = useMap();
-  const overlayRef = useRef<google.maps.OverlayView | null>(null);
-  const containerRef = useRef<HTMLDivElement | null>(null);
   const [hovered, setHovered] = useState(false);
-
   const active = hovered || isSelected;
   const label = formatPrice(listing.price, listing.transactionType);
 
-  useEffect(() => {
-    if (!map) return;
-
-    const overlay = new google.maps.OverlayView();
-
-    overlay.onAdd = function () {
-      const panes = this.getPanes();
-      if (!panes) return;
-      const div = document.createElement("div");
-      div.style.position = "absolute";
-      div.style.cursor = "pointer";
-      div.style.userSelect = "none";
-      div.style.transform = "translate(-50%, -100%)";
-      containerRef.current = div;
-      panes.overlayMouseTarget.appendChild(div);
-    };
-
-    overlay.draw = function () {
-      const div = containerRef.current;
-      if (!div) return;
-      const proj = this.getProjection();
-      const point = proj.fromLatLngToDivPixel(
-        new google.maps.LatLng(listing.coordinates.lat, listing.coordinates.lng)
-      );
-      if (!point) return;
-      div.style.left = `${point.x}px`;
-      div.style.top = `${point.y}px`;
-    };
-
-    overlay.onRemove = function () {
-      const div = containerRef.current;
-      if (div?.parentNode) {
-        div.parentNode.removeChild(div);
-        containerRef.current = null;
-      }
-    };
-
-    overlay.setMap(map);
-    overlayRef.current = overlay;
-
-    return () => {
-      overlay.setMap(null);
-      overlayRef.current = null;
-    };
-  }, [map, listing.coordinates.lat, listing.coordinates.lng]);
-
-  useEffect(() => {
-    const div = containerRef.current;
-    if (!div) return;
-    const handleClick = () => onClick(listing);
-    const handleEnter = () => setHovered(true);
-    const handleLeave = () => setHovered(false);
-    div.addEventListener("click", handleClick);
-    div.addEventListener("mouseenter", handleEnter);
-    div.addEventListener("mouseleave", handleLeave);
-    return () => {
-      div.removeEventListener("click", handleClick);
-      div.removeEventListener("mouseenter", handleEnter);
-      div.removeEventListener("mouseleave", handleLeave);
-    };
-  }, [listing, onClick]);
-
-  useEffect(() => {
-    const div = containerRef.current;
-    if (!div) return;
-    div.style.zIndex = isSelected ? "999" : hovered ? "998" : "1";
-    div.innerHTML = `
-      <div style="transform:scale(${active ? 1.1 : 1});transition:transform 150ms ease;display:flex;flex-direction:column;align-items:center;">
-        <div style="background:${active ? "#0ea5e9" : "#ffffff"};color:${active ? "#ffffff" : "#0f172a"};border:2px solid ${active ? "#0284c7" : "#e2e8f0"};border-radius:9999px;padding:5px 12px;font-family:Inter,sans-serif;font-size:12px;font-weight:700;white-space:nowrap;box-shadow:${active ? "0 4px 16px rgba(14,165,233,0.40)" : "0 2px 8px rgba(0,0,0,0.14)"};letter-spacing:-0.01em;line-height:1;">${label}</div>
-        <div style="width:0;height:0;border-left:6px solid transparent;border-right:6px solid transparent;border-top:7px solid ${active ? "#0284c7" : "#e2e8f0"};margin-top:-1px;"></div>
-        <div style="width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:6px solid ${active ? "#0ea5e9" : "#ffffff"};margin-top:-13px;"></div>
-      </div>`;
-  }, [active, hovered, isSelected, label]);
-
-  return null;
+  return (
+    <Marker
+      longitude={listing.coordinates.lng}
+      latitude={listing.coordinates.lat}
+      anchor="bottom"
+      onClick={(e) => {
+        e.originalEvent.stopPropagation();
+        onClick(listing);
+      }}
+    >
+      <div
+        onMouseEnter={() => setHovered(true)}
+        onMouseLeave={() => setHovered(false)}
+        style={{
+          transform: `scale(${active ? 1.1 : 1})`,
+          transition: "transform 150ms ease",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          cursor: "pointer",
+          userSelect: "none",
+          zIndex: isSelected ? 999 : hovered ? 998 : 1,
+        }}
+      >
+        <div
+          style={{
+            background: active ? "#0ea5e9" : "#ffffff",
+            color: active ? "#ffffff" : "#0f172a",
+            border: `2px solid ${active ? "#0284c7" : "#e2e8f0"}`,
+            borderRadius: "9999px",
+            padding: "5px 12px",
+            fontFamily: "Inter, sans-serif",
+            fontSize: "12px",
+            fontWeight: 700,
+            whiteSpace: "nowrap",
+            boxShadow: active
+              ? "0 4px 16px rgba(14,165,233,0.40)"
+              : "0 2px 8px rgba(0,0,0,0.14)",
+            letterSpacing: "-0.01em",
+            lineHeight: 1,
+          }}
+        >
+          {label}
+        </div>
+        {/* Caret outer */}
+        <div
+          style={{
+            width: 0,
+            height: 0,
+            borderLeft: "6px solid transparent",
+            borderRight: "6px solid transparent",
+            borderTop: `7px solid ${active ? "#0284c7" : "#e2e8f0"}`,
+            marginTop: -1,
+          }}
+        />
+        {/* Caret inner */}
+        <div
+          style={{
+            width: 0,
+            height: 0,
+            borderLeft: "5px solid transparent",
+            borderRight: "5px solid transparent",
+            borderTop: `6px solid ${active ? "#0ea5e9" : "#ffffff"}`,
+            marginTop: -13,
+          }}
+        />
+      </div>
+    </Marker>
+  );
 }
