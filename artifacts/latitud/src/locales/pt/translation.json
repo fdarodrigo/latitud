@@ -1,0 +1,69 @@
+{
+  "nav": {
+    "explore": "Explorar o mapa"
+  },
+  "landing": {
+    "tagline": "Encontre seu imóvel no mapa.",
+    "cta": "Explorar o mapa",
+    "feature1_title": "Desenhe sua área",
+    "feature1_desc": "Trace livremente qualquer região no mapa e veja apenas os imóveis dentro da área selecionada.",
+    "feature2_title": "Analise a região",
+    "feature2_desc": "Obtenha estatísticas em tempo real: média de preço, distribuição por tipo e muito mais.",
+    "feature3_title": "Explore o entorno",
+    "feature3_desc": "Descubra restaurantes, escolas, hospitais e outros pontos de interesse próximos ao imóvel."
+  },
+  "sidebar": {
+    "filters": "Filtros",
+    "active_filters": "filtro ativo",
+    "active_filters_plural": "filtros ativos",
+    "draw_button": "Desenhar no mapa",
+    "clear_drawing": "Limpar seleção",
+    "nearby_places": "Locais Próximos",
+    "traffic_info": "Informações de Trânsito",
+    "rent": "Aluguel",
+    "sale": "Venda"
+  },
+  "filters": {
+    "property_type": "Tipo de imóvel",
+    "all_types": "Todos",
+    "apartment": "Apartamento",
+    "house": "Casa",
+    "commercial": "Comercial",
+    "office": "Escritório",
+    "price_range": "Preço máximo",
+    "min_bedrooms": "Quartos mínimos",
+    "any": "Qualquer",
+    "parking": "Com garagem"
+  },
+  "stats": {
+    "properties_found": "imóveis encontrados",
+    "average_price": "Preço médio",
+    "lowest_price": "Menor preço",
+    "highest_price": "Maior preço"
+  },
+  "nearby": {
+    "restaurants": "Restaurantes",
+    "schools": "Escolas",
+    "hospitals": "Hospitais",
+    "supermarkets": "Mercados",
+    "gyms": "Academias",
+    "banks": "Bancos"
+  },
+  "layers": {
+    "none": "Nenhum",
+    "traffic": "Tráfego",
+    "transit": "Transporte Público",
+    "cycling": "Ciclovias"
+  },
+  "modal": {
+    "see_details": "Ver detalhes do imóvel",
+    "bedrooms": "Quartos",
+    "bathrooms": "Banheiros",
+    "parking_spots": "Vagas",
+    "area": "Área",
+    "elevator": "Elevador",
+    "grill": "Churrasqueira",
+    "pool": "Piscina",
+    "gym": "Academia"
+  }
+}

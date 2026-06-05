@@ -2,6 +2,7 @@ import { Switch, Route, Router as WouterRouter } from "wouter";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import MapPage from "@/pages/MapPage";
 import LandingPage from "@/pages/LandingPage";
+import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 
 const queryClient = new QueryClient();
 
@@ -18,6 +19,7 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <WouterRouter base={import.meta.env.BASE_URL.replace(/\/$/, "")}>
+        <LanguageSwitcher />
         <Router />
       </WouterRouter>
     </QueryClientProvider>

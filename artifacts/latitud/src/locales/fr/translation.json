@@ -1,0 +1,69 @@
+{
+  "nav": {
+    "explore": "Explorer la carte"
+  },
+  "landing": {
+    "tagline": "Trouvez votre bien sur la carte.",
+    "cta": "Explorer la carte",
+    "feature1_title": "Délimitez votre zone",
+    "feature1_desc": "Dessinez librement n'importe quelle région sur la carte pour ne voir que les biens à l'intérieur.",
+    "feature2_title": "Analysez la région",
+    "feature2_desc": "Obtenez des statistiques en temps réel : prix moyen, répartition par type et bien plus encore.",
+    "feature3_title": "Explorez les environs",
+    "feature3_desc": "Découvrez les restaurants, écoles, hôpitaux et autres points d'intérêt à proximité."
+  },
+  "sidebar": {
+    "filters": "Filtres",
+    "active_filters": "filtre actif",
+    "active_filters_plural": "filtres actifs",
+    "draw_button": "Dessiner sur la carte",
+    "clear_drawing": "Effacer la sélection",
+    "nearby_places": "Lieux à proximité",
+    "traffic_info": "Informations de circulation",
+    "rent": "Location",
+    "sale": "Vente"
+  },
+  "filters": {
+    "property_type": "Type de bien",
+    "all_types": "Tous les types",
+    "apartment": "Appartement",
+    "house": "Maison",
+    "commercial": "Commerce",
+    "office": "Bureau",
+    "price_range": "Prix maximum",
+    "min_bedrooms": "Chambres minimum",
+    "any": "Indifférent",
+    "parking": "Avec parking"
+  },
+  "stats": {
+    "properties_found": "biens trouvés",
+    "average_price": "Prix moyen",
+    "lowest_price": "Prix le plus bas",
+    "highest_price": "Prix le plus haut"
+  },
+  "nearby": {
+    "restaurants": "Restaurants",
+    "schools": "Écoles",
+    "hospitals": "Hôpitaux",
+    "supermarkets": "Supermarchés",
+    "gyms": "Salles de sport",
+    "banks": "Banques"
+  },
+  "layers": {
+    "none": "Aucun",
+    "traffic": "Trafic",
+    "transit": "Transports en commun",
+    "cycling": "Pistes cyclables"
+  },
+  "modal": {
+    "see_details": "Voir les détails du bien",
+    "bedrooms": "Chambres",
+    "bathrooms": "Salles de bain",
+    "parking_spots": "Places de parking",
+    "area": "Surface",
+    "elevator": "Ascenseur",
+    "grill": "Barbecue",
+    "pool": "Piscine",
+    "gym": "Salle de sport"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "nav": {
+    "explore": "Explore the map"
+  },
+  "landing": {
+    "tagline": "Find your property on the map.",
+    "cta": "Explore the map",
+    "feature1_title": "Draw your area",
+    "feature1_desc": "Draw any shape directly on the map to filter properties inside it.",
+    "feature2_title": "Analyze the region",
+    "feature2_desc": "See average prices, min and max values, and property count for your drawn area.",
+    "feature3_title": "Explore the surroundings",
+    "feature3_desc": "Find nearby restaurants, schools, hospitals, supermarkets and more."
+  },
+  "sidebar": {
+    "filters": "Filters",
+    "active_filters": "active filter",
+    "active_filters_plural": "active filters",
+    "draw_button": "Draw on map",
+    "clear_drawing": "Clear drawing",
+    "nearby_places": "Nearby Places",
+    "traffic_info": "Traffic Info",
+    "rent": "Rent",
+    "sale": "Sale"
+  },
+  "filters": {
+    "property_type": "Property type",
+    "all_types": "All types",
+    "apartment": "Apartment",
+    "house": "House",
+    "commercial": "Commercial",
+    "office": "Office",
+    "price_range": "Price range",
+    "min_bedrooms": "Bedrooms",
+    "any": "Any",
+    "parking": "With parking"
+  },
+  "stats": {
+    "properties_found": "properties found",
+    "average_price": "Average price",
+    "lowest_price": "Lowest price",
+    "highest_price": "Highest price"
+  },
+  "nearby": {
+    "restaurants": "Restaurants",
+    "schools": "Schools",
+    "hospitals": "Hospitals",
+    "supermarkets": "Supermarkets",
+    "gyms": "Gyms",
+    "banks": "Banks"
+  },
+  "layers": {
+    "none": "None",
+    "traffic": "Traffic",
+    "transit": "Public Transit",
+    "cycling": "Cycling"
+  },
+  "modal": {
+    "see_details": "View property details",
+    "bedrooms": "Bedrooms",
+    "bathrooms": "Bathrooms",
+    "parking_spots": "Parking",
+    "area": "Area",
+    "elevator": "Elevator",
+    "grill": "Grill",
+    "pool": "Pool",
+    "gym": "Gym"
+  }
+}

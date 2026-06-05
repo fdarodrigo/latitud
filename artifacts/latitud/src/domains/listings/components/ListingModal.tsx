@@ -1,22 +1,23 @@
 import { BedDouble, Bath, Car, Maximize2, X, MapPin, ExternalLink, ArrowUpDown, Flame, Waves, Dumbbell } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { ListingCarousel } from "./ListingCarousel";
 import { FavoriteButton } from "./FavoriteButton";
 import { formatBRL } from "@/shared/utils/price.utils";
 import type { Listing } from "@/domains/listings/mocks/listings.mock";
 
-const TYPE_LABELS: Record<string, string> = {
-  apartment: "Apartamento",
-  house: "Casa",
-  commercial: "Comercial",
-  office: "Escritório",
+const TYPE_KEYS: Record<string, string> = {
+  apartment: "filters.apartment",
+  house:     "filters.house",
+  commercial:"filters.commercial",
+  office:    "filters.office",
 };
 
-const AMENITIES = [
-  { key: "hasElevator" as const, label: "Elevador", Icon: ArrowUpDown },
-  { key: "hasGrill" as const, label: "Churrasqueira", Icon: Flame },
-  { key: "hasPool" as const, label: "Piscina", Icon: Waves },
-  { key: "hasGym" as const, label: "Academia", Icon: Dumbbell },
+const AMENITY_KEYS = [
+  { key: "hasElevator" as const, tKey: "modal.elevator", Icon: ArrowUpDown },
+  { key: "hasGrill"    as const, tKey: "modal.grill",    Icon: Flame       },
+  { key: "hasPool"     as const, tKey: "modal.pool",     Icon: Waves       },
+  { key: "hasGym"      as const, tKey: "modal.gym",      Icon: Dumbbell    },
 ];
 
 interface ListingModalProps {
@@ -25,6 +26,7 @@ interface ListingModalProps {
 }
 
 export function ListingModal({ listing, onClose }: ListingModalProps) {
+  const { t } = useTranslation();
   const isRent = listing.transactionType === "rent";
 
   return (
@@ -40,7 +42,7 @@ export function ListingModal({ listing, onClose }: ListingModalProps) {
           {/* Type badge */}
           <div className="absolute top-3 left-3 z-10">
             <span className="text-xs font-semibold px-2.5 py-1 rounded-full bg-slate-900/80 text-white tracking-wide">
-              {TYPE_LABELS[listing.type]}
+              {TYPE_KEYS[listing.type] ? t(TYPE_KEYS[listing.type]) : listing.type}
             </span>
           </div>
 
@@ -53,7 +55,7 @@ export function ListingModal({ listing, onClose }: ListingModalProps) {
                 color: "#fff",
               }}
             >
-              {isRent ? "Aluguel" : "Venda"}
+              {isRent ? t("sidebar.rent") : t("sidebar.sale")}
             </span>
           </div>
         </div>
@@ -106,33 +108,33 @@ export function ListingModal({ listing, onClose }: ListingModalProps) {
             <div className="flex flex-col items-center gap-1">
               <Maximize2 className="w-4 h-4 text-slate-400" />
               <span className="text-xs font-semibold text-slate-700">{listing.area}m²</span>
-              <span className="text-[10px] text-slate-400">Área</span>
+              <span className="text-[10px] text-slate-400">{t("modal.area")}</span>
             </div>
             {listing.bedrooms > 0 && (
               <div className="flex flex-col items-center gap-1">
                 <BedDouble className="w-4 h-4 text-slate-400" />
                 <span className="text-xs font-semibold text-slate-700">{listing.bedrooms}</span>
-                <span className="text-[10px] text-slate-400">Quartos</span>
+                <span className="text-[10px] text-slate-400">{t("modal.bedrooms")}</span>
               </div>
             )}
             <div className="flex flex-col items-center gap-1">
               <Bath className="w-4 h-4 text-slate-400" />
               <span className="text-xs font-semibold text-slate-700">{listing.bathrooms}</span>
-              <span className="text-[10px] text-slate-400">Banheiros</span>
+              <span className="text-[10px] text-slate-400">{t("modal.bathrooms")}</span>
             </div>
             {listing.parkingSpots > 0 && (
               <div className="flex flex-col items-center gap-1">
                 <Car className="w-4 h-4 text-slate-400" />
                 <span className="text-xs font-semibold text-slate-700">{listing.parkingSpots}</span>
-                <span className="text-[10px] text-slate-400">Vagas</span>
+                <span className="text-[10px] text-slate-400">{t("modal.parking_spots")}</span>
               </div>
             )}
           </div>
 
           {/* Amenities */}
-          {AMENITIES.some(({ key }) => listing[key]) && (
+          {AMENITY_KEYS.some(({ key }) => listing[key]) && (
             <div className="flex flex-wrap gap-2">
-              {AMENITIES.map(({ key, label, Icon }) =>
+              {AMENITY_KEYS.map(({ key, tKey, Icon }) =>
                 listing[key] ? (
                   <div
                     key={key}
@@ -140,7 +142,7 @@ export function ListingModal({ listing, onClose }: ListingModalProps) {
                     data-testid={`tag-amenity-${key}`}
                   >
                     <Icon className="w-3 h-3" />
-                    {label}
+                    {t(tKey)}
                   </div>
                 ) : null
               )}
@@ -155,7 +157,7 @@ export function ListingModal({ listing, onClose }: ListingModalProps) {
             style={{ background: "#0ea5e9" }}
           >
             <ExternalLink className="w-4 h-4" />
-            Ver detalhes do imóvel
+            {t("modal.see_details")}
           </button>
         </div>
       </DialogContent>

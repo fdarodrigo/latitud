@@ -7,18 +7,20 @@ import {
   Landmark,
   MapPin,
 } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import { useMapStore } from "@/domains/map/store/map.store";
 
 const PLACE_TYPES = [
-  { type: "restaurant", label: "Restaurantes", Icon: UtensilsCrossed, color: "#f97316" },
-  { type: "school", label: "Escolas", Icon: GraduationCap, color: "#8b5cf6" },
-  { type: "hospital", label: "Hospitais", Icon: Hospital, color: "#ef4444" },
-  { type: "supermarket", label: "Mercados", Icon: ShoppingCart, color: "#10b981" },
-  { type: "gym", label: "Academias", Icon: Dumbbell, color: "#3b82f6" },
-  { type: "bank", label: "Bancos", Icon: Landmark, color: "#eab308" },
+  { type: "restaurant", tKey: "nearby.restaurants", Icon: UtensilsCrossed, color: "#f97316" },
+  { type: "school",     tKey: "nearby.schools",     Icon: GraduationCap,   color: "#8b5cf6" },
+  { type: "hospital",   tKey: "nearby.hospitals",   Icon: Hospital,        color: "#ef4444" },
+  { type: "supermarket",tKey: "nearby.supermarkets",Icon: ShoppingCart,    color: "#10b981" },
+  { type: "gym",        tKey: "nearby.gyms",        Icon: Dumbbell,        color: "#3b82f6" },
+  { type: "bank",       tKey: "nearby.banks",       Icon: Landmark,        color: "#eab308" },
 ] as const;
 
 export function NearbyPlaces() {
+  const { t } = useTranslation();
   const activePlaceType = useMapStore((s) => s.activePlaceType);
   const setActivePlaceType = useMapStore((s) => s.setActivePlaceType);
 
@@ -30,10 +32,10 @@ export function NearbyPlaces() {
     <div>
       <div className="flex items-center gap-2 text-slate-400 text-xs font-semibold uppercase tracking-widest mb-3">
         <MapPin className="w-3.5 h-3.5" />
-        <span>Locais Próximos</span>
+        <span>{t("sidebar.nearby_places")}</span>
       </div>
       <div className="grid grid-cols-3 gap-1.5">
-        {PLACE_TYPES.map(({ type, label, Icon, color }) => {
+        {PLACE_TYPES.map(({ type, tKey, Icon, color }) => {
           const active = activePlaceType === type;
           return (
             <button
@@ -54,7 +56,7 @@ export function NearbyPlaces() {
                 className="text-[10px] font-medium leading-tight"
                 style={{ color: active ? color : "#64748b" }}
               >
-                {label}
+                {t(tKey)}
               </span>
             </button>
           );

@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { useLocation } from "wouter";
+import { useTranslation } from "react-i18next";
 import { Map, useMap } from "react-map-gl/mapbox";
 import "mapbox-gl/dist/mapbox-gl.css";
 import { MapPin, PencilLine, BarChart3, Compass, ArrowRight } from "lucide-react";
@@ -30,29 +31,18 @@ function AutoPanMap() {
   return null;
 }
 
-const FEATURES = [
-  {
-    Icon: PencilLine,
-    title: "Desenhe sua área",
-    desc: "Trace livremente qualquer região no mapa e veja apenas os imóveis dentro da área selecionada.",
-    color: "#6366f1",
-  },
-  {
-    Icon: BarChart3,
-    title: "Analise a região",
-    desc: "Obtenha estatísticas em tempo real: média de preço, distribuição por tipo e muito mais.",
-    color: "#0ea5e9",
-  },
-  {
-    Icon: Compass,
-    title: "Explore o entorno",
-    desc: "Descubra restaurantes, escolas, hospitais e outros pontos de interesse próximos ao imóvel.",
-    color: "#10b981",
-  },
-];
+const FEATURE_ICONS = [PencilLine, BarChart3, Compass];
+const FEATURE_COLORS = ["#6366f1", "#0ea5e9", "#10b981"];
 
 export default function LandingPage() {
   const [, setLocation] = useLocation();
+  const { t } = useTranslation();
+
+  const features = [
+    { Icon: FEATURE_ICONS[0], title: t("landing.feature1_title"), desc: t("landing.feature1_desc"), color: FEATURE_COLORS[0] },
+    { Icon: FEATURE_ICONS[1], title: t("landing.feature2_title"), desc: t("landing.feature2_desc"), color: FEATURE_COLORS[1] },
+    { Icon: FEATURE_ICONS[2], title: t("landing.feature3_title"), desc: t("landing.feature3_desc"), color: FEATURE_COLORS[2] },
+  ];
 
   return (
     <div className="min-h-screen bg-white font-sans">
@@ -122,17 +112,8 @@ export default function LandingPage() {
             className="text-4xl md:text-6xl font-black text-white leading-tight mb-4"
             style={{ animation: "fadeInUp 0.8s ease 0.1s both" }}
           >
-            Encontre seu imóvel{" "}
-            <span style={{ color: "#0ea5e9" }}>no mapa.</span>
+            {t("landing.tagline")}
           </h1>
-
-          <p
-            className="text-lg md:text-xl text-slate-300 mb-10 leading-relaxed"
-            style={{ animation: "fadeInUp 0.8s ease 0.2s both" }}
-          >
-            Explore imóveis em Fortaleza de forma visual e interativa. Desenhe
-            regiões, analise bairros e descubra o lugar perfeito.
-          </p>
 
           <div style={{ animation: "fadeInUp 0.8s ease 0.3s both" }}>
             <button
@@ -144,7 +125,7 @@ export default function LandingPage() {
                 boxShadow: "0 8px 32px rgba(14,165,233,0.40)",
               }}
             >
-              Explorar o mapa
+              {t("landing.cta")}
               <ArrowRight className="w-5 h-5" />
             </button>
           </div>
@@ -165,18 +146,8 @@ export default function LandingPage() {
       {/* Features */}
       <section className="py-24 px-6 bg-white">
         <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4">
-              Uma nova forma de buscar
-            </h2>
-            <p className="text-lg text-slate-500 max-w-xl mx-auto">
-              Chega de listas infinitas. Com o Latitud, você vê e sente a cidade antes
-              de escolher.
-            </p>
-          </div>
-
           <div className="grid md:grid-cols-3 gap-8">
-            {FEATURES.map(({ Icon, title, desc, color }) => (
+            {features.map(({ Icon, title, desc, color }) => (
               <div
                 key={title}
                 className="group p-8 rounded-2xl border border-slate-100 hover:border-slate-200 hover:shadow-lg transition-all duration-200"
@@ -199,7 +170,7 @@ export default function LandingPage() {
               data-testid="button-cta-features"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border-2 border-slate-200 text-slate-700 font-semibold text-sm hover:border-sky-400 hover:text-sky-600 transition-all duration-200"
             >
-              Ver todos os imóveis
+              {t("nav.explore")}
               <ArrowRight className="w-4 h-4" />
             </button>
           </div>

@@ -1,7 +1,9 @@
 import { Pencil, X } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import { useMapStore } from "@/domains/map/store/map.store";
 
 export function DrawingTool() {
+  const { t } = useTranslation();
   const isDrawingMode = useMapStore((s) => s.isDrawingMode);
   const hasActivePolygon = useMapStore((s) => s.hasActivePolygon);
   const setDrawingMode = useMapStore((s) => s.setDrawingMode);
@@ -37,7 +39,7 @@ export function DrawingTool() {
         }}
       >
         <Pencil className="w-3.5 h-3.5" />
-        {isDrawingMode ? "Desenhando..." : "Desenhar no mapa"}
+        {isDrawingMode ? "Drawing…" : t("sidebar.draw_button")}
       </button>
 
       {hasActivePolygon && !isDrawingMode && (
@@ -52,13 +54,13 @@ export function DrawingTool() {
           }}
         >
           <X className="w-3 h-3" />
-          Limpar seleção
+          {t("sidebar.clear_drawing")}
         </button>
       )}
 
       {isDrawingMode && (
         <p className="text-xs text-center text-indigo-400 animate-pulse">
-          Clique e arraste para desenhar uma área
+          Click and drag to draw an area
         </p>
       )}
     </div>

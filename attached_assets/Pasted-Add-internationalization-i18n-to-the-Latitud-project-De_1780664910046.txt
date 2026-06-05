@@ -1,0 +1,115 @@
+Add internationalization (i18n) to the Latitud project. Default language must be English.
+1. Install dependencies
+bashnpm install i18next react-i18next i18next-browser-languagedetector
+2. Translation files
+Create the following folder structure inside artifacts/latitud/src/:
+locales/
+├── en/translation.json
+├── pt/translation.json
+├── fr/translation.json
+└── es/translation.json
+All four files must contain the exact same keys. Use the following keys and provide accurate translations for each language:
+json{
+  "nav": {
+    "explore": "Explore the map"
+  },
+  "landing": {
+    "tagline": "Find your property on the map.",
+    "cta": "Explore the map",
+    "feature1_title": "Draw your area",
+    "feature1_desc": "Draw any shape directly on the map to filter properties inside it.",
+    "feature2_title": "Analyze the region",
+    "feature2_desc": "See average prices, min and max values, and property count for your drawn area.",
+    "feature3_title": "Explore the surroundings",
+    "feature3_desc": "Find nearby restaurants, schools, hospitals, supermarkets and more."
+  },
+  "sidebar": {
+    "filters": "Filters",
+    "active_filters": "active filter",
+    "active_filters_plural": "active filters",
+    "draw_button": "Draw on map",
+    "clear_drawing": "Clear drawing",
+    "nearby_places": "Nearby Places",
+    "traffic_info": "Traffic Info",
+    "rent": "Rent",
+    "sale": "Sale"
+  },
+  "filters": {
+    "property_type": "Property type",
+    "all_types": "All types",
+    "apartment": "Apartment",
+    "house": "House",
+    "commercial": "Commercial",
+    "office": "Office",
+    "price_range": "Price range",
+    "min_bedrooms": "Bedrooms",
+    "any": "Any",
+    "parking": "With parking"
+  },
+  "stats": {
+    "properties_found": "properties found",
+    "average_price": "Average price",
+    "lowest_price": "Lowest price",
+    "highest_price": "Highest price"
+  },
+  "nearby": {
+    "restaurants": "Restaurants",
+    "schools": "Schools",
+    "hospitals": "Hospitals",
+    "supermarkets": "Supermarkets",
+    "gyms": "Gyms",
+    "banks": "Banks"
+  },
+  "layers": {
+    "none": "None",
+    "traffic": "Traffic",
+    "transit": "Public Transit",
+    "cycling": "Cycling"
+  },
+  "modal": {
+    "see_details": "View property details",
+    "bedrooms": "Bedrooms",
+    "bathrooms": "Bathrooms",
+    "parking_spots": "Parking",
+    "area": "Area",
+    "elevator": "Elevator",
+    "grill": "Grill",
+    "pool": "Pool",
+    "gym": "Gym"
+  }
+}
+3. i18n configuration
+Create artifacts/latitud/src/lib/i18n.ts:
+tsimport i18n from 'i18next';
+import { initReactI18next } from 'react-i18next';
+import LanguageDetector from 'i18next-browser-languagedetector';
+
+import en from '../locales/en/translation.json';
+import pt from '../locales/pt/translation.json';
+import fr from '../locales/fr/translation.json';
+import es from '../locales/es/translation.json';
+
+i18n
+  .use(LanguageDetector)
+  .use(initReactI18next)
+  .init({
+    resources: { en: { translation: en }, pt: { translation: pt }, fr: { translation: fr }, es: { translation: es } },
+    fallbackLng: 'en',
+    defaultNS: 'translation',
+    interpolation: { escapeValue: false },
+  });
+
+export default i18n;
+Import this file at the top of main.tsx (before anything else): import './lib/i18n'.
+4. LanguageSwitcher component
+Create artifacts/latitud/src/components/LanguageSwitcher.tsx.
+Render a fixed element at the top-right corner of the screen (fixed top-4 right-4 z-50). Display the four languages as clickable flag+code buttons in a row:
+LanguageFlag emojiCodeEnglish🇺🇸ENPortuguese🇧🇷PTFrench🇫🇷FRSpanish🇪🇸ES
+The active language button should be visually highlighted (white background, slight shadow). Inactive ones are semi-transparent. On click, call i18n.changeLanguage(code) and persist the choice to localStorage under the key latitud_language.
+Use useTranslation from react-i18next to access i18n.language for the active state.
+Style: small pill buttons, clean and minimal, works on both the landing page and the map page.
+5. Add to layout
+Import and render <LanguageSwitcher /> inside App.tsx, outside the router, so it appears on every page.
+6. Replace hardcoded strings
+Go through LandingPage.tsx, MapPage.tsx, MapSidebar.tsx, RegionStats.tsx, NearbyPlaces.tsx, LayersControl.tsx, ListingModal.tsx and DrawingTool.tsx. Replace every hardcoded Portuguese string with the corresponding t('key') call using the useTranslation hook.
+Code language: All code in English. Translation values in each language's own language.

@@ -1,0 +1,69 @@
+{
+  "nav": {
+    "explore": "Explorar el mapa"
+  },
+  "landing": {
+    "tagline": "Encuentra tu propiedad en el mapa.",
+    "cta": "Explorar el mapa",
+    "feature1_title": "Dibuja tu área",
+    "feature1_desc": "Traza libremente cualquier región en el mapa y ve solo las propiedades dentro del área seleccionada.",
+    "feature2_title": "Analiza la región",
+    "feature2_desc": "Obtén estadísticas en tiempo real: precio promedio, distribución por tipo y mucho más.",
+    "feature3_title": "Explora los alrededores",
+    "feature3_desc": "Descubre restaurantes, escuelas, hospitales y otros puntos de interés cercanos."
+  },
+  "sidebar": {
+    "filters": "Filtros",
+    "active_filters": "filtro activo",
+    "active_filters_plural": "filtros activos",
+    "draw_button": "Dibujar en el mapa",
+    "clear_drawing": "Limpiar selección",
+    "nearby_places": "Lugares Cercanos",
+    "traffic_info": "Información de Tráfico",
+    "rent": "Alquiler",
+    "sale": "Venta"
+  },
+  "filters": {
+    "property_type": "Tipo de propiedad",
+    "all_types": "Todos los tipos",
+    "apartment": "Apartamento",
+    "house": "Casa",
+    "commercial": "Comercial",
+    "office": "Oficina",
+    "price_range": "Precio máximo",
+    "min_bedrooms": "Habitaciones mínimas",
+    "any": "Cualquiera",
+    "parking": "Con estacionamiento"
+  },
+  "stats": {
+    "properties_found": "propiedades encontradas",
+    "average_price": "Precio promedio",
+    "lowest_price": "Precio más bajo",
+    "highest_price": "Precio más alto"
+  },
+  "nearby": {
+    "restaurants": "Restaurantes",
+    "schools": "Escuelas",
+    "hospitals": "Hospitales",
+    "supermarkets": "Supermercados",
+    "gyms": "Gimnasios",
+    "banks": "Bancos"
+  },
+  "layers": {
+    "none": "Ninguno",
+    "traffic": "Tráfico",
+    "transit": "Transporte Público",
+    "cycling": "Ciclismo"
+  },
+  "modal": {
+    "see_details": "Ver detalles de la propiedad",
+    "bedrooms": "Habitaciones",
+    "bathrooms": "Baños",
+    "parking_spots": "Estacionamientos",
+    "area": "Área",
+    "elevator": "Ascensor",
+    "grill": "Parrilla",
+    "pool": "Piscina",
+    "gym": "Gimnasio"
+  }
+}
