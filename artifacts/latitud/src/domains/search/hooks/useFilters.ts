@@ -45,10 +45,13 @@ export function useFilters() {
   const setFilteredListings = useMapStore((s) => s.setFilteredListings);
 
   useEffect(() => {
-    let result = applyFilters(allListings, activeFilters);
-    if (activePolygon) {
-      result = applyPolygonFilter(result, activePolygon);
+    if (!activePolygon) {
+      setFilteredListings([]);
+      return;
     }
+
+    let result = applyFilters(allListings, activeFilters);
+    result = applyPolygonFilter(result, activePolygon);
     setFilteredListings(result);
   }, [allListings, activeFilters, activePolygon]);
 
