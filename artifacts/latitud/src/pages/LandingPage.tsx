@@ -3,7 +3,7 @@ import { useLocation } from "wouter";
 import { useTranslation } from "react-i18next";
 import { Map, useMap } from "react-map-gl/mapbox";
 import "mapbox-gl/dist/mapbox-gl.css";
-import { MapPin, PencilLine, BarChart3, Compass, ArrowRight } from "lucide-react";
+import { PencilLine, BarChart3, Compass, ArrowRight } from "lucide-react";
 import { MAPBOX_TOKEN, HERO_MAP_STYLE } from "@/lib/mapbox";
 
 const PAN_TARGETS: [number, number][] = [
@@ -31,8 +31,9 @@ function AutoPanMap() {
   return null;
 }
 
+/* Brand accent colors used for feature cards */
 const FEATURE_ICONS = [PencilLine, BarChart3, Compass];
-const FEATURE_COLORS = ["#6366f1", "#0ea5e9", "#10b981"];
+const FEATURE_COLORS = ["#4E80A4", "#C4973A", "#1C3456"];
 
 export default function LandingPage() {
   const [, setLocation] = useLocation();
@@ -45,11 +46,11 @@ export default function LandingPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-white font-sans">
-      {/* Hero */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden bg-slate-900">
+    <div className="min-h-screen font-sans" style={{ background: "#F7F6F2" }}>
+      {/* Hero — stays dark so the map reads well */}
+      <section className="relative h-screen flex items-center justify-center overflow-hidden" style={{ background: "#1C3456" }}>
         {/* Map background — desktop only */}
-        <div className="absolute inset-0 hidden md:block opacity-30">
+        <div className="absolute inset-0 hidden md:block opacity-25">
           {MAPBOX_TOKEN ? (
             <Map
               id="hero"
@@ -67,42 +68,34 @@ export default function LandingPage() {
               className="w-full h-full"
               style={{
                 background:
-                  "radial-gradient(ellipse at 60% 40%, #0ea5e920 0%, transparent 60%), radial-gradient(ellipse at 20% 70%, #6366f120 0%, transparent 50%)",
+                  "radial-gradient(ellipse at 60% 40%, #4E80A420 0%, transparent 60%), radial-gradient(ellipse at 20% 70%, #C4973A14 0%, transparent 50%)",
               }}
             />
           )}
         </div>
 
-        {/* Mobile gradient */}
-        <div
-          className="absolute inset-0 md:hidden"
-          style={{
-            background:
-              "radial-gradient(ellipse at 60% 30%, #0ea5e918 0%, transparent 60%), radial-gradient(ellipse at 10% 80%, #6366f118 0%, transparent 50%)",
-          }}
-        />
-
-        {/* Overlay for readability */}
+        {/* Gradient overlay for legibility */}
         <div
           className="absolute inset-0"
           style={{
             background:
-              "linear-gradient(to bottom, rgba(15,23,42,0.5) 0%, rgba(15,23,42,0.7) 60%, rgba(15,23,42,0.9) 100%)",
+              "linear-gradient(to bottom, rgba(28,52,86,0.55) 0%, rgba(28,52,86,0.75) 60%, rgba(28,52,86,0.92) 100%)",
           }}
         />
 
-        {/* Content */}
+        {/* Hero content */}
         <div
           className="relative z-10 text-center px-6 max-w-2xl mx-auto"
           style={{ animation: "fadeInUp 0.8s ease both" }}
         >
+          {/* Logo mark + wordmark */}
           <div className="flex items-center justify-center gap-3 mb-8">
-            <div
-              className="w-10 h-10 rounded-xl flex items-center justify-center shadow-lg"
-              style={{ background: "#0ea5e9" }}
-            >
-              <MapPin className="w-5 h-5 text-white" fill="white" />
-            </div>
+            <img
+              src="/assets/logo.svg"
+              alt="Latitud logo"
+              className="w-11 h-11"
+              style={{ filter: "brightness(0) invert(1)" }}
+            />
             <span className="text-3xl font-black text-white tracking-tight">
               Latitud
             </span>
@@ -121,8 +114,8 @@ export default function LandingPage() {
               data-testid="button-cta-explore"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-2xl text-white font-bold text-lg transition-all duration-200 hover:scale-105 hover:shadow-xl"
               style={{
-                background: "#0ea5e9",
-                boxShadow: "0 8px 32px rgba(14,165,233,0.40)",
+                background: "#C4973A",
+                boxShadow: "0 8px 32px rgba(196,151,58,0.38)",
               }}
             >
               {t("landing.cta")}
@@ -131,7 +124,7 @@ export default function LandingPage() {
           </div>
         </div>
 
-        {/* Scroll indicator */}
+        {/* Scroll line */}
         <div
           className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-40"
           style={{ animation: "fadeInUp 0.8s ease 0.6s both" }}
@@ -144,13 +137,19 @@ export default function LandingPage() {
       </section>
 
       {/* Features */}
-      <section className="py-24 px-6 bg-white">
+      <section className="py-24 px-6" style={{ background: "#F7F6F2" }}>
         <div className="max-w-4xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8">
             {features.map(({ Icon, title, desc, color }) => (
               <div
                 key={title}
-                className="group p-8 rounded-2xl border border-slate-100 hover:border-slate-200 hover:shadow-lg transition-all duration-200"
+                className="group p-8 rounded-2xl border transition-all duration-200"
+                style={{
+                  background: "#FFFFFF",
+                  borderColor: "#D4E2EB",
+                }}
+                onMouseEnter={e => (e.currentTarget.style.borderColor = color)}
+                onMouseLeave={e => (e.currentTarget.style.borderColor = "#D4E2EB")}
               >
                 <div
                   className="w-12 h-12 rounded-2xl flex items-center justify-center mb-5"
@@ -158,8 +157,8 @@ export default function LandingPage() {
                 >
                   <Icon className="w-6 h-6" style={{ color }} />
                 </div>
-                <h3 className="text-lg font-bold text-slate-900 mb-2">{title}</h3>
-                <p className="text-slate-500 text-sm leading-relaxed">{desc}</p>
+                <h3 className="text-lg font-bold mb-2" style={{ color: "#1C3456" }}>{title}</h3>
+                <p className="text-sm leading-relaxed" style={{ color: "#6B8A9E" }}>{desc}</p>
               </div>
             ))}
           </div>
@@ -168,7 +167,20 @@ export default function LandingPage() {
             <button
               onClick={() => setLocation("/map")}
               data-testid="button-cta-features"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border-2 border-slate-200 text-slate-700 font-semibold text-sm hover:border-sky-400 hover:text-sky-600 transition-all duration-200"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl text-sm font-semibold transition-all duration-200"
+              style={{
+                border: "2px solid #D4E2EB",
+                color: "#4E80A4",
+                background: "transparent",
+              }}
+              onMouseEnter={e => {
+                (e.currentTarget as HTMLButtonElement).style.borderColor = "#C4973A";
+                (e.currentTarget as HTMLButtonElement).style.color = "#C4973A";
+              }}
+              onMouseLeave={e => {
+                (e.currentTarget as HTMLButtonElement).style.borderColor = "#D4E2EB";
+                (e.currentTarget as HTMLButtonElement).style.color = "#4E80A4";
+              }}
             >
               {t("nav.explore")}
               <ArrowRight className="w-4 h-4" />
@@ -178,8 +190,8 @@ export default function LandingPage() {
       </section>
 
       {/* Footer */}
-      <footer className="py-8 px-6 border-t border-slate-100 text-center">
-        <p className="text-slate-400 text-sm">
+      <footer className="py-8 px-6 text-center" style={{ borderTop: "1px solid #D4E2EB" }}>
+        <p className="text-sm" style={{ color: "#8AABBD" }}>
           © 2026 Latitud · Fortaleza, Ceará, Brasil
         </p>
       </footer>

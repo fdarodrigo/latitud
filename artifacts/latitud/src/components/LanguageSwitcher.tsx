@@ -18,7 +18,7 @@ export function LanguageSwitcher() {
 
   return (
     <div className="fixed top-4 right-4 z-50 flex items-center gap-1 p-1 rounded-xl backdrop-blur-sm"
-      style={{ background: 'rgba(15,23,42,0.55)' }}
+      style={{ background: 'rgba(28,52,86,0.55)' }}
     >
       {LANGUAGES.map(({ code, flag, label }) => {
         const isActive = active === code;
@@ -29,9 +29,9 @@ export function LanguageSwitcher() {
             aria-label={`Switch to ${label}`}
             className="flex items-center gap-1 px-2 py-1 rounded-lg text-xs font-semibold transition-all duration-150 select-none"
             style={{
-              background: isActive ? '#fff' : 'transparent',
-              color: isActive ? '#0f172a' : 'rgba(255,255,255,0.5)',
-              boxShadow: isActive ? '0 1px 6px rgba(0,0,0,0.18)' : 'none',
+              background: isActive ? '#C4973A' : 'transparent',
+              color: isActive ? '#fff' : 'rgba(255,255,255,0.55)',
+              boxShadow: isActive ? '0 1px 6px rgba(196,151,58,0.30)' : 'none',
             }}
           >
             <span>{flag}</span>
