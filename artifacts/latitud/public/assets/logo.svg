@@ -1,0 +1,19 @@
+<svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gold arc: upper ~270° of ring (CCW from lower-right to lower-left) -->
+  <path d="M 90 90 A 42 42 0 1 0 30 90"
+        stroke="#C4973A" stroke-width="10" fill="none" stroke-linecap="butt"/>
+  <!-- Steel blue arc: lower ~90° of ring (through the south) -->
+  <path d="M 30 90 A 42 42 0 0 0 90 90"
+        stroke="#4E80A4" stroke-width="10" fill="none" stroke-linecap="butt"/>
+  <!-- Cardinal notches (white cuts at N, E, S, W) -->
+  <rect x="55" y="13"  width="10" height="10" fill="white"/>
+  <rect x="97" y="55"  width="10" height="10" fill="white"/>
+  <rect x="55" y="97"  width="10" height="10" fill="white"/>
+  <rect x="13" y="55"  width="10" height="10" fill="white"/>
+  <!-- Compass needle: lozenge rotated 35° CW = pointing NE -->
+  <g transform="translate(60,60) rotate(35)">
+    <path d="M 0 -46 L 8 2 L 0 22 L -8 2 Z" fill="#1C3456"/>
+  </g>
+  <!-- Center hub -->
+  <circle cx="60" cy="60" r="5" fill="white" stroke="#1C3456" stroke-width="2"/>
+</svg>

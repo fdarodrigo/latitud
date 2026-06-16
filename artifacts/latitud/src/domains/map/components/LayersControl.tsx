@@ -2,6 +2,7 @@ import { Car, Train, Bike, Layers } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { useMapStore } from "@/domains/map/store/map.store";
 import type { LayerType } from "@/domains/map/hooks/useMapLayers";
+import { B } from "./sidebarTheme";
 
 const LAYERS: { value: LayerType; tKey: string; Icon: React.ElementType }[] = [
   { value: "traffic",   tKey: "layers.traffic",  Icon: Car   },
@@ -20,7 +21,7 @@ export function LayersControl() {
 
   return (
     <div>
-      <div className="flex items-center gap-2 text-slate-400 text-xs font-semibold uppercase tracking-widest mb-3">
+      <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-widest mb-3" style={{ color: B.faint }}>
         <Layers className="w-3.5 h-3.5" />
         <span>{t("sidebar.traffic_info")}</span>
       </div>
@@ -34,15 +35,15 @@ export function LayersControl() {
               data-testid={`layer-${value}`}
               className="w-full flex items-center gap-2.5 px-3 py-2 rounded-lg text-sm transition-all duration-150"
               style={{
-                background: active ? "rgba(14,165,233,0.15)" : "#1e293b",
-                color: active ? "#0ea5e9" : "#94a3b8",
-                border: active ? "1px solid rgba(14,165,233,0.4)" : "1px solid #334155",
+                background: active ? `rgba(78,128,164,0.10)` : B.surface,
+                color:      active ? B.steel : B.navy,
+                border:     active ? `1px solid rgba(78,128,164,0.35)` : `1px solid ${B.border}`,
               }}
             >
               <Icon className="w-3.5 h-3.5 shrink-0" />
               <span className="font-medium">{t(tKey)}</span>
               {active && (
-                <span className="ml-auto w-1.5 h-1.5 rounded-full bg-sky-400" />
+                <span className="ml-auto w-1.5 h-1.5 rounded-full" style={{ background: B.steel }} />
               )}
             </button>
           );
@@ -50,7 +51,7 @@ export function LayersControl() {
       </div>
 
       {activeLayer === "transit" && (
-        <p className="text-xs text-amber-400 mt-2 leading-relaxed">
+        <p className="text-xs mt-2 leading-relaxed text-amber-600">
           Public transit data may be limited for this region.
         </p>
       )}
