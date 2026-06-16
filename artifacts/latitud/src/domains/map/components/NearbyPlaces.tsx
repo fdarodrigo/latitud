@@ -22,10 +22,12 @@ const PLACE_TYPES = [
 
 export function NearbyPlaces() {
   const { t } = useTranslation();
-  const activePlaceType = useMapStore((s) => s.activePlaceType);
+  const activePlaceType  = useMapStore((s) => s.activePlaceType);
+  const hasActivePolygon = useMapStore((s) => s.hasActivePolygon);
   const setActivePlaceType = useMapStore((s) => s.setActivePlaceType);
 
   const toggle = (type: string) => {
+    if (!hasActivePolygon) return;
     setActivePlaceType(activePlaceType === type ? null : type);
   };
 
@@ -35,24 +37,26 @@ export function NearbyPlaces() {
         <MapPin className="w-3.5 h-3.5" />
         <span>{t("sidebar.nearby_places")}</span>
       </div>
+
       <div className="grid grid-cols-3 gap-1.5">
         {PLACE_TYPES.map(({ type, tKey, Icon, color }) => {
           const active = activePlaceType === type;
+          const disabled = !hasActivePolygon;
           return (
             <button
               key={type}
               onClick={() => toggle(type)}
               data-testid={`place-type-${type}`}
+              disabled={disabled}
               className="flex flex-col items-center gap-1.5 px-2 py-2.5 rounded-xl text-center transition-all duration-150"
               style={{
-                background: active ? `${color}18` : B.surface,
-                border:     active ? `1px solid ${color}55` : `1px solid ${B.border}`,
+                background:  active   ? `${color}18` : B.surface,
+                border:      active   ? `1px solid ${color}55` : `1px solid ${B.border}`,
+                opacity:     disabled ? 0.45 : 1,
+                cursor:      disabled ? "not-allowed" : "pointer",
               }}
             >
-              <Icon
-                className="w-4 h-4"
-                style={{ color: active ? color : B.muted }}
-              />
+              <Icon className="w-4 h-4" style={{ color: active ? color : B.muted }} />
               <span
                 className="text-[10px] font-medium leading-tight"
                 style={{ color: active ? color : B.muted }}
@@ -63,6 +67,12 @@ export function NearbyPlaces() {
           );
         })}
       </div>
+
+      {!hasActivePolygon && (
+        <p className="text-[10px] text-center mt-2 leading-relaxed" style={{ color: B.faint }}>
+          Desenhe uma área no mapa para buscar locais próximos.
+        </p>
+      )}
     </div>
   );
 }
