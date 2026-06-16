@@ -52,7 +52,7 @@ export function LayersControl() {
 
       {activeLayer === "transit" && (
         <p className="text-xs mt-2 leading-relaxed text-amber-600">
-          Public transit data may be limited for this region.
+          Subway data may be limited for this region.
         </p>
       )}
     </div>
